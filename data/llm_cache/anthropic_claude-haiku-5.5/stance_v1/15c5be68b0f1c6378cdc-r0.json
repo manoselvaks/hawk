@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 0.9,
+ "reason": "The November 2020 MPC minutes are wholly about monetary policy and unanimously vote for a further easing of \u00a3150bn in gilt purchases, with the Committee judging that 'announcing further asset purchases now should support the economy' and that 'policy should lean strongly against downside risks', which is clearly dovish.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24026,
+ "prompt_tokens": 8772,
+ "completion_tokens": 136,
+ "cost_usd": 0.0009452,
+ "attempts": 1
+}

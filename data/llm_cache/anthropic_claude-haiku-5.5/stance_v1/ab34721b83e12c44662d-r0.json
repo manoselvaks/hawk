@@ -1,0 +1,15 @@
+{
+ "relevance": 0.6,
+ "stance": -1.0,
+ "confidence": 0.6,
+ "reason": "The speech is largely about banking structure and credit distribution but has a policy section arguing that policy should help the transition and prevent recession worsening, with inflation dipping persistently below target, and the author votes for QE extension, leaning dovish.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 9898,
+ "prompt_tokens": 4217,
+ "completion_tokens": 111,
+ "cost_usd": 0.0004772,
+ "attempts": 1
+}

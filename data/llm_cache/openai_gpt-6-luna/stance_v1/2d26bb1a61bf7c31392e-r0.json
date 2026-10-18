@@ -1,0 +1,15 @@
+{
+ "relevance": 0.89,
+ "stance": 1.0,
+ "confidence": 0.79,
+ "reason": "He says that with inflationary pressures gradually building a gradual rise in interest rates would be necessary, and describes the recent increase as withdrawing only some of the stimulus.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2549,
+ "prompt_tokens": 1204,
+ "completion_tokens": 60,
+ "cost_usd": 0.000180425,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.3,
+ "stance": 0.0,
+ "confidence": 0.5,
+ "reason": "The monetary policy passages say the macroeconomic outlook is 'relatively benign at present' and describe forward-looking rate setting, with no clear tightening or easing signal.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2105,
+ "prompt_tokens": 1132,
+ "completion_tokens": 1350,
+ "cost_usd": 0.00023968,
+ "attempts": 1
+}

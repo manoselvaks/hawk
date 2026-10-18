@@ -1,0 +1,15 @@
+{
+ "relevance": 0.8,
+ "stance": 0.0,
+ "confidence": 0.7,
+ "reason": "The speech discusses UK inflation, demand, housing and labour-market uncertainties and concludes that the interest-rate path depends on how various balanced upside and downside risks materialise, without signalling a clear tightening or loosening bias.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 13359,
+ "prompt_tokens": 3274,
+ "completion_tokens": 745,
+ "cost_usd": 0.0001160512,
+ "attempts": 1
+}

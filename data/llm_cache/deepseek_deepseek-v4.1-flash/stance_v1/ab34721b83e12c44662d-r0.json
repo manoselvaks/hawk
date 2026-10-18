@@ -1,0 +1,15 @@
+{
+ "relevance": 0.5,
+ "stance": -2.0,
+ "confidence": 0.85,
+ "reason": "Miles argues QE reduces the risk of undershooting the inflation target and says he has voted for its extension, signalling support for further monetary easing.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 9898,
+ "prompt_tokens": 2777,
+ "completion_tokens": 720,
+ "cost_usd": 0.0001942928,
+ "attempts": 1
+}

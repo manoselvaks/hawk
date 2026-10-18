@@ -1,0 +1,15 @@
+{
+ "relevance": 0.8,
+ "stance": 1.0,
+ "confidence": 0.7,
+ "reason": "The speech is largely about UK and global inflation and monetary policy response, stressing that inflation is 'being pushed up in the short term' and that the MPC must prevent inflation expectations becoming embedded, with 'upside risks for medium-term inflation' and a need for demand to slow, though it stops short of explicitly calling for a rate rise.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24042,
+ "prompt_tokens": 8427,
+ "completion_tokens": 146,
+ "cost_usd": 0.0009157,
+ "attempts": 1
+}

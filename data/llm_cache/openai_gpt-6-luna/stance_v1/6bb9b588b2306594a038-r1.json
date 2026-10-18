@@ -1,0 +1,15 @@
+{
+ "relevance": 0,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The passage concerns the sustainable growth of mutuals and says nothing about monetary policy or the economic outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 1,
+ "input_chars": 439,
+ "prompt_tokens": 769,
+ "completion_tokens": 80,
+ "cost_usd": 0.0001169,
+ "attempts": 1
+}

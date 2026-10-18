@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.85,
+ "reason": "The speech explains past Bank Rate rises and warns that if capacity pressures, pricing intentions and inflation expectations remain elevated, the MPC may need to take further action.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 13968,
+ "prompt_tokens": 3560,
+ "completion_tokens": 652,
+ "cost_usd": 0.0002160128,
+ "attempts": 1
+}

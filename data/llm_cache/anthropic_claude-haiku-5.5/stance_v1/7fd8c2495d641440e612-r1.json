@@ -1,0 +1,15 @@
+{
+ "relevance": 0.2,
+ "stance": null,
+ "confidence": 0.5,
+ "reason": "The extract is about the countercyclical capital buffer, banking sector credit spreads and crisis probability, which are financial stability and bank regulation topics rather than the monetary policy outlook, with only passing mention of the policy rate in a model.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 1,
+ "input_chars": 2590,
+ "prompt_tokens": 2179,
+ "completion_tokens": 111,
+ "cost_usd": 0.0002734,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.6,
+ "reason": "The minutes are wholly about the UK policy decision, with a majority holding Bank Rate at 5.5% and balancing a sharp near-term inflation upside from food, energy and sterling against a significant downside risk to demand from credit tightening, with one member voting for a cut, so the Committee as a whole is roughly balanced.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 23492,
+ "prompt_tokens": 8417,
+ "completion_tokens": 141,
+ "cost_usd": 0.0009122,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.7,
+ "reason": "The Committee voted 8-1 to keep Bank Rate at 5.5%, with most members judging no change was necessary this month and warning that successive cuts might shift the yield curve down further, while acknowledging increased upside inflation risks and downside demand risks.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 23492,
+ "prompt_tokens": 5259,
+ "completion_tokens": 1257,
+ "cost_usd": 0.0001904208,
+ "attempts": 3
+}

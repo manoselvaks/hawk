@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 1.5,
+ "confidence": 0.8,
+ "reason": "The speech warns that global inflationary pressures create bigger upside risks for medium-term inflation and that restoring price stability will require a squeeze on spending and incomes, implying a hawkish policy lean.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24042,
+ "prompt_tokens": 5568,
+ "completion_tokens": 1748,
+ "cost_usd": 0.0004543872,
+ "attempts": 1
+}

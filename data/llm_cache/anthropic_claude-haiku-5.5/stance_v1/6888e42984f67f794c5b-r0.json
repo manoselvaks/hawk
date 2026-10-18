@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": 1.0,
+ "confidence": 0.7,
+ "reason": "The speech focuses on inflation persistence, second-round effects and upside risks, and states that 'if there were to be evidence of more persistent pressures, then further tightening in monetary policy would be required', though it also notes slack and a mean inflation forecast at target, so the lean is hawkish but not strongly so.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2559,
+ "prompt_tokens": 1987,
+ "completion_tokens": 134,
+ "cost_usd": 0.0002657,
+ "attempts": 1
+}

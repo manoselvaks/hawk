@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 1.0,
+ "confidence": 0.7,
+ "reason": "The speech focuses on inflation shocks, rising public inflation expectations and upside risks to medium-term inflation, saying a more prolonged slowdown may be needed to bring inflation back to target, which leans hawkish.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 1,
+ "input_chars": 2572,
+ "prompt_tokens": 1999,
+ "completion_tokens": 107,
+ "cost_usd": 0.0002534,
+ "attempts": 1
+}

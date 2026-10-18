@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.7,
+ "reason": "The speech is entirely about the MPC's use of QE and Bank Rate, noting that further asset purchases will be judged month-by-month against the outlook for CPI inflation and that tightening would most likely begin with higher interest rates.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2514,
+ "prompt_tokens": 1307,
+ "completion_tokens": 600,
+ "cost_usd": 0.000117176,
+ "attempts": 1
+}

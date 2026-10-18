@@ -1,0 +1,15 @@
+{
+ "relevance": 0.5,
+ "stance": 0.0,
+ "confidence": 0.7,
+ "reason": "The speech analyses how climate mitigation policies affect inflation and output within the monetary policy horizon, but it draws no clear near-term Bank Rate lean, noting 'I am not arguing that every climate event will require monetary policy action.'",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 23688,
+ "prompt_tokens": 5356,
+ "completion_tokens": 796,
+ "cost_usd": 0.0001279936,
+ "attempts": 1
+}

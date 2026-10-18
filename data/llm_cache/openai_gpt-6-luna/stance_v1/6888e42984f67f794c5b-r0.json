@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.81,
+ "reason": "The passage balances easing wage and inflation pressures and a projection near or below target against persistent-inflation risks, saying further tightening would be required only if there were evidence of more persistent pressures.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2559,
+ "prompt_tokens": 1182,
+ "completion_tokens": 225,
+ "cost_usd": 0.000260175,
+ "attempts": 1
+}

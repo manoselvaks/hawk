@@ -1,0 +1,15 @@
+{
+ "relevance": 0.3,
+ "stance": null,
+ "confidence": 0.5,
+ "reason": "The extracts are mainly about a central bank digital currency and the zero lower bound as a structural monetary regime issue, with only a limited link to the current policy outlook, and no clear lean on future Bank Rate.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 1,
+ "input_chars": 2594,
+ "prompt_tokens": 2088,
+ "completion_tokens": 102,
+ "cost_usd": 0.0002598,
+ "attempts": 1
+}

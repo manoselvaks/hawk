@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.88,
+ "reason": "He stresses that rising inflation expectations create greater upside risks and may require a more pronounced or prolonged slowdown in demand to return inflation to target, signalling a hawkish lean.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24042,
+ "prompt_tokens": 5494,
+ "completion_tokens": 128,
+ "cost_usd": 0.000750675,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.8,
+ "stance": 1.5,
+ "confidence": 0.8,
+ "reason": "The speech emphasises that the global inflation shock is pushing up consumer price inflation and that a sharp upward move in inflation expectations creates bigger upside risks for medium-term inflation, possibly requiring a more pronounced slowdown to bring inflation back to target.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 1,
+ "input_chars": 2572,
+ "prompt_tokens": 1265,
+ "completion_tokens": 1954,
+ "cost_usd": 0.0003103952,
+ "attempts": 1
+}

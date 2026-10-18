@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.9,
+ "reason": "The speech emphasizes that inflation remains too high and risks are skewed upward by persistent wage and price setting, warning that further tightening would be required if those pressures persist.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18192,
+ "prompt_tokens": 4253,
+ "completion_tokens": 59,
+ "cost_usd": 0.00056105,
+ "attempts": 1
+}

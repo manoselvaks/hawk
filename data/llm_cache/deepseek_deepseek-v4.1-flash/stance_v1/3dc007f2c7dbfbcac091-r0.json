@@ -1,0 +1,15 @@
+{
+ "relevance": 0.5,
+ "stance": 0.0,
+ "confidence": 0.6,
+ "reason": "The document is largely about digital currency and fintech, but includes a monetary policy section discussing how a digital currency could ease the zero lower bound constraint without taking a clear lean on the future path of Bank Rate.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2594,
+ "prompt_tokens": 1306,
+ "completion_tokens": 837,
+ "cost_usd": 0.000151264,
+ "attempts": 1
+}

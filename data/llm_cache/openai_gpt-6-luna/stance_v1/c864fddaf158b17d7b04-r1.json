@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.97,
+ "reason": "Tucker says that if output grows above trend he expects a gradual withdrawal of stimulus as slack is absorbed and inflationary pressures build, while noting near-term upside risks to house prices and domestic demand.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 16358,
+ "prompt_tokens": 3899,
+ "completion_tokens": 65,
+ "cost_usd": 7.176e-05,
+ "attempts": 1
+}

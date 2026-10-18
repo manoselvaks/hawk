@@ -1,0 +1,15 @@
+{
+ "relevance": 0.5,
+ "stance": -2.0,
+ "confidence": 0.8,
+ "reason": "The author argues QE is effective because it reduces the risk of undershooting the inflation target and says 'That is why I have voted in recent months for its extension', signalling support for further monetary easing.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2517,
+ "prompt_tokens": 1269,
+ "completion_tokens": 638,
+ "cost_usd": 0.0001210512,
+ "attempts": 1
+}

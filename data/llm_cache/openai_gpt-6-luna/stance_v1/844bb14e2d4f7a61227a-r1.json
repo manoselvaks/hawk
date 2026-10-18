@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speech outlines both an upside risk to inflation from labour shortages and other pressures and downside risks from weaker spending, concluding that the future path of interest rates depends on how the data and risks unfold.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 13359,
+ "prompt_tokens": 3188,
+ "completion_tokens": 184,
+ "cost_usd": 0.00012415,
+ "attempts": 1
+}

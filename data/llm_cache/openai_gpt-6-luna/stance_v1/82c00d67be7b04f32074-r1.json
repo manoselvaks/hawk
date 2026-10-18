@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": 0.0,
+ "confidence": 0.84,
+ "reason": "The speech focuses on how climate mitigation policies affect inflation, output and monetary-policy transmission, but it presents offsetting channels and research findings without recommending a particular future path for Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 23688,
+ "prompt_tokens": 5296,
+ "completion_tokens": 64,
+ "cost_usd": 8.523e-05,
+ "attempts": 1
+}

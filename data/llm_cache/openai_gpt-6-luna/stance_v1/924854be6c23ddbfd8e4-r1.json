@@ -1,0 +1,15 @@
+{
+ "relevance": 0,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The extract discusses support for the mutuals sector\u2019s sustainable long-term growth, not UK monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 447,
+ "prompt_tokens": 773,
+ "completion_tokens": 78,
+ "cost_usd": 0.0001163,
+ "attempts": 1
+}

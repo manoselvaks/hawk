@@ -1,0 +1,15 @@
+{
+ "relevance": 0,
+ "stance": null,
+ "confidence": 0.95,
+ "reason": "The speech is about cyber security and operational resilience of financial firms under financial stability and supervisory frameworks, with no discussion of the outlook for inflation, demand, the labour market, or Bank Rate.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 12222,
+ "prompt_tokens": 4944,
+ "completion_tokens": 101,
+ "cost_usd": 0.0005449,
+ "attempts": 1
+}

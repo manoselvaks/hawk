@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.93,
+ "reason": "The speech is directly about how climate policies affect inflation, output and monetary-policy transmission, but it presents competing inflationary and disinflationary channels and makes no recommendation to tighten or ease policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23688,
+ "prompt_tokens": 5296,
+ "completion_tokens": 65,
+ "cost_usd": 0.000694425,
+ "attempts": 1
+}

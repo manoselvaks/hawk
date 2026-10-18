@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.8,
+ "reason": "The speech is about the Bank of England's asset purchase programme and eventual exit strategy, but it explicitly says it is 'not to drop any hints about the future direction of monetary policy' and that 'it is not clear whether the next step ... is most likely to be to sell the assets back or to buy more', giving no clear hawkish or dovish lean.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21701,
+ "prompt_tokens": 5334,
+ "completion_tokens": 760,
+ "cost_usd": 0.0003027168,
+ "attempts": 1
+}

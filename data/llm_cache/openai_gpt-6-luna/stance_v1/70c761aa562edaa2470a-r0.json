@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.86,
+ "reason": "The Committee saw increased downside risks to demand alongside increased upside risks to inflation, and voted 8\u20131 to hold Bank Rate while awaiting the February forecast to assess the balance.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2593,
+ "prompt_tokens": 1194,
+ "completion_tokens": 61,
+ "cost_usd": 0.000179675,
+ "attempts": 1
+}

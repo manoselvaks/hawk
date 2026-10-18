@@ -1,0 +1,15 @@
+{
+ "relevance": 0,
+ "stance": null,
+ "confidence": 0.95,
+ "reason": "The speech is about cyber security and operational resilience for financial firms under the Bank's financial stability and prudential remit, with no discussion of the UK monetary policy outlook, inflation, demand, or Bank Rate.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 1,
+ "input_chars": 2402,
+ "prompt_tokens": 1906,
+ "completion_tokens": 105,
+ "cost_usd": 0.0002431,
+ "attempts": 1
+}

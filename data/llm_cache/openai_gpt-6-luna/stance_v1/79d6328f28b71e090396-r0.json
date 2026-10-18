@@ -1,0 +1,15 @@
+{
+ "relevance": 0.35,
+ "stance": 0.0,
+ "confidence": 0.82,
+ "reason": "The speech is primarily about commercial-property financial-stability risks, and describes the macroeconomic outlook as benign with risks broadly balanced without advocating a change in monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 14008,
+ "prompt_tokens": 3300,
+ "completion_tokens": 60,
+ "cost_usd": 0.000442425,
+ "attempts": 1
+}

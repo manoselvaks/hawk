@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.7,
+ "reason": "Most members judged no change in Bank Rate necessary this month, citing a markedly worsened short-run inflation outlook and upside risks from food, energy and sterling depreciation, while one member preferred a 25bp cut.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23492,
+ "prompt_tokens": 5259,
+ "completion_tokens": 1833,
+ "cost_usd": 0.0004542288,
+ "attempts": 1
+}

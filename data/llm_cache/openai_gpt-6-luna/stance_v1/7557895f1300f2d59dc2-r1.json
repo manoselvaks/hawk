@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.91,
+ "reason": "He stresses that inflation is likely to rise further, warns that higher expectations create significant upside risks, and says a demand slowdown may need to be more pronounced or prolonged to return inflation to target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 24042,
+ "prompt_tokens": 5494,
+ "completion_tokens": 175,
+ "cost_usd": 0.00014271,
+ "attempts": 1
+}

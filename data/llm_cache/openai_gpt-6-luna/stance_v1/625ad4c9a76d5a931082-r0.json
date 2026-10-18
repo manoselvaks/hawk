@@ -1,0 +1,15 @@
+{
+ "relevance": 0.55,
+ "stance": 1.0,
+ "confidence": 0.92,
+ "reason": "Although much of the speech concerns digital money and payments, the speaker says inflation is unacceptably high, underlying price and wage increases are inconsistent with target, and the latest evidence pointed to a need for further policy tightening.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19118,
+ "prompt_tokens": 4487,
+ "completion_tokens": 72,
+ "cost_usd": 0.0005968,
+ "attempts": 1
+}

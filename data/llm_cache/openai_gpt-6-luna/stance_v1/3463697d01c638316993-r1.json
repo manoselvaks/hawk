@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.91,
+ "reason": "The speech emphasizes persistent underlying inflationary pressures and says that if capacity pressures, pricing intentions and inflation expectations remain elevated, the MPC may need to take further action.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 13968,
+ "prompt_tokens": 3477,
+ "completion_tokens": 178,
+ "cost_usd": 0.00012404,
+ "attempts": 1
+}

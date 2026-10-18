@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 0.5,
+ "confidence": 0.73,
+ "reason": "The outlook is described as benign with inflation projected to rise toward target and a possible upside risk, though the future path of interest rates is explicitly left data-dependent.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2488,
+ "prompt_tokens": 1160,
+ "completion_tokens": 176,
+ "cost_usd": 0.000232925,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0,
+ "stance": null,
+ "confidence": 1,
+ "reason": "The speech is about the PRA's secondary competition objective and prudential regulation of banks and insurers, not UK monetary policy or the outlook for inflation, demand, the labour market or Bank Rate.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 11376,
+ "prompt_tokens": 3080,
+ "completion_tokens": 428,
+ "cost_usd": 8.27648e-05,
+ "attempts": 1
+}

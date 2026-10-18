@@ -1,0 +1,15 @@
+{
+ "relevance": 0,
+ "stance": null,
+ "confidence": 0.9,
+ "reason": "The extract is about the Bank's support for the mutuals sector and its sustainable growth, not about UK monetary policy, inflation, demand, or Bank Rate.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 1,
+ "input_chars": 439,
+ "prompt_tokens": 1343,
+ "completion_tokens": 88,
+ "cost_usd": 0.0001783,
+ "attempts": 1
+}

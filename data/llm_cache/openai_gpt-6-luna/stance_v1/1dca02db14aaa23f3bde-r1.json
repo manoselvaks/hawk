@@ -1,0 +1,15 @@
+{
+ "relevance": 0.15,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech focuses on financial stability and credit risk\u2014especially debt growth, lending standards, mortgages and leveraged loans\u2014and does not give a meaningful outlook for inflation, demand, employment or Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 23705,
+ "prompt_tokens": 5463,
+ "completion_tokens": 66,
+ "cost_usd": 8.79e-05,
+ "attempts": 1
+}

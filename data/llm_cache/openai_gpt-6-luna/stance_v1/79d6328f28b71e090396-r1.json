@@ -1,0 +1,15 @@
+{
+ "relevance": 0.25,
+ "stance": null,
+ "confidence": 0.95,
+ "reason": "The speech focuses on commercial property vulnerabilities and financial stability, mentioning only that the macroeconomic outlook is benign and risks are broadly balanced.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 14008,
+ "prompt_tokens": 3300,
+ "completion_tokens": 54,
+ "cost_usd": 6.027e-05,
+ "attempts": 1
+}

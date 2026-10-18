@@ -1,0 +1,15 @@
+{
+ "relevance": 0.25,
+ "stance": null,
+ "confidence": 0.7,
+ "reason": "The speech is mainly about the monetary policy implications of climate change and net zero policies, with only a brief reference to monetary policy transmission under carbon pricing and no clear view on the future path of Bank Rate.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 1,
+ "input_chars": 2554,
+ "prompt_tokens": 2009,
+ "completion_tokens": 102,
+ "cost_usd": 0.0002519,
+ "attempts": 1
+}

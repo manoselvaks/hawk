@@ -1,0 +1,15 @@
+{
+ "relevance": 0,
+ "stance": null,
+ "confidence": 1,
+ "reason": "The speech is about cyber security, operational resilience and financial stability, not UK monetary policy or Bank Rate.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 1,
+ "input_chars": 2402,
+ "prompt_tokens": 1224,
+ "completion_tokens": 620,
+ "cost_usd": 0.00013824,
+ "attempts": 1
+}

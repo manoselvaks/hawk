@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.82,
+ "reason": "The speech stresses that rising public inflation expectations create bigger upside risks for medium-term inflation and may require a more pronounced or prolonged slowdown to return inflation to target, while noting that credit conditions are already restraining activity.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2572,
+ "prompt_tokens": 1180,
+ "completion_tokens": 136,
+ "cost_usd": 0.000215425,
+ "attempts": 1
+}

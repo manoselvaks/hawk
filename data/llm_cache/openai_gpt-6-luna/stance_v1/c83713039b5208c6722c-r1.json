@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.77,
+ "reason": "Although the Committee said policy must remain restrictive until inflation risks dissipate, it noted that the stance could remain restrictive even if Bank Rate were reduced, and one member voted for a cut.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 1,
+ "input_chars": 2517,
+ "prompt_tokens": 1192,
+ "completion_tokens": 66,
+ "cost_usd": 4.519e-05,
+ "attempts": 1
+}

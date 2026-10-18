@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.7,
+ "reason": "The minutes weigh upside inflation concerns\u2014CPI at 2.0% and inflation expectations having picked up and needing to be monitored carefully\u2014against downside risks to consumption and no signs of higher wage settlements, giving a broadly balanced policy lean.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2418,
+ "prompt_tokens": 1240,
+ "completion_tokens": 1708,
+ "cost_usd": 0.000295552,
+ "attempts": 1
+}

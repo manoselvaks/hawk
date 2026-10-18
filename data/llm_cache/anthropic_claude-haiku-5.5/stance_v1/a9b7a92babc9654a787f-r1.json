@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.55,
+ "reason": "The speech discusses the inflation outlook (CPI at 1.2% projected to rise toward 2%, demand pressure, upside inflation risk from terms of trade) and declines to signal a rate path, while stressing the MPC is ready to act, giving a mildly hawkish but balanced lean.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 1,
+ "input_chars": 2488,
+ "prompt_tokens": 1948,
+ "completion_tokens": 134,
+ "cost_usd": 0.0002618,
+ "attempts": 1
+}

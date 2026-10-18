@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 1.0,
+ "confidence": 0.8,
+ "reason": "Tucker says policy is still stimulating and that he would expect the MPC to continue gradually to reduce the degree of stimulus as inflationary pressures build, while noting upside risks from house prices.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 16358,
+ "prompt_tokens": 3983,
+ "completion_tokens": 639,
+ "cost_usd": 0.0002310992,
+ "attempts": 1
+}

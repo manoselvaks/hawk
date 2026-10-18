@@ -1,0 +1,15 @@
+{
+ "relevance": 0.4,
+ "stance": 0.0,
+ "confidence": 0.5,
+ "reason": "The speech is mainly about debt growth versus debt levels as predictors of financial crises and downturns, with a financial stability focus (FPC, macroprudential measures), and only partly touches on the monetary policy outlook through mortgage interest payments and Bank Rate expectations, which it judges to remain relatively low but without a clear lean.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23705,
+ "prompt_tokens": 8474,
+ "completion_tokens": 144,
+ "cost_usd": 0.0009194,
+ "attempts": 1
+}

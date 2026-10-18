@@ -1,0 +1,15 @@
+{
+ "relevance": 0.5,
+ "stance": 0.0,
+ "confidence": 0.85,
+ "reason": "The speech discusses how digital currency could reduce the zero-lower-bound constraint and its macroeconomic costs, but explicitly makes no claim about the near-term direction of monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 1,
+ "input_chars": 2594,
+ "prompt_tokens": 1225,
+ "completion_tokens": 162,
+ "cost_usd": 9.352e-05,
+ "attempts": 1
+}

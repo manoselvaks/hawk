@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 0.9,
+ "reason": "The minutes state that Bank Rate should be maintained at 0.1% and that the Committee does not intend to tighten monetary policy until there is clear evidence of significant progress in eliminating spare capacity and achieving the 2% inflation target sustainably, while standing ready to take additional action if the inflation outlook weakens.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2448,
+ "prompt_tokens": 1234,
+ "completion_tokens": 1345,
+ "cost_usd": 0.0002213824,
+ "attempts": 1
+}

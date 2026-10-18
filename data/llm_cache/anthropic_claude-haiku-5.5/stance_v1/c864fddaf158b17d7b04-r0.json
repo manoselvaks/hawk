@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 1.0,
+ "confidence": 0.7,
+ "reason": "Tucker describes a 'gradual' further reduction of stimulus as output grows above trend, notes upside near-term housing and demand risks and inflationary pressure building, and says tighter policy may be argued for, though he rejects shock tightening and voted for no change, so the lean is mildly hawkish.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16358,
+ "prompt_tokens": 6152,
+ "completion_tokens": 133,
+ "cost_usd": 0.0006817,
+ "attempts": 1
+}

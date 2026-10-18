@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.6,
+ "reason": "The minutes are entirely about the policy decision (8-1 vote to hold Bank Rate at 5.25% with one member preferring a cut), and while they stress that policy must stay restrictive for an extended period, they also note inflation fell faster than expected, services inflation is easing, expectations are easing, and restrictiveness could persist even if Bank Rate is cut, which leans mildly dovish.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2517,
+ "prompt_tokens": 2025,
+ "completion_tokens": 166,
+ "cost_usd": 0.0002855,
+ "attempts": 1
+}

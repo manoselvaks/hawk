@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.87,
+ "reason": "The Committee held Bank Rate at 5.5% by an 8\u20131 vote, with most members judging no change appropriate because near-term inflation risks had worsened, while one member preferred a 25-basis-point cut in response to heightened downside risks to demand.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 23492,
+ "prompt_tokens": 5172,
+ "completion_tokens": 83,
+ "cost_usd": 9.349e-05,
+ "attempts": 1
+}

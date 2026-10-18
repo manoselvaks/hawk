@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": 1.0,
+ "confidence": 0.7,
+ "reason": "The speech focuses on the MPC's rate path and inflation outlook, stressing inflationary risks from above-trend growth and capacity pressures and warning that 'the MPC may need to take further action' if indicators stay elevated, though it also notes past rises will slow demand and offers no firm call for more hikes.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2558,
+ "prompt_tokens": 1983,
+ "completion_tokens": 135,
+ "cost_usd": 0.0002658,
+ "attempts": 1
+}

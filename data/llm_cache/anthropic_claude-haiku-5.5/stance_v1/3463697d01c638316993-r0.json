@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": 1.0,
+ "confidence": 0.7,
+ "reason": "The speech is almost entirely about the inflation outlook and Bank Rate rises, stressing upward inflation pressures from demand, credit and capacity, and warning that 'the MPC may need to take further action' if indicators remain elevated, though it also notes temporary effects and a fall-back in inflation.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 13968,
+ "prompt_tokens": 5415,
+ "completion_tokens": 133,
+ "cost_usd": 0.000608,
+ "attempts": 1
+}

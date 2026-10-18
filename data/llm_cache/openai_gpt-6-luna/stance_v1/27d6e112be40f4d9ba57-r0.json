@@ -1,0 +1,15 @@
+{
+ "relevance": 0.4,
+ "stance": 0.0,
+ "confidence": 0.78,
+ "reason": "The speech discusses the zero lower bound and how digital currencies might ease that constraint, but explicitly says this has no implications for the costs and benefits of negative rates in the shorter term and signals no near-term policy lean.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 6253,
+ "prompt_tokens": 1926,
+ "completion_tokens": 247,
+ "cost_usd": 0.000364175,
+ "attempts": 1
+}

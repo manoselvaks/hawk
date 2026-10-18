@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.85,
+ "reason": "The Committee voted 8\u20131 to maintain Bank Rate at 5.25% and stated that monetary policy 'will need to remain restrictive for sufficiently long' until the risk of inflation becoming embedded above the 2% target dissipates, with key indicators of inflation persistence still elevated.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 24093,
+ "prompt_tokens": 5387,
+ "completion_tokens": 920,
+ "cost_usd": 0.0003278768,
+ "attempts": 1
+}

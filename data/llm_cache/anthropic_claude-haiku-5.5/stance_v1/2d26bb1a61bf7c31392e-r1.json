@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 1.0,
+ "confidence": 0.6,
+ "reason": "The speech centres on the monetary policy outlook, noting the February rate rise to 4% leaves policy stimulating the economy and that gradual rate rises would be necessary if inflationary pressures build, a lean towards tightening, though it is framed as balanced with credit and house price effects.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 1,
+ "input_chars": 2549,
+ "prompt_tokens": 2061,
+ "completion_tokens": 127,
+ "cost_usd": 0.0002696,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.7,
+ "stance": 0.0,
+ "confidence": 0.6,
+ "reason": "The speech is largely about the UK outlook for demand, inflation and risks to policy, but it explicitly declines to signal the future rate path and presents upside and downside risks as roughly balanced ('considerable uncertainties', 'might suggest an upside risk' but 'equally... inflationary pressures could remain subdued').",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 13359,
+ "prompt_tokens": 5133,
+ "completion_tokens": 140,
+ "cost_usd": 0.0005833,
+ "attempts": 1
+}

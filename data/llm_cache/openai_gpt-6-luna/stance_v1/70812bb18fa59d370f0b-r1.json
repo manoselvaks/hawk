@@ -1,0 +1,15 @@
+{
+ "relevance": 0.1,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech focuses on financial stability, macroprudential tools, cross-border credit risks and market-based finance, rather than the UK inflation outlook or the future path of Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 19985,
+ "prompt_tokens": 5086,
+ "completion_tokens": 63,
+ "cost_usd": 8.263e-05,
+ "attempts": 1
+}

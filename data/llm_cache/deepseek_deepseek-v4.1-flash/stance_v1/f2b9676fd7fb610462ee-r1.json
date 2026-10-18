@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.6,
+ "reason": "The minutes weigh upside inflation risks from higher wholesale gas prices and rising inflation expectations against downside risks to consumption and muted wage settlements, with no clear signal for the near-term path of Bank Rate.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 1,
+ "input_chars": 2418,
+ "prompt_tokens": 1240,
+ "completion_tokens": 1619,
+ "cost_usd": 0.000282736,
+ "attempts": 1
+}

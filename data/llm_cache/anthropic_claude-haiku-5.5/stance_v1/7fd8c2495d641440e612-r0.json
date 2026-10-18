@@ -1,0 +1,15 @@
+{
+ "relevance": 0.3,
+ "stance": null,
+ "confidence": 0.5,
+ "reason": "The extract is a technical analysis of the countercyclical capital buffer and financial stability trade-offs (credit spreads, crisis probability) rather than the outlook for Bank Rate, inflation or demand, so it is only tangentially about monetary policy.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2590,
+ "prompt_tokens": 2179,
+ "completion_tokens": 117,
+ "cost_usd": 0.0002764,
+ "attempts": 1
+}

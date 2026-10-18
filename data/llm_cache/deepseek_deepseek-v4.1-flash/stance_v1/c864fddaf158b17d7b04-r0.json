@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 1.0,
+ "confidence": 0.8,
+ "reason": "Tucker says he would expect the MPC to continue gradually to reduce the degree of stimulus to demand as inflationary pressures build, while noting upside risks to house prices and some evidence of inflation pressure.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16358,
+ "prompt_tokens": 3983,
+ "completion_tokens": 592,
+ "cost_usd": 0.0002243312,
+ "attempts": 1
+}

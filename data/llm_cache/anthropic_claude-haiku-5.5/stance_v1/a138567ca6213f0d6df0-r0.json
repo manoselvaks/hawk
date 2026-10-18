@@ -1,0 +1,15 @@
+{
+ "relevance": 0.15,
+ "stance": null,
+ "confidence": 0.6,
+ "reason": "The extracts are mainly about household and corporate debt, lending standards and financial stability (student and car loans, leveraged lending, mortgage debt), with only a passing mention of Bank Rate and the November 2017 measures, so the document is not primarily about the monetary policy outlook.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2490,
+ "prompt_tokens": 1983,
+ "completion_tokens": 125,
+ "cost_usd": 0.0002608,
+ "attempts": 1
+}

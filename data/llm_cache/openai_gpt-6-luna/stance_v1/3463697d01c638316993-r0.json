@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.93,
+ "reason": "King describes persistent inflationary pressures from robust demand, capacity constraints, rapid money and credit growth, and rising expectations, warning that if these indicators remain elevated the MPC may need further action.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 13968,
+ "prompt_tokens": 3477,
+ "completion_tokens": 63,
+ "cost_usd": 0.00046605,
+ "attempts": 1
+}

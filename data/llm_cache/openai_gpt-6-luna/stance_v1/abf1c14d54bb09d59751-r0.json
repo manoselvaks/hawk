@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.84,
+ "reason": "The extract describes the MPC\u2019s QE stimulus and says any further purchases or withdrawal would be decided month by month based on the economy and inflation outlook, without indicating a clear lean toward tightening or easing.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2514,
+ "prompt_tokens": 1217,
+ "completion_tokens": 65,
+ "cost_usd": 0.00018455,
+ "attempts": 1
+}

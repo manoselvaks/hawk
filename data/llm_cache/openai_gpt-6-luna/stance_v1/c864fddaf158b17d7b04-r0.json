@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": 1.0,
+ "confidence": 0.91,
+ "reason": "He says that if output grows above trend he expects further gradual withdrawal of stimulus as slack is taken up and inflation pressures build, while noting near-term upside risks from housing and domestic demand, though he voted for no change because the case for an immediate rise was not yet compelling.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16358,
+ "prompt_tokens": 3899,
+ "completion_tokens": 83,
+ "cost_usd": 0.0005288,
+ "attempts": 1
+}

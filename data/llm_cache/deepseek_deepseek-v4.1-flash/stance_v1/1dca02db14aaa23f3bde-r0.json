@@ -1,0 +1,15 @@
+{
+ "relevance": 0.1,
+ "stance": null,
+ "confidence": 0.9,
+ "reason": "The speech focuses on financial stability, rapid debt growth, credit supply and macroprudential measures such as the FPC's housing tools, not on the UK monetary policy outlook for inflation, demand, labour market or Bank Rate.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23705,
+ "prompt_tokens": 5624,
+ "completion_tokens": 697,
+ "cost_usd": 0.0003052832,
+ "attempts": 1
+}

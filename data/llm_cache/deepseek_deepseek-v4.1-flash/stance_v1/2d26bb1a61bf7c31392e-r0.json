@@ -1,0 +1,15 @@
+{
+ "relevance": 0.5,
+ "stance": 1.0,
+ "confidence": 0.7,
+ "reason": "Tucker says the January minutes recorded that if the economy evolved as envisaged, with inflationary pressures gradually building, 'a gradual rise in interest rates would be necessary', and that 'we are in a similar position now', adding that recent adjustments were 'withdrawing some \u2013 but not all \u2013 of the previous stimulus'.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2549,
+ "prompt_tokens": 1289,
+ "completion_tokens": 1121,
+ "cost_usd": 0.000212984,
+ "attempts": 1
+}

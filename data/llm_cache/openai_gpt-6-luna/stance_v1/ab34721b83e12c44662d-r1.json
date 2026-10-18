@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": -1.5,
+ "confidence": 0.88,
+ "reason": "He argues policy should prevent the recession worsening and inflation falling persistently below target, and says QE is effective and that he has voted to extend it.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 9898,
+ "prompt_tokens": 2704,
+ "completion_tokens": 190,
+ "cost_usd": 0.00012231,
+ "attempts": 1
+}

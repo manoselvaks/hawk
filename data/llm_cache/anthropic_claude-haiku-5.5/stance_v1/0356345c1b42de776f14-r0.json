@@ -1,0 +1,15 @@
+{
+ "relevance": 0.6,
+ "stance": -0.5,
+ "confidence": 0.4,
+ "reason": "The speech discusses long-run links between policy rates and effective funding costs and defends QE as reducing the risk of undershooting the inflation target and voting for its extension, a mildly dovish lean, though much of the text covers banking structure and is partly off-topic with only extracts available.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2517,
+ "prompt_tokens": 1944,
+ "completion_tokens": 126,
+ "cost_usd": 0.0002574,
+ "attempts": 1
+}

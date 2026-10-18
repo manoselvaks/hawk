@@ -1,0 +1,15 @@
+{
+ "relevance": 0,
+ "stance": null,
+ "confidence": 0.9,
+ "reason": "The speech is about macroprudential policy and financial stability, specifically the countercyclical capital buffer, reciprocity and market-based finance, not the UK monetary policy outlook or Bank Rate.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19985,
+ "prompt_tokens": 4977,
+ "completion_tokens": 1276,
+ "cost_usd": 0.0003627024,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.6,
+ "reason": "The minutes hold Bank Rate at 5.25% by 8-1 with one member voting for a cut, noting inflation fell to 3.4% and that policy could remain restrictive even if Bank Rate were reduced, which leans slightly dovish while still emphasising restrictive policy for an extended period.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 1,
+ "input_chars": 2517,
+ "prompt_tokens": 2025,
+ "completion_tokens": 136,
+ "cost_usd": 0.0002705,
+ "attempts": 1
+}

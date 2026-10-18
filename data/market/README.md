@@ -72,6 +72,18 @@ does not (DeAnne Julius on 4 June 1998, wanting less than the agreed hike: eithe
 change or a smaller rise) is left out of `votes_hike/hold/cut`, so for that meeting
 those three add up to 8, not 9.
 
+### `mpc_members.csv`: one row per MPC member
+
+| column | meaning |
+| --- | --- |
+| `member` | name as in the voting workbook |
+| `first_vote`, `last_vote` | dates of the member's first and last Bank Rate vote |
+| `n_votes` | number of decisions voted on |
+
+Built by `python -m hawk.scoring.mpc_members` from the same voting workbook (the
+decisions table keeps only dissenters, so it cannot give membership). Used to flag
+speeches by sitting MPC members; see `docs/methodology.md`.
+
 ### `gilt_yields.parquet`: one row per business day
 
 | column | meaning |

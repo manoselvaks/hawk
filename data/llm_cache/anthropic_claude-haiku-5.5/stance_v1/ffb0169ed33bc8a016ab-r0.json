@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.6,
+ "reason": "The minutes are wholly about the policy decision: the Committee held Bank Rate at 5.5% with 8 votes to 1 (Blanchflower preferring a cut), citing significant downside risks to demand from credit conditions and a sharp slowdown, against upside inflation risks from energy and food prices and sterling, with most members judging no change necessary and cuts in successive months unwise.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23492,
+ "prompt_tokens": 8417,
+ "completion_tokens": 163,
+ "cost_usd": 0.0009232,
+ "attempts": 1
+}

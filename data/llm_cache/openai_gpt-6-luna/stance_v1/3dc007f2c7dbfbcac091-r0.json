@@ -1,0 +1,15 @@
+{
+ "relevance": 0.6,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The extract discusses the macroeconomic costs of the zero lower bound and how digital currency might ease it, but explicitly says this has no implications for the costs and benefits of negative rates in the shorter term.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2594,
+ "prompt_tokens": 1225,
+ "completion_tokens": 144,
+ "cost_usd": 0.00022505,
+ "attempts": 1
+}

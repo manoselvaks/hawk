@@ -1,0 +1,15 @@
+{
+ "relevance": 0.6,
+ "stance": 0.0,
+ "confidence": 0.6,
+ "reason": "The speech is a broad economic outlook covering global imbalances, housing and consumer demand, and inflation, with a policy section that stresses balanced two-sided uncertainties and says the MPC will respond to data without signalling a direction.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 13359,
+ "prompt_tokens": 5133,
+ "completion_tokens": 110,
+ "cost_usd": 0.0005683,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0,
+ "stance": null,
+ "confidence": 0.9,
+ "reason": "The extract concerns the Bank's ambitions for the mutuals sector and its sustainable growth, which is about regulation and sector development rather than the monetary policy outlook, inflation, demand or Bank Rate.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 447,
+ "prompt_tokens": 1347,
+ "completion_tokens": 104,
+ "cost_usd": 0.0001867,
+ "attempts": 1
+}

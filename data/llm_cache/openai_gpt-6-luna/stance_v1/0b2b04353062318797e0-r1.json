@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.9,
+ "reason": "The Committee judged inflation likely to remain close to target with near-term energy-related upside risks and voted 7\u20131 to leave the repo rate unchanged, with one member preferring a 25 basis point reduction.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 20476,
+ "prompt_tokens": 4580,
+ "completion_tokens": 68,
+ "cost_usd": 8.007e-05,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.6,
+ "stance": -1.0,
+ "confidence": 0.6,
+ "reason": "Speech is mostly about banking structure and credit intermediation but has a policy section arguing that policy must help the transition and prevent recession, that inflation may dip persistently below target, and that QE should be extended, which leans dovish.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 9898,
+ "prompt_tokens": 4217,
+ "completion_tokens": 108,
+ "cost_usd": 0.0004757,
+ "attempts": 1
+}

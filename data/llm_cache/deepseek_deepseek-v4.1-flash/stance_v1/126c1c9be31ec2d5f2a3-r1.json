@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.8,
+ "reason": "The speech emphasises elevated capacity pressures, pricing intentions and inflation expectations, warning that 'if these indicators remain elevated, the MPC may need to take further action.'",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 1,
+ "input_chars": 2558,
+ "prompt_tokens": 1272,
+ "completion_tokens": 519,
+ "cost_usd": 0.0001040352,
+ "attempts": 1
+}

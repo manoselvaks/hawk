@@ -1,0 +1,15 @@
+{
+ "relevance": 0.1,
+ "stance": null,
+ "confidence": 0.9,
+ "reason": "The document discusses bank authorisation, PRA buffer requirements, bank capital, and Basel risk weights, not UK monetary policy or the inflation and Bank Rate outlook.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 1,
+ "input_chars": 1018,
+ "prompt_tokens": 982,
+ "completion_tokens": 264,
+ "cost_usd": 5.50624e-05,
+ "attempts": 1
+}

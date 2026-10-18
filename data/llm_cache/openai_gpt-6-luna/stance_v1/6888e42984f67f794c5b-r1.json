@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.91,
+ "reason": "The MPC stresses persistent domestic price and wage pressures and says further tightening would be required if they persist, despite its baseline forecast showing inflation falling below target in the medium term.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 1,
+ "input_chars": 2559,
+ "prompt_tokens": 1182,
+ "completion_tokens": 135,
+ "cost_usd": 7.959e-05,
+ "attempts": 1
+}
