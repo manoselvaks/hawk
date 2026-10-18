@@ -1,8 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.bankofengland.co.uk/speech/2023/march/andrew-bailey-lse</loc><lastmod>2023-03-14</lastmod></url>
-  <url><loc>https://www.bankofengland.co.uk/speech/1999/february/monetary-policy-in-an-uncertain-world/</loc></url>
-  <url><loc>https://www.bankofengland.co.uk/speech/1996/may/too-early</loc></url>
-  <url><loc>https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2023/march-2023</loc></url>
-  <url><loc>https://www.bankofengland.co.uk/news/2023/march/press-release</loc></url>
+<?xml version="1.0" encoding="UTF-8" ?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<!-- Excerpt of https://www.bankofengland.co.uk/_api/sitemap/getsitemap -->
+<url><loc>https://www.bankofengland.co.uk/about</loc><lastmod>2026-03-12T16:24:44+00:00</lastmod></url>
+<url><loc>https://www.bankofengland.co.uk/speech/1998/alice-in-euroland</loc><lastmod>2018-11-19T10:21:14+00:00</lastmod></url>
+<url><loc>https://www.bankofengland.co.uk/speech/2025/april/david-bailey-speech-at-a-climate-financial-risk-forum</loc><lastmod>2025-04-30T09:27:21+01:00</lastmod></url>
+<url><loc>https://www.bankofengland.co.uk/speech/speaker-request-form</loc><lastmod>2026-05-18T12:52:58+01:00</lastmod></url>
+<url><loc>https://www.bankofengland.co.uk/minutes/1997/monetary-policy-committee-june-1997</loc><lastmod>2018-04-11T10:26:32+01:00</lastmod></url>
+<url><loc>https://www.bankofengland.co.uk/minutes/2001/monetary-policy-committee-18-september-2001</loc><lastmod>2025-12-04T14:53:13+00:00</lastmod></url>
+<url><loc>https://www.bankofengland.co.uk/minutes/2003/minutes-april-2003</loc><lastmod>2018-04-06T09:39:46+01:00</lastmod></url>
+<url><loc>https://www.bankofengland.co.uk/minutes/2013/court-redactions-from-2013</loc><lastmod>2018-04-05T13:51:16+01:00</lastmod></url>
+<url><loc>https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2025/may-2025</loc><lastmod>2025-06-18T14:22:12+01:00</lastmod></url>
+<url><loc>https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2027/february-2027</loc><lastmod>2026-09-21T13:37:09+01:00</lastmod></url>
+<url><loc>https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/monetary-policy-summary-and-minutes</loc><lastmod>2023-01-31T09:47:53+00:00</lastmod></url>
+<url><loc>https://www.bankofengland.co.uk/news/2023/march/boe-statement-credit-suisse</loc><lastmod>2023-03-21T14:33:39+00:00</lastmod></url>
 </urlset>

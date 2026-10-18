@@ -15,7 +15,7 @@ test:
 
 check: lint typecheck test
 
-# Full rebuild of data/speeches.parquet and data/minutes.parquet (about 1-2 hours, 1 request/second).
+# Full rebuild of data/speeches.parquet and data/minutes.parquet (about 1 hour at 1 request/second; minutes from cache).
 collect:
 	python -m hawk.speeches.collect
 

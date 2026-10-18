@@ -27,22 +27,43 @@ _DELIVERED = re.compile(
     re.IGNORECASE,
 )
 _MEETING = re.compile(
-    rf"meeting\s+(?:ending\s+on|held\s+on|on|of)\s+(?:\w+day,?\s+)?"
+    rf"meeting\s+(?:ending(?:\s+on)?|held\s+on|on|of)\s+(?:\w+day,?\s+)?"
     rf"(?P<span>[\d\s\w,\-\u2013]{{0,30}}?{DATE_PATTERN})",
     re.IGNORECASE,
 )
+# "speech by X", "lecture delivered by X", "Paper by X", or a bare "- by X" in a title.
+# Co-authored papers are left without a speaker. Honorifics are dropped so that, for
+# example, "Sir Jon Cunliffe" and "Jon Cunliffe" are one speaker.
 _SPEECH_BY = re.compile(
-    r"\b(?i:speech|remarks|lecture|address|comments)\s+(?:given\s+)?by\s+"
-    r"(?P<name>(?:Sir\s+|Dame\s+|Dr\.?\s+|Professor\s+)?[A-Z][\w.'\-]+(?:\s+[A-Z][\w.'\-]+){0,3})"
+    r"(?:\b(?i:speech|remarks|lecture|address|comments|paper|presentation|slides)"
+    r"(?:\s+(?:given|delivered))?|\s[-\u2013\u2212])\s+by\s+"
+    r"(?:(?:Sir|Dame|Dr\.?|Professor)\s+)?"
+    r"(?P<name>[A-Z][\w.'\-]+(?:\s+[A-Z][\w.'\-]+){0,3})"
 )
 _ROLE = re.compile(
     r"(?P<role>(?:Deputy\s+)?Governor(?:\s+for\s+[A-Z][\w\s,]+?)?"
     r"|Chief\s+Economist(?:\s+and\s+Executive\s+Director[\w\s,]*?)?"
     r"|External\s+(?:MPC\s+)?[Mm]ember(?:\s+of\s+the\s+Monetary\s+Policy\s+Committee)?"
-    r"|Executive\s+Director(?:\s+for\s+[A-Z][\w\s,]+?)?)"
+    r"|Member,?\s+(?:of\s+the\s+)?Monetary\s+Policy\s+Committee"
+    r"|Executive\s+Director(?:\s+(?:for|of)\s+[A-Z][\w\s,]+?)?)"
     r"(?=[,.;\n]|\s+(?:at|to|of\s+the\s+Bank|on)\b|$)"
 )
 _SITE_SUFFIX = re.compile(r"\s*[|\-\u2013]\s*Bank of England\s*$", re.IGNORECASE)
+
+# A page's own PDF is its download button ("btn-pubs", "btn-cta", "button-download", or
+# a "list-links" download list, depending on the page's age). Links in the body are
+# citations of other publications (including other speeches), which must not be
+# mistaken for it, and download lists also offer press-conference transcripts.
+OWN_PDF_BUTTON = (
+    "a.btn-pubs[href], a.btn-cta[href], a.button-download[href], a.list-links__link[href]"
+)
+_PDF_HREF = re.compile(r"\.pdf(?:$|[?#])", re.IGNORECASE)
+
+# Old speech PDFs repeat a banner and a page number on every page.
+_PDF_FURNITURE = re.compile(
+    r"^(?:All speeches are available online at \S+|\d{1,3}|Page \d+ of \d+)$", re.IGNORECASE
+)
+_DATE_LINE = re.compile(rf"^(?:\w+day,?\s+)?(?P<date>{DATE_PATTERN})$", re.IGNORECASE)
 
 CONTENT_SELECTORS = (
     "div.page-content",
@@ -52,6 +73,8 @@ CONTENT_SELECTORS = (
     "main",
 )
 BLOCK_TAGS = ("p", "div", "section", "li", "tr", "h1", "h2", "h3", "h4", "h5", "h6", "blockquote")
+# Footnotes are repeated in pop-up boxes next to the footnote list.
+NOISE_SELECTORS = "div.modal"
 NOISE_TAGS = ("script", "style", "noscript", "nav", "header", "footer", "aside", "form", "iframe")
 
 
@@ -113,13 +136,15 @@ def parse_meeting_date(text: str) -> date | None:
 def parse_speech_html(html: str | bytes, url: str) -> SpeechPage:
     soup = BeautifulSoup(html, "lxml")
     title = _title(soup)
+    # The banner under the title says e.g. "Speech by Spencer Dale" or "Given at the LSE".
+    description = _description(soup)
     text = _body_text(soup)
-    header = text[:1500]
-    speaker = _meta(soup, "speaker") or _speaker_from(title) or _speaker_from(header)
+    header = f"{description or ''}\n{text[:1500]}"
+    speaker = _speaker_from(title) or _speaker_from(header)
     return SpeechPage(
         title=title,
         speaker=speaker,
-        role=_role(soup, header),
+        role=_first_role(header),
         speech_date=_first_date(_DELIVERED, header),
         published_date=_published_date(soup, text),
         text=text,
@@ -129,10 +154,13 @@ def parse_speech_html(html: str | bytes, url: str) -> SpeechPage:
 
 def parse_minutes_html(html: str | bytes, url: str) -> MinutesPage:
     soup = BeautifulSoup(html, "lxml")
+    title = _title(soup)
     text = _body_text(soup)
     return MinutesPage(
-        title=_title(soup),
-        meeting_date=parse_meeting_date(text),
+        title=title,
+        # Older titles name the meeting ("Minutes of the MPC Meeting held on 5 and 6 June 1997");
+        # newer ones only the month, but the summary says "At its meeting ending on ...".
+        meeting_date=parse_meeting_date(title or "") or parse_meeting_date(text),
         published_date=_published_date(soup, text),
         text=text,
         pdf_url=_pdf_link(soup, url),
@@ -143,7 +171,8 @@ def pdf_text(body: bytes) -> str:
     """Extract plain text from a PDF, page by page."""
     reader = PdfReader(io.BytesIO(body))
     pages = [page.extract_text() or "" for page in reader.pages]
-    return _tidy("\n".join(pages))
+    lines = _tidy("\n".join(pages)).splitlines()
+    return "\n".join(line for line in lines if not _PDF_FURNITURE.match(line))
 
 
 def speaker_and_role_from_text(text: str) -> tuple[str | None, str | None]:
@@ -172,19 +201,16 @@ def _meta(soup: BeautifulSoup, name: str) -> str | None:
     return None
 
 
+def _description(soup: BeautifulSoup) -> str | None:
+    tag = soup.select_one(".page-description")
+    return tag.get_text(" ", strip=True) if tag else None
+
+
 def _speaker_from(text: str | None) -> str | None:
     if not text:
         return None
     match = _SPEECH_BY.search(text)
     return match["name"].strip() if match else None
-
-
-def _role(soup: BeautifulSoup, header: str) -> str | None:
-    for element in soup.select('[class*="speaker"], [class*="author"]'):
-        role = _first_role(element.get_text(" ", strip=True))
-        if role:
-            return role
-    return _first_role(header)
 
 
 def _first_role(text: str) -> str | None:
@@ -193,14 +219,11 @@ def _first_role(text: str) -> str | None:
 
 
 def _published_date(soup: BeautifulSoup, text: str) -> date | None:
-    meta = _meta(soup, "article:published_time")
-    if meta and (parsed := parse_date(meta)):
+    # Every page has a "Published on 15 December 1998" line under the banner. (The <time>
+    # tags on the page belong to the "Other speeches" panel, so they are not used.)
+    tag = soup.select_one(".published-date")
+    if tag and (parsed := _first_date(_PUBLISHED, tag.get_text(" ", strip=True))):
         return parsed
-    time_tag = soup.find("time")
-    if isinstance(time_tag, Tag):
-        stamp = time_tag.get("datetime")
-        if isinstance(stamp, str) and (parsed := parse_date(stamp)):
-            return parsed
     return _first_date(_PUBLISHED, text)
 
 
@@ -212,10 +235,15 @@ def _first_date(pattern: re.Pattern[str], text: str) -> date | None:
 def _body_text(soup: BeautifulSoup) -> str:
     for tag in soup.find_all(NOISE_TAGS):
         tag.decompose()
+    for tag in soup.select(NOISE_SELECTORS):
+        tag.decompose()
     container: Tag | None = None
     for selector in CONTENT_SELECTORS:
-        container = soup.select_one(selector)
-        if container is not None:
+        # Some pages have several content blocks (e.g. a short "Overview" box before
+        # the speech itself); the speech is the one with the most text.
+        found = soup.select(selector)
+        if found:
+            container = max(found, key=lambda tag: len(tag.get_text()))
             break
     root = container or soup.body or soup
     # Source line-wraps are not paragraph breaks: flatten whitespace inside text nodes,
@@ -232,9 +260,10 @@ def _body_text(soup: BeautifulSoup) -> str:
 
 
 def _pdf_link(soup: BeautifulSoup, base_url: str) -> str | None:
-    for anchor in soup.find_all("a", href=True):
+    for anchor in soup.select(OWN_PDF_BUTTON):
         href = anchor["href"]
-        if isinstance(href, str) and re.search(r"\.pdf(?:$|[?#])", href, re.IGNORECASE):
+        is_transcript = "transcript" in anchor.get_text(" ", strip=True).lower()
+        if isinstance(href, str) and _PDF_HREF.search(href) and not is_transcript:
             return urljoin(base_url, href)
     return None
 
@@ -243,3 +272,16 @@ def _tidy(text: str) -> str:
     """Collapse runs of whitespace while keeping paragraph breaks."""
     lines = (" ".join(line.split()) for line in text.splitlines())
     return "\n".join(line for line in lines if line)
+
+
+def speech_date_from_pdf(text: str) -> date | None:
+    """The date on a speech PDF's cover ("Speech given by / Name, Role / 21 October 1998").
+
+    Only a line that is nothing but a date, near the top, is trusted; dates inside
+    sentences are as likely to be about something else.
+    """
+    for line in text.splitlines()[:25]:
+        match = _DATE_LINE.match(line.strip())
+        if match:
+            return parse_date(match["date"])
+    return None

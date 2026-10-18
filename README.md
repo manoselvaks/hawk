@@ -36,7 +36,8 @@ python -m hawk.speeches.collect --limit-speeches 20 --limit-minutes 10   # quick
 ```
 
 (or `make collect` / `make collect-sample`). This writes `data/speeches.parquet` and
-`data/minutes.parquet`; see [data/README.md](data/README.md) for the fields.
+`data/minutes.parquet` (1,544 speeches and 315 sets of minutes in the committed build);
+see [data/README.md](data/README.md) for the fields, per-year counts and known gaps.
 
 The collector is built to be a good citizen of the BoE website:
 
@@ -56,7 +57,8 @@ little text and links to a PDF, the PDF's text is used instead.
 make check   # ruff (lint + format), mypy (strict) and pytest
 ```
 
-Tests run fully offline against small saved HTML fixtures in `tests/speeches/fixtures/`.
+Tests run fully offline against trimmed copies of real BoE pages, a sitemap excerpt and
+the first pages of two real PDFs, in `tests/speeches/fixtures/`.
 CI runs the same checks on every push and pull request.
 
 ## Licence

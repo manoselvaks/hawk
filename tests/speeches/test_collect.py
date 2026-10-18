@@ -18,53 +18,90 @@ from hawk.speeches.fetch import PoliteFetcher
 from tests.speeches.conftest import FakeSession, fixture, make_pdf
 
 BOE = "https://www.bankofengland.co.uk"
-STUB = f"{BOE}/speech/1999/february/monetary-policy-in-an-uncertain-world"
-STUB_PDF = f"{BOE}/-/media/boe/files/speech/1999/monetary-policy-in-an-uncertain-world.pdf?la=en"
-MINUTES = f"{BOE}/monetary-policy-summary-and-minutes/2023/march-2023"
-OLD_MINUTES = f"{BOE}/monetary-policy-summary-and-minutes/1997/june-1997"
-OLD_MINUTES_PDF = f"{BOE}/-/media/boe/files/minutes/1997/mpc-june-1997.pdf"
+STUB = f"{BOE}/speech/1998/alice-in-euroland"
+STUB_PDF = f"{BOE}/-/media/boe/files/speech/1998/alice-in-euroland.pdf"
+MINUTES = f"{BOE}/monetary-policy-summary-and-minutes/2025/may-2025"
+MINUTES_PDF = (
+    f"{BOE}/-/media/boe/files/monetary-policy-summary-and-minutes/2025/"
+    "monetary-policy-summary-and-minutes-may-2025.pdf"
+)
+OLD_MINUTES = f"{BOE}/minutes/1997/monetary-policy-committee-june-1997"
+OLD_MINUTES_PDF = f"{BOE}/-/media/boe/files/minutes/1900-2000/1997/minutes-june-1997.pdf"
+PLACEHOLDER = f"{BOE}/monetary-policy-summary-and-minutes/2026/november-2026"
 
 
 def test_speech_stub_falls_back_to_pdf(fetcher: PoliteFetcher, session: FakeSession) -> None:
     session.pages[STUB] = fixture("speech_pdf_stub.html")
-    session.pages[STUB_PDF] = make_pdf("The MPC must be forward-looking.\n" * 60)
+    session.pages[STUB_PDF] = fixture("speech_1998_page1.pdf")
 
     record = collect_speech(fetcher, STUB)
 
     assert record.source == "pdf"
-    assert record.speaker == "Mervyn King"
-    assert record.published_date == date(1999, 2, 22)
-    assert "forward-looking" in record.text
+    assert record.speaker == "Willem H. Buiter"
+    assert record.published_date == date(1998, 12, 15)
+    assert record.speech_date == date(1998, 12, 15)  # from the PDF cover
+    assert "Economic and Monetary Union has arrived de facto" in record.text
 
 
 def test_url_that_is_itself_a_pdf(fetcher: PoliteFetcher, session: FakeSession) -> None:
-    session.pages[STUB] = make_pdf("Speech by Eddie George, Governor\nStability matters.")
+    session.pages[STUB] = make_pdf("Speech by Eddie George, Governor\n21 October 1998\nHello.")
 
     record = collect_speech(fetcher, STUB)
 
     assert (record.source, record.speaker, record.role) == ("pdf", "Eddie George", "Governor")
+    assert record.speech_date == date(1998, 10, 21)
+
+
+def test_short_minutes_page_falls_back_to_the_longer_pdf(
+    fetcher: PoliteFetcher, session: FakeSession
+) -> None:
+    # The trimmed fixture is summary-length, like the 2015-2021 pages whose minutes
+    # are only in the PDF.
+    session.pages[MINUTES] = fixture("minutes_html.html")
+    session.pages[MINUTES_PDF] = make_pdf("1: The Committee discussed the outlook.\n" * 400)
+
+    record = collect_minutes(fetcher, MINUTES)
+
+    assert record.source == "pdf"
+    assert record.meeting_date == date(2025, 5, 7)
+    assert record.text.startswith("1: The Committee discussed")
 
 
 def test_minutes_keep_html_when_pdf_is_missing(
     fetcher: PoliteFetcher, session: FakeSession
 ) -> None:
-    session.pages[MINUTES] = fixture("minutes_html.html")  # its linked PDF returns 404
+    session.pages[MINUTES] = fixture("minutes_html.html")  # its PDF returns 404
 
     record = collect_minutes(fetcher, MINUTES)
 
     assert record.source == "html"
-    assert record.meeting_date == date(2023, 3, 22)
-    assert record.published_date == date(2023, 3, 23)
+    assert record.pdf_url == MINUTES_PDF
+    assert "voted by a majority" in record.text
 
 
-def test_collect_all_records_failures(fetcher: PoliteFetcher, session: FakeSession) -> None:
+def test_old_minutes_come_from_the_pdf(fetcher: PoliteFetcher, session: FakeSession) -> None:
     session.pages[OLD_MINUTES] = fixture("minutes_1997_stub.html")
-    session.pages[OLD_MINUTES_PDF] = make_pdf("Minutes of the meeting held on 5-6 June 1997")
+    session.pages[OLD_MINUTES_PDF] = fixture("minutes_1997_page1.pdf")
 
-    records, failures = collect_all(fetcher, [OLD_MINUTES, f"{BOE}/missing"], collect_minutes)
+    record = collect_minutes(fetcher, OLD_MINUTES)
 
-    assert [r.meeting_date for r in records] == [date(1997, 6, 6)]
-    assert failures[0][0] == f"{BOE}/missing"
+    assert record.source == "pdf"
+    assert (record.meeting_date, record.published_date) == (date(1997, 6, 6), date(1997, 7, 16))
+    assert record.text.startswith("Publication date: 16 July 1997")
+
+
+def test_collect_all_records_failures_and_skips_unpublished(
+    fetcher: PoliteFetcher, session: FakeSession
+) -> None:
+    session.pages[MINUTES] = fixture("minutes_html.html")
+    session.pages[PLACEHOLDER] = fixture("minutes_placeholder.html")  # "to be published"
+
+    records, failures = collect_all(
+        fetcher, [MINUTES, PLACEHOLDER, f"{BOE}/missing"], collect_minutes, today=date(2026, 10, 18)
+    )
+
+    assert [r.url for r in records] == [MINUTES]
+    assert [url for url, _ in failures] == [f"{BOE}/missing"]
 
 
 def test_to_frame_and_counts(fetcher: PoliteFetcher, session: FakeSession) -> None:
@@ -74,7 +111,7 @@ def test_to_frame_and_counts(fetcher: PoliteFetcher, session: FakeSession) -> No
     frame = to_frame(records, MinutesRecord, ("meeting_date", "published_date"))
 
     assert pd.api.types.is_datetime64_any_dtype(frame["published_date"])
-    assert counts_by_year(frame, "meeting_date").to_dict() == {"2023": 1}
+    assert counts_by_year(frame, "meeting_date").to_dict() == {"2025": 1}
 
 
 def test_main_writes_parquet(

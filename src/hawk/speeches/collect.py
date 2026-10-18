@@ -31,12 +31,16 @@ from hawk.speeches.parse import (
     parse_speech_html,
     pdf_text,
     speaker_and_role_from_text,
+    speech_date_from_pdf,
 )
 
 log = logging.getLogger("hawk.speeches.collect")
 
 # An HTML page with less text than this is treated as a stub that links to a PDF.
 MIN_HTML_CHARS = 1500
+# Minutes pages from 2015 to 2021 carry only the Monetary Policy Summary (about 4,500
+# characters) in HTML, with the minutes themselves in the PDF; full minutes are longer.
+MIN_MINUTES_HTML_CHARS = 10_000
 
 
 @dataclass(frozen=True)
@@ -81,23 +85,25 @@ def collect_speech(fetcher: PoliteFetcher, url: str) -> SpeechRecord:
     if is_pdf(body):
         text = pdf_text(body)
         speaker, role = speaker_and_role_from_text(text)
-        return SpeechRecord(url, None, speaker, role, None, None, "pdf", url, text)
+        speech_date = speech_date_from_pdf(text)
+        return SpeechRecord(url, None, speaker, role, speech_date, None, "pdf", url, text)
 
     page = parse_speech_html(body, url)
     text, source = page.text, "html"
-    speaker, role = page.speaker, page.role
+    speaker, role, speech_date = page.speaker, page.role, page.speech_date
     if len(text) < MIN_HTML_CHARS and page.pdf_url:
         pdf = pdf_fallback(fetcher, page.pdf_url)
         if pdf:
             text, source = pdf, "pdf"
             pdf_speaker, pdf_role = speaker_and_role_from_text(pdf)
             speaker, role = speaker or pdf_speaker, role or pdf_role
+            speech_date = speech_date or speech_date_from_pdf(pdf)
     return SpeechRecord(
         url=url,
         title=page.title,
         speaker=speaker,
         role=role,
-        speech_date=page.speech_date,
+        speech_date=speech_date,
         published_date=page.published_date,
         source=source,
         pdf_url=page.pdf_url,
@@ -108,9 +114,9 @@ def collect_speech(fetcher: PoliteFetcher, url: str) -> SpeechRecord:
 def collect_minutes(fetcher: PoliteFetcher, url: str) -> MinutesRecord:
     page = parse_minutes_html(fetcher.get(url), url)
     text, source, meeting_date = page.text, "html", page.meeting_date
-    if len(text) < MIN_HTML_CHARS and page.pdf_url:
+    if len(text) < MIN_MINUTES_HTML_CHARS and page.pdf_url:
         pdf = pdf_fallback(fetcher, page.pdf_url)
-        if pdf:
+        if pdf and len(pdf) > len(text):
             text, source = pdf, "pdf"
             meeting_date = meeting_date or parse_meeting_date(pdf)
     return MinutesRecord(
@@ -128,14 +134,24 @@ def collect_all(
     fetcher: PoliteFetcher,
     urls: Iterable[str],
     collect_one: Callable[[PoliteFetcher, str], Any],
+    today: date | None = None,
 ) -> tuple[list[Any], list[tuple[str, str]]]:
-    """Collect every URL, returning (records, failures) instead of stopping on errors."""
+    """Collect every URL, returning (records, failures) instead of stopping on errors.
+
+    The site lists placeholder pages for scheduled MPC meetings ("to be published at
+    12pm") with a future publication date; those are skipped, not counted as failures.
+    """
+    today = today or date.today()
     records: list[Any] = []
     failures: list[tuple[str, str]] = []
     urls = list(urls)
     for i, url in enumerate(urls, start=1):
         try:
-            records.append(collect_one(fetcher, url))
+            record = collect_one(fetcher, url)
+            if record.published_date is not None and record.published_date > today:
+                log.info("skipping %s: not published until %s", url, record.published_date)
+            else:
+                records.append(record)
         except (FetchError, PyPdfError, ValueError) as exc:
             log.warning("failed %s: %s", url, exc)
             failures.append((url, str(exc)))
