@@ -1,0 +1,2 @@
+# Raw downloads cached by `python -m hawk.market.collect`.
+.cache/
