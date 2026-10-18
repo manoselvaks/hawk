@@ -23,9 +23,20 @@ BASE_URL = "https://www.bankofengland.co.uk"
 FIRST_YEAR = 1997
 
 SPEECH_URL = re.compile(r"^https?://www\.bankofengland\.co\.uk/speech/(?P<year>\d{4})/[^?#]+$")
+_MONTH_SLUG = (
+    "january|february|march|april|may|june|july|august|september|october|november|december"
+)
+# Since August 2015 the minutes are published with the Monetary Policy Summary.
 MINUTES_URL = re.compile(
     r"^https?://www\.bankofengland\.co\.uk/monetary-policy-summary-and-minutes/"
     r"(?P<year>\d{4})/[^?#]+$"
+)
+# Earlier MPC minutes live under /minutes/, next to those of a dozen other committees
+# (Court, FXJSC, ...), so only the MPC slugs are matched: "monetary-policy-committee-june-1997",
+# "minutes-april-2003" (2003-05) and "monetary-policy-committee-18-september-2001".
+OLD_MINUTES_URL = re.compile(
+    r"^https?://www\.bankofengland\.co\.uk/minutes/(?P<year>\d{4})/"
+    rf"(?:monetary-policy-committee|minutes)-(?:\d{{1,2}}-)?(?:{_MONTH_SLUG})-\d{{4}}$"
 )
 
 
@@ -59,7 +70,8 @@ def parse_sitemap(body: bytes) -> Sitemap:
 def classify(url: str) -> str | None:
     """Return ``"speech"``, ``"minutes"`` or ``None`` for an arbitrary site URL."""
     url = url.rstrip("/")
-    for kind, pattern in (("speech", SPEECH_URL), ("minutes", MINUTES_URL)):
+    patterns = (("speech", SPEECH_URL), ("minutes", MINUTES_URL), ("minutes", OLD_MINUTES_URL))
+    for kind, pattern in patterns:
         match = pattern.match(url)
         if match and int(match["year"]) >= FIRST_YEAR:
             return kind
