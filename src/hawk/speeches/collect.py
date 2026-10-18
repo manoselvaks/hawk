@@ -38,6 +38,9 @@ log = logging.getLogger("hawk.speeches.collect")
 
 # An HTML page with less text than this is treated as a stub that links to a PDF.
 MIN_HTML_CHARS = 1500
+# Minutes pages from 2015 to 2021 carry only the Monetary Policy Summary (about 4,500
+# characters) in HTML, with the minutes themselves in the PDF; full minutes are longer.
+MIN_MINUTES_HTML_CHARS = 10_000
 
 
 @dataclass(frozen=True)
@@ -111,9 +114,9 @@ def collect_speech(fetcher: PoliteFetcher, url: str) -> SpeechRecord:
 def collect_minutes(fetcher: PoliteFetcher, url: str) -> MinutesRecord:
     page = parse_minutes_html(fetcher.get(url), url)
     text, source, meeting_date = page.text, "html", page.meeting_date
-    if len(text) < MIN_HTML_CHARS and page.pdf_url:
+    if len(text) < MIN_MINUTES_HTML_CHARS and page.pdf_url:
         pdf = pdf_fallback(fetcher, page.pdf_url)
-        if pdf:
+        if pdf and len(pdf) > len(text):
             text, source = pdf, "pdf"
             meeting_date = meeting_date or parse_meeting_date(pdf)
     return MinutesRecord(

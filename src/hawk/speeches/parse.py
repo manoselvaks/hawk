@@ -27,13 +27,18 @@ _DELIVERED = re.compile(
     re.IGNORECASE,
 )
 _MEETING = re.compile(
-    rf"meeting\s+(?:ending\s+on|held\s+on|on|of)\s+(?:\w+day,?\s+)?"
+    rf"meeting\s+(?:ending(?:\s+on)?|held\s+on|on|of)\s+(?:\w+day,?\s+)?"
     rf"(?P<span>[\d\s\w,\-\u2013]{{0,30}}?{DATE_PATTERN})",
     re.IGNORECASE,
 )
+# "speech by X", "lecture delivered by X", "Paper by X", or a bare "- by X" in a title.
+# Co-authored papers are left without a speaker. Honorifics are dropped so that, for
+# example, "Sir Jon Cunliffe" and "Jon Cunliffe" are one speaker.
 _SPEECH_BY = re.compile(
-    r"\b(?i:speech|remarks|lecture|address|comments)\s+(?:given\s+)?by\s+"
-    r"(?P<name>(?:Sir\s+|Dame\s+|Dr\.?\s+|Professor\s+)?[A-Z][\w.'\-]+(?:\s+[A-Z][\w.'\-]+){0,3})"
+    r"(?:\b(?i:speech|remarks|lecture|address|comments|paper|presentation|slides)"
+    r"(?:\s+(?:given|delivered))?|\s[-\u2013\u2212])\s+by\s+"
+    r"(?:(?:Sir|Dame|Dr\.?|Professor)\s+)?"
+    r"(?P<name>[A-Z][\w.'\-]+(?:\s+[A-Z][\w.'\-]+){0,3})"
 )
 _ROLE = re.compile(
     r"(?P<role>(?:Deputy\s+)?Governor(?:\s+for\s+[A-Z][\w\s,]+?)?"
@@ -45,10 +50,13 @@ _ROLE = re.compile(
 )
 _SITE_SUFFIX = re.compile(r"\s*[|\-\u2013]\s*Bank of England\s*$", re.IGNORECASE)
 
-# A page's own PDF is its download button ("btn-pubs" on older pages, "button-download"
-# on newer ones). Links in the body are citations of other publications (including other
-# speeches), which must not be mistaken for it.
-OWN_PDF_BUTTON = "a.btn-pubs[href], a.button-download[href]"
+# A page's own PDF is its download button ("btn-pubs", "btn-cta", "button-download", or
+# a "list-links" download list, depending on the page's age). Links in the body are
+# citations of other publications (including other speeches), which must not be
+# mistaken for it, and download lists also offer press-conference transcripts.
+OWN_PDF_BUTTON = (
+    "a.btn-pubs[href], a.btn-cta[href], a.button-download[href], a.list-links__link[href]"
+)
 _PDF_HREF = re.compile(r"\.pdf(?:$|[?#])", re.IGNORECASE)
 
 # Old speech PDFs repeat a banner and a page number on every page.
@@ -65,6 +73,8 @@ CONTENT_SELECTORS = (
     "main",
 )
 BLOCK_TAGS = ("p", "div", "section", "li", "tr", "h1", "h2", "h3", "h4", "h5", "h6", "blockquote")
+# Footnotes are repeated in pop-up boxes next to the footnote list.
+NOISE_SELECTORS = "div.modal"
 NOISE_TAGS = ("script", "style", "noscript", "nav", "header", "footer", "aside", "form", "iframe")
 
 
@@ -225,10 +235,15 @@ def _first_date(pattern: re.Pattern[str], text: str) -> date | None:
 def _body_text(soup: BeautifulSoup) -> str:
     for tag in soup.find_all(NOISE_TAGS):
         tag.decompose()
+    for tag in soup.select(NOISE_SELECTORS):
+        tag.decompose()
     container: Tag | None = None
     for selector in CONTENT_SELECTORS:
-        container = soup.select_one(selector)
-        if container is not None:
+        # Some pages have several content blocks (e.g. a short "Overview" box before
+        # the speech itself); the speech is the one with the most text.
+        found = soup.select(selector)
+        if found:
+            container = max(found, key=lambda tag: len(tag.get_text()))
             break
     root = container or soup.body or soup
     # Source line-wraps are not paragraph breaks: flatten whitespace inside text nodes,
@@ -247,7 +262,8 @@ def _body_text(soup: BeautifulSoup) -> str:
 def _pdf_link(soup: BeautifulSoup, base_url: str) -> str | None:
     for anchor in soup.select(OWN_PDF_BUTTON):
         href = anchor["href"]
-        if isinstance(href, str) and _PDF_HREF.search(href):
+        is_transcript = "transcript" in anchor.get_text(" ", strip=True).lower()
+        if isinstance(href, str) and _PDF_HREF.search(href) and not is_transcript:
             return urljoin(base_url, href)
     return None
 

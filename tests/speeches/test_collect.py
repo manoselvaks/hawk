@@ -52,17 +52,31 @@ def test_url_that_is_itself_a_pdf(fetcher: PoliteFetcher, session: FakeSession) 
     assert record.speech_date == date(1998, 10, 21)
 
 
-def test_full_html_minutes_do_not_fetch_the_pdf(
+def test_short_minutes_page_falls_back_to_the_longer_pdf(
     fetcher: PoliteFetcher, session: FakeSession
 ) -> None:
+    # The trimmed fixture is summary-length, like the 2015-2021 pages whose minutes
+    # are only in the PDF.
     session.pages[MINUTES] = fixture("minutes_html.html")
+    session.pages[MINUTES_PDF] = make_pdf("1: The Committee discussed the outlook.\n" * 400)
+
+    record = collect_minutes(fetcher, MINUTES)
+
+    assert record.source == "pdf"
+    assert record.meeting_date == date(2025, 5, 7)
+    assert record.text.startswith("1: The Committee discussed")
+
+
+def test_minutes_keep_html_when_pdf_is_missing(
+    fetcher: PoliteFetcher, session: FakeSession
+) -> None:
+    session.pages[MINUTES] = fixture("minutes_html.html")  # its PDF returns 404
 
     record = collect_minutes(fetcher, MINUTES)
 
     assert record.source == "html"
-    assert record.meeting_date == date(2025, 5, 7)
     assert record.pdf_url == MINUTES_PDF
-    assert MINUTES_PDF not in session.calls
+    assert "voted by a majority" in record.text
 
 
 def test_old_minutes_come_from_the_pdf(fetcher: PoliteFetcher, session: FakeSession) -> None:
