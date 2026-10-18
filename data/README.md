@@ -8,6 +8,8 @@
 | `llm_cache/` | Cached LLM scores, one JSON file per (model, prompt version, input, replicate) |
 | `llm_spend.jsonl` | Every paid OpenRouter call and the running total (read by the spend cap) |
 | `pilot/pilot_scores.csv` | Raw results of the scoring pilot (`python -m hawk.scoring.pilot`) |
+| `scores.parquet` | One row per scored document, LLM and baseline (`python -m hawk.scoring.score_all --confirm`; not yet built). Schema in [docs/data-contract.md](../docs/data-contract.md) |
+| `analysis/` | `evaluation.json` (scorers vs hand labels) and `findings.json` (analysis results) for the website; same contract |
 | `collect_failures.csv` | URLs that could not be collected on the last run, with the error (only written if any failed) |
 
 Rebuild everything with `python -m hawk.speeches.collect` (see the main README).

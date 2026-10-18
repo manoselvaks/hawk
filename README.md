@@ -16,7 +16,8 @@ explains?** See [PLAN.md](PLAN.md) for the full plan.
 | Market data (Bank Rate, gilt yields) | in progress (`src/hawk/market/`) |
 | Tone scoring (word list + LLM) | ✅ built, piloted (`src/hawk/scoring/`); full corpus not yet scored |
 | Hand labels for evaluation | tool ready (`labelling/`) |
-| Analysis and website | planned |
+| Website | ✅ built, preview mode until scores are final (`src/hawk/site/`) |
+| Analysis | planned |
 
 ## Install
 
@@ -70,6 +71,24 @@ LLM calls are cached in `data/llm_cache/` and every call's cost is logged in
 `data/llm_spend.jsonl`; the scorer refuses to run past a spend cap ($4 by default,
 `--spend-cap` or `HAWK_SPEND_CAP_USD` to change). Set `OPENROUTER_API_KEY` to run
 locally.
+
+## Website
+
+A static site (home chart, speech explorer, MPC member pages, findings, methodology)
+built from the data files with Jinja templates, plain CSS and [uPlot](https://github.com/leeoniya/uPlot):
+
+```bash
+make site                      # or: python -m hawk.site.build  -> site/_build/
+python -m hawk.site.serve      # build and preview on http://localhost:8000
+make screenshots               # docs/screenshots/ (needs Node + Playwright)
+```
+
+Until `data/scores.parquet` exists the site is built with demo scores and says
+"Preview" on every page. The files it reads are specified in
+[docs/data-contract.md](docs/data-contract.md). It is deployed to GitHub Pages by the
+manual **Website** workflow (`.github/workflows/pages.yml`).
+
+![Home page](docs/screenshots/home-desktop-light.png)
 
 ## Development
 

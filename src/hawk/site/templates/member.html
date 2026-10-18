@@ -1,0 +1,99 @@
+{% extends "base.html" %}
+{% from "macros.html" import div_bar, stance_pill %}
+{% block head %}<link rel="stylesheet" href="{{ root }}static/vendor/uPlot.min.css">{% endblock %}
+{% block main %}
+<section class="page-head wrap">
+  <p class="eyebrow reveal"><a href="{{ root }}members/">MPC members</a></p>
+  <h1 class="reveal">{{ m.name }}</h1>
+  <p class="lede reveal">On the Monetary Policy Committee from {{ m.first_vote }} {{ "and still serving" if m.serving else "to " ~ m.last_vote }}, with {{ m.n_votes }} Bank Rate vote{{ "" if m.n_votes == 1 else "s" }}.</p>
+</section>
+
+<section class="wrap">
+  <div class="stat-row">
+    <div class="tile reveal">
+      <p class="tile-label">Average stance</p>
+      <p class="tile-value">{{ stance_pill(m.mean_stance) }}</p>
+      <p class="tile-detail">{{ m.n_scored }} speech{{ "" if m.n_scored == 1 else "es" }} on monetary policy while on the MPC</p>
+    </div>
+    <div class="tile reveal">
+      <p class="tile-label">Committee over the same years</p>
+      <p class="tile-value">{{ stance_pill(m.committee_mean) }}</p>
+      <p class="tile-detail">
+        {% if m.mean_stance is not none and m.committee_mean is not none %}
+          {% set d = m.mean_stance - m.committee_mean %}
+          {% if d > 0.1 %}More hawkish than the committee by {{ d|num }}{% elif d < -0.1 %}More dovish than the committee by {{ (-d)|num }}{% else %}In line with the committee{% endif %}
+        {% else %}Not enough scored speeches to compare{% endif %}
+      </p>
+    </div>
+    <div class="tile reveal">
+      <p class="tile-label">Dissents</p>
+      <p class="tile-value">{{ m.dissents|length }}</p>
+      <p class="tile-detail"><span class="t-hawk">{{ m.n_higher }} for higher</span> · <span class="t-dove">{{ m.n_lower }} for lower</span> than the agreed rate</p>
+    </div>
+  </div>
+  <div class="compare card reveal" aria-label="Average stance compared with the committee">
+    <div class="compare-row"><span>{{ m.name }}</span>{{ div_bar(m.mean_stance, 1.0, m.name) }}<span class="num">{{ m.mean_stance|stance }}</span></div>
+    <div class="compare-row"><span>Committee</span>{{ div_bar(m.committee_mean, 1.0, "Committee") }}<span class="num">{{ m.committee_mean|stance }}</span></div>
+    <div class="compare-axis muted small"><span>Dovish −1</span><span>0</span><span>+1 Hawkish</span></div>
+  </div>
+</section>
+
+{% if m.chart.x %}
+<section class="wrap section" aria-labelledby="tone-title">
+  <figure class="card chart-card reveal">
+    <div class="chart-head">
+      <div>
+        <h2 class="chart-title" id="tone-title">Tone over time</h2>
+        <p class="chart-sub">Each dot is one speech on monetary policy. The line is the whole committee’s trailing six-month tone.</p>
+      </div>
+      <ul class="legend"><li><i class="sw sw-dot-hawk"></i>Hawkish</li><li><i class="sw sw-dot-dove"></i>Dovish</li><li><i class="sw sw-dot-neutral"></i>Neutral</li><li><i class="sw sw-line"></i>Committee</li></ul>
+    </div>
+    <div class="chart" id="member-chart" role="img" aria-label="Scatter of {{ m.name }}'s speech stances over time with the committee average"></div>
+  </figure>
+</section>
+{% endif %}
+
+<section class="wrap section" aria-labelledby="dissent-title">
+  <h2 class="section-title reveal" id="dissent-title">Dissent history</h2>
+  {% if m.dissents %}
+  <div class="table-wrap card reveal">
+    <table class="data">
+      <thead><tr><th scope="col">Decision</th><th scope="col">Committee</th><th scope="col">Wanted</th><th scope="col">Vote</th></tr></thead>
+      <tbody>
+      {% for d in m.dissents|reverse %}
+        <tr><td>{{ d.date }}</td><td>{{ d.decision|capitalize }} to {{ "%.2f"|format(d.agreed) }}%</td><td class="t-{{ 'hawk' if d.direction == 'higher' else 'dove' }}">{{ "↑" if d.direction == "higher" else "↓" }} {{ "%.2f"|format(d.wanted) }}%</td><td class="num">{{ d.vote_split }}</td></tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% else %}
+  <p class="muted reveal">{{ m.name }} voted with the majority at every meeting.</p>
+  {% endif %}
+</section>
+
+<section class="wrap section" aria-labelledby="speeches-title">
+  <h2 class="section-title reveal" id="speeches-title">Speeches</h2>
+  {% if m.speeches %}
+  <ol class="doc-list static">
+    {% for s in m.speeches[:40] %}
+    <li><a class="doc" href="{{ root }}speeches/#doc={{ s.id }}">
+      <span class="doc-date">{{ s.date }}</span>
+      <span class="doc-title">{{ s.title }}</span>
+      {{ stance_pill(s.stance if (s.relevance or 0) >= config.RELEVANCE_THRESHOLD else none) }}
+    </a></li>
+    {% endfor %}
+  </ol>
+  {% if m.speeches|length > 40 %}<p><a href="{{ root }}speeches/?speaker={{ m.name|urlencode }}">All {{ m.speeches|length }} speeches →</a></p>{% endif %}
+  {% else %}
+  <p class="muted">No speeches by {{ m.name }} in the collected archive.</p>
+  {% endif %}
+</section>
+<script type="application/json" id="member-data">{{ json({"chart": m.chart, "committee": m.committee, "name": m.name})|safe }}</script>
+{% endblock %}
+{% block scripts %}
+{% if m.chart.x %}
+<script src="{{ root }}static/vendor/uPlot.iife.min.js" defer></script>
+<script src="{{ root }}static/charts.js" defer></script>
+<script src="{{ root }}static/member.js" defer></script>
+{% endif %}
+{% endblock %}

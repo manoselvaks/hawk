@@ -22,6 +22,8 @@ What is reported, for each scorer:
 * **LLM self-consistency**: the same items scored a second time (``replicate=1``),
   with exact and within-0.5 agreement and the mean absolute difference.
 
+It also writes the same numbers as JSON (``--json-out``) for the website.
+
 The metric functions are pure and take plain frames, so they are tested with a
 synthetic labels file and no network.
 """
@@ -29,10 +31,13 @@ synthetic labels file and no network.
 from __future__ import annotations
 
 import argparse
+import json
 import logging
 import math
 from dataclasses import dataclass
+from datetime import UTC, datetime
 from pathlib import Path
+from typing import Any
 
 import numpy as np
 import pandas as pd
@@ -192,16 +197,9 @@ def _confusion_md(table: pd.DataFrame) -> str:
     return "\n".join(lines)
 
 
-def build_report(
-    labels: pd.DataFrame,
-    predictions: pd.DataFrame,
-    consistency: Consistency | None,
-    *,
-    model: str,
-    input_mode: str,
-) -> str:
-    """Markdown report. ``predictions`` has one row per item with columns
-    ``item, baseline_stance, baseline_relevant, llm_stance, llm_relevance``."""
+def _metrics(
+    labels: pd.DataFrame, predictions: pd.DataFrame, *, model: str, input_mode: str
+) -> tuple[pd.DataFrame, dict[str, StanceMetrics], dict[str, RelevanceMetrics]]:
     df = labels.merge(predictions, on="item", how="left")
     scorers = {
         "Baseline (word lists)": (df["baseline_stance"], df["baseline_relevant"]),
@@ -214,6 +212,86 @@ def build_report(
     relevance = {
         name: relevance_metrics(df["human_relevant"], r) for name, (_, r) in scorers.items()
     }
+    return df, stance, relevance
+
+
+def _num(x: float) -> float | None:
+    return None if x is None or math.isnan(x) else round(float(x), 4)
+
+
+def build_json(
+    labels: pd.DataFrame,
+    predictions: pd.DataFrame,
+    consistency: Consistency | None,
+    *,
+    model: str,
+    input_mode: str,
+) -> dict[str, Any]:
+    """The same results as ``build_report``, as the ``evaluation.json`` the website reads.
+
+    Schema in ``docs/data-contract.md``; NaN becomes ``null``.
+    """
+    df, stance, relevance = _metrics(labels, predictions, model=model, input_mode=input_mode)
+    scorers = []
+    for (name, m), r in zip(stance.items(), relevance.values(), strict=True):
+        conf = m.confusion
+        scorers.append(
+            {
+                "name": name,
+                "kind": "baseline" if name.startswith("Baseline") else "llm",
+                "stance": {
+                    "n_scored": m.n_scored,
+                    "n_compared": m.n_compared,
+                    "spearman": _num(m.spearman),
+                    "exact": _num(m.exact),
+                    "within_one": _num(m.within_one),
+                    "confusion": {
+                        "labels": SCALE,
+                        "rows": conf[SCALE].astype(int).values.tolist(),
+                        "no_stance": conf["no stance"].astype(int).tolist(),
+                    },
+                },
+                "relevance": {
+                    "n": r.n,
+                    "precision": _num(r.precision),
+                    "recall": _num(r.recall),
+                    "accuracy": _num(r.accuracy),
+                },
+            }
+        )
+    out: dict[str, Any] = {
+        "schema_version": 1,
+        "generated_at": datetime.now(UTC).isoformat(timespec="seconds"),
+        "model": model,
+        "input_mode": input_mode,
+        "n_labelled": len(df),
+        "n_relevant": int(df["human_relevant"].sum()),
+        "scorers": scorers,
+        "consistency": None,
+    }
+    if consistency is not None:
+        c = consistency
+        out["consistency"] = {
+            "n": c.n,
+            "exact": _num(c.exact),
+            "within_half": _num(c.within_half),
+            "mean_abs_diff": _num(c.mean_abs_diff),
+            "relevance_agree": _num(c.relevance_agree),
+        }
+    return out
+
+
+def build_report(
+    labels: pd.DataFrame,
+    predictions: pd.DataFrame,
+    consistency: Consistency | None,
+    *,
+    model: str,
+    input_mode: str,
+) -> str:
+    """Markdown report. ``predictions`` has one row per item with columns
+    ``item, baseline_stance, baseline_relevant, llm_stance, llm_relevance``."""
+    df, stance, relevance = _metrics(labels, predictions, model=model, input_mode=input_mode)
 
     out = [
         "# Scorer evaluation against hand labels",
@@ -308,6 +386,9 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--input-mode", choices=["passages", "full"], default=DEFAULT_INPUT_MODE)
     parser.add_argument("--no-consistency", action="store_true", help="skip the second run")
     parser.add_argument("--out", type=Path, default=Path("docs/evaluation.md"))
+    parser.add_argument(
+        "--json-out", type=Path, default=Path("data/analysis/evaluation.json"), help="for the site"
+    )
     args = parser.parse_args(argv)
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
 
@@ -330,6 +411,9 @@ def main(argv: list[str] | None = None) -> int:
     report = build_report(labels, preds, consistency, model=args.model, input_mode=args.input_mode)
     args.out.parent.mkdir(parents=True, exist_ok=True)
     args.out.write_text(report)
+    results = build_json(labels, preds, consistency, model=args.model, input_mode=args.input_mode)
+    args.json_out.parent.mkdir(parents=True, exist_ok=True)
+    args.json_out.write_text(json.dumps(results, indent=2) + "\n")
     log.info("wrote %s (OpenRouter spend this run: $%.4f)", args.out, scorer.tracker.session_usd)
     print(report)
     return 0

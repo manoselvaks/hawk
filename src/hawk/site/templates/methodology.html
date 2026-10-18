@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% from "macros.html" import soon %}
+{% block main %}
+<section class="page-head wrap">
+  <p class="eyebrow reveal">Methodology</p>
+  <h1 class="reveal">How the scores are made.</h1>
+  <p class="lede reveal">Each document gets a relevance (is it about monetary policy?) and a stance from −2, very dovish, to +2, very hawkish, from two scorers: a transparent word-list baseline and a large language model. Nothing uses information from after the day a document was published.</p>
+</section>
+
+<section class="wrap section" id="accuracy" aria-labelledby="acc-title">
+  <h2 class="section-title reveal" id="acc-title">How accurate is the AI?</h2>
+  {% if evaluation %}{% set ev = evaluation %}
+  <p class="takeaway reveal">Both scorers against {{ ev.n_labelled }} hand-labelled documents ({{ ev.n_relevant }} about monetary policy). Spearman ρ measures whether the scorer ranks documents the way the human did; 1 is perfect, 0 is no better than chance.</p>
+  <div class="table-wrap card reveal"><table class="data">
+    <thead><tr><th scope="col">Scorer</th><th scope="col" class="num">Spearman ρ</th><th scope="col" class="num">Exact</th><th scope="col" class="num">Within 1 point</th><th scope="col" class="num">Relevance precision</th><th scope="col" class="num">Relevance recall</th></tr></thead>
+    <tbody>{% for s in ev.scorers %}<tr><td>{{ s.name }}</td><td class="num">{{ s.stance.spearman|num }}</td><td class="num">{{ s.stance.exact|pct }}</td><td class="num">{{ s.stance.within_one|pct }}</td><td class="num">{{ s.relevance.precision|pct }}</td><td class="num">{{ s.relevance.recall|pct }}</td></tr>{% endfor %}</tbody>
+  </table></div>
+  <div class="grid-2 mt">
+  {% for s in ev.scorers %}
+    {% set c = s.stance.confusion %}
+    {% set ns = namespace(mx=1) %}{% for r in c.rows %}{% set ns.mx = [ns.mx, r|max]|max %}{% endfor %}
+    <figure class="card pad reveal">
+      <h3 class="chart-title">{{ s.name }}</h3>
+      <p class="chart-sub">Hand label (rows) against scorer, rounded (columns). The diagonal is exact agreement.</p>
+      <div class="confusion" role="table" aria-label="Confusion matrix for {{ s.name }}">
+        <div role="row" class="cm-row"><span role="columnheader" class="cm-corner small muted">human ↓ / model →</span>{% for l in c.labels %}<span role="columnheader" class="cm-h">{{ "%+d"|format(l) if l else "0" }}</span>{% endfor %}</div>
+        {% for r in c.rows %}{% set i = loop.index0 %}
+        <div role="row" class="cm-row"><span role="rowheader" class="cm-h">{{ "%+d"|format(c.labels[i]) if c.labels[i] else "0" }}</span>{% for v in r %}<span role="cell" class="cm-cell{{ ' cm-diag' if loop.index0 == i }}" style="--a:{{ '%.2f'|format(v / ns.mx) }}">{{ v }}</span>{% endfor %}</div>
+        {% endfor %}
+      </div>
+    </figure>
+  {% endfor %}
+  </div>
+  {% if ev.consistency %}<p class="muted reveal mt">Self-consistency: scoring the same {{ ev.consistency.n }} documents twice gave the identical stance {{ ev.consistency.exact|pct }} of the time, and within half a point {{ ev.consistency.within_half|pct }}.</p>{% endif %}
+  {% else %}
+  {{ soon("Scored against 36 hand labels", "30 speeches by sitting MPC members and 6 sets of minutes, labelled blind across four eras and three policy contexts. The comparison of the AI and the word lists will appear here once labelling is finished.") }}
+  {% endif %}
+</section>
+
+<section class="wrap section prose-wrap">
+  <article class="prose reveal">
+    {{ body }}
+  </article>
+  <p class="muted small">This page is rendered from <a href="{{ config.REPO_URL }}/blob/main/docs/methodology.md">docs/methodology.md</a>.</p>
+</section>
+{% endblock %}

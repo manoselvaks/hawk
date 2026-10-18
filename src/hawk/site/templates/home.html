@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+{% from "macros.html" import tile_placeholder %}
+{% block main %}
+<section class="hero wrap">
+  <p class="eyebrow reveal">Bank of England · {{ stats.first_year }}–{{ stats.last_year }}</p>
+  <h1 class="reveal">Did the Bank’s tone move before its rates did?</h1>
+  <p class="lede reveal">Hawk reads {{ stats.n_docs|thousands }} Bank of England speeches and sets of MPC minutes, scores each one from <span class="t-dove">dovish</span> to <span class="t-hawk">hawkish</span>, and tests whether tone predicted Bank Rate decisions and 2-year gilt moves, using only what the market knew at the time.</p>
+  <div class="cta reveal">
+    <a class="btn btn-primary" href="{{ root }}speeches/">Explore the speeches</a>
+    <a class="btn btn-ghost" href="{{ root }}findings/">See the findings <span aria-hidden="true">→</span></a>
+  </div>
+</section>
+
+<section class="wrap" aria-labelledby="hero-chart-title">
+  <figure class="card chart-card reveal">
+    <div class="chart-head">
+      <div>
+        <h2 id="hero-chart-title" class="chart-title">The tone of the MPC, and what it did</h2>
+        <p class="chart-sub">Trailing six-month average stance of MPC minutes and speeches by sitting members, on monetary policy only.</p>
+      </div>
+      <ul class="legend" aria-label="Legend">
+        <li><i class="sw sw-hawk"></i>Hawkish</li>
+        <li><i class="sw sw-dove"></i>Dovish</li>
+        <li><i class="sw sw-dot-hawk"></i>Hike</li>
+        <li><i class="sw sw-dot-dove"></i>Cut</li>
+      </ul>
+    </div>
+    <div class="panel-label"><span>Tone index</span><span class="muted">−2 dovish · +2 hawkish</span></div>
+    <div class="chart" id="tone-chart" role="img" aria-label="Line chart of the MPC tone index from {{ stats.first_year }} to {{ stats.last_year }}"></div>
+    <div class="panel-label"><span>Bank Rate</span><span class="muted">%</span></div>
+    <div class="chart chart-short" id="rate-chart" role="img" aria-label="Step chart of Bank Rate with hike and cut decisions marked"></div>
+    <figcaption class="chart-foot muted small">
+      Shaded: {% for e in config.ERAS %}{{ e.label }}{% if not loop.last %}, {% endif %}{% endfor %}.
+      The average looks back only, so each point uses documents published by that date.
+      {% if preview %}<strong>Preview scores.</strong>{% endif %}
+    </figcaption>
+    <noscript><p class="muted small">The chart needs JavaScript. The underlying series is in <a href="{{ root }}data/tone_index.json">tone_index.json</a>.</p></noscript>
+  </figure>
+</section>
+
+<section class="wrap section" aria-labelledby="headline-title">
+  <h2 id="headline-title" class="section-title reveal">Headline results</h2>
+  <div class="tiles">
+    {% set headline = ((findings or {}).get('headline') or []) %}
+    {% for h in headline[:3] %}
+    <article class="tile reveal">
+      <p class="tile-label">{{ h.label }}</p>
+      <p class="tile-value">{{ h.display }}</p>
+      <p class="tile-detail">{{ h.detail }}</p>
+    </article>
+    {% endfor %}
+    {% for p in [("Did tone lead decisions?", "Whether tone before a meeting predicts the decision, beyond the previous one."), ("Did gilts listen?", "How 2-year gilt yields move on days with hawkish or dovish speeches."), ("How good is the AI?", "Agreement between the AI scorer and 36 hand-labelled documents.")][headline|length:3] %}
+    {{ tile_placeholder(p[0], p[1]) }}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="wrap section">
+  <dl class="facts reveal">
+    <div><dt>Speeches</dt><dd>{{ stats.n_speeches|thousands }}</dd></div>
+    <div><dt>Sets of minutes</dt><dd>{{ stats.n_minutes|thousands }}</dd></div>
+    <div><dt>MPC decisions</dt><dd>{{ stats.n_decisions|thousands }}</dd></div>
+    <div><dt>MPC members</dt><dd>{{ stats.n_members }}</dd></div>
+  </dl>
+</section>
+
+<section class="wrap section" aria-label="Explore">
+  <div class="link-grid">
+    <a class="link-card reveal" href="{{ root }}speeches/"><h3>Speech explorer</h3><p>Search every speech by speaker, year and tone, with the AI’s reasoning and a link to the original.</p><span class="arrow" aria-hidden="true">→</span></a>
+    <a class="link-card reveal" href="{{ root }}members/"><h3>MPC members</h3><p>Who leaned hawkish, who leaned dovish, and who voted against the majority.</p><span class="arrow" aria-hidden="true">→</span></a>
+    <a class="link-card reveal" href="{{ root }}methodology/"><h3>Methodology</h3><p>How the scores are made, how look-ahead is avoided, and how accurate the AI is.</p><span class="arrow" aria-hidden="true">→</span></a>
+  </div>
+</section>
+<script type="application/json" id="hero-data">{{ json(hero)|safe }}</script>
+{% endblock %}
+{% block scripts %}
+<script src="{{ root }}static/vendor/uPlot.iife.min.js" defer></script>
+<script src="{{ root }}static/charts.js" defer></script>
+<script src="{{ root }}static/home.js" defer></script>
+{% endblock %}
+{% block head %}<link rel="stylesheet" href="{{ root }}static/vendor/uPlot.min.css">{% endblock %}

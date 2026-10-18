@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% from "macros.html" import div_bar, stance_pill %}
+{% block main %}
+<section class="page-head wrap">
+  <p class="eyebrow reveal">MPC members</p>
+  <h1 class="reveal">{{ stats.n_members }} voices, one rate.</h1>
+  <p class="lede reveal">Every member of the Monetary Policy Committee since 1997: the average stance of their policy speeches while on the committee, and how often they voted for a higher or lower rate than the majority.</p>
+</section>
+{% for group, items in [("Current members", members|selectattr("serving")|list), ("Former members", members|rejectattr("serving")|list)] %}
+<section class="wrap section" aria-labelledby="g{{ loop.index }}">
+  <h2 class="section-title reveal" id="g{{ loop.index }}">{{ group }}</h2>
+  <ul class="member-grid">
+    {% for m in items|sort(attribute="first_year", reverse=true) %}
+    <li class="reveal">
+      <a class="member-card" href="{{ root }}members/{{ m.slug }}/">
+        <span class="mc-name">{{ m.name }}</span>
+        <span class="mc-years muted small">{{ m.first_vote }} – {{ "today" if m.serving else m.last_vote }}</span>
+        <span class="mc-row">{{ div_bar(m.mean_stance, 1.0, "Average stance") }}{{ stance_pill(m.mean_stance) }}</span>
+        <span class="mc-meta muted small">{{ m.n_scored }} scored speech{{ "" if m.n_scored == 1 else "es" }} · {% if m.dissents %}<span class="t-hawk">{{ m.n_higher }}↑</span> <span class="t-dove">{{ m.n_lower }}↓</span> dissents{% else %}no dissents{% endif %}</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}
+<section class="wrap section"><p class="muted small">Average stance: mean AI stance of a member’s speeches on monetary policy (relevance ≥ {{ config.RELEVANCE_THRESHOLD }}) given while on the committee. ↑ / ↓: votes for a higher / lower Bank Rate than the one agreed. Votes from the Bank’s MPC voting record.</p></section>
+{% endblock %}
