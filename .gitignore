@@ -218,3 +218,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Hawk: raw download cache (rebuildable, not committed)
+data/raw/
