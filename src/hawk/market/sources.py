@@ -3,13 +3,10 @@
 from __future__ import annotations
 
 from datetime import date
-from urllib.parse import urlencode
 
-IADB_URL = "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp"
-"""Statistical Interactive Database (IADB) CSV endpoint."""
-
-BANK_RATE_SERIES = "IUDBEDR"
-"""IADB code for the daily official Bank Rate, in percent."""
+BANK_RATE_URL = "https://www.bankofengland.co.uk/boeapps/database/Bank-Rate.asp"
+"""Table of every Bank Rate change since 1975. (The same data is IADB series
+``IUDBEDR``, but robots.txt disallows the IADB download endpoint.)"""
 
 MPC_VOTING_URL = (
     "https://www.bankofengland.co.uk/-/media/boe/files/"
@@ -19,9 +16,7 @@ MPC_VOTING_URL = (
 
 MPC_VOTING_SHEET = "Bank Rate Decisions"
 
-_YIELD_CURVE_BASE = (
-    "https://www.bankofengland.co.uk/-/media/boe/files/statistics/yield-curves"
-)
+_YIELD_CURVE_BASE = "https://www.bankofengland.co.uk/-/media/boe/files/statistics/yield-curves"
 YIELD_ARCHIVE_URL = f"{_YIELD_CURVE_BASE}/glcnominalddata.zip"
 """Daily nominal government liability curve (GLC) archive, all years."""
 
@@ -41,18 +36,3 @@ UNSCHEDULED_DECISIONS: dict[date, str] = {
     date(2020, 3, 19): "Emergency Covid-19 cut",
 }
 """MPC decisions taken outside the published meeting calendar."""
-
-
-def iadb_csv_url(series: str, start: date, end: date) -> str:
-    """Build the IADB CSV download URL for one series between two dates."""
-    query = {
-        "csv.x": "yes",
-        "Datefrom": start.strftime("%d/%b/%Y"),
-        "Dateto": end.strftime("%d/%b/%Y"),
-        "SeriesCodes": series,
-        "CSVF": "TN",
-        "UsingCodes": "Y",
-        "VPD": "Y",
-        "VFD": "N",
-    }
-    return f"{IADB_URL}?{urlencode(query, safe='/')}"

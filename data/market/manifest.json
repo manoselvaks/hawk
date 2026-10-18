@@ -1,0 +1,18 @@
+{
+  "built_at": "2026-10-18T12:16:53+00:00",
+  "bank_rate": {
+    "rows": 71,
+    "first_date": "1997-05-06",
+    "last_date": "2025-12-18"
+  },
+  "mpc_decisions": {
+    "rows": 315,
+    "first_date": "1997-06-06",
+    "last_date": "2026-09-17"
+  },
+  "gilt_yields": {
+    "rows": 7527,
+    "first_date": "1997-01-02",
+    "last_date": "2026-10-15"
+  }
+}

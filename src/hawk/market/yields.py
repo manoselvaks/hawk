@@ -8,6 +8,7 @@ underneath, dates in column A.
 
 from __future__ import annotations
 
+import datetime as dt
 import io
 import re
 import zipfile
@@ -45,7 +46,7 @@ def parse_spot_curve(workbook: bytes, maturities: Mapping[str, float]) -> pd.Dat
     the workbook does not cover comes back as missing values.
     """
     excel = pd.ExcelFile(io.BytesIO(workbook), engine="openpyxl")
-    sheet = next((s for s in excel.sheet_names if _SPOT_SHEET.search(s.strip())), None)
+    sheet = next((s for s in excel.sheet_names if _SPOT_SHEET.search(str(s).strip())), None)
     if sheet is None:
         raise ValueError(f"no spot curve sheet among {excel.sheet_names}")
     raw = excel.parse(sheet, header=None)
@@ -53,15 +54,15 @@ def parse_spot_curve(workbook: bytes, maturities: Mapping[str, float]) -> pd.Dat
     header = _maturity_row(raw)
     years = pd.to_numeric(raw.iloc[header], errors="coerce")
     body = raw.iloc[header + 1 :]
-    dates = pd.to_datetime(body.iloc[:, 0], errors="coerce")
+    # Column A holds the dates; other cells in it are labels ("years:") or blank.
+    first = body.iloc[:, 0]
+    dates = pd.to_datetime(first.where(first.map(lambda v: isinstance(v, dt.date))))
 
     out = pd.DataFrame({"date": dates.dt.normalize()})
     for column, maturity in maturities.items():
         matches = years.index[(years - maturity).abs() < 1e-9]
         out[column] = (
-            pd.to_numeric(body[matches[0]], errors="coerce")
-            if len(matches)
-            else float("nan")
+            pd.to_numeric(body[matches[0]], errors="coerce") if len(matches) else float("nan")
         )
     out = out.dropna(subset=["date"])
     return out.dropna(how="all", subset=list(maturities)).reset_index(drop=True)
@@ -72,4 +73,5 @@ def combine_yields(frames: Iterable[pd.DataFrame], start: pd.Timestamp) -> pd.Da
     stacked = pd.concat(list(frames), ignore_index=True)
     stacked = stacked[(stacked["date"] >= start) & (stacked["date"].dt.dayofweek < 5)]
     stacked = stacked.drop_duplicates(subset="date", keep="last")
-    return stacked.sort_values("date").reset_index(drop=True)
+    combined: pd.DataFrame = stacked.sort_values("date").reset_index(drop=True)
+    return combined

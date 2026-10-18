@@ -42,9 +42,7 @@ def test_sets_user_agent_and_caches(tmp_path: Path) -> None:
 
 
 def test_refresh_bypasses_cache(tmp_path: Path) -> None:
-    make(tmp_path, FakeSession([FakeResponse(200, b"old")])).get(
-        "https://example.org/a"
-    )
+    make(tmp_path, FakeSession([FakeResponse(200, b"old")])).get("https://example.org/a")
     session = FakeSession([FakeResponse(200, b"new")])
     assert make(tmp_path, session, refresh=True).get("https://example.org/a") == b"new"
 

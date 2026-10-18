@@ -6,15 +6,13 @@ import pandas as pd
 import pytest
 
 from hawk.market import bank_rate, mpc
-from hawk.market.sources import BANK_RATE_SERIES
 
 FIXTURES = Path(__file__).parent / "fixtures"
 
 
 @pytest.fixture
-def daily_rate() -> pd.Series:
-    text = (FIXTURES / "iadb_bank_rate.csv").read_text()
-    return bank_rate.parse_iadb_csv(text, BANK_RATE_SERIES)
+def rate_history() -> pd.Series:
+    return bank_rate.parse_bank_rate_table((FIXTURES / "bank_rate.html").read_bytes())
 
 
 @pytest.fixture
@@ -23,8 +21,8 @@ def votes() -> pd.DataFrame:
 
 
 @pytest.fixture
-def decisions(votes: pd.DataFrame, daily_rate: pd.Series) -> pd.DataFrame:
-    return mpc.build_mpc_decisions(votes, daily_rate)
+def decisions(votes: pd.DataFrame, rate_history: pd.Series) -> pd.DataFrame:
+    return mpc.build_mpc_decisions(votes, rate_history)
 
 
 @pytest.fixture

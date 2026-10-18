@@ -12,9 +12,7 @@ import requests
 
 log = logging.getLogger(__name__)
 
-USER_AGENT = (
-    "hawk-research/0.1 (+https://github.com/manoselvaks/hawk; academic project)"
-)
+USER_AGENT = "hawk-research/0.1 (+https://github.com/manoselvaks/hawk; academic project)"
 RETRY_STATUSES = frozenset({429, 500, 502, 503, 504})
 
 
@@ -67,10 +65,7 @@ class PoliteDownloader:
             self._wait_turn()
             log.info("GET %s (attempt %d)", url, attempt)
             response = self.session.get(url, timeout=120)
-            if (
-                response.status_code not in RETRY_STATUSES
-                or attempt == self.max_retries
-            ):
+            if response.status_code not in RETRY_STATUSES or attempt == self.max_retries:
                 response.raise_for_status()
                 return bytes(response.content)
             time.sleep(self.min_interval * 2**attempt)

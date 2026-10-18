@@ -1,62 +1,69 @@
-"""Bank Rate: parse the IADB daily series and reduce it to change dates."""
+"""Bank Rate: parse the Bank's table of rate changes into a dated series."""
 
 from __future__ import annotations
 
-import io
-
 import pandas as pd
+from bs4 import BeautifulSoup
 
 from hawk.market.sources import MPC_FIRST_DECISION, UNSCHEDULED_DECISIONS
 
+_HEADER = ["Date Changed", "Rate"]
 
-def parse_iadb_csv(text: str, series: str) -> pd.Series:
-    """Parse an IADB CSV download (``DATE,<code>`` columns) into a dated series.
 
-    IADB answers bad requests with an HTML page rather than an HTTP error,
-    so anything that does not look like the expected CSV raises.
+def parse_bank_rate_table(html: str | bytes) -> pd.Series:
+    """Parse the Bank Rate history page into one value per change date.
+
+    The page (``boeapps/database/Bank-Rate.asp``) lists every change since 1975,
+    newest first, as ``18 Dec 25 | 3.75``. The result is a step series: each value
+    is the rate in force from its date until the next one.
     """
-    if "<html" in text[:500].lower():
-        raise ValueError(f"IADB returned an HTML page instead of CSV for {series}")
-    frame = pd.read_csv(io.StringIO(text), skip_blank_lines=True)
-    frame.columns = [str(c).strip() for c in frame.columns]
-    if list(frame.columns) != ["DATE", series]:
-        raise ValueError(
-            f"unexpected IADB columns {list(frame.columns)}, wanted DATE,{series}"
-        )
+    soup = BeautifulSoup(html, "lxml")
+    table = soup.find("table", id="stats-table")
+    if table is None:
+        raise ValueError("no Bank Rate table (id='stats-table') on the page")
+    header = [th.get_text(strip=True) for th in table.find_all("th")]
+    if header != _HEADER:
+        raise ValueError(f"unexpected Bank Rate table header {header}, wanted {_HEADER}")
 
-    dates = pd.to_datetime(frame["DATE"].str.strip(), format="%d %b %Y")
-    values = pd.to_numeric(frame[series], errors="coerce")
-    out = pd.Series(
-        values.to_numpy(), index=pd.DatetimeIndex(dates, name="date"), name=series
-    )
-    return out.dropna().sort_index()
+    rows = [
+        [td.get_text(strip=True) for td in tr.find_all("td")]
+        for tr in table.find_all("tr")
+        if tr.find("td")
+    ]
+    if not rows or any(len(row) != 2 for row in rows):
+        raise ValueError("Bank Rate table rows should have exactly two cells")
+    # Two-digit years: Python maps 69-99 to the 1900s, and the table starts in 1975.
+    dates = pd.to_datetime([row[0] for row in rows], format="%d %b %y")
+    rates = pd.to_numeric(pd.Series([row[1] for row in rows]), errors="raise")
+    out = pd.Series(rates.to_numpy(), index=pd.DatetimeIndex(dates, name="date"), name="rate")
+    if out.index.has_duplicates:
+        raise ValueError("Bank Rate table has duplicate dates")
+    return out.sort_index()
 
 
-def bank_rate_changes(daily: pd.Series, start: pd.Timestamp) -> pd.DataFrame:
+def bank_rate_changes(history: pd.Series, start: pd.Timestamp) -> pd.DataFrame:
     """Return one row per Bank Rate change on or after ``start``.
 
-    ``daily`` should begin before ``start`` so the first change in the window
-    has a known previous rate.
+    ``history`` is a dated Bank Rate series (one value per change, or per day) that
+    begins before ``start``, so the first change in the window has a known previous rate.
     """
-    previous = daily.shift(1)
-    changed = previous.notna() & (daily != previous)
+    previous = history.shift(1)
+    changed = previous.notna() & (history != previous)
     out = pd.DataFrame(
         {
-            "date": daily.index[changed],
-            "rate_pct": daily[changed].to_numpy(),
+            "date": history.index[changed],
+            "rate_pct": history[changed].to_numpy(),
             "prev_rate_pct": previous[changed].to_numpy(),
         }
     )
-    out["change_bp"] = (
-        ((out["rate_pct"] - out["prev_rate_pct"]) * 100).round().astype(int)
-    )
+    out["change_bp"] = ((out["rate_pct"] - out["prev_rate_pct"]) * 100).round().astype(int)
     return out[out["date"] >= start].reset_index(drop=True)
 
 
-def rate_in_force_before(daily: pd.Series, dates: pd.Series) -> pd.Series:
-    """Bank Rate on the last observation strictly before each date."""
-    positions = daily.index.searchsorted(pd.DatetimeIndex(dates), side="left") - 1
-    values = [daily.iloc[p] if p >= 0 else float("nan") for p in positions]
+def rate_in_force_before(history: pd.Series, dates: pd.Series) -> pd.Series:
+    """Bank Rate in force the day before each date (the last value strictly earlier)."""
+    positions = history.index.searchsorted(pd.DatetimeIndex(dates), side="left") - 1
+    values = [history.iloc[p] if p >= 0 else float("nan") for p in positions]
     return pd.Series(values, index=dates.index, dtype=float)
 
 

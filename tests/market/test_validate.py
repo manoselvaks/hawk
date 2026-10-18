@@ -10,8 +10,8 @@ TODAY = pd.Timestamp("2026-10-18")
 
 
 @pytest.fixture
-def tables(daily_rate: pd.Series, decisions: pd.DataFrame) -> dict[str, pd.DataFrame]:
-    changes = bank_rate.bank_rate_changes(daily_rate, pd.Timestamp("1997-01-01"))
+def tables(rate_history: pd.Series, decisions: pd.DataFrame) -> dict[str, pd.DataFrame]:
+    changes = bank_rate.bank_rate_changes(rate_history, pd.Timestamp("1997-01-01"))
     gilts = pd.DataFrame(
         {
             "date": pd.to_datetime(["2020-03-18", "2020-03-19"]),
@@ -27,9 +27,7 @@ def tables(daily_rate: pd.Series, decisions: pd.DataFrame) -> dict[str, pd.DataF
 
 
 def run(tables: dict[str, pd.DataFrame]):  # type: ignore[no-untyped-def]
-    return validate(
-        tables["bank_rate"], tables["decisions"], tables["gilts"], today=TODAY
-    )
+    return validate(tables["bank_rate"], tables["decisions"], tables["gilts"], today=TODAY)
 
 
 def test_clean_data_passes_with_emergency_moves_flagged(
@@ -37,7 +35,7 @@ def test_clean_data_passes_with_emergency_moves_flagged(
 ) -> None:
     report = run(tables)
     assert report.ok, report.errors
-    assert sum("Unscheduled" in f for f in report.flags) == 3
+    assert sum("Unscheduled" in f for f in report.flags) == 4
     assert any("2020-03-11" in f for f in report.flags)
     assert any("before the MPC" in f for f in report.flags)
 
@@ -65,9 +63,5 @@ def test_unmatched_change_fails(tables: dict[str, pd.DataFrame]) -> None:
 
 def test_decision_without_rate_change_fails(tables: dict[str, pd.DataFrame]) -> None:
     br = tables["bank_rate"]
-    tables["bank_rate"] = br[br["date"] != pd.Timestamp("2001-09-18")].reset_index(
-        drop=True
-    )
-    assert any(
-        "cut on 2001-09-18 has no Bank Rate change" in e for e in run(tables).errors
-    )
+    tables["bank_rate"] = br[br["date"] != pd.Timestamp("2001-09-18")].reset_index(drop=True)
+    assert any("cut on 2001-09-18 has no Bank Rate change" in e for e in run(tables).errors)

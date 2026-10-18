@@ -8,6 +8,20 @@ the latest run are written to `manifest.json` next to the parquet files.
 Raw downloads are cached in `data/market/.cache/` (gitignored) for 24 hours.
 `--refresh` forces a fresh download.
 
+## Coverage (build of 18 October 2026)
+
+| file | rows | first date | last date |
+| --- | ---: | --- | --- |
+| `bank_rate.parquet` | 71 | 1997-05-06 | 2025-12-18 (no change since) |
+| `mpc_decisions.parquet` | 315 | 1997-06-06 | 2026-09-17 |
+| `gilt_yields.parquet` | 7,527 | 1997-01-02 | 2026-10-15 |
+
+MPC decisions: 35 hikes, 35 cuts, 245 holds; 4 unscheduled. Spot checks against the
+public record: Bank Rate cut to 0.1% on 19 March 2020; the 5.25% peak set on 3 August
+2023 (6-3 vote); the 2008 cuts of 50bp (8 October, unscheduled), 150bp (6 November) and
+100bp (4 December), reaching 0.5% on 5 March 2009; the 2-year spot yield peaking at
+4.53% on 27 September 2022 after the mini-budget.
+
 ## Files
 
 ### `bank_rate.parquet`: one row per Bank Rate change
@@ -20,10 +34,12 @@ Raw downloads are cached in `data/market/.cache/` (gitignored) for 24 hours.
 | `change_bp` | `rate_pct - prev_rate_pct` in basis points |
 | `mpc_match` | `scheduled`, `unscheduled` (emergency), or `pre_mpc` (see below) |
 
-**Source:** IADB series **`IUDBEDR`** (official Bank Rate, daily), from the
-[Statistical Interactive Database](https://www.bankofengland.co.uk/boeapps/database/).
-The collector downloads it from 1996, so the first 1997 change has a previous
-rate, and keeps the days where the rate differs from the day before.
+**Source:** the Bank's
+[Bank Rate history table](https://www.bankofengland.co.uk/boeapps/database/Bank-Rate.asp),
+which lists every change since 1975 (the same data as IADB series `IUDBEDR`, whose
+CSV download endpoint is disallowed by the Bank's robots.txt). Starting in 1975 means
+the first 1997 change has a previous rate. The 6 May 1997 rise was from 5.94%: rates
+before 1997 were set in fractions such as 5.9375% and the table rounds them.
 
 ### `mpc_decisions.parquet`: one row per MPC Bank Rate decision
 
@@ -45,8 +61,16 @@ sheet `Bank Rate Decisions`. It lists every member's preferred Bank Rate at
 every decision since June 1997, stored as fractions (0.0525 = 5.25%). No
 single BoE file has the decision type and vote split ready-made, so the
 collector works them out from the votes: the agreed rate comes from the
-workbook, the previous rate comes from `IUDBEDR` the day before, and each
-member's vote is compared with both.
+workbook, the previous rate is the Bank Rate in force the day before (from the
+history table), and each member's vote is compared with both.
+
+In 1998 the workbook records some dissents only as `Increase` or `Decrease`: a rate
+above or below the one agreed, size not given (23 votes at 9 meetings). These count
+as dissents and appear in `dissenters` as e.g. `Alan Budd (higher, size not recorded)`.
+They count as a hike or cut where the direction settles it; the one vote where it
+does not (DeAnne Julius on 4 June 1998, wanting less than the agreed hike: either no
+change or a smaller rise) is left out of `votes_hike/hold/cut`, so for that meeting
+those three add up to 8, not 9.
 
 ### `gilt_yields.parquet`: one row per business day
 

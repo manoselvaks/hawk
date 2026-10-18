@@ -62,9 +62,7 @@ def validate(
         _check_dates(report, name, frame, today)
 
     _check_bounds(report, "bank_rate.rate_pct", bank_rate["rate_pct"], BANK_RATE_BOUNDS)
-    _check_bounds(
-        report, "mpc_decisions.rate_pct", decisions["rate_pct"], BANK_RATE_BOUNDS
-    )
+    _check_bounds(report, "mpc_decisions.rate_pct", decisions["rate_pct"], BANK_RATE_BOUNDS)
     for column in gilts.columns.drop("date"):
         _check_bounds(report, f"gilt_yields.{column}", gilts[column], GILT_YIELD_BOUNDS)
     if (gilts["date"].dt.dayofweek >= 5).any():
@@ -75,23 +73,17 @@ def validate(
         move = f"{day}: {change['prev_rate_pct']}% -> {change['rate_pct']}%"
         match change["mpc_match"]:
             case "unmatched":
-                report.errors.append(
-                    f"Bank Rate change with no matching MPC decision, {move}"
-                )
+                report.errors.append(f"Bank Rate change with no matching MPC decision, {move}")
             case "unscheduled":
                 report.flags.append(f"Unscheduled (emergency) MPC move, {move}")
             case "pre_mpc":
                 report.flags.append(f"Change set before the MPC existed, {move}")
 
     changes = set(bank_rate["date"])
-    for _, decision in decisions[
-        decisions["decision"].isin(["hike", "cut"])
-    ].iterrows():
+    for _, decision in decisions[decisions["decision"].isin(["hike", "cut"])].iterrows():
         if decision["date"] not in changes:
             day = decision["date"].date()
-            report.errors.append(
-                f"MPC {decision['decision']} on {day} has no Bank Rate change"
-            )
+            report.errors.append(f"MPC {decision['decision']} on {day} has no Bank Rate change")
     if decisions["prev_rate_pct"].isna().any():
         report.errors.append("mpc_decisions: previous rate unknown for some decisions")
     return report

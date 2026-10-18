@@ -19,10 +19,8 @@ class FakeDownloader:
 
     def get(self, url: str) -> bytes:
         self.urls.append(url)
-        if url.startswith(sources.IADB_URL):
-            assert "SeriesCodes=IUDBEDR" in url
-            return (FIXTURES / "iadb_bank_rate.csv").read_bytes()
         files = {
+            sources.BANK_RATE_URL: "bank_rate.html",
             sources.MPC_VOTING_URL: "mpcvoting_sample.xlsx",
             sources.YIELD_ARCHIVE_URL: "glc_archive_sample.zip",
             sources.YIELD_LATEST_URL: "glc_latest_sample.zip",
@@ -37,13 +35,13 @@ def test_collect_end_to_end(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> 
     bank_rate = pd.read_parquet(tmp_path / "bank_rate.parquet")
     decisions = pd.read_parquet(tmp_path / "mpc_decisions.parquet")
     gilts = pd.read_parquet(tmp_path / "gilt_yields.parquet")
-    assert len(bank_rate) == 5 and len(decisions) == 5 and len(gilts) == 3
+    assert len(bank_rate) == 14 and len(decisions) == 16 and len(gilts) == 8
     assert list(gilts.columns) == ["date", "gilt_2y", "gilt_10y"]
     assert pd.api.types.is_datetime64_any_dtype(decisions["date"])
 
     manifest = json.loads((tmp_path / "manifest.json").read_text())
     assert manifest["bank_rate"] == {
-        "rows": 5,
+        "rows": 14,
         "first_date": "1997-05-06",
-        "last_date": "2020-03-19",
+        "last_date": "2023-08-03",
     }
