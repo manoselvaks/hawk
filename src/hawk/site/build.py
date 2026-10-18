@@ -131,7 +131,7 @@ def render_images(out: Path, tone: dict[str, Any]) -> None:
     ax = fig.add_axes((0.06, 0.12, 0.88, 0.5))
     pts = [(x, y) for x, y in zip(tone["x"], tone["tone"], strict=True) if y is not None]
     if pts:
-        xs = [pd.Timestamp(x, unit="s") for x, _ in pts]
+        xs = pd.to_datetime([x for x, _ in pts], unit="s").to_numpy()
         ys = [y for _, y in pts]
         ax.fill_between(xs, ys, 0, where=[y >= 0 for y in ys], color=hawk, alpha=0.18, lw=0)
         ax.fill_between(xs, ys, 0, where=[y < 0 for y in ys], color=dove, alpha=0.18, lw=0)
