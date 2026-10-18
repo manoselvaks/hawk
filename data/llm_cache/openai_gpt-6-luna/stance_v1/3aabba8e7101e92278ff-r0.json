@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.9,
+ "reason": "The Committee said it would not tighten until there was clear progress in eliminating spare capacity and stood ready to take additional action if the inflation outlook weakened, indicating a dovish lean.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2448,
+ "prompt_tokens": 1145,
+ "completion_tokens": 181,
+ "cost_usd": 0.00023355,
+ "attempts": 1
+}

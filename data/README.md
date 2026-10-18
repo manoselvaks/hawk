@@ -5,6 +5,9 @@
 | `speeches.parquet` | One row per Bank of England speech since 1997 |
 | `minutes.parquet` | One row per set of MPC minutes / Monetary Policy Summary since 1997 |
 | `raw/` | Download cache used by the collector (gitignored, rebuildable) |
+| `llm_cache/` | Cached LLM scores, one JSON file per (model, prompt version, input, replicate) |
+| `llm_spend.jsonl` | Every paid OpenRouter call and the running total (read by the spend cap) |
+| `pilot/pilot_scores.csv` | Raw results of the scoring pilot (`python -m hawk.scoring.pilot`) |
 | `collect_failures.csv` | URLs that could not be collected on the last run, with the error (only written if any failed) |
 
 Rebuild everything with `python -m hawk.speeches.collect` (see the main README).

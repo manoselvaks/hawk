@@ -1,0 +1,15 @@
+{
+ "relevance": 0.55,
+ "stance": 0.0,
+ "confidence": 0.71,
+ "reason": "The speech briefly explains that interest rates are set with a forward-looking view and describes the macroeconomic outlook as relatively benign, without signalling a change in policy; most of the remaining extract concerns financial stability and asset markets.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 1,
+ "input_chars": 2105,
+ "prompt_tokens": 1050,
+ "completion_tokens": 71,
+ "cost_usd": 4.627e-05,
+ "attempts": 1
+}

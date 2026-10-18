@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 0.0,
+ "confidence": 0.5,
+ "reason": "The minutes focus on market interest rate expectations, asset prices, wages and inflation expectations, with the Committee describing mixed signals (upside from rising inflation expectations and supportive asset prices, downside from consumption risks and flat wage settlements) without a clear lean.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 1,
+ "input_chars": 2418,
+ "prompt_tokens": 1945,
+ "completion_tokens": 124,
+ "cost_usd": 0.0002565,
+ "attempts": 1
+}

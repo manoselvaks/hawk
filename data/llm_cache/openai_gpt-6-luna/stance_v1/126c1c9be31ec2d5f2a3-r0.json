@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.93,
+ "reason": "The speech emphasizes capacity and pricing pressures and says that if indicators remain elevated the MPC may need to take further action, while acknowledging uncertainty about the required rate path.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2558,
+ "prompt_tokens": 1188,
+ "completion_tokens": 58,
+ "cost_usd": 0.000177425,
+ "attempts": 1
+}

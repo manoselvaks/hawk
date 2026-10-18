@@ -1,0 +1,15 @@
+{
+ "relevance": 0.6,
+ "stance": -0.5,
+ "confidence": 0.4,
+ "reason": "The speech discusses monetary policy transmission, the natural rate and QE effectiveness, and says QE 'reduces the risk of undershooting the inflation target' and the author voted for its extension, leaning mildly dovish though the text is an excerpt with much on banking structure.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 1,
+ "input_chars": 2517,
+ "prompt_tokens": 1944,
+ "completion_tokens": 126,
+ "cost_usd": 0.0002574,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.25,
+ "stance": null,
+ "confidence": 0.6,
+ "reason": "The speech is mainly about the macroeconomic and monetary policy implications of climate change and net zero mitigation policies (carbon taxes vs ETS), a research-oriented topic that only partly touches the UK policy outlook and does not state a view on the future path of Bank Rate.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23688,
+ "prompt_tokens": 8602,
+ "completion_tokens": 125,
+ "cost_usd": 0.0009227,
+ "attempts": 1
+}

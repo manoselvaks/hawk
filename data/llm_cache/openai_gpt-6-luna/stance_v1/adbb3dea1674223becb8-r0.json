@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The extract discusses bank authorisation, capital requirements and prudential regulation, not the UK monetary policy outlook or policy tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 1018,
+ "prompt_tokens": 891,
+ "completion_tokens": 87,
+ "cost_usd": 0.0001326,
+ "attempts": 1
+}

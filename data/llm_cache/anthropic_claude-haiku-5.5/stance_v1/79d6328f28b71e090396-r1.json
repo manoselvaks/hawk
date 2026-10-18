@@ -1,0 +1,15 @@
+{
+ "relevance": 0.1,
+ "stance": null,
+ "confidence": 0.8,
+ "reason": "The speech is about commercial property market risks and financial stability, with monetary policy mentioned only in passing (the macro outlook is described as benign with risks broadly balanced), so it is not primarily about the monetary policy outlook.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 14008,
+ "prompt_tokens": 5428,
+ "completion_tokens": 107,
+ "cost_usd": 0.0005963,
+ "attempts": 1
+}

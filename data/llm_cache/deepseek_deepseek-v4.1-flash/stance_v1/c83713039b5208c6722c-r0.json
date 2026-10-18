@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.85,
+ "reason": "The Committee judged that monetary policy needed to remain restrictive for an extended period until the risk of inflation becoming embedded above the 2% target dissipated, with an 8\u20131 vote to hold Bank Rate at 5.25%.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2517,
+ "prompt_tokens": 1281,
+ "completion_tokens": 1841,
+ "cost_usd": 0.000316344,
+ "attempts": 1
+}

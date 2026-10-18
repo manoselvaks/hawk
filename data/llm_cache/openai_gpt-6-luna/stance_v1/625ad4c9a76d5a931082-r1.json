@@ -1,0 +1,15 @@
+{
+ "relevance": 0.65,
+ "stance": 1.0,
+ "confidence": 0.9,
+ "reason": "Although much of the speech concerns money and payments, the speaker says inflation is unacceptably high, that wage and price increases are inconsistent with target, and that the latest evidence pointed to further policy tightening while the MPC monitors persistence.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 19118,
+ "prompt_tokens": 4487,
+ "completion_tokens": 74,
+ "cost_usd": 8.214e-05,
+ "attempts": 1
+}

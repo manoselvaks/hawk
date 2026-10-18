@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.5,
+ "confidence": 0.8,
+ "reason": "The minutes are entirely about the policy outlook and the Committee signals it stands ready to add stimulus if inflation weakens and will not tighten until clear progress in eliminating spare capacity, with Bank Rate held at 0.1% and asset purchases under discussion, which leans dovish.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2448,
+ "prompt_tokens": 1990,
+ "completion_tokens": 132,
+ "cost_usd": 0.000265,
+ "attempts": 1
+}

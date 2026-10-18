@@ -1,0 +1,15 @@
+{
+ "relevance": 0.8,
+ "stance": -0.5,
+ "confidence": 0.55,
+ "reason": "The speech is mainly about the QE asset purchase programme and its design, and it judges the programme 'extremely successful' and notes deflation risk has receded, but it explicitly says it is not hinting at future policy direction and only sketches exit thinking, leaving a mild and vague lean that is at most slightly dovish, if anything, in its emphasis on past stimulus being needed.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21701,
+ "prompt_tokens": 8303,
+ "completion_tokens": 159,
+ "cost_usd": 0.0009098,
+ "attempts": 1
+}

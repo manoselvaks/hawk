@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 0.95,
+ "reason": "The minutes state that 'a further easing of monetary policy is warranted' and the Committee unanimously agreed to increase UK government bond purchases by \u00a3150 billion, while also saying it does not intend to tighten until significant progress is made in eliminating spare capacity.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 24026,
+ "prompt_tokens": 5495,
+ "completion_tokens": 526,
+ "cost_usd": 9.47888e-05,
+ "attempts": 1
+}

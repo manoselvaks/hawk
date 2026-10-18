@@ -1,0 +1,15 @@
+{
+ "relevance": 0.1,
+ "stance": null,
+ "confidence": 0.9,
+ "reason": "The document focuses on financial stability and credit conditions\u2014student, car and mortgage debt and leveraged lending\u2014rather than the UK inflation, demand, labour market or Bank Rate outlook.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 1,
+ "input_chars": 2490,
+ "prompt_tokens": 1274,
+ "completion_tokens": 683,
+ "cost_usd": 0.000149312,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0,
+ "stance": null,
+ "confidence": 0.9,
+ "reason": "The passage concerns the Mutuals Landscape Report and the sustainable long-term growth of the mutual sector, not the inflation outlook, demand, labour market or Bank Rate.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 1,
+ "input_chars": 439,
+ "prompt_tokens": 855,
+ "completion_tokens": 312,
+ "cost_usd": 5.6472e-05,
+ "attempts": 1
+}

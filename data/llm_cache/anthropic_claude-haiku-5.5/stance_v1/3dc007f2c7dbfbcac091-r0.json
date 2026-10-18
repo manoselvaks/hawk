@@ -1,0 +1,15 @@
+{
+ "relevance": 0.2,
+ "stance": null,
+ "confidence": 0.5,
+ "reason": "The extracts concern a central bank digital currency and the zero lower bound as a structural monetary regime question, with explicit disclaimers that it carries no implications for near-term policy, and much of the text is about e-commerce, payments and data platforms.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2594,
+ "prompt_tokens": 2088,
+ "completion_tokens": 112,
+ "cost_usd": 0.0002648,
+ "attempts": 1
+}

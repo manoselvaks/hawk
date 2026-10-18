@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 0.0,
+ "confidence": 0.7,
+ "reason": "The speech discusses the MPC's inflation projection, demand and labour market uncertainties, and concludes that the future path of interest rates depends on the data, with upside inflation risks balanced against possible subdued pressures.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 13359,
+ "prompt_tokens": 3274,
+ "completion_tokens": 632,
+ "cost_usd": 0.000201616,
+ "attempts": 1
+}

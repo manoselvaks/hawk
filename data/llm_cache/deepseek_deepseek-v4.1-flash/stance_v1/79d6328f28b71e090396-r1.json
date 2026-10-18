@@ -1,0 +1,15 @@
+{
+ "relevance": 0.1,
+ "stance": null,
+ "confidence": 0.9,
+ "reason": "The speech focuses on risks to the commercial property market and financial stability, with only a brief mention that monetary policy is set by the MPC to meet the inflation target.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 14008,
+ "prompt_tokens": 3382,
+ "completion_tokens": 554,
+ "cost_usd": 0.0001947424,
+ "attempts": 1
+}

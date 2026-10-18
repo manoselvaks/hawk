@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.8,
+ "reason": "The Committee voted 8\u20131 to keep Bank Rate at 5.5%, with the majority highlighting increased upside risks to inflation and warning that further cuts could undermine the inflation target.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2593,
+ "prompt_tokens": 1280,
+ "completion_tokens": 1539,
+ "cost_usd": 0.0002512352,
+ "attempts": 1
+}

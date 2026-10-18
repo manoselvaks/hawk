@@ -1,0 +1,15 @@
+{
+ "relevance": 0.5,
+ "stance": 0.0,
+ "confidence": 0.6,
+ "reason": "The speech focuses on the monetary policy implications of climate change and net zero, noting it is within the author's remit to respond to inflation effects at the policy horizon, but it offers no clear hawkish or dovish lean on Bank Rate.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2554,
+ "prompt_tokens": 1290,
+ "completion_tokens": 1054,
+ "cost_usd": 0.0001818336,
+ "attempts": 1
+}

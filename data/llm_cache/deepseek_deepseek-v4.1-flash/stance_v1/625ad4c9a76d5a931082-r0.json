@@ -1,0 +1,15 @@
+{
+ "relevance": 0.5,
+ "stance": 1.5,
+ "confidence": 0.75,
+ "reason": "The author says inflation at 8.7% is unacceptably high, labour market tightness and sticky services/wage inflation are inconsistent with the target, and the last MPC meeting pointed to the need for further policy tightening.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19118,
+ "prompt_tokens": 4587,
+ "completion_tokens": 1995,
+ "cost_usd": 0.0004506,
+ "attempts": 1
+}

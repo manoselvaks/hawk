@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.7,
+ "reason": "The MPC voted 8-1 to hold Bank Rate at 5.25% and the majority stresses that policy must stay restrictive for an extended period while inflation persistence remains elevated, with some upside risks to wages and CPI, leaning slightly hawkish, though one member argued for a cut and the Committee signalled easing ahead.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 24093,
+ "prompt_tokens": 8618,
+ "completion_tokens": 147,
+ "cost_usd": 0.0009353,
+ "attempts": 1
+}

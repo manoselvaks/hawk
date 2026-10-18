@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.9,
+ "reason": "The extracts concern digital currencies, the ZLB as a structural monetary regime issue, SME finance, open data and identifiers, with no assessment of the near-term UK policy outlook or Bank Rate, so it is essentially not about current monetary policy.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 6253,
+ "prompt_tokens": 3175,
+ "completion_tokens": 117,
+ "cost_usd": 0.000376,
+ "attempts": 1
+}

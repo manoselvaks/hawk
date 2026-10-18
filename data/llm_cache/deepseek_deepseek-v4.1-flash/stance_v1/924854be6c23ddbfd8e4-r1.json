@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.9,
+ "reason": "The passage concerns the Bank's support for the mutuals sector's sustainable long-term growth, not the monetary policy outlook or Bank Rate.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 447,
+ "prompt_tokens": 859,
+ "completion_tokens": 275,
+ "cost_usd": 5.1304e-05,
+ "attempts": 1
+}

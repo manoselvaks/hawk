@@ -1,0 +1,15 @@
+{
+ "relevance": 0.4,
+ "stance": 1.0,
+ "confidence": 0.6,
+ "reason": "Speech is mostly about money, payments and CBDC, but its opening section stresses inflation at 8.7% being unacceptably high, labour market tightness and that 'it is crucial that we see the job through' with further tightening indicated, a hawkish lean.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19118,
+ "prompt_tokens": 6895,
+ "completion_tokens": 118,
+ "cost_usd": 0.0007485,
+ "attempts": 1
+}

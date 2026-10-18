@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": 1.0,
+ "confidence": 0.7,
+ "reason": "The speech is mainly about inflation at 8.7% being unacceptably high and the need for further policy tightening after raising Bank Rate nearly five points, though it notes headline inflation is set to fall and ends with a section on the Bank's wider role in money.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2602,
+ "prompt_tokens": 1979,
+ "completion_tokens": 117,
+ "cost_usd": 0.0002564,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.9,
+ "reason": "The speech emphasises persistent inflation pressures and upside risks, noting that 'if there were to be evidence of more persistent pressures, then further tightening in monetary policy would be required.'",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2559,
+ "prompt_tokens": 1267,
+ "completion_tokens": 797,
+ "cost_usd": 0.0001438672,
+ "attempts": 1
+}

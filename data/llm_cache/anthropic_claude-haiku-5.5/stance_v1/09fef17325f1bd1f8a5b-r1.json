@@ -1,0 +1,15 @@
+{
+ "relevance": 0,
+ "stance": null,
+ "confidence": 0.95,
+ "reason": "The speech is about PRA prudential regulation and the secondary competition objective (new bank entry, capital requirements, proportionality), not the UK monetary policy outlook, inflation, demand or Bank Rate.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 11376,
+ "prompt_tokens": 4601,
+ "completion_tokens": 103,
+ "cost_usd": 0.0005116,
+ "attempts": 1
+}

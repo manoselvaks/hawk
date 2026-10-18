@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.8,
+ "reason": "The speech is a technical review of the Bank's asset purchase programme, stating it is 'not clear whether the next step ... is most likely to be to sell the assets back or to buy more' and that it is not intended to hint at future policy.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 21701,
+ "prompt_tokens": 5334,
+ "completion_tokens": 923,
+ "cost_usd": 0.0001454016,
+ "attempts": 1
+}

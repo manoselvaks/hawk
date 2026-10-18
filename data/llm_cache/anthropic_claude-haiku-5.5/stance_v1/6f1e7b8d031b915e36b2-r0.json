@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.7,
+ "reason": "The MPC voted 8-1 to hold Bank Rate at 5.25% and the majority stresses that policy must stay restrictive for an extended period and that persistence evidence is still needed, a hawkish-leaning hold, while one member (Dhingra) dissents in favour of a cut, pulling the overall lean toward balanced.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24093,
+ "prompt_tokens": 8618,
+ "completion_tokens": 146,
+ "cost_usd": 0.0009348,
+ "attempts": 1
+}

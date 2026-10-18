@@ -1,0 +1,15 @@
+{
+ "relevance": 0.3,
+ "stance": null,
+ "confidence": 0.3,
+ "reason": "The speech is mainly about financial stability, asset price increases, securitisation and the search for yield, with only a brief, descriptive mention of the MPC's rate-setting and a benign macro outlook, so it is only marginally about monetary policy and no clear lean is given.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 1,
+ "input_chars": 2105,
+ "prompt_tokens": 1831,
+ "completion_tokens": 120,
+ "cost_usd": 0.0002431,
+ "attempts": 1
+}

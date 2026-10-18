@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.6,
+ "reason": "The minutes hold Bank Rate at 5.5% but note downside risks to demand have increased while upside inflation risks from food and energy rose, and one member voted for a cut, so the Committee leans slightly dovish overall with a balanced split.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 1,
+ "input_chars": 2593,
+ "prompt_tokens": 2033,
+ "completion_tokens": 116,
+ "cost_usd": 0.0002613,
+ "attempts": 1
+}

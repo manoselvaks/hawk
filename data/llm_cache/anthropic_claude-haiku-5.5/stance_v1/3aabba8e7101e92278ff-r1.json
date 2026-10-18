@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.8,
+ "reason": "The minutes are about the policy decision and outlook, and the Committee says it stands ready to take additional action if inflation weakens, will not tighten until significant progress on spare capacity, and sees Bank Rate held at 0.1% with asset purchases expected to be extended, which leans dovish.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 1,
+ "input_chars": 2448,
+ "prompt_tokens": 1990,
+ "completion_tokens": 129,
+ "cost_usd": 0.0002635,
+ "attempts": 1
+}

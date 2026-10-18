@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.9,
+ "reason": "The Committee judged that inflation would remain close to target with some near-term energy-price upside risks and voted 7\u20131 to hold the repo rate at 4.5%, while the dissenting member preferred a 25-basis-point cut.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20476,
+ "prompt_tokens": 4580,
+ "completion_tokens": 75,
+ "cost_usd": 0.000609925,
+ "attempts": 1
+}

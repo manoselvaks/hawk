@@ -1,0 +1,15 @@
+{
+ "relevance": 0.8,
+ "stance": 1.5,
+ "confidence": 0.7,
+ "reason": "The speech is mainly about inflation at 8.7% being unacceptably high, labour market tightness and sticky services inflation, and states that the last MPC meeting 'pointed to the need for further policy tightening', signalling a hawkish lean, though it also notes headline inflation will fall and some tightening is still in the pipeline.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 1,
+ "input_chars": 2602,
+ "prompt_tokens": 1979,
+ "completion_tokens": 143,
+ "cost_usd": 0.0002694,
+ "attempts": 1
+}

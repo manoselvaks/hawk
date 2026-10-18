@@ -1,0 +1,15 @@
+{
+ "relevance": 0.92,
+ "stance": 0.0,
+ "confidence": 0.74,
+ "reason": "The extract describes the MPC\u2019s QE stimulus and says any expansion or withdrawal will depend on the evolving economy and CPI inflation outlook, without indicating a current lean toward tightening or easing.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 1,
+ "input_chars": 2514,
+ "prompt_tokens": 1217,
+ "completion_tokens": 63,
+ "cost_usd": 4.394e-05,
+ "attempts": 1
+}

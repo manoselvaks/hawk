@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech focuses on debt growth, household and corporate credit risk, mortgage affordability and financial-policy safeguards, rather than the UK inflation outlook or the future path of Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23705,
+ "prompt_tokens": 5463,
+ "completion_tokens": 62,
+ "cost_usd": 0.0007138,
+ "attempts": 1
+}

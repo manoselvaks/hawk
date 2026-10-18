@@ -1,0 +1,15 @@
+{
+ "relevance": 0.65,
+ "stance": 0.0,
+ "confidence": 0.69,
+ "reason": "The extract analyses how Bank Rate and the countercyclical capital buffer affect inflation, demand and financial-crisis risk, but presents model trade-offs rather than a directional lean on future monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 1,
+ "input_chars": 2590,
+ "prompt_tokens": 1332,
+ "completion_tokens": 67,
+ "cost_usd": 4.709e-05,
+ "attempts": 1
+}

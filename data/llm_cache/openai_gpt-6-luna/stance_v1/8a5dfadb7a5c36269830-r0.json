@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.93,
+ "reason": "The speech says sticky underlying inflation and wage growth are inconsistent with the target, and that the latest evidence pointed to further policy tightening, while noting the MPC is monitoring persistence.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2602,
+ "prompt_tokens": 1190,
+ "completion_tokens": 60,
+ "cost_usd": 0.000178675,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.89,
+ "reason": "The speech focuses on QE and its monetary-policy effects, but explicitly says it is not signalling the future direction of policy and describes the next step as uncertain, with any tightening or further purchases to depend on the inflation outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21701,
+ "prompt_tokens": 5206,
+ "completion_tokens": 70,
+ "cost_usd": 0.000685675,
+ "attempts": 1
+}

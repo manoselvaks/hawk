@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.7,
+ "reason": "The minutes are entirely about the monetary policy decision and outlook, with the Committee holding Bank Rate at 4.5% by a 7-1 vote, with inflation 'likely to remain close to target' and upside risks from energy prices offset by one member's dovish case for a cut and some downside near-term risk, so the overall lean is balanced.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 20476,
+ "prompt_tokens": 7400,
+ "completion_tokens": 147,
+ "cost_usd": 0.0008135,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 0.0,
+ "confidence": 0.55,
+ "reason": "The minutes are about the monetary policy outlook, covering market rate expectations, inflation, and asset prices, but the Committee's lean is mixed: upside signals (inflation expectations picking up, asset prices supportive of demand, output pickup) sit alongside downside ones (downside risks to consumption, flat wage settlements, a skew toward rate cuts in the Reuters survey).",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2418,
+ "prompt_tokens": 1945,
+ "completion_tokens": 162,
+ "cost_usd": 0.0002755,
+ "attempts": 1
+}

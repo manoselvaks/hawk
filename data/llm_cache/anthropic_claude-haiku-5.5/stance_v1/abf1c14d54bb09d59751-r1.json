@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": -0.5,
+ "confidence": 0.5,
+ "reason": "The speech explains the QE programme and its ongoing stimulus of about \u00a3200bn, saying the MPC paused purchases and would only withdraw or increase them month-by-month, with Bank Rate tightening likely first; it leans mildly dovish or balanced, mainly descriptive of past stimulus with no explicit call to cut or tighten.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 1,
+ "input_chars": 2514,
+ "prompt_tokens": 2042,
+ "completion_tokens": 148,
+ "cost_usd": 0.0002782,
+ "attempts": 1
+}

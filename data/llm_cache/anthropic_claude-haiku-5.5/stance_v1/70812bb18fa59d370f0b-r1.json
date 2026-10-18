@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.9,
+ "reason": "The speech is about macroprudential policy, the countercyclical capital buffer, reciprocity, cross-border credit spillovers and financial stability, with no substantive view on the UK Bank Rate or inflation outlook.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 19985,
+ "prompt_tokens": 7914,
+ "completion_tokens": 106,
+ "cost_usd": 0.0008444,
+ "attempts": 1
+}

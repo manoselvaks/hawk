@@ -1,0 +1,15 @@
+{
+ "relevance": 0.5,
+ "stance": 0.0,
+ "confidence": 0.7,
+ "reason": "The speech includes a monetary policy section on the zero lower bound and digital currencies, but it is largely about financial stability, SME lending and data, and gives no clear lean on the future path of Bank Rate or inflation risks.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 6253,
+ "prompt_tokens": 2004,
+ "completion_tokens": 1201,
+ "cost_usd": 0.0001905888,
+ "attempts": 2
+}

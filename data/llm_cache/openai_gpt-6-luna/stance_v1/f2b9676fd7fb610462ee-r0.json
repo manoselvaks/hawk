@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 0.0,
+ "confidence": 0.78,
+ "reason": "The extracts note rising inflation expectations and higher energy costs that warrant monitoring, but also subdued wage growth and downside risks to consumption, leaving the policy outlook balanced.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2418,
+ "prompt_tokens": 1155,
+ "completion_tokens": 143,
+ "cost_usd": 0.0002158,
+ "attempts": 1
+}

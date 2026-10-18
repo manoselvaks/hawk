@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": 1.0,
+ "confidence": 0.75,
+ "reason": "The speech is centrally about the MPC's Bank Rate increase to 4.5% and the inflation outlook, and while it sees inflation falling it stresses that upside risks from persistent second-round effects and a very tight labour market mean 'further tightening in monetary policy would be required' if pressures persist, a lean hawkish though balanced by downside growth and real-income concerns.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18192,
+ "prompt_tokens": 6665,
+ "completion_tokens": 157,
+ "cost_usd": 0.000745,
+ "attempts": 1
+}

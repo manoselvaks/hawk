@@ -1,0 +1,15 @@
+{
+ "relevance": 0,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The extract concerns cyber security and operational resilience in financial services, not the UK monetary policy outlook or policy tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2402,
+ "prompt_tokens": 1137,
+ "completion_tokens": 48,
+ "cost_usd": 0.00016605,
+ "attempts": 1
+}

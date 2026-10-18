@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": 1.0,
+ "confidence": 0.7,
+ "reason": "Tucker describes the Bank Rate path as gradual tightening with policy still stimulating, notes upside risks in near-term house prices and demand, and argues tighter policy may be needed to arrest household sector strength, though he rejects a surprise tightening and balances risks, so the lean is mildly hawkish.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 16358,
+ "prompt_tokens": 6152,
+ "completion_tokens": 136,
+ "cost_usd": 0.0006832,
+ "attempts": 1
+}

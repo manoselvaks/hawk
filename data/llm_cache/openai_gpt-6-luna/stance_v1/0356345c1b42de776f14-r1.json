@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": -1.5,
+ "confidence": 0.86,
+ "reason": "The speaker says QE is effective and reduces the risk of undershooting the inflation target, and explains that they voted for its extension, indicating a clear preference for continued monetary easing.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 1,
+ "input_chars": 2517,
+ "prompt_tokens": 1182,
+ "completion_tokens": 219,
+ "cost_usd": 0.00012159,
+ "attempts": 1
+}

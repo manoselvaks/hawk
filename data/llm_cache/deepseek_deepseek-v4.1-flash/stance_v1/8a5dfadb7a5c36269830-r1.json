@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 2.0,
+ "confidence": 0.9,
+ "reason": "The speech states inflation is 'unacceptably high' and that the last MPC meeting pointed to 'the need for further policy tightening', with price and wage increases 'not consistent with the inflation target'.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 1,
+ "input_chars": 2602,
+ "prompt_tokens": 1275,
+ "completion_tokens": 587,
+ "cost_usd": 9.23664e-05,
+ "attempts": 1
+}

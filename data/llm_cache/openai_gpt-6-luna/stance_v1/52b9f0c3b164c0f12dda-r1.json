@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.84,
+ "reason": "The speech focuses on the inflation outlook and monetary policy, stressing that rising short-term inflation expectations create bigger upside risks for medium-term inflation and may require a more pronounced or prolonged slowdown to return inflation to target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 1,
+ "input_chars": 2572,
+ "prompt_tokens": 1180,
+ "completion_tokens": 129,
+ "cost_usd": 7.657e-05,
+ "attempts": 1
+}

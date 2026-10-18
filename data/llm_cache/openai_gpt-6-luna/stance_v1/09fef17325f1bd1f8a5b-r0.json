@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech concerns the PRA\u2019s secondary competition objective, prudential regulation, and the challenges facing smaller financial firms, not the UK monetary policy outlook or policy tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 11376,
+ "prompt_tokens": 2959,
+ "completion_tokens": 60,
+ "cost_usd": 0.0003998,
+ "attempts": 1
+}

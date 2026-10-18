@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 2.0,
+ "confidence": 0.9,
+ "reason": "The speech emphasises that inflation is 'much too high', that risks to inflation are 'skewed significantly to the upside', and that 'further tightening in monetary policy would be required' if persistence evidence emerges.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18192,
+ "prompt_tokens": 4343,
+ "completion_tokens": 2113,
+ "cost_usd": 0.000457832,
+ "attempts": 1
+}

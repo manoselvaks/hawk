@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.83,
+ "reason": "The eight-member majority held Bank Rate at 5.25% and said restrictive policy should remain in place for sufficiently long, with elevated inflation persistence and possible upside risks warranting more evidence before a shift, while one member favoured a cut.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24093,
+ "prompt_tokens": 5303,
+ "completion_tokens": 77,
+ "cost_usd": 0.0007013,
+ "attempts": 1
+}

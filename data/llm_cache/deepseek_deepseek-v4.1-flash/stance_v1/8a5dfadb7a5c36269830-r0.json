@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 2.0,
+ "confidence": 0.9,
+ "reason": "The speech emphasises that inflation is 'unacceptably high' and that underlying price and wage pressures are sticky, pointing to the need for further policy tightening and to 'see the job through'.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2602,
+ "prompt_tokens": 1275,
+ "completion_tokens": 472,
+ "cost_usd": 9.73872e-05,
+ "attempts": 1
+}

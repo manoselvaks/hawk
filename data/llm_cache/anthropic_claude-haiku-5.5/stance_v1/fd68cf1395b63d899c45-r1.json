@@ -1,0 +1,15 @@
+{
+ "relevance": 0.6,
+ "stance": -0.5,
+ "confidence": 0.5,
+ "reason": "The speech is mainly about the design, effects and eventual unwinding of the asset purchase programme (a monetary policy tool), but it explicitly says it is not hinting at future policy direction; it notes CPI inflation is elevated yet describes the programme as successful with deflation risk now 'much less likely', giving a mildly balanced to slightly dovish lean with the paused programme and possible further purchases mentioned.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 21701,
+ "prompt_tokens": 8303,
+ "completion_tokens": 171,
+ "cost_usd": 0.0009158,
+ "attempts": 1
+}

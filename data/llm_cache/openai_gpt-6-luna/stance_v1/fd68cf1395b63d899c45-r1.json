@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.95,
+ "reason": "The speech focuses on the design and effects of QE and the possible exit from asset purchases, while explicitly saying it offers no hints about future policy and that the next step could be either more purchases or sales, with tightening decisions dependent on future inflation and economic developments.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 21701,
+ "prompt_tokens": 5206,
+ "completion_tokens": 78,
+ "cost_usd": 9.133e-05,
+ "attempts": 1
+}

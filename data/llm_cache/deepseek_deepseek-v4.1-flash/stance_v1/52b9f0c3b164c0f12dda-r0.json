@@ -1,0 +1,15 @@
+{
+ "relevance": 0.8,
+ "stance": 1.0,
+ "confidence": 0.7,
+ "reason": "The speech highlights that a sharp upward move in inflation expectations creates bigger upside risks for medium-term inflation and may require a more pronounced or prolonged slowdown to bring inflation back to target.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2572,
+ "prompt_tokens": 1265,
+ "completion_tokens": 604,
+ "cost_usd": 0.000137576,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.8,
+ "reason": "The Committee agreed there had been little news on the month and that inflation was likely to remain close to target with some near-term upside risks from energy prices, so it was appropriate to leave the repo rate unchanged at 4.5%, with only one member voting for a 25 basis point cut.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20476,
+ "prompt_tokens": 4664,
+ "completion_tokens": 688,
+ "cost_usd": 0.000285632,
+ "attempts": 1
+}

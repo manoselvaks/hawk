@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": -0.5,
+ "confidence": 0.5,
+ "reason": "The speech is mainly about the QE asset purchase programme and its ongoing stimulus effect, with a note that the MPC would decide future withdrawal month-by-month based on the inflation outlook; it describes past easing as needed to avoid depression and deflation but does not clearly push for further action, so it leans only slightly dovish.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2514,
+ "prompt_tokens": 2042,
+ "completion_tokens": 143,
+ "cost_usd": 0.0002757,
+ "attempts": 1
+}

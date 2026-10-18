@@ -1,0 +1,15 @@
+{
+ "relevance": 0.55,
+ "stance": 0.0,
+ "confidence": 0.56,
+ "reason": "The speech notes that monetary policy is forward-looking and that the macroeconomic outlook is \u201crelatively benign at present,\u201d but gives no clear signal about future rate changes.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2105,
+ "prompt_tokens": 1050,
+ "completion_tokens": 61,
+ "cost_usd": 0.000161675,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.3,
+ "stance": null,
+ "confidence": 0.3,
+ "reason": "The extracts are mainly about financial stability, asset price surges, and structured credit markets, with only a brief description of how the MPC sets rates and a note that the macro outlook is relatively benign.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2105,
+ "prompt_tokens": 1831,
+ "completion_tokens": 96,
+ "cost_usd": 0.0002311,
+ "attempts": 1
+}

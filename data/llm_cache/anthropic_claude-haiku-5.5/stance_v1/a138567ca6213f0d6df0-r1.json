@@ -1,0 +1,15 @@
+{
+ "relevance": 0.2,
+ "stance": null,
+ "confidence": 0.6,
+ "reason": "The speech is mainly about household and corporate debt, leveraged lending and financial stability, with only a passing reference to the November 2017 measures and no clear view on the future path of Bank Rate.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 1,
+ "input_chars": 2490,
+ "prompt_tokens": 1983,
+ "completion_tokens": 96,
+ "cost_usd": 0.0002463,
+ "attempts": 1
+}

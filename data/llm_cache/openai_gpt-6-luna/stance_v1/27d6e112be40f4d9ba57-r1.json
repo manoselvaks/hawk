@@ -1,0 +1,15 @@
+{
+ "relevance": 0.35,
+ "stance": 0.0,
+ "confidence": 0.82,
+ "reason": "The speech mainly discusses digital currencies and SME finance, while its monetary-policy discussion considers the structural implications of the zero lower bound and explicitly says it carries no implications for the costs and benefits of negative rates in the shorter term.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 6253,
+ "prompt_tokens": 1926,
+ "completion_tokens": 192,
+ "cost_usd": 0.00011553,
+ "attempts": 1
+}

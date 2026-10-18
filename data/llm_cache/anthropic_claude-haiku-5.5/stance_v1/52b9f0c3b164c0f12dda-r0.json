@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 1.0,
+ "confidence": 0.7,
+ "reason": "The speech is directly about monetary policy, stressing upside inflation risks and expectations, with inflation expectations rising sharply and a possibly prolonged slowdown needed to bring inflation back to target, though the framing is balanced by credit-crunch drag on demand.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2572,
+ "prompt_tokens": 1999,
+ "completion_tokens": 122,
+ "cost_usd": 0.0002609,
+ "attempts": 1
+}

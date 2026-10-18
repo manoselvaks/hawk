@@ -1,0 +1,15 @@
+{
+ "relevance": 0.8,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speech discusses how climate change and mitigation policies affect inflation and monetary-policy transmission, but it does not signal a preferred future policy path.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2554,
+ "prompt_tokens": 1203,
+ "completion_tokens": 113,
+ "cost_usd": 0.0002068,
+ "attempts": 1
+}

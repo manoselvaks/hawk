@@ -14,7 +14,8 @@ explains?** See [PLAN.md](PLAN.md) for the full plan.
 | --- | --- |
 | Speech and minutes collector | ✅ built (`src/hawk/speeches/`) |
 | Market data (Bank Rate, gilt yields) | in progress (`src/hawk/market/`) |
-| Tone scoring (word list + LLM) | planned |
+| Tone scoring (word list + LLM) | ✅ built, piloted (`src/hawk/scoring/`); full corpus not yet scored |
+| Hand labels for evaluation | tool ready (`labelling/`) |
 | Analysis and website | planned |
 
 ## Install
@@ -50,6 +51,25 @@ The collector is built to be a good citizen of the BoE website:
 
 Older speeches and minutes are often short web pages that link to a PDF; when a page has
 little text and links to a PDF, the PDF's text is used instead.
+
+## Score tone
+
+Each document gets a **relevance** (0–1: is it about monetary policy?) and a **stance**
+(−2 very dovish to +2 very hawkish), from two scorers: a transparent word-list baseline
+and an LLM through OpenRouter. See [docs/methodology.md](docs/methodology.md) for the
+design, and [docs/pilot.md](docs/pilot.md) for the model comparison.
+
+```bash
+python -m hawk.scoring.pilot                       # compare candidate models on 20 documents
+python -m hawk.scoring.make_labelling_set          # build labelling/label.html
+python -m hawk.scoring.evaluate --labels labelling/labels.csv   # scorers vs hand labels
+python -m hawk.scoring.score_all                   # prints the cost estimate; --confirm to run
+```
+
+LLM calls are cached in `data/llm_cache/` and every call's cost is logged in
+`data/llm_spend.jsonl`; the scorer refuses to run past a spend cap ($4 by default,
+`--spend-cap` or `HAWK_SPEND_CAP_USD` to change). Set `OPENROUTER_API_KEY` to run
+locally.
 
 ## Development
 

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.6,
+ "reason": "The minutes are entirely about the policy decision, with the Committee holding Bank Rate at 5.5% while downside demand risks and upside inflation risks are both noted as rising; eight members voted to hold and one (Blanchflower) voted for a cut, with the Committee's wording on avoiding the appearance of focusing on demand over inflation leaning slightly toward holding firm.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2593,
+ "prompt_tokens": 2033,
+ "completion_tokens": 161,
+ "cost_usd": 0.0002838,
+ "attempts": 1
+}

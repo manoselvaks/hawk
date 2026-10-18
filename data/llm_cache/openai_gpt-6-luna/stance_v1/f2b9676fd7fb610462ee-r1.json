@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": 0.0,
+ "confidence": 0.74,
+ "reason": "The extracts present offsetting considerations\u2014downside risks to consumption and subdued wage settlements alongside higher inflation expectations and supportive asset prices\u2014without a clear Committee lean toward changing rates.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 1,
+ "input_chars": 2418,
+ "prompt_tokens": 1155,
+ "completion_tokens": 138,
+ "cost_usd": 8.082e-05,
+ "attempts": 1
+}

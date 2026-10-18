@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.91,
+ "reason": "Bean describes balanced central projections but emphasizes both downside risks to demand and upside risks to inflation, concluding that future interest rates depend on how the data and risks unfold.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 13359,
+ "prompt_tokens": 3188,
+ "completion_tokens": 58,
+ "cost_usd": 0.000427425,
+ "attempts": 1
+}

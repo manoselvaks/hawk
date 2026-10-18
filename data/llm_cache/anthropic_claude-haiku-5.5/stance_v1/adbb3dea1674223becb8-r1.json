@@ -1,0 +1,15 @@
+{
+ "relevance": 0,
+ "stance": null,
+ "confidence": 0.9,
+ "reason": "The extract is about bank regulation (authorising new banks, capital requirements, Pillar 2A, leverage ratio) rather than the UK monetary policy outlook, inflation, demand or Bank Rate.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 1,
+ "input_chars": 1018,
+ "prompt_tokens": 1527,
+ "completion_tokens": 103,
+ "cost_usd": 0.0002042,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.7,
+ "reason": "The minutes are entirely about the monetary policy decision and outlook, holding the repo rate at 4.5% with seven votes to one, the majority judging output near trend with upside inflation risks from energy, while one member argued for a 25 basis point cut, so the Committee as a whole is balanced.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20476,
+ "prompt_tokens": 7400,
+ "completion_tokens": 130,
+ "cost_usd": 0.000805,
+ "attempts": 1
+}

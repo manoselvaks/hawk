@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 1.0,
+ "confidence": 0.6,
+ "reason": "Speech on monetary policy describes the February rate rise to 4% as leaving policy stimulating the economy and says that if inflationary pressures build, a gradual further rise in rates would be necessary, leaning hawkish though balanced by discussion of external weaknesses.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "passages",
+ "replicate": 0,
+ "input_chars": 2549,
+ "prompt_tokens": 2061,
+ "completion_tokens": 122,
+ "cost_usd": 0.0002671,
+ "attempts": 1
+}

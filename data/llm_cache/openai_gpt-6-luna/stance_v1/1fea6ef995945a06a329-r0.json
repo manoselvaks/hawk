@@ -1,0 +1,15 @@
+{
+ "relevance": 0,
+ "stance": null,
+ "confidence": 1,
+ "reason": "The speech concerns cyber security and operational resilience in the financial sector, not the UK monetary policy outlook or policy tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12222,
+ "prompt_tokens": 3000,
+ "completion_tokens": 98,
+ "cost_usd": 7.927e-05,
+ "attempts": 1
+}

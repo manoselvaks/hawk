@@ -1,0 +1,15 @@
+{
+ "relevance": 0.5,
+ "stance": -2.0,
+ "confidence": 0.8,
+ "reason": "Miles argues that QE is effective and that he has voted for its extension because it reduces the risk of undershooting the inflation target and helps prevent the recession worsening.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 9898,
+ "prompt_tokens": 2777,
+ "completion_tokens": 588,
+ "cost_usd": 0.0001752848,
+ "attempts": 1
+}
