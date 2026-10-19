@@ -1,0 +1,51 @@
+{% macro tile_placeholder(label, detail) %}
+<article class="tile tile-soon reveal">
+  <p class="tile-label">{{ label }}</p>
+  <p class="tile-value">Coming soon</p>
+  <p class="tile-detail">{{ detail }}</p>
+</article>
+{% endmacro %}
+
+{% macro soon(title, text) %}
+<div class="soon card">
+  <span class="soon-badge">Coming soon</span>
+  <h3>{{ title }}</h3>
+  <p class="muted">{{ text }}</p>
+</div>
+{% endmacro %}
+
+{% macro stance_pill(x) %}
+<span class="pill pill-{{ x|stance_class }}">{{ x|stance }}</span>
+{% endmacro %}
+
+{# Horizontal diverging bar for a stance in -2..+2; `scale` is the half-width in stance units. #}
+{% macro div_bar(x, scale=1.0, label="") %}
+{% if x is none %}<span class="dbar dbar-empty" aria-label="{{ label }} no score"></span>{% else %}
+{% set w = [[(x|abs) / scale * 50, 50]|min, 1.5]|max %}
+<span class="dbar" role="img" aria-label="{{ label }} {{ x|stance }}">
+  <span class="dbar-fill dbar-{{ x|stance_class }}" style="{{ 'left:50%' if x >= 0 else 'right:50%' }};width:{{ '%.1f'|format(w) }}%"></span>
+</span>
+{% endif %}
+{% endmacro %}
+
+{# Bars with optional CI whiskers for findings groups: dicts with label, value and optional
+   n, ci_low, ci_high, tone. #}
+{% macro bars(items, unit="", tone=none) %}
+{% set ns = namespace(hi=0) %}
+{% for it in items %}{% set ns.hi = [ns.hi, it.value|abs, (it.get("ci_high") or 0)|abs]|max %}{% endfor %}
+{% set hi = ns.hi or 1 %}
+<div class="bars">
+  {% for it in items %}
+  <div class="bar-row">
+    <span class="bar-label">{{ it.label }}{% if it.get("n") is not none %} <span class="muted small">n={{ it.n|thousands }}</span>{% endif %}</span>
+    <span class="bar-track">
+      <span class="bar-fill bar-{{ it.get('tone') or tone or 'ink' }}" style="width:{{ '%.1f'|format([(it.value|abs) / hi * 100, 1]|max) }}%"></span>
+      {% if it.get("ci_low") is not none and it.get("ci_high") is not none %}
+      <span class="bar-ci" style="left:{{ '%.1f'|format([it.ci_low, 0]|max / hi * 100) }}%;width:{{ '%.1f'|format(([it.ci_high, 0]|max - [it.ci_low, 0]|max) / hi * 100) }}%" title="95% interval {{ it.ci_low|num }} to {{ it.ci_high|num }}{{ unit }}"></span>
+      {% endif %}
+    </span>
+    <span class="bar-value">{{ it.value|num(1) }}{{ unit }}</span>
+  </div>
+  {% endfor %}
+</div>
+{% endmacro %}

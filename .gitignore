@@ -221,3 +221,7 @@ __marimo__/
 
 # Hawk: raw download cache (rebuildable, not committed)
 data/raw/
+
+# Hawk: built website and its preview-score cache (rebuild with `make site`)
+site/_build/
+site/.cache/

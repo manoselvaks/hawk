@@ -1,11 +1,13 @@
 from __future__ import annotations
 
+import json
 from pathlib import Path
 
 import pandas as pd
 import pytest
 
 from hawk.scoring.evaluate import (
+    build_json,
     build_report,
     read_labels,
     relevance_metrics,
@@ -96,3 +98,11 @@ def test_report_from_synthetic_labels(labels: pd.DataFrame) -> None:
     assert "| LLM (test/model, full) | 5 of 5 | 1.00 | 100% | 100% |" in report
     assert "| Baseline (word lists) | 6 | 83% | 100% | 83% |" in report
     assert "## LLM self-consistency" in report
+
+    results = build_json(labels, preds, consistency, model="test/model", input_mode="full")
+    llm = next(s for s in results["scorers"] if s["kind"] == "llm")
+    assert llm["stance"]["spearman"] == 1.0 and llm["stance"]["n_compared"] == 5
+    assert llm["stance"]["confusion"]["labels"] == [-2, -1, 0, 1, 2]
+    assert len(llm["stance"]["confusion"]["rows"]) == 5
+    assert results["n_labelled"] == 6 and results["consistency"]["exact"] == 1.0
+    json.dumps(results, allow_nan=False)  # NaN must have become null

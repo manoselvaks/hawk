@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{ title }}</title>
+<meta name="description" content="{{ description }}">
+<link rel="canonical" href="{{ canonical }}">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ config.SITE_NAME }}">
+<meta property="og:title" content="{{ title }}">
+<meta property="og:description" content="{{ description }}">
+<meta property="og:url" content="{{ canonical }}">
+<meta property="og:image" content="{{ config.SITE_URL }}og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#fbfbfd" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+{% if preview %}<meta name="robots" content="noindex">{% endif %}
+<link rel="icon" href="{{ root }}favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{{ root }}apple-touch-icon.png">
+<script>document.documentElement.classList.add("js");try{var t=localStorage.getItem("hawk-theme");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+<link rel="stylesheet" href="{{ root }}static/style.css">
+{% block head %}{% endblock %}
+</head>
+<body data-page="{{ active }}">
+<a class="skip" href="#main">Skip to content</a>
+{% if preview %}
+<div class="preview-banner" role="note">
+  <strong>Preview: scores are not final.</strong>
+  <span>Demo values: {{ stats.n_pilot }} pilot AI scores, word-list baseline for the rest.</span>
+</div>
+{% endif %}
+<header class="site-header">
+  <nav class="nav wrap" aria-label="Main">
+    <a class="brand" href="{{ root }}" aria-label="{{ config.SITE_NAME }} home">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M6 23 L16 9" class="mk-hawk"/><path d="M16 9 L26 23" class="mk-dove"/></svg>
+      <span>{{ config.SITE_NAME }}</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Menu">
+      <span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      {% for key, label, href in nav %}
+      <li><a href="{{ root }}{{ href }}"{% if key == active %} aria-current="page"{% endif %}>{{ label }}</a></li>
+      {% endfor %}
+    </ul>
+    <button class="theme-toggle" type="button" aria-label="Switch colour theme">
+      <svg viewBox="0 0 24 24" aria-hidden="true" class="i-sun"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M4.6 4.6l1.6 1.6M17.8 17.8l1.6 1.6M2.5 12h2.2M19.3 12h2.2M4.6 19.4l1.6-1.6M17.8 6.2l1.6-1.6"/></svg>
+      <svg viewBox="0 0 24 24" aria-hidden="true" class="i-moon"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5Z"/></svg>
+    </button>
+  </nav>
+</header>
+<main id="main">
+{% block main %}{% endblock %}
+</main>
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <p class="footer-brand">{{ config.SITE_NAME }}</p>
+      <p class="muted">An open-source research project by {{ config.AUTHOR }}. Not affiliated with the Bank of England.</p>
+    </div>
+    <div class="footer-links">
+      <a href="{{ config.REPO_URL }}">Source on GitHub</a>
+      <a href="{{ root }}methodology/">Methodology</a>
+      <a href="{{ root }}about/">About</a>
+    </div>
+    <p class="muted small">Built {{ built }}{% if preview %} · preview build{% endif %}. Data: Bank of England. Code: MIT licence.</p>
+  </div>
+</footer>
+<script src="{{ root }}static/site.js" defer></script>
+{% block scripts %}{% endblock %}
+</body>
+</html>

@@ -1,0 +1,120 @@
+{% extends "base.html" %}
+{% from "macros.html" import soon, bars %}
+{% macro signed_bars(items, unit="") %}
+{% set hi = (items|map(attribute="value")|map("abs")|max) or 1 %}
+<div class="bars signed">
+  {% for it in items %}
+  <div class="bar-row">
+    <span class="bar-label">{{ it.label }}{% if it.get("n") is not none %} <span class="muted small">n={{ it.n|thousands }}</span>{% endif %}</span>
+    <span class="bar-track mid"><span class="bar-fill bar-{{ 'hawk' if it.value > 0 else 'dove' }}" style="{{ 'left' if it.value >= 0 else 'right' }}:50%;width:{{ '%.1f'|format([(it.value|abs) / hi * 50, 0.8]|max) }}%"></span></span>
+    <span class="bar-value">{{ "%+.2f"|format(it.value) }}{{ unit }}</span>
+  </div>
+  {% endfor %}
+</div>
+{% endmacro %}
+{% macro coef_table(rows) %}
+<div class="table-wrap"><table class="data">
+  <thead><tr><th scope="col">Term</th><th scope="col" class="num">Estimate</th><th scope="col" class="num">95% interval</th><th scope="col" class="num">p</th></tr></thead>
+  <tbody>{% for c in rows %}<tr><td>{{ c.get('label') or c.term }}</td><td class="num">{{ c.estimate|num(3) }}</td><td class="num">{% if c.get('ci_low') is not none %}{{ c.ci_low|num(3) }} to {{ c.ci_high|num(3) }}{% else %}–{% endif %}</td><td class="num">{{ c.get('p_value')|num(3) }}</td></tr>{% endfor %}</tbody>
+</table></div>
+{% endmacro %}
+{% block head %}<link rel="stylesheet" href="{{ root }}static/vendor/uPlot.min.css">{% endblock %}
+{% block main %}
+{% set f = findings or {} %}
+<section class="page-head wrap">
+  <p class="eyebrow reveal">Findings</p>
+  <h1 class="reveal">What the tone told us.</h1>
+  <p class="lede reveal">Three tests of one question: did the tone of Bank of England communication shift before rate decisions, and did 2-year gilt yields react to it beyond what the decision itself explains?{% if f.get('generated_at') %} <span class="muted">Results generated {{ f.get('generated_at')[:10] }}{% if f.get('sample') %}, {{ f.get('sample').start[:4] }}–{{ f.get('sample').end[:4] }}{% endif %}.</span>{% endif %}</p>
+  <nav class="toc reveal" aria-label="On this page"><a href="#event-study">Event study</a><a href="#prediction">Prediction test</a><a href="#market">Market reaction</a><a href="#caveats">Caveats</a></nav>
+</section>
+
+<section class="wrap section" id="event-study" aria-labelledby="es-title">
+  <h2 class="section-title reveal" id="es-title">1 · Event study: tone before hikes, cuts and holds</h2>
+  {% if f.get('event_study') %}{% set es = f.get('event_study') %}
+  <p class="takeaway reveal">{{ es.get('takeaway') }}</p>
+  <figure class="card chart-card reveal">
+    <div class="chart-head"><div><h3 class="chart-title">Average tone in the weeks before a decision (0 = decision week)</h3>{% if es.get('method') %}<p class="chart-sub">{{ es.get('method') }}</p>{% endif %}</div>
+      <ul class="legend">{% for s in es.get('series') %}<li><i class="sw sw-{{ {'hike': 'hawk', 'cut': 'dove'}.get(s.decision, 'neutral') }}"></i>{{ s.decision|capitalize }} <span class="muted">({{ s.n_events }})</span></li>{% endfor %}</ul></div>
+    <div class="chart" id="es-chart" role="img" aria-label="Line chart of average tone before hikes, cuts and holds"></div>
+    <script type="application/json" id="es-data">{{ json(es)|safe }}</script>
+  </figure>
+  {% if es.get('table') %}
+  <div class="table-wrap card reveal"><table class="data">
+    <thead><tr><th scope="col">Next decision</th><th scope="col" class="num">Events</th><th scope="col" class="num">Mean tone before</th><th scope="col" class="num">95% interval</th><th scope="col" class="num">Change in tone</th></tr></thead>
+    <tbody>{% for r in es.get('table') %}<tr><td>{{ r.decision|capitalize }}</td><td class="num">{{ r.n_events }}</td><td class="num">{{ r.mean_tone_before|stance }}</td><td class="num">{{ r.ci_low|stance }} to {{ r.ci_high|stance }}</td><td class="num">{{ r.tone_change|stance }}</td></tr>{% endfor %}</tbody>
+  </table></div>
+  {% endif %}
+  {% else %}
+  {{ soon("Tone before hikes, cuts and holds", "The average tone of MPC communication in the weeks before each kind of decision, with confidence intervals. Appears once the full corpus is scored.") }}
+  {% endif %}
+</section>
+
+<section class="wrap section" id="prediction" aria-labelledby="pt-title">
+  <h2 class="section-title reveal" id="pt-title">2 · Prediction test: does tone add information?</h2>
+  {% if f.get('prediction_test') %}{% set pt = f.get('prediction_test') %}
+  <p class="takeaway reveal">{{ pt.get('takeaway') }}</p>
+  <div class="card reveal pad">
+    <h3 class="chart-title">Out-of-sample accuracy{% if pt.get('outcome') %}: {{ pt.get('outcome') }}{% endif %}</h3>
+    {% if pt.get('method') %}<p class="chart-sub">{{ pt.get('method') }}</p>{% endif %}
+    {% set mb = [] %}
+    {% for mo in pt.get('models') %}{% set _ = mb.append({"label": mo.name, "value": (mo.accuracy or 0) * 100, "n": mo.get("n"), "tone": "accent" if mo.get("uses_tone") else "muted"}) %}{% endfor %}
+    {{ bars(mb, "%") }}
+    {% if pt.get('models')[0].log_loss is defined %}
+    <div class="table-wrap"><table class="data">
+      <thead><tr><th scope="col">Model</th><th scope="col" class="num">Accuracy</th><th scope="col" class="num">Log loss</th><th scope="col" class="num">Pseudo R²</th></tr></thead>
+      <tbody>{% for mo in pt.get('models') %}<tr><td>{{ mo.name }}</td><td class="num">{{ mo.accuracy|pct }}</td><td class="num">{{ mo.get("log_loss")|num(3) }}</td><td class="num">{{ mo.get("pseudo_r2")|num(3) }}</td></tr>{% endfor %}</tbody>
+    </table></div>
+    {% endif %}
+    {% if pt.get('coefficients') %}<h3 class="chart-title mt">Coefficients</h3>{{ coef_table(pt.get('coefficients')) }}{% endif %}
+  </div>
+  {% else %}
+  {{ soon("Tone versus the previous decision", "Whether the change in tone before a meeting predicts the decision on top of the previous decision, tested out of sample with only information available at the time.") }}
+  {% endif %}
+</section>
+
+<section class="wrap section" id="market" aria-labelledby="mr-title">
+  <h2 class="section-title reveal" id="mr-title">3 · Market reaction: do 2-year gilts listen?</h2>
+  {% if f.get('market_reaction') %}{% set mr = f.get('market_reaction') %}
+  <p class="takeaway reveal">{{ mr.get('takeaway') }}</p>
+  <div class="grid-2">
+    {% if mr.get('groups') %}
+    <div class="card reveal pad">
+      <h3 class="chart-title">{{ mr.get('measure') or "Average absolute 2-year gilt move" }}</h3>
+      {% if mr.get('method') %}<p class="chart-sub">{{ mr.get('method') }}</p>{% endif %}
+      {{ bars(mr.get('groups'), " bp") }}
+    </div>
+    {% endif %}
+    {% if mr.get('by_stance') %}
+    <div class="card reveal pad">
+      <h3 class="chart-title">Average 2-year move by speech stance</h3>
+      <p class="chart-sub">Signed change on the day a speech was published, basis points.</p>
+      {{ signed_bars(mr.get('by_stance'), " bp") }}
+    </div>
+    {% endif %}
+  </div>
+  {% if mr.get('regression') %}<div class="card reveal pad mt"><h3 class="chart-title">Regression</h3>{{ coef_table(mr.get('regression')) }}</div>{% endif %}
+  {% else %}
+  {{ soon("Gilt yields on speech days", "How much 2-year gilt yields move on days with an MPC speech compared with normal days, and whether the direction follows the speech’s tone.") }}
+  {% endif %}
+</section>
+
+<section class="wrap section" id="caveats" aria-labelledby="cv-title">
+  <h2 class="section-title reveal" id="cv-title">Caveats</h2>
+  <div class="caveats">
+  {% for c in (f.get('caveats') or []) %}
+    <article class="card pad reveal"><h3>{{ c.title }}</h3><p class="muted">{{ c.text }}</p></article>
+  {% else %}
+    <article class="card pad reveal"><h3>One labeller, about 36 labels</h3><p class="muted">The AI scorer is checked against one person’s hand labels. That separates a useful scorer from a useless one, but the confidence intervals are wide.</p></article>
+    <article class="card pad reveal"><h3>The model knows history</h3><p class="muted">The language model was trained on text written after most of these speeches. Hiding the date and speaker reduces, but cannot remove, the risk that it recalls what happened next.</p></article>
+    <article class="card pad reveal"><h3>Correlation, not causation</h3><p class="muted">Tone and decisions are both driven by the economic data. A link between them does not mean speeches caused the moves.</p></article>
+  {% endfor %}
+  </div>
+</section>
+{% endblock %}
+{% block scripts %}
+{% if findings and findings.get('event_study') %}
+<script src="{{ root }}static/vendor/uPlot.iife.min.js" defer></script>
+<script src="{{ root }}static/charts.js" defer></script>
+<script src="{{ root }}static/findings.js" defer></script>
+{% endif %}
+{% endblock %}

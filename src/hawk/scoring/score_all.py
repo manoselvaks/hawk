@@ -9,7 +9,7 @@ Without ``--confirm`` this only prints how many documents would be scored, how m
 are already cached, and the estimated cost, taken from the mean cost per document of
 the same model and input mode in ``data/pilot/pilot_scores.csv``. With ``--confirm``
 it scores every document (cached ones cost nothing), stopping if the spend cap is
-reached, and writes ``data/scores/scores.parquet``.
+reached, and writes ``data/scores.parquet`` (schema in ``docs/data-contract.md``).
 """
 
 from __future__ import annotations
@@ -17,18 +17,46 @@ from __future__ import annotations
 import argparse
 import logging
 from pathlib import Path
+from typing import Any
 
 import pandas as pd
 
 from hawk.scoring import baseline
 from hawk.scoring.corpus import load_documents
-from hawk.scoring.llm import DEFAULT_INPUT_MODE, DEFAULT_MODEL, LLMScorer
+from hawk.scoring.llm import DEFAULT_INPUT_MODE, DEFAULT_MODEL, PROMPT_VERSION, LLMScorer
 from hawk.scoring.pilot import SCORES_PATH as PILOT_SCORES
 from hawk.scoring.spend import BudgetExceededError, SpendTracker
 
 log = logging.getLogger("hawk.scoring.score_all")
 
-OUT_PATH = Path("data/scores/scores.parquet")
+OUT_PATH = Path("data/scores.parquet")
+
+# Column order of data/scores.parquet; docs/data-contract.md describes each one.
+SCORES_COLUMNS = [
+    "doc_id",
+    "kind",
+    "url",
+    "title",
+    "speaker",
+    "role",
+    "is_mpc_member",
+    "published_date",
+    "speech_date",
+    "meeting_date",
+    "n_chars",
+    "policy_density",
+    "llm_relevance",
+    "llm_stance",
+    "llm_confidence",
+    "llm_reason",
+    "baseline_stance",
+    "baseline_hawkish",
+    "baseline_dovish",
+    "baseline_relevance",
+    "model",
+    "input_mode",
+    "prompt_version",
+]
 
 
 def estimate_cost(
@@ -42,6 +70,28 @@ def estimate_cost(
     if match.empty:
         return None
     return float(match["cost_usd"].mean()) * n_uncached
+
+
+def scores_table(
+    docs: pd.DataFrame,
+    rows: list[dict[str, Any]],
+    *,
+    model: str,
+    input_mode: str,
+    prompt_version: str = PROMPT_VERSION,
+) -> pd.DataFrame:
+    """Join document metadata with per-document score rows into the contract table.
+
+    ``docs`` is ``load_documents()`` output; ``rows`` hold ``doc_id`` and the ``llm_*``
+    and ``baseline_*`` fields. Documents without a row (e.g. after the spend cap
+    stopped the run) are left out. ``date`` is renamed ``published_date``.
+    """
+    meta = docs.drop(columns="text").rename(columns={"date": "published_date"})
+    scores = meta.merge(pd.DataFrame(rows), on="doc_id")
+    scores["llm_stance"] = pd.to_numeric(scores["llm_stance"]).astype("float64")
+    scores["model"], scores["input_mode"] = model, input_mode
+    scores["prompt_version"] = prompt_version
+    return scores[SCORES_COLUMNS]
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -74,7 +124,7 @@ def main(argv: list[str] | None = None) -> int:
         print("Nothing scored. Re-run with --confirm to score the corpus.")
         return 2
 
-    rows = []
+    rows: list[dict[str, Any]] = []
     try:
         for i, doc in enumerate(docs.to_dict("records"), start=1):
             rec = scorer.score(doc["kind"], doc["text"])
@@ -97,9 +147,9 @@ def main(argv: list[str] | None = None) -> int:
     except BudgetExceededError as exc:
         log.error("stopped early: %s", exc)
 
-    meta = docs.drop(columns="text")
-    scores = meta.merge(pd.DataFrame(rows), on="doc_id")
-    scores["model"], scores["input_mode"] = args.model, args.input_mode
+    scores = scores_table(
+        docs, rows, model=args.model, input_mode=args.input_mode, prompt_version=PROMPT_VERSION
+    )
     args.out.parent.mkdir(parents=True, exist_ok=True)
     scores.to_parquet(args.out, index=False)
     log.info("wrote %d rows to %s; spent $%.4f", len(scores), args.out, tracker.session_usd)

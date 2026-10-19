@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block main %}
+<section class="page-head wrap">
+  <p class="eyebrow reveal">About</p>
+  <h1 class="reveal">A markets question, answered in the open.</h1>
+  <p class="lede reveal">Central banks talk before they act. Hawk measures that talk for the Bank of England over almost three decades and asks whether it carried information that traders and economists could have used, without the benefit of hindsight.</p>
+</section>
+<section class="wrap section">
+  <div class="grid-2">
+    <article class="card pad reveal">
+      <h2 class="h3">The project</h2>
+      <p>Hawk collects every Bank of England speech and every set of Monetary Policy Committee minutes since 1997, together with Bank Rate decisions, members’ votes and gilt yields. Each document is scored from dovish to hawkish by a language model and by a transparent word-list baseline, and both are checked against hand labels before any result is reported.</p>
+      <p>The code, data and every decision along the way are public. If you spot a mistake, please open an issue.</p>
+    </article>
+    <article class="card pad reveal">
+      <h2 class="h3">Who made it</h2>
+      <p>{{ config.AUTHOR }} is a finance student in London interested in markets and macro: sales &amp; trading, rates and economics research. Hawk is a self-directed project to learn how central bank communication moves rates markets, and to test that rigorously.</p>
+      <p class="links">
+        <a class="btn btn-primary" href="{{ config.GITHUB_PROFILE }}">GitHub</a>
+        {% if config.LINKEDIN_URL %}<a class="btn btn-ghost" href="{{ config.LINKEDIN_URL }}">LinkedIn</a>{% endif %}
+        <a class="btn btn-ghost" href="{{ config.REPO_URL }}">Source code</a>
+      </p>
+    </article>
+  </div>
+</section>
+<section class="wrap section">
+  <h2 class="section-title reveal">Built with</h2>
+  <ul class="credits reveal">
+    <li><strong>Data</strong> Bank of England speeches, MPC minutes, Bank Rate history, MPC voting record and yield curves</li>
+    <li><strong>Scoring</strong> an LLM through OpenRouter, and a word-list baseline after Apel and Blix Grimaldi (2012)</li>
+    <li><strong>Analysis</strong> Python, pandas and NumPy</li>
+    <li><strong>Site</strong> Jinja templates, plain HTML and CSS, and <a href="https://github.com/leeoniya/uPlot">uPlot</a> for charts, hosted on GitHub Pages</li>
+  </ul>
+  <p class="muted small">Hawk is independent and not affiliated with or endorsed by the Bank of England. Nothing here is investment advice.</p>
+</section>
+{% endblock %}
