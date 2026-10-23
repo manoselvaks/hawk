@@ -1,0 +1,15 @@
+{
+ "relevance": 0.5,
+ "stance": -1.5,
+ "confidence": 0.7,
+ "reason": "Haskel says that with limited conventional monetary policy space he 'continue[s] to prefer to move now' to return inflation sustainably to target, implying a dovish lean toward easing.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22607,
+ "prompt_tokens": 5174,
+ "completion_tokens": 1255,
+ "cost_usd": 0.00069156,
+ "attempts": 2
+}

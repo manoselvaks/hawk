@@ -1,8 +1,11 @@
 name: Website
 
-# Manual only for now: the site is not published until someone runs this workflow
-# from the Actions tab. Add a `push: branches: [main]` trigger once the scores are final.
+# Deploys on every push to main (so merging a pull request publishes the site), and can
+# also be run by hand from the Actions tab. Needs Settings -> Pages -> Source set to
+# "GitHub Actions".
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
 
 permissions:

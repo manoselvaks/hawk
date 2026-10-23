@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.9,
+ "reason": "Policymakers may therefore interpret the rise in the actual unemployment rate as a reflection of greater slack in the labour market now compared to a year ago, which is likely to keep wage and inflationary pressures subdued in the near future.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24075,
+ "prompt_tokens": 5605,
+ "completion_tokens": 832,
+ "cost_usd": 0.00080835,
+ "attempts": 2
+}

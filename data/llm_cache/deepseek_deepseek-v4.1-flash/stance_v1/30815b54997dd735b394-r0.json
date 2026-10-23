@@ -1,0 +1,15 @@
+{
+ "relevance": 0,
+ "stance": null,
+ "confidence": 0.95,
+ "reason": "The speech is about digital money, stablecoin regulation, interoperability and payments infrastructure, not the UK monetary policy outlook, inflation, demand, labour market or Bank Rate.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 15754,
+ "prompt_tokens": 3835,
+ "completion_tokens": 253,
+ "cost_usd": 0.00039069,
+ "attempts": 1
+}

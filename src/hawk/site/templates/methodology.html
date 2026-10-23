@@ -10,10 +10,10 @@
 <section class="wrap section" id="accuracy" aria-labelledby="acc-title">
   <h2 class="section-title reveal" id="acc-title">How accurate is the AI?</h2>
   {% if evaluation %}{% set ev = evaluation %}
-  <p class="takeaway reveal">Both scorers against {{ ev.n_labelled }} hand-labelled documents ({{ ev.n_relevant }} about monetary policy). Spearman ρ measures whether the scorer ranks documents the way the human did; 1 is perfect, 0 is no better than chance.</p>
+  <p class="takeaway reveal">The scorers against {{ ev.n_labelled }} hand-labelled documents ({{ ev.n_relevant }} about monetary policy). Spearman ρ measures whether the scorer ranks documents the way the human did; 1 is perfect, 0 is no better than chance. The labels are one student’s, so treat them as a noisy yardstick.{% if ev.get('selection') %} Production model: <strong>{{ ev.model }}</strong> (tied on agreement with the best model, and cheapest).{% endif %}</p>
   <div class="table-wrap card reveal"><table class="data">
-    <thead><tr><th scope="col">Scorer</th><th scope="col" class="num">Spearman ρ</th><th scope="col" class="num">Exact</th><th scope="col" class="num">Within 1 point</th><th scope="col" class="num">Relevance precision</th><th scope="col" class="num">Relevance recall</th></tr></thead>
-    <tbody>{% for s in ev.scorers %}<tr><td>{{ s.name }}</td><td class="num">{{ s.stance.spearman|num }}</td><td class="num">{{ s.stance.exact|pct }}</td><td class="num">{{ s.stance.within_one|pct }}</td><td class="num">{{ s.relevance.precision|pct }}</td><td class="num">{{ s.relevance.recall|pct }}</td></tr>{% endfor %}</tbody>
+    <thead><tr><th scope="col">Scorer</th><th scope="col" class="num">Spearman ρ (95% CI)</th><th scope="col" class="num">Exact</th><th scope="col" class="num">Within 1 point</th><th scope="col" class="num">Relevance precision</th><th scope="col" class="num">Relevance recall</th></tr></thead>
+    <tbody>{% for s in ev.scorers %}<tr><td>{{ s.name }}</td><td class="num">{{ s.stance.spearman|num }}{% if s.stance.get("spearman_ci") and s.stance.spearman_ci[0] is not none %}<span class="muted small"> ({{ s.stance.spearman_ci[0]|num }} to {{ s.stance.spearman_ci[1]|num }})</span>{% endif %}</td><td class="num">{{ s.stance.exact|pct }}</td><td class="num">{{ s.stance.within_one|pct }}</td><td class="num">{{ s.relevance.precision|pct }}</td><td class="num">{{ s.relevance.recall|pct }}</td></tr>{% endfor %}</tbody>
   </table></div>
   <div class="grid-2 mt">
   {% for s in ev.scorers %}

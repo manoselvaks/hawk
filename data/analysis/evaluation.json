@@ -1,0 +1,305 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-23T00:30:35+00:00",
+  "model": "openai/gpt-6-luna",
+  "input_mode": "full",
+  "n_labelled": 36,
+  "n_relevant": 33,
+  "scorers": [
+    {
+      "name": "Baseline (word lists)",
+      "kind": "baseline",
+      "stance": {
+        "n_scored": 33,
+        "n_compared": 33,
+        "spearman": 0.4177,
+        "exact": 0.3333,
+        "within_one": 0.5455,
+        "confusion": {
+          "labels": [
+            -2,
+            -1,
+            0,
+            1,
+            2
+          ],
+          "rows": [
+            [
+              0,
+              1,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              4,
+              5,
+              2,
+              0
+            ],
+            [
+              0,
+              3,
+              4,
+              2,
+              0
+            ],
+            [
+              0,
+              1,
+              4,
+              1,
+              1
+            ]
+          ],
+          "no_stance": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        "spearman_ci": [
+          0.0873,
+          0.678
+        ],
+        "exact_ci": [
+          0.1818,
+          0.4848
+        ],
+        "within_one_ci": [
+          0.3636,
+          0.7273
+        ]
+      },
+      "relevance": {
+        "n": 36,
+        "precision": 0.9615,
+        "recall": 0.7576,
+        "accuracy": 0.75
+      }
+    },
+    {
+      "name": "LLM (openai/gpt-6-luna, full)",
+      "kind": "llm",
+      "stance": {
+        "n_scored": 33,
+        "n_compared": 31,
+        "spearman": 0.3736,
+        "exact": 0.3548,
+        "within_one": 0.8065,
+        "confusion": {
+          "labels": [
+            -2,
+            -1,
+            0,
+            1,
+            2
+          ],
+          "rows": [
+            [
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              2,
+              2,
+              0,
+              0
+            ],
+            [
+              1,
+              3,
+              4,
+              3,
+              0
+            ],
+            [
+              0,
+              1,
+              3,
+              3,
+              1
+            ],
+            [
+              0,
+              3,
+              0,
+              3,
+              1
+            ]
+          ],
+          "no_stance": [
+            1,
+            0,
+            0,
+            1,
+            0
+          ]
+        },
+        "spearman_ci": [
+          0.0137,
+          0.6757
+        ],
+        "exact_ci": [
+          0.1935,
+          0.5312
+        ],
+        "within_one_ci": [
+          0.6667,
+          0.9355
+        ]
+      },
+      "relevance": {
+        "n": 36,
+        "precision": 0.9688,
+        "recall": 0.9394,
+        "accuracy": 0.9167
+      },
+      "model": "openai/gpt-6-luna",
+      "chosen": true,
+      "consistency": {
+        "n": 36,
+        "exact": 0.7778,
+        "within_half": 1.0,
+        "mean_abs_diff": 0.125,
+        "relevance_agree": 1.0
+      },
+      "cost_per_doc_usd": 0.000319,
+      "corpus_cost_usd": 0.591
+    },
+    {
+      "name": "LLM (anthropic/claude-haiku-5.5, full)",
+      "kind": "llm",
+      "stance": {
+        "n_scored": 33,
+        "n_compared": 30,
+        "spearman": 0.4108,
+        "exact": 0.3667,
+        "within_one": 0.8,
+        "confusion": {
+          "labels": [
+            -2,
+            -1,
+            0,
+            1,
+            2
+          ],
+          "rows": [
+            [
+              1,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              1,
+              0,
+              0
+            ],
+            [
+              1,
+              4,
+              3,
+              3,
+              0
+            ],
+            [
+              1,
+              0,
+              2,
+              3,
+              1
+            ],
+            [
+              1,
+              1,
+              1,
+              3,
+              1
+            ]
+          ],
+          "no_stance": [
+            1,
+            0,
+            0,
+            2,
+            0
+          ]
+        },
+        "spearman_ci": [
+          0.0497,
+          0.7264
+        ],
+        "exact_ci": [
+          0.2,
+          0.5484
+        ],
+        "within_one_ci": [
+          0.6552,
+          0.9333
+        ]
+      },
+      "relevance": {
+        "n": 36,
+        "precision": 0.9643,
+        "recall": 0.8182,
+        "accuracy": 0.8056
+      },
+      "model": "anthropic/claude-haiku-5.5",
+      "chosen": false,
+      "consistency": {
+        "n": 24,
+        "exact": 1.0,
+        "within_half": 1.0,
+        "mean_abs_diff": 0.0,
+        "relevance_agree": 0.9583
+      },
+      "cost_per_doc_usd": 0.000709,
+      "corpus_cost_usd": 1.313
+    }
+  ],
+  "consistency": {
+    "n": 36,
+    "exact": 0.7778,
+    "within_half": 1.0,
+    "mean_abs_diff": 0.125,
+    "relevance_agree": 1.0
+  },
+  "selection": {
+    "rule": "highest Spearman rho; models whose paired-bootstrap rho difference includes zero count as tied; cheapest tied model wins",
+    "best_rho": "anthropic/claude-haiku-5.5",
+    "tied_with_best": [
+      "anthropic/claude-haiku-5.5",
+      "openai/gpt-6-luna"
+    ],
+    "rho_difference_vs_best": {
+      "openai/gpt-6-luna": {
+        "rho_difference": 0.0372,
+        "ci_low": -0.0898,
+        "ci_high": 0.1925
+      }
+    },
+    "chosen": "openai/gpt-6-luna",
+    "not_compared": {
+      "deepseek/deepseek-v4.1-flash": "no cached score for every labelled item (scoring was blocked)"
+    }
+  },
+  "n_bootstrap": 4000
+}

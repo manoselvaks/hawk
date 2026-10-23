@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 1,
+ "reason": "The author states that the continued erosion of slack suggests inflation will overshoot the 2% target, making \"some withdrawal of monetary stimulus is likely to be appropriate over the coming months\".",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24084,
+ "prompt_tokens": 5387,
+ "completion_tokens": 1011,
+ "cost_usd": 0.00088259,
+ "attempts": 1
+}

@@ -58,8 +58,11 @@ def load(
     scores_path: Path = SCORES_PATH,
     decisions_path: Path = DECISIONS_PATH,
     yields_path: Path = YIELDS_PATH,
+    scores: pd.DataFrame | None = None,
 ) -> Inputs:
-    scores = pd.read_parquet(scores_path)
+    """Scores (from ``scores_path`` unless a frame is given), decisions and yields,
+    with every date column as ``datetime64[ns]``."""
+    scores = pd.read_parquet(scores_path) if scores is None else scores.copy()
     decisions = pd.read_parquet(decisions_path).sort_values("date").reset_index(drop=True)
     yields = pd.read_parquet(yields_path).sort_values("date").reset_index(drop=True)
     for frame, cols in (
@@ -204,3 +207,58 @@ def add_market_features(meetings: pd.DataFrame, yields: pd.DataFrame) -> pd.Data
     out["spread_2y"] = before - out["prev_rate_pct"]
     out["d2y_since_last"] = out["gilt_2y_before"] - out["gilt_2y_before"].shift(1)
     return out
+
+
+BASELINE_MODEL = "baseline (word lists)"
+
+
+def baseline_as_scores(frame: pd.DataFrame) -> pd.DataFrame:
+    """Copy of a scores-shaped ``frame`` whose ``llm_*`` columns hold the word-list
+    baseline instead, so every analysis can run on either scorer.
+
+    Relevance becomes 1 when the baseline counts the document as about policy (policy
+    terms per 100 words >= 1.5) and 0 otherwise; stance is the baseline stance for
+    relevant documents; confidence is 1 (the baseline has none).
+    """
+    from hawk.scoring.baseline import RELEVANCE_DENSITY_THRESHOLD
+
+    out = frame.copy()
+    rel = out["baseline_relevance"] >= RELEVANCE_DENSITY_THRESHOLD
+    out["llm_relevance"] = rel.astype(float)
+    out["llm_stance"] = out["baseline_stance"].where(rel).astype("float64")
+    out["llm_confidence"] = 1.0
+    out["llm_reason"] = None
+    out["model"] = BASELINE_MODEL
+    out["input_mode"] = "baseline"
+    return out
+
+
+def baseline_scores() -> pd.DataFrame:
+    """The whole corpus scored by the baseline only, shaped like ``scores.parquet``
+    (no API calls). Used when the LLM scores do not exist yet."""
+    from hawk.scoring import baseline
+    from hawk.scoring.corpus import load_documents
+    from hawk.scoring.llm import PROMPT_VERSION
+    from hawk.scoring.score_all import scores_table
+
+    docs = load_documents()
+    rows = []
+    for doc_id, text in zip(docs["doc_id"], docs["text"], strict=True):
+        b = baseline.score_text(text)
+        rows.append(
+            {
+                "doc_id": doc_id,
+                "llm_relevance": float("nan"),
+                "llm_stance": None,
+                "llm_confidence": float("nan"),
+                "llm_reason": None,
+                "baseline_stance": b.stance,
+                "baseline_hawkish": b.hawkish,
+                "baseline_dovish": b.dovish,
+                "baseline_relevance": b.relevance,
+            }
+        )
+    table = scores_table(
+        docs, rows, model=BASELINE_MODEL, input_mode="baseline", prompt_version=PROMPT_VERSION
+    )
+    return baseline_as_scores(table)

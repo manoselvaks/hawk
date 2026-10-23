@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 1,
+ "reason": "The Committee agreed that downside risks to UK growth had increased and price pressures were subdued, leading to the conclusion that a reduction in the repo rate was needed, with several members arguing for a 50 basis point cut.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24030,
+ "prompt_tokens": 5728,
+ "completion_tokens": 958,
+ "cost_usd": 0.00087996,
+ "attempts": 2
+}

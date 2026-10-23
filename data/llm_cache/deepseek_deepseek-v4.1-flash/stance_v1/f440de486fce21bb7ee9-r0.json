@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.85,
+ "reason": "Most members agreed the balance of risks to inflation had moved upwards and the case for withdrawing some monetary stimulus had strengthened, with three members voting to raise Bank Rate, though the majority still opted to hold.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22682,
+ "prompt_tokens": 4954,
+ "completion_tokens": 1120,
+ "cost_usd": 0.00064746,
+ "attempts": 1
+}

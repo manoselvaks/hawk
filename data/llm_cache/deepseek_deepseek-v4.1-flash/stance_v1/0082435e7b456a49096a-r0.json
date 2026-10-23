@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 0.0,
+ "confidence": 0.9,
+ "reason": "The MPC maintains that Bank Rate is the \"primary instrument of policy\" and that the combined effects of the APF and of more conventional changes in Bank Rate are set to hit the inflation target.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23662,
+ "prompt_tokens": 5686,
+ "completion_tokens": 1006,
+ "cost_usd": 0.00090102,
+ "attempts": 1
+}

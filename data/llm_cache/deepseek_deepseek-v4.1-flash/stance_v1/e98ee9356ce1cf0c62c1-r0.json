@@ -1,0 +1,15 @@
+{
+ "relevance": 0.5,
+ "stance": 1.0,
+ "confidence": 0.7,
+ "reason": "Tucker says the Orthodox Story, to which he gave most weight in his November vote, required a small tightening, and that a small increase in Bank Rate was warranted to keep inflation expectations anchored.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23154,
+ "prompt_tokens": 5423,
+ "completion_tokens": 674,
+ "cost_usd": 0.000554094,
+ "attempts": 1
+}

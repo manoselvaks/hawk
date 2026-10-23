@@ -20,6 +20,7 @@ from pathlib import Path
 from typing import Any
 
 import pandas as pd
+import requests
 
 from hawk.scoring import baseline
 from hawk.scoring.corpus import load_documents
@@ -101,12 +102,27 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--confirm", action="store_true", help="really call the API")
     parser.add_argument("--spend-cap", type=float, default=None, help="USD; default $4 or env")
     parser.add_argument("--out", type=Path, default=OUT_PATH)
+    parser.add_argument(
+        "--max-retries", type=int, default=3, help="attempts per document (OpenRouter 402s)"
+    )
+    parser.add_argument(
+        "--max-tokens",
+        type=int,
+        default=2_000,
+        help="reply cap; a lower cap makes OpenRouter reserve less credit per request",
+    )
     args = parser.parse_args(argv)
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
 
     docs = load_documents()
     tracker = SpendTracker(cap_usd=args.spend_cap)
-    scorer = LLMScorer(args.model, input_mode=args.input_mode, tracker=tracker)
+    scorer = LLMScorer(
+        args.model,
+        input_mode=args.input_mode,
+        tracker=tracker,
+        max_retries=args.max_retries,
+        max_tokens=args.max_tokens,
+    )
     uncached = sum(
         scorer.cached(k, t) is None for k, t in zip(docs["kind"], docs["text"], strict=True)
     )
@@ -125,9 +141,15 @@ def main(argv: list[str] | None = None) -> int:
         return 2
 
     rows: list[dict[str, Any]] = []
+    failed: list[str] = []
     try:
         for i, doc in enumerate(docs.to_dict("records"), start=1):
-            rec = scorer.score(doc["kind"], doc["text"])
+            try:
+                rec = scorer.score(doc["kind"], doc["text"])
+            except (RuntimeError, requests.RequestException) as exc:
+                log.error("skipped %s: %s", doc["doc_id"], exc)
+                failed.append(doc["doc_id"])
+                continue
             b = baseline.score_text(doc["text"])
             rows.append(
                 {
@@ -153,6 +175,9 @@ def main(argv: list[str] | None = None) -> int:
     args.out.parent.mkdir(parents=True, exist_ok=True)
     scores.to_parquet(args.out, index=False)
     log.info("wrote %d rows to %s; spent $%.4f", len(scores), args.out, tracker.session_usd)
+    if failed:
+        log.error("%d documents failed and are missing; re-run to fill them", len(failed))
+        return 1
     return 0
 
 

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.8,
+ "stance": 0.0,
+ "confidence": 0.7,
+ "reason": "The speech is largely a defence of the price-stability framework and notes inflation is close to target with anchored expectations, while acknowledging both external disinflationary forces and domestic inflationary pressures, without advocating a change in Bank Rate.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23857,
+ "prompt_tokens": 5552,
+ "completion_tokens": 708,
+ "cost_usd": 0.000571824,
+ "attempts": 1
+}

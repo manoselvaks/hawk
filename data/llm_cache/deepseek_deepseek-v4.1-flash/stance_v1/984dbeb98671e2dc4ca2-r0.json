@@ -1,0 +1,15 @@
+{
+ "relevance": 0.5,
+ "stance": -1.0,
+ "confidence": 0.7,
+ "reason": "The Governor explains that the MPC judged it necessary to reduce interest rates by \u00be% to cushion the global slowdown and meet the inflation target, citing below-target inflation and only modest wage pressure despite labour market tightness.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18843,
+ "prompt_tokens": 4261,
+ "completion_tokens": 727,
+ "cost_usd": 0.000459054,
+ "attempts": 1
+}

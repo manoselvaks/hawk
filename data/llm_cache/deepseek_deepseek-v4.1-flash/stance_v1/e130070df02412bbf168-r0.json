@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.9,
+ "reason": "The speaker notes that there is a margin of spare capacity in the UK economy which has been, and will continue, depressing domestically generated inflation pressures.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20077,
+ "prompt_tokens": 4929,
+ "completion_tokens": 882,
+ "cost_usd": 0.00078603,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 0.95,
+ "reason": "The Committee cut Bank Rate by 50 basis points and concluded that further monetary easing was likely to be needed, with inflation projected well below target and risks skewed to the downside, while also seeking authority for unconventional asset purchases.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23779,
+ "prompt_tokens": 5357,
+ "completion_tokens": 306,
+ "cost_usd": 0.00053721,
+ "attempts": 1
+}

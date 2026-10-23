@@ -113,6 +113,8 @@ Engineering choices:
 - **Model.** Configurable; the default is `openai/gpt-6-luna` on full text, chosen in
   the [pilot](pilot.md) over DeepSeek V4.1 Flash and Claude Haiku 5.5 (best agreement with
   the other models, concise reasons, $0.59 per full-corpus pass).
+  The [evaluation against the hand labels](evaluation.md) confirmed it: tied with Haiku on
+  agreement with the labels, and cheaper.
 - **Input.** `full` sends the cleaned text when it is under 24,000 characters (about
   half of documents) and otherwise the policy passages at a 24,000-character budget, so
   the end of a long speech, where the policy view often is, is not cut off. `passages`
@@ -172,7 +174,7 @@ monetary policy".
 - relevance: precision and recall of each scorer's "about monetary policy" call;
 - LLM self-consistency: the same items scored a second time.
 
-With about 36 labels the confidence intervals are wide: a Spearman ρ of 0.6 on 30 items
+Results, with bootstrap intervals, are in [evaluation.md](evaluation.md). With about 36 labels the confidence intervals are wide: a Spearman ρ of 0.6 on 30 items
 has a 95% interval of roughly 0.3 to 0.8. The evaluation can tell a useful scorer from
 a useless one, not rank two good ones finely.
 

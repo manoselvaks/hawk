@@ -1,0 +1,15 @@
+{
+ "relevance": 0.5,
+ "stance": 0.0,
+ "confidence": 0.9,
+ "reason": "The MPC expects that eventual increases in Bank Rate will be gradual and limited, while noting that the rate at which slack is being eroded is expected to slow during the second half of the year.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 11455,
+ "prompt_tokens": 2994,
+ "completion_tokens": 1145,
+ "cost_usd": 0.00078208,
+ "attempts": 1
+}

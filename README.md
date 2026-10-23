@@ -8,16 +8,38 @@ and asks a simple markets question: **did the tone of BoE communication shift be
 decisions, and did 2-year gilt yields react to tone beyond what the decision itself
 explains?** See [PLAN.md](PLAN.md) for the full plan.
 
+**Website: <https://manoselvaks.github.io/hawk/>**
+
+## Headline results (interim)
+
+> Interim: these use the word-list scorer. The AI pass over the full corpus is waiting on
+> OpenRouter credit; `python -m hawk.analysis.run` will redo every number from it.
+> Full write-up with methods and caveats: [docs/findings.md](docs/findings.md).
+
+- **Tone before hikes is clearly hawkish** (+0.43 on a −2..+2 scale in the 12 weeks
+  before, against −0.23 before cuts and −0.21 before holds), but it does not build up in
+  the final weeks before a move.
+- **Tone does not help forecast the next decision.** Out of sample, from 2003, adding tone
+  to the previous decision gave no reliable gain (log loss +0.004 per meeting, 95% CI
+  −0.030 to +0.036). The 2-year gilt yield the day before forecasts far better.
+- **2-year gilts did not move with speech tone**: −0.2 bp per stance point on 648 speech
+  days (95% CI −0.9 to +0.4 bp), no different from random days.
+- **The AI scorer agrees with one student's 36 blind labels only modestly** (ρ = 0.37,
+  95% CI 0.01–0.68), as does the word-list baseline (0.42); two AI models agree with each
+  other at 0.96. See [docs/evaluation.md](docs/evaluation.md).
+
+![Tone before hikes, holds and cuts](docs/img/event_study.png)
+
 ## Status
 
 | Step | State |
 | --- | --- |
 | Speech and minutes collector | ✅ built (`src/hawk/speeches/`) |
-| Market data (Bank Rate, gilt yields) | in progress (`src/hawk/market/`) |
-| Tone scoring (word list + LLM) | ✅ built, piloted (`src/hawk/scoring/`); full corpus not yet scored |
-| Hand labels for evaluation | tool ready (`labelling/`) |
-| Website | ✅ built, preview mode until scores are final (`src/hawk/site/`) |
-| Analysis | planned |
+| Market data (Bank Rate, gilt yields, MPC votes) | ✅ built (`src/hawk/market/`) |
+| Tone scoring (word list + LLM) | ✅ built and evaluated (`src/hawk/scoring/`); full-corpus AI pass waiting on API credit |
+| Hand labels for evaluation | ✅ 36 blind labels (`labelling/labels.csv`) |
+| Analysis | ✅ built and tested (`src/hawk/analysis/`); interim results on word-list scores |
+| Website | ✅ built; preview banner until the AI scores exist (`src/hawk/site/`) |
 
 ## Install
 
@@ -63,9 +85,23 @@ design, and [docs/pilot.md](docs/pilot.md) for the model comparison.
 ```bash
 python -m hawk.scoring.pilot                       # compare candidate models on 20 documents
 python -m hawk.scoring.make_labelling_set          # build labelling/label.html
-python -m hawk.scoring.evaluate --labels labelling/labels.csv   # scorers vs hand labels
+python -m hawk.scoring.evaluate --labels labelling/labels.csv --model MODEL   # one model vs hand labels
+python -m hawk.scoring.compare --labels labelling/labels.csv --models M1 M2 M3  # compare, choose (no API)
 python -m hawk.scoring.score_all                   # prints the cost estimate; --confirm to run
 ```
+
+## Analysis
+
+```bash
+python -m hawk.analysis.run                     # on data/scores.parquet
+python -m hawk.analysis.run --scorer baseline   # on word-list scores, no API needed
+```
+
+Builds the meeting-level dataset (tone from documents published strictly before each
+decision, never that meeting's own minutes), then runs the event study, the
+out-of-sample prediction test, the gilt market-reaction test and the dissent test. Writes
+`data/analysis/findings.json` for the site, `findings_detail.json` and the charts in
+`docs/img/`. See [docs/findings.md](docs/findings.md).
 
 LLM calls are cached in `data/llm_cache/` and every call's cost is logged in
 `data/llm_spend.jsonl`; the scorer refuses to run past a spend cap ($4 by default,
@@ -85,8 +121,8 @@ make screenshots               # docs/screenshots/ (needs Node + Playwright)
 
 Until `data/scores.parquet` exists the site is built with demo scores and says
 "Preview" on every page. The files it reads are specified in
-[docs/data-contract.md](docs/data-contract.md). It is deployed to GitHub Pages by the
-manual **Website** workflow (`.github/workflows/pages.yml`).
+[docs/data-contract.md](docs/data-contract.md). The **Website** workflow
+(`.github/workflows/pages.yml`) deploys it to GitHub Pages on every push to `main`.
 
 ![Home page](docs/screenshots/home-desktop-light.png)
 

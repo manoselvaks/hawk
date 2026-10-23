@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.9,
+ "reason": "The Governor stresses that there are \"risks to output and inflation in the medium term if we were to allow inflation of domestically produced output to rise above target unless we were confident that falls in import prices would indeed continue for some years.\"",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 13150,
+ "prompt_tokens": 3383,
+ "completion_tokens": 899,
+ "cost_usd": 0.00068631,
+ "attempts": 1
+}

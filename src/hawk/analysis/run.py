@@ -135,18 +135,19 @@ def headline(
     models = {m["name"]: m for m in pred["models"]}
     base, tone = models["Previous decision"], models["Previous decision + tone"]
     gain = pred["log_loss_gain_tone"]
-    d_acc = (tone["accuracy_changes"] or 0) - (base["accuracy_changes"] or 0)
     tiles = [
         {
             "id": "prediction",
             "label": "Did tone lead decisions?",
             "value": gain["mean_gain"],
-            "display": f"{100 * gain['mean_gain'] / base['log_loss']:+.0f}% log loss",
+            "display": "No reliable gain" if gain["ci_low"] <= 0 else "Yes, out of sample",
             "detail": (
                 f"Out of sample, adding tone to the previous decision changed log loss by "
                 f"{gain['mean_gain']:+.3f} per meeting (95% CI {gain['ci_low']:+.3f} to "
-                f"{gain['ci_high']:+.3f}; positive = better) and called "
-                f"{100 * d_acc:+.0f} pts more of the rate changes."
+                f"{gain['ci_high']:+.3f}; above zero = better) and called "
+                f"{round(tone['accuracy_changes'] * tone['n_changes'])} of "
+                f"{tone['n_changes']} rate changes, against "
+                f"{round(base['accuracy_changes'] * base['n_changes'])}."
             ),
         }
     ]
@@ -156,7 +157,7 @@ def headline(
             "id": "market",
             "label": "Did gilts listen?",
             "value": s["estimate"],
-            "display": f"{s['estimate']:+.2f} bp",
+            "display": f"{s['estimate']:+.1f} bp",
             "detail": (
                 f"2-year gilt move per point of speech stance on {s['n']} speech days "
                 f"(95% CI {s['ci_low']:+.2f} to {s['ci_high']:+.2f} bp)."
@@ -193,12 +194,18 @@ def takeaways(detail: dict[str, Any]) -> dict[str, str]:
         f"{tab['hold']['mean_tone_before']:+.2f} before holds (hike minus cut "
         f"{diff['difference']:+.2f}, 95% CI {diff['ci_low']:+.2f} to {diff['ci_high']:+.2f}). "
     )
+    holds_like_cuts = (
+        abs((tab["hold"]["mean_tone_before"] or 0) - (tab["cut"]["mean_tone_before"] or 0)) < 0.1
+    )
+    flat = all(abs(tab[k]["tone_change"] or 0) < 0.15 for k in ("hike", "cut"))
     es_txt += (
-        "Tone level lines up with the direction of policy, but it did not visibly build up "
-        "in the final weeks before a move."
-        if abs(tab["hike"]["tone_change"] or 0) < 0.15
-        and abs(tab["cut"]["tone_change"] or 0) < 0.15
-        else "Tone also moved in the weeks before a change."
+        "Tone before hikes stood out"
+        + (", while holds and cuts looked alike" if holds_like_cuts else "")
+        + (
+            "; tone did not visibly build up in the final weeks before a move."
+            if flat
+            else "; tone also shifted in the final weeks before a move."
+        )
     )
     pred = detail["prediction_test"]
     g = pred["log_loss_gain_tone"]
@@ -208,10 +215,9 @@ def takeaways(detail: dict[str, Any]) -> dict[str, str]:
         + ("improved" if g["ci_low"] > 0 else "did not reliably improve")
         + f" out-of-sample forecasts (log-loss gain {g['mean_gain']:+.3f}, 95% CI "
         f"{g['ci_low']:+.3f} to {g['ci_high']:+.3f}). Once the 2-year gilt yield is in the "
-        "model, tone "
+        "model, which on its own forecasts far better, tone "
         + ("still adds" if gm["ci_low"] > 0 else "adds nothing reliable")
-        + f" (gain {gm['mean_gain']:+.3f}, CI {gm['ci_low']:+.3f} to {gm['ci_high']:+.3f}): "
-        "markets had usually priced the move already."
+        + f" (gain {gm['mean_gain']:+.3f}, CI {gm['ci_low']:+.3f} to {gm['ci_high']:+.3f})."
     )
     s = detail["market_reaction"]["regressions"]["stance"]
     pl = detail["market_reaction"]["placebo_stance"]
@@ -229,8 +235,20 @@ def takeaways(detail: dict[str, Any]) -> dict[str, str]:
     return {"event_study": es_txt, "prediction_test": pt_txt, "market_reaction": mr_txt}
 
 
+INTERIM_CAVEAT = {
+    "title": "Interim: word-list scores",
+    "text": "These results use the word-list baseline, not the AI scorer: the AI pass over "
+    "the full corpus has not run yet. The baseline agreed with the hand labels about as "
+    "well as the AI did, but it is a cruder reading of tone. Every number here will be "
+    "recomputed from the AI scores.",
+}
+
+
 def findings_json(detail: dict[str, Any], evaluation: dict[str, Any] | None) -> dict[str, Any]:
     tk = takeaways(detail)
+    interim = detail["model"] == dataset.BASELINE_MODEL
+    if interim:
+        tk = {k: "Interim, word-list scores. " + v for k, v in tk.items()}
     es = detail["event_study"]
     pred = detail["prediction_test"]
     mkt = detail["market_reaction"]
@@ -248,7 +266,12 @@ def findings_json(detail: dict[str, Any], evaluation: dict[str, Any] | None) -> 
         "model": detail["model"],
         "prompt_version": detail["prompt_version"],
         "sample": detail["sample"],
-        "headline": headline(pred, mkt, evaluation),
+        "headline": [
+            {**h, "detail": "Interim, word-list scores: " + h["detail"]}
+            if interim and h["id"] != "accuracy"
+            else h
+            for h in headline(pred, mkt, evaluation)
+        ],
         "event_study": {
             "takeaway": tk["event_study"],
             "method": (
@@ -330,7 +353,7 @@ def findings_json(detail: dict[str, Any], evaluation: dict[str, Any] | None) -> 
                 },
             ],
         },
-        "caveats": CAVEATS,
+        "caveats": ([INTERIM_CAVEAT] if interim else []) + CAVEATS,
     }
 
 
@@ -375,10 +398,23 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--out-dir", type=Path, default=OUT_DIR)
     parser.add_argument("--img-dir", type=Path, default=IMG_DIR)
     parser.add_argument("--evaluation", type=Path, default=EVALUATION_PATH)
+    parser.add_argument(
+        "--scorer",
+        choices=["llm", "baseline"],
+        default="llm",
+        help="baseline: run on the word-list scores (built from the corpus if "
+        "data/scores.parquet does not exist)",
+    )
     args = parser.parse_args(argv)
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
 
-    inp = dataset.load(args.scores)
+    if args.scorer == "llm":
+        inp = dataset.load(args.scores)
+    elif args.scores.exists():
+        inp = dataset.load(scores=dataset.baseline_as_scores(pd.read_parquet(args.scores)))
+    else:
+        log.info("no %s: scoring the corpus with the word-list baseline", args.scores)
+        inp = dataset.load(scores=dataset.baseline_scores())
     scores, decisions, yields = inp.scores, inp.decisions, inp.yields
     members = pd.read_csv(MEMBERS_PATH)
     evaluation = json.loads(args.evaluation.read_text()) if args.evaluation.exists() else None

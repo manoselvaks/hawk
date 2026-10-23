@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 1,
+ "reason": "The author states that 'My reading of the more granular data and likely asymmetries in the inflation process has led me to vote for a more robust monetary policy path that stays the course because inflation dynamics have not yet been quelled.'",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20427,
+ "prompt_tokens": 4940,
+ "completion_tokens": 849,
+ "cost_usd": 0.0007703,
+ "attempts": 1
+}
