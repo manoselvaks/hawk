@@ -1,0 +1,15 @@
+{
+ "relevance": 0.6,
+ "stance": -1.0,
+ "confidence": 0.6,
+ "reason": "The speech is largely about intangibles and the transmission of monetary policy and r*, but its closing lines state the author prefers to 'move now' (cut rates) given limited conventional policy space and below-target inflation despite tight labour markets, a dovish lean.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 22607,
+ "prompt_tokens": 8090,
+ "completion_tokens": 118,
+ "cost_usd": 0.000868,
+ "attempts": 1
+}

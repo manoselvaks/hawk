@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 0.0,
+ "confidence": 0.83,
+ "reason": "The speech explains how globalisation affects UK inflation dynamics and monetary policy, but it presents both favourable and adverse inflation effects and recommends caution without signalling a particular near-term direction for Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20585,
+ "prompt_tokens": 4644,
+ "completion_tokens": 65,
+ "cost_usd": 0.000612925,
+ "attempts": 1
+}

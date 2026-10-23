@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.95,
+ "reason": "The Committee agreed a rate reduction was needed, with most favoring 25 basis points, while citing increased downside risks and subdued price pressures; some members favored a 50-basis-point cut and saw possible further cuts ahead.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24030,
+ "prompt_tokens": 5634,
+ "completion_tokens": 72,
+ "cost_usd": 0.000740175,
+ "attempts": 1
+}

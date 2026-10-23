@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speech focuses on QE and its eventual unwind, but presents Bank Rate and balance-sheet changes as complementary tools calibrated to meet the inflation target, without signalling a directional policy lean.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23662,
+ "prompt_tokens": 5511,
+ "completion_tokens": 140,
+ "cost_usd": 0.0007588,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.75,
+ "reason": "The speech notes stronger-than-previously-estimated demand, a near-term Budget boost, and persistently high wage and employment-cost pressures that could lift inflation, but also emphasizes slowing activity and uncertainty about the shocks and their inflation effects.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 20785,
+ "prompt_tokens": 4856,
+ "completion_tokens": 75,
+ "cost_usd": 8.633e-05,
+ "attempts": 1
+}

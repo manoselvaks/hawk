@@ -1,0 +1,15 @@
+{
+ "relevance": 0,
+ "stance": null,
+ "confidence": 1,
+ "reason": "The document focuses on the structural and institutional challenges of the European Central Bank (ECB) and the move toward Economic and Monetary Union (EMU), rather than the UK's current monetary policy outlook.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 9350,
+ "prompt_tokens": 2568,
+ "completion_tokens": 756,
+ "cost_usd": 0.00055776,
+ "attempts": 1
+}

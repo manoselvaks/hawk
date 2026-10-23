@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.93,
+ "reason": "Although six members held Bank Rate unchanged and one favoured more asset purchases, most judged the inflation-risk balance had shifted upwards and the case for withdrawing stimulus had strengthened, with three members voting to raise Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22682,
+ "prompt_tokens": 4867,
+ "completion_tokens": 70,
+ "cost_usd": 0.0006433,
+ "attempts": 1
+}

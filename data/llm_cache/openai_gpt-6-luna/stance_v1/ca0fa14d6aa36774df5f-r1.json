@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 0.99,
+ "reason": "The Committee judged that inflation would fall well below target with risks slightly to the downside and that further easing was likely needed, voting to cut Bank Rate by 50 basis points while seeking authority for asset purchases.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 23779,
+ "prompt_tokens": 5256,
+ "completion_tokens": 68,
+ "cost_usd": 8.683e-05,
+ "attempts": 1
+}

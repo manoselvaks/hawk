@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": 1.0,
+ "confidence": 0.8,
+ "reason": "The speech is about UK monetary policy and argues that sticky services inflation, wage growth and a higher neutral rate mean policy must remain restrictive for longer, though it also favours eventually cutting more aggressively, so the lean is hawkish but not extreme.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 24081,
+ "prompt_tokens": 8665,
+ "completion_tokens": 120,
+ "cost_usd": 0.0009265,
+ "attempts": 1
+}

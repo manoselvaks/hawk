@@ -21,6 +21,8 @@ dependencies = [
     "pyarrow>=15.0",
     "pypdf>=4.0",
     "requests>=2.31",
+    "scipy>=1.11",
+    "statsmodels>=0.14",
 ]
 
 [project.optional-dependencies]
@@ -62,5 +64,5 @@ mypy_path = "src"
 files = ["src", "tests"]
 
 [[tool.mypy.overrides]]
-module = ["matplotlib.*"]
+module = ["matplotlib.*", "statsmodels.*", "scipy.*"]
 ignore_missing_imports = true

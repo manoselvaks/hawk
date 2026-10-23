@@ -1,0 +1,15 @@
+{
+ "relevance": 0.5,
+ "stance": -1.0,
+ "confidence": 0.6,
+ "reason": "The speech is a broad review of global economics with a UK section noting that the MPC cut rates by \u00bd% because inflation was below target and downside risks from the US slowdown and Foot and Mouth disease were rising, with a stated intention to keep monitoring downside risks very closely.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 13078,
+ "prompt_tokens": 4994,
+ "completion_tokens": 123,
+ "cost_usd": 0.0005609,
+ "attempts": 1
+}

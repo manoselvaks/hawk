@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": -1.0,
+ "confidence": 0.6,
+ "reason": "Speech by an MPC member on post-referendum policy: he expects demand to weaken more than supply, sees a case for easing and a fall in Bank Rate, and says he would not rush to reduce it without good reasons, while noting earnings growth of 3.5% as a counterweight.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 24082,
+ "prompt_tokens": 8580,
+ "completion_tokens": 126,
+ "cost_usd": 0.000921,
+ "attempts": 1
+}

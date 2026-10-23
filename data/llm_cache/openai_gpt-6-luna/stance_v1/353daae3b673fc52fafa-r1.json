@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.5,
+ "confidence": 0.96,
+ "reason": "The speaker says further Bank Rate increases will be required, cites tight labour markets and persistent domestic inflationary pressures, and states that his bias is towards further tightening, while allowing for cuts if inflation persistence fades.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 23968,
+ "prompt_tokens": 5521,
+ "completion_tokens": 171,
+ "cost_usd": 0.00014098,
+ "attempts": 1
+}

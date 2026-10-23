@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": 0.5,
+ "confidence": 0.82,
+ "reason": "The speech says there remains scope to use up spare capacity before tightening and that eventual Bank Rate increases should be gradual and limited, while noting that \u201cthe start of that journey is coming nearer.\u201d",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 11455,
+ "prompt_tokens": 2900,
+ "completion_tokens": 68,
+ "cost_usd": 6.327e-05,
+ "attempts": 1
+}

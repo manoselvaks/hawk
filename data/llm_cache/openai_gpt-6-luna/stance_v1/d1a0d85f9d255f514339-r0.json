@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.96,
+ "reason": "The Committee raised Bank Rate by 0.5 percentage points, with eight of nine members preferring at least that increase, and highlighted persistent domestic inflation and the possibility of responding forcefully if inflation pressures persist.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24044,
+ "prompt_tokens": 5336,
+ "completion_tokens": 68,
+ "cost_usd": 0.000700925,
+ "attempts": 1
+}

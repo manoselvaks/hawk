@@ -1,0 +1,15 @@
+{
+ "relevance": 0.4,
+ "stance": 0.0,
+ "confidence": 0.5,
+ "reason": "The speech is mainly about household and national saving, fiscal policy and real interest rates, with only a section on the near-term inflation and consumption outlook, and it explicitly declines to call a policy direction, saying the MPC will keep watching inflation on track to the 2% target.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 13150,
+ "prompt_tokens": 5142,
+ "completion_tokens": 122,
+ "cost_usd": 0.0005752,
+ "attempts": 1
+}

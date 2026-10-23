@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": 0.5,
+ "confidence": 0.9,
+ "reason": "Tucker says robust demand and firms near capacity made the Orthodox outlook point to inflationary pressure, and that a small Bank Rate increase was warranted to keep expectations anchored, while acknowledging an alternative supply-side story that made the policy implications less clear.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 23154,
+ "prompt_tokens": 5349,
+ "completion_tokens": 78,
+ "cost_usd": 9.276e-05,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": 1.5,
+ "confidence": 0.8,
+ "reason": "The speech is centrally about the policy outlook and explicitly favours a longer hold and possibly leaning against inflation persistence, stating that 'considering this research strand alone would typically point towards a tighter policy stance', though it is discussing a hike-versus-hold timing decision without committing to an immediate hike.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23520,
+ "prompt_tokens": 8592,
+ "completion_tokens": 137,
+ "cost_usd": 0.0009277,
+ "attempts": 1
+}

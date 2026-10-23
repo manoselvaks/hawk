@@ -48,6 +48,9 @@ PROMPT_VERSION = "stance_v1"
 CACHE_DIR = Path("data/llm_cache")
 FULL_TEXT_CHARS = 24_000
 RETRY_STATUSES = frozenset({408, 429, 500, 502, 503, 504})
+# OpenRouter answers 402 "in_flight_budget_exhausted" when a key with little credit left
+# has too many requests open at once; it clears by itself after the Retry-After delay.
+IN_FLIGHT_MARKER = "in_flight_budget"
 
 InputMode = Literal["passages", "full"]
 DEFAULT_INPUT_MODE: InputMode = "full"
@@ -143,6 +146,7 @@ class LLMScorer:
         backoff_seconds: float = 2.0,
         max_tokens: int = 2_000,
         reasoning_effort: str | None = "low",
+        max_retry_after_seconds: float = 150.0,
     ) -> None:
         self.model = model
         self.prompt_version = prompt_version
@@ -155,6 +159,7 @@ class LLMScorer:
         self.backoff_seconds = backoff_seconds
         self.max_tokens = max_tokens
         self.reasoning_effort = reasoning_effort
+        self.max_retry_after_seconds = max_retry_after_seconds
 
     # -- cache -------------------------------------------------------------
     def _cache_path(self, key: str) -> Path:
@@ -201,6 +206,16 @@ class LLMScorer:
         response = self.session.post(API_URL, json=body, headers=self.headers(), timeout=180)
         if response.status_code in RETRY_STATUSES:
             raise _RetryableError(f"HTTP {response.status_code}: {response.text[:200]}")
+        if response.status_code == 402 and IN_FLIGHT_MARKER in response.text:
+            headers = getattr(response, "headers", None) or {}
+            try:
+                wait = float(headers.get("Retry-After", 60))
+            except ValueError:
+                wait = 60.0
+            raise _RetryableError(
+                f"HTTP 402 (in-flight budget): {response.text[:200]}",
+                wait=min(wait, self.max_retry_after_seconds),
+            )
         response.raise_for_status()
         data: dict[str, Any] = response.json()
         if "error" in data:
@@ -230,7 +245,8 @@ class LLMScorer:
             except (_RetryableError, requests.ConnectionError, requests.Timeout) as exc:
                 last_error = exc
                 log.warning("%s attempt %d failed: %s", self.model, attempt, exc)
-                time.sleep(self.backoff_seconds * 2 ** (attempt - 1))
+                wait = getattr(exc, "wait", 0.0)
+                time.sleep(max(wait, self.backoff_seconds * 2 ** (attempt - 1)))
                 continue
 
             usage = data.get("usage") or {}
@@ -267,4 +283,6 @@ class LLMScorer:
 
 
 class _RetryableError(RuntimeError):
-    pass
+    def __init__(self, message: str, wait: float = 0.0) -> None:
+        super().__init__(message)
+        self.wait = wait

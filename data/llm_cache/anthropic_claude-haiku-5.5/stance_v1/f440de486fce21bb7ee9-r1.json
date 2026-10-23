@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.7,
+ "reason": "The minutes are wholly about the monetary policy outlook and decision; the majority held Bank Rate and balanced risks (inflation 'broadly equal' chances above or below target), but with upside risks to inflation emphasised, three members voted to raise Bank Rate and 'most members agreed' the balance of risks had moved upwards, leaning mildly hawkish overall.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 22682,
+ "prompt_tokens": 7921,
+ "completion_tokens": 158,
+ "cost_usd": 0.0008711,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.8,
+ "stance": 0.0,
+ "confidence": 0.5,
+ "reason": "The speech is largely about globalisation's effects on UK inflation dynamics and the flattened Phillips curve, which bear on the policy outlook, but it stays analytical and balanced, noting that the tailwind has waned while oil shocks have so far been absorbed and that both upside and downside considerations apply.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20585,
+ "prompt_tokens": 7381,
+ "completion_tokens": 134,
+ "cost_usd": 0.0008051,
+ "attempts": 1
+}

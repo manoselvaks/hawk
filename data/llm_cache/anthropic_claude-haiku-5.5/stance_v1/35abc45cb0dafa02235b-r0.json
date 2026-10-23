@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": 1.0,
+ "confidence": 0.8,
+ "reason": "The speech is mainly about the UK monetary policy outlook and states that 'Policy therefore needs to remain restrictive for longer' because of sticky services inflation and pay growth, with upside risks, while also noting that markets expect cuts and that the author voted to hold rates at 5%.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24081,
+ "prompt_tokens": 8665,
+ "completion_tokens": 128,
+ "cost_usd": 0.0009305,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.9,
+ "reason": "The speaker balances the risk of demand falling due to long-term supply effects against the argument that recent average earnings growth provides a case against an immediate rate reduction, leading to a cautious approach.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24082,
+ "prompt_tokens": 5686,
+ "completion_tokens": 998,
+ "cost_usd": 0.00089702,
+ "attempts": 1
+}

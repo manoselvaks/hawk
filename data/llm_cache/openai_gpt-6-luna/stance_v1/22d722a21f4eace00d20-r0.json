@@ -1,0 +1,15 @@
+{
+ "relevance": 0.65,
+ "stance": 0.0,
+ "confidence": 0.78,
+ "reason": "The speech discusses inflation targeting and says the MPC can extend the horizon for returning inflation to target to balance effects on jobs and activity, but it gives no clear lean toward tightening or easing.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 10992,
+ "prompt_tokens": 2776,
+ "completion_tokens": 65,
+ "cost_usd": 0.000379425,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.94,
+ "reason": "The speech argues that A8 immigration has increased supply more than demand, reduced inflationary pressures, and that the recent rise in unemployment likely reflects greater slack that will keep wage and inflationary pressures subdued, leaning toward less need for tightening.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 24075,
+ "prompt_tokens": 5537,
+ "completion_tokens": 74,
+ "cost_usd": 9.264e-05,
+ "attempts": 1
+}

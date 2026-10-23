@@ -1,0 +1,15 @@
+{
+ "relevance": 0.8,
+ "stance": 0.5,
+ "confidence": 0.6,
+ "reason": "The speech is largely about the monetary policy outlook, noting that the start of Bank Rate increases is 'coming nearer' and that gradual, limited increases will be needed, while also stressing caution, sterling appreciation, and indebtedness, so the lean is mildly hawkish but balanced.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 11455,
+ "prompt_tokens": 4747,
+ "completion_tokens": 133,
+ "cost_usd": 0.0005412,
+ "attempts": 1
+}

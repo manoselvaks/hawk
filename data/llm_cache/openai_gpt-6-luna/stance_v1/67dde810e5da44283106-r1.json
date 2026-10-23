@@ -1,0 +1,15 @@
+{
+ "relevance": 0.55,
+ "stance": 0.0,
+ "confidence": 0.82,
+ "reason": "The speech is mainly about long-run growth and its technological and sociological drivers, while its policy-relevant conclusion notes that the appropriate neutral interest rate could be historically normal or much lower and presents innovation and stagnation forces as balanced.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 23785,
+ "prompt_tokens": 5479,
+ "completion_tokens": 74,
+ "cost_usd": 9.206e-05,
+ "attempts": 1
+}

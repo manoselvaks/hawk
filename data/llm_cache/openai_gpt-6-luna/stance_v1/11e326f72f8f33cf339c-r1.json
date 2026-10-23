@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": -1.0,
+ "confidence": 0.84,
+ "reason": "The speech examines how intangible investment affects monetary transmission and the low equilibrium rate, and Haskel says limited conventional policy space means he prefers to \u201cmove now\u201d to secure a sustainable return of inflation to target, indicating a dovish lean toward earlier easing.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 22607,
+ "prompt_tokens": 5087,
+ "completion_tokens": 80,
+ "cost_usd": 9.114e-05,
+ "attempts": 1
+}

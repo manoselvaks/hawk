@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.95,
+ "reason": "The speaker argues for a robust policy path that \u201cstays the course\u201d because inflation dynamics have not been quelled, citing persistently high services and food inflation, tight labour-market conditions and elevated inflation expectations.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20427,
+ "prompt_tokens": 4857,
+ "completion_tokens": 68,
+ "cost_usd": 0.00064105,
+ "attempts": 1
+}

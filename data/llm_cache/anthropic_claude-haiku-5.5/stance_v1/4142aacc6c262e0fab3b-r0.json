@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": -1.0,
+ "confidence": 0.8,
+ "reason": "The speech is centrally about the MPC's policy outlook and says the labour market slack is material and widening, that the energy shock looks more like 2011 so the MPC should look through it, and that 'little change is needed' with rate cuts possible once risks diminish, leaning dovish overall.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24047,
+ "prompt_tokens": 9016,
+ "completion_tokens": 126,
+ "cost_usd": 0.0009646,
+ "attempts": 1
+}

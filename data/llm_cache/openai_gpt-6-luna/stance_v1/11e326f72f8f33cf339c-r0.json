@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.84,
+ "reason": "Although the speech primarily explores structural effects of intangible investment on monetary transmission and the natural rate, Haskel says the low-rate environment informs his votes and that he prefers to \u201cmove now\u201d to secure a sustainable return of inflation to target, indicating a dovish lean toward acting sooner rather than risking delay.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22607,
+ "prompt_tokens": 5087,
+ "completion_tokens": 88,
+ "cost_usd": 0.0006798,
+ "attempts": 1
+}

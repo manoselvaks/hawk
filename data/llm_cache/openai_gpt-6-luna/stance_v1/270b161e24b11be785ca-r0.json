@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.76,
+ "reason": "Although he stresses that inflation risks remain and the MPC must deliver the 2% target, he says recent developments are mostly downside news and that accumulating slack is most likely to head off the upside risks to inflation.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24118,
+ "prompt_tokens": 5394,
+ "completion_tokens": 253,
+ "cost_usd": 0.000800675,
+ "attempts": 1
+}

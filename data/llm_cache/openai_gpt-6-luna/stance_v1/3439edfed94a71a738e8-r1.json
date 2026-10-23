@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.99,
+ "reason": "The Committee agreed a repo-rate reduction was needed, and although most favored 25 basis points, members citing weaker global demand, restrained price pressures and downside risks argued for a 50-point cut, with some seeing further cuts as likely or necessary.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 24030,
+ "prompt_tokens": 5634,
+ "completion_tokens": 76,
+ "cost_usd": 9.461e-05,
+ "attempts": 1
+}

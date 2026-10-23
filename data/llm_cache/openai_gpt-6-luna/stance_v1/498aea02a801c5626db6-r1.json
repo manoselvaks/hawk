@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.78,
+ "reason": "Weale sees a likely near-term weakening of demand and allows that easing may be warranted if output weakness outweighs an inflation overshoot, but argues against an automatic or premature rate cut given wage growth and uncertainty.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 24082,
+ "prompt_tokens": 5611,
+ "completion_tokens": 71,
+ "cost_usd": 9.188e-05,
+ "attempts": 1
+}

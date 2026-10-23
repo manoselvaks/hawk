@@ -1,0 +1,15 @@
+{
+ "relevance": 0.6,
+ "stance": -1.0,
+ "confidence": 0.6,
+ "reason": "The speech is a broad economic-prospect address with a monetary policy section noting the MPC reduced rates by \u00be% to cushion the global slowdown and that inflation was below target, while stressing downside risks from the US slowdown and Foot and Mouth, leaning dovish.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18843,
+ "prompt_tokens": 6680,
+ "completion_tokens": 125,
+ "cost_usd": 0.0007305,
+ "attempts": 1
+}

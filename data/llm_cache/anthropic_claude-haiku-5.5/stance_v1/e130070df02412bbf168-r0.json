@@ -1,0 +1,15 @@
+{
+ "relevance": 0.8,
+ "stance": -1.0,
+ "confidence": 0.7,
+ "reason": "The speech is largely about QE and the monetary policy stance, describing policy as 'ultra expansionary' and arguing spare capacity is depressing inflation pressures, which leans dovish, though much of it addresses government debt and history.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20077,
+ "prompt_tokens": 7594,
+ "completion_tokens": 110,
+ "cost_usd": 0.0008144,
+ "attempts": 1
+}

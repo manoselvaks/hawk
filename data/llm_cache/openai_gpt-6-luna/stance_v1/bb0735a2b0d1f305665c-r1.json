@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": -1.0,
+ "confidence": 0.94,
+ "reason": "The speech says UK demand was likely to be dampened, inflation was below target and expected to remain so, and the MPC therefore reduced interest rates by \u00bd% while monitoring downside risks closely.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 13078,
+ "prompt_tokens": 3083,
+ "completion_tokens": 68,
+ "cost_usd": 6.51e-05,
+ "attempts": 1
+}

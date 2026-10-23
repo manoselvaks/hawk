@@ -1,0 +1,15 @@
+{
+ "relevance": 0.2,
+ "stance": null,
+ "confidence": 0.5,
+ "reason": "The speech is mainly about private credit, household debt sustainability and the financial cycle, which are financial stability topics for the FPC, with only tangential reference to monetary policy via long-run real interest rates.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17116,
+ "prompt_tokens": 6435,
+ "completion_tokens": 99,
+ "cost_usd": 0.000693,
+ "attempts": 1
+}

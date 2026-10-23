@@ -1,0 +1,15 @@
+{
+ "relevance": 0.8,
+ "stance": 0.5,
+ "confidence": 0.6,
+ "reason": "The speech is largely about the policy outlook (spare capacity, timing and path of Bank Rate increases, guidance) and leans mildly hawkish with 'the start of that journey is coming nearer', while stressing that increases will be gradual and limited and that the path is data-driven, with substantial macroprudential content that is not monetary policy.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 11455,
+ "prompt_tokens": 4747,
+ "completion_tokens": 146,
+ "cost_usd": 0.0005477,
+ "attempts": 1
+}

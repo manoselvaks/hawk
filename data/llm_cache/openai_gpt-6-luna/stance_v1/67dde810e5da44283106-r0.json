@@ -1,0 +1,15 @@
+{
+ "relevance": 0.55,
+ "stance": 0.0,
+ "confidence": 0.9,
+ "reason": "The speech is mainly about long-run growth, but its policy-relevant discussion says the neutral interest rate could be historically normal or much lower and presents balanced arguments about innovation and stagnation, without a clear lean on future monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23785,
+ "prompt_tokens": 5479,
+ "completion_tokens": 74,
+ "cost_usd": 0.0007218,
+ "attempts": 1
+}

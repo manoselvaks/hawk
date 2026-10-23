@@ -1,0 +1,15 @@
+{
+ "relevance": 0.75,
+ "stance": -0.5,
+ "confidence": 0.78,
+ "reason": "The speaker says that despite eroding spare capacity and lower tolerance for above-target inflation, \u201cnow is not yet the time\u201d for a Bank Rate increase given mixed demand signals and subdued domestic inflationary pressures, while the wider speech emphasizes weak global growth and limited policy space.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12349,
+ "prompt_tokens": 3120,
+ "completion_tokens": 85,
+ "cost_usd": 0.000432425,
+ "attempts": 1
+}

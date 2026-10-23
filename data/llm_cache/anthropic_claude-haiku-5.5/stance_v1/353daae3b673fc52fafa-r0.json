@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": 1.5,
+ "confidence": 0.8,
+ "reason": "The speech is centrally about the MPC outlook and policy, and the author states 'I expect that further increases in Bank rate are going to be required' and says his bias is towards further tightening, though he notes he would consider cuts if persistence stops being a concern.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23968,
+ "prompt_tokens": 8736,
+ "completion_tokens": 117,
+ "cost_usd": 0.0009321,
+ "attempts": 1
+}

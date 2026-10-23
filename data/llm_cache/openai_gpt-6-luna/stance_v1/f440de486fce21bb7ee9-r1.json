@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.89,
+ "reason": "Although the Committee judged inflation likely to fall back and growth risks to be downside-skewed, most members saw the case for withdrawing stimulus as strengthened; three voted to raise Bank Rate while six held it unchanged.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 22682,
+ "prompt_tokens": 4867,
+ "completion_tokens": 70,
+ "cost_usd": 8.394e-05,
+ "attempts": 1
+}

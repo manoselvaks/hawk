@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speech focuses extensively on the UK inflation target and monetary-policy framework, but presents policy as flexibly pursuing the symmetric 2.5% target without signalling a preference to raise or cut rates.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23857,
+ "prompt_tokens": 5474,
+ "completion_tokens": 138,
+ "cost_usd": 0.000753175,
+ "attempts": 1
+}

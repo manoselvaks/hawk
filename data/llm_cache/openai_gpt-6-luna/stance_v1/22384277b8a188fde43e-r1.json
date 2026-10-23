@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.5,
+ "confidence": 0.9,
+ "reason": "The speaker says they voted for a robust policy path that \u201cstays the course because inflation dynamics have not yet been quelled,\u201d and stresses that UK inflation has no clear turning point while wage and inflation expectations remain elevated.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 20427,
+ "prompt_tokens": 4857,
+ "completion_tokens": 72,
+ "cost_usd": 8.484e-05,
+ "attempts": 1
+}

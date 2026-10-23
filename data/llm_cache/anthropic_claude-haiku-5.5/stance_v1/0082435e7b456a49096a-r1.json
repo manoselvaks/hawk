@@ -1,0 +1,15 @@
+{
+ "relevance": 0.6,
+ "stance": -0.5,
+ "confidence": 0.5,
+ "reason": "The speech is largely a retrospective on QE effectiveness and inequality, but it concludes the MPC will use Bank Rate as primary tool and that 'should inflationary pressures weaken... the first response would be to cut interest rates', with a mildly dovish tilt on QE support to demand.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 23662,
+ "prompt_tokens": 8464,
+ "completion_tokens": 132,
+ "cost_usd": 0.0009124,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.8,
+ "reason": "The minutes are entirely about the policy decision: Bank Rate raised 50bp to 2.25% with the Committee stressing persistent domestic inflation pressures, strong wage growth and that it 'will respond forcefully' if pressures persist, though labour demand and GDP softness and a split vote (one member for only 25bp) temper the lean to a modest hawkish +1.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24044,
+ "prompt_tokens": 8600,
+ "completion_tokens": 160,
+ "cost_usd": 0.00094,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.25,
+ "stance": null,
+ "confidence": 0.5,
+ "reason": "The speech is mainly about the long-run evolution of private credit, household debt sustainability and financial stability rather than the near-term UK monetary policy outlook, so stance is not forced.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 17116,
+ "prompt_tokens": 6435,
+ "completion_tokens": 93,
+ "cost_usd": 0.00069,
+ "attempts": 1
+}

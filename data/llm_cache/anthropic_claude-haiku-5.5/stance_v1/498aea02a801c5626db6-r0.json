@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": -1.0,
+ "confidence": 0.6,
+ "reason": "Speech by an MPC member on post-referendum policy outlook argues the Committee should give strong weight to output, sees weakening demand likely to outpace supply and says there is a case for an easing or a cut in Bank Rate, though he also notes earnings growth as an argument against cutting and says he cannot yet decide how he will vote.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24082,
+ "prompt_tokens": 8580,
+ "completion_tokens": 142,
+ "cost_usd": 0.000929,
+ "attempts": 1
+}

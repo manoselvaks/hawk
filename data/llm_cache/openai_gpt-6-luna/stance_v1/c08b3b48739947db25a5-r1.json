@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The MPC holds Bank Rate at 0.75% and describes risks in both directions: persistent Brexit or global-growth weakness could call for support, while a recovery in line with projections could require modest gradual tightening.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 24031,
+ "prompt_tokens": 5496,
+ "completion_tokens": 68,
+ "cost_usd": 8.923e-05,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 0.0,
+ "confidence": 0.84,
+ "reason": "The speech is largely about UK inflation targeting and monetary policy, but it describes the framework and recent conditions without signalling a preferred future rate path, noting both subdued inflation and the need to monitor domestic inflationary pressures.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 23857,
+ "prompt_tokens": 5474,
+ "completion_tokens": 214,
+ "cost_usd": 0.00016201,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": -1.5,
+ "confidence": 0.8,
+ "reason": "The minutes are squarely about the policy decision, with a majority voting for a 25bp cut and a substantial group (three members) favouring 50bp, citing weak global demand, falling equity prices, foot and mouth disease, and inflation persistently below target, while the minority for 25bp stressed upside demand risks and not over-reacting, so the Committee as a whole leans clearly dovish.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24030,
+ "prompt_tokens": 8773,
+ "completion_tokens": 163,
+ "cost_usd": 0.0009588,
+ "attempts": 1
+}

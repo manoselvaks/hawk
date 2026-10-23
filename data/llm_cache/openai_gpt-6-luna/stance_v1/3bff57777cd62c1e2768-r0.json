@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.94,
+ "reason": "The Committee favoured a 25 basis point repo rate increase, citing a balance of risks that had moved to the upside, tightening labour-market conditions and the need to keep inflation expectations aligned with the target, despite some downside risks.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24095,
+ "prompt_tokens": 5683,
+ "completion_tokens": 72,
+ "cost_usd": 0.0007463,
+ "attempts": 1
+}

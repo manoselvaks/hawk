@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.8,
+ "reason": "The minutes vote to raise Bank Rate by 50bp to 2.25% and emphasise 'continuing strength in domestically generated inflation', a tight labour market and that the Committee 'would respond forcefully' to more persistent pressures, though some members see activity weakening and one favours a smaller hike.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 24044,
+ "prompt_tokens": 8600,
+ "completion_tokens": 137,
+ "cost_usd": 0.0009285,
+ "attempts": 1
+}

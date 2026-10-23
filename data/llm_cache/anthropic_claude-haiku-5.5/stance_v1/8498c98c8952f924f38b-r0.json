@@ -1,0 +1,15 @@
+{
+ "relevance": 0.6,
+ "stance": -1.5,
+ "confidence": 0.8,
+ "reason": "The speech is largely about the recession outlook, falling inflation and the rate cut to 1.5%, and it argues that 'the risks remain clearly to the down side' and that policymakers should consider further action on interest rates, a clearly dovish lean.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18094,
+ "prompt_tokens": 6657,
+ "completion_tokens": 117,
+ "cost_usd": 0.0007242,
+ "attempts": 1
+}

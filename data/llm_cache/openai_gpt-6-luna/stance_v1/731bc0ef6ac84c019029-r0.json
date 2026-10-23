@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.95,
+ "reason": "She argues that the energy shock\u2019s inflationary effects will fade while monetary policy works with a lag, so further tightening risks overtightening and pushing medium-term inflation below the 2% target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 3946,
+ "prompt_tokens": 1547,
+ "completion_tokens": 66,
+ "cost_usd": 0.0002263,
+ "attempts": 1
+}

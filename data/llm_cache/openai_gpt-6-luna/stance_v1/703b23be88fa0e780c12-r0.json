@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.5,
+ "confidence": 0.92,
+ "reason": "The speaker says the conflict has shifted her view toward \u201ca longer hold, and potentially a need to lean against\u201d inflation persistence, and argues that upside risks and possible de-anchoring point toward a tighter policy stance.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23520,
+ "prompt_tokens": 5175,
+ "completion_tokens": 72,
+ "cost_usd": 0.0006828,
+ "attempts": 1
+}

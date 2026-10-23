@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.97,
+ "reason": "The speaker says that continued erosion of slack and likely inflation overshooting the 2% target make \u201csome withdrawal of monetary stimulus\u201d appropriate in coming months, though at a gradual and limited pace.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 24084,
+ "prompt_tokens": 5316,
+ "completion_tokens": 65,
+ "cost_usd": 8.593e-05,
+ "attempts": 1
+}

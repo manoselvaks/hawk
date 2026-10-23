@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.5,
+ "confidence": 0.98,
+ "reason": "The speaker says further Bank Rate increases are required, is biased towards further tightening, and would respond forcefully if inflation proves more persistent, while acknowledging that weaker-than-expected inflation persistence could justify cuts.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23968,
+ "prompt_tokens": 5521,
+ "completion_tokens": 68,
+ "cost_usd": 0.00072405,
+ "attempts": 1
+}

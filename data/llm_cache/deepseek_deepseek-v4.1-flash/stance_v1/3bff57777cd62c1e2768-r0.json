@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 1,
+ "reason": "The Committee agreed to a repo rate increase because the balance of risks had moved towards the upside, given the tightening in the labour market and the more broadly based world recovery.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24095,
+ "prompt_tokens": 5788,
+ "completion_tokens": 1172,
+ "cost_usd": 0.00099116,
+ "attempts": 1
+}

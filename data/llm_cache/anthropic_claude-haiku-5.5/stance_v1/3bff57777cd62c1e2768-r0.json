@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": 1.0,
+ "confidence": 0.75,
+ "reason": "The minutes are about the repo rate decision, where the Committee favoured a 25bp rise citing a tightening labour market, upside risks to inflation balance, and inflation expectations, though they note downside risks and a finely balanced decision for one member.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24095,
+ "prompt_tokens": 8902,
+ "completion_tokens": 114,
+ "cost_usd": 0.0009472,
+ "attempts": 1
+}

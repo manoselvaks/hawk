@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.92,
+ "reason": "The speaker highlights widening labour-market slack and below-target inflation, says conditions had supported rate cuts and a swift move to neutral, and argues the energy shock should be looked through unless it threatens to unanchor expectations.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24047,
+ "prompt_tokens": 5535,
+ "completion_tokens": 190,
+ "cost_usd": 0.0007868,
+ "attempts": 1
+}

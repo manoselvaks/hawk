@@ -1,0 +1,15 @@
+{
+ "relevance": 0.5,
+ "stance": 0.0,
+ "confidence": 1,
+ "reason": "The speaker argues that while technological forces drive innovation and growth, sociological headwinds such as rising inequality and short-termism are also retarding growth, leading to a complex and uncertain future.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23785,
+ "prompt_tokens": 5689,
+ "completion_tokens": 857,
+ "cost_usd": 0.00082673,
+ "attempts": 1
+}
