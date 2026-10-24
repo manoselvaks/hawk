@@ -1,144 +1,147 @@
-# hawk
+# Hawk
 
-Scoring 28 years of Bank of England speeches from hawkish to dovish, and testing whether tone predicted rate moves.
+**Scoring 28 years of Bank of England speeches from dovish to hawkish, and testing whether tone moved before rates did.**
 
-Hawk collects every Bank of England speech and every set of Monetary Policy Committee (MPC)
-minutes since 1997, scores each one on a scale from −2 (very dovish) to +2 (very hawkish),
-and asks a simple markets question: **did the tone of BoE communication shift before rate
-decisions, and did 2-year gilt yields react to tone beyond what the decision itself
-explains?** See [PLAN.md](PLAN.md) for the full plan.
+[![CI](https://github.com/manoselvaks/hawk/actions/workflows/ci.yml/badge.svg)](https://github.com/manoselvaks/hawk/actions/workflows/ci.yml)
+[![Website](https://github.com/manoselvaks/hawk/actions/workflows/pages.yml/badge.svg)](https://github.com/manoselvaks/hawk/actions/workflows/pages.yml)
+[![Licence: MIT](https://img.shields.io/badge/licence-MIT-blue.svg)](LICENSE)
+[![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](pyproject.toml)
 
-**Website: <https://manoselvaks.github.io/hawk/>**
+### 👉 [Live site: manoselvaks.github.io/hawk](https://manoselvaks.github.io/hawk/)
 
-## Headline results
+![MPC tone and Bank Rate, 1997–2026](docs/img/tone_and_bank_rate.png)
 
-> From the AI scorer (`openai/gpt-6-luna`) over all 1,853 documents. Full write-up with
-> methods, caveats and the same tests on word-list scores: [docs/findings.md](docs/findings.md).
+Hawk collects all 1,853 Bank of England speeches and sets of Monetary Policy Committee
+(MPC) minutes published since 1997. It uses a language model to score each one from −2
+(very dovish) to +2 (very hawkish), then tests the scores against Bank Rate decisions,
+MPC votes and 2-year gilt yields. Every test uses only documents published before the
+date it is about.
 
-- **Tone before hikes is clearly hawkish, before cuts clearly dovish** (+0.53 on a −2..+2
-  scale in the 12 weeks before hikes, −0.12 before holds, −0.48 before cuts; hike minus
-  cut +1.00, 95% CI +0.81 to +1.21). It does not build up in the final weeks before a hike.
-- **Tone does not reliably help forecast the committee's next decision.** Out of sample,
-  from 2003, adding tone to the previous decision improved log loss by +0.024 per meeting
-  (95% CI −0.011 to +0.060). The 2-year gilt yield the day before forecasts far better.
-- **2-year gilts did not move with speech tone**: +0.2 bp per stance point on 709 speech
-  days (95% CI −0.2 to +0.6 bp), no different from random days.
-- **But members' speeches do predict their own dissents.** Members who went on to vote for
-  a higher rate than the majority had spoken at +1.08 on average, those voting lower at
-  −0.86, the majority at −0.15 (p < 0.001; still clear after controlling for the member's
-  previous vote). The word-list scorer missed this.
-- **The AI scorer agrees with one student's 36 blind labels only modestly** (ρ = 0.37,
-  95% CI 0.01–0.68), as does the word-list baseline (0.42); two AI models agree with each
-  other at 0.96. See [docs/evaluation.md](docs/evaluation.md).
+## Key findings
 
-![Tone before hikes, holds and cuts](docs/img/event_study.png)
+- **Tone was clearly more hawkish before hikes than before cuts:** **+1.00** on the −2 to
+  +2 scale in the 12 weeks before a decision (95% CI +0.81 to +1.21). This result passes
+  the multiple-testing threshold.
+- **But tone didn't beat the market at predicting decisions.** Adding tone to the previous
+  decision improved out-of-sample log loss by only **+0.024** per meeting (95% CI −0.011
+  to +0.060, p = 0.09). The 2-year gilt yield already prices it in.
+- **2-year gilts didn't react to speech tone:** **+0.21 bp** per stance point over 709
+  speech days (95% CI −0.23 to +0.65). Random days produce slopes that large.
+- **MPC members' speeches predicted their own dissenting votes:** **+0.152** per point of
+  tone (p < 0.001). The effect is still **+0.078** (p < 0.001) after controlling for the
+  member's previous vote.
 
-## Status
+> **How good is the AI?** It agrees only modestly with my 36 blind hand labels
+> (Spearman ρ = 0.37, 95% CI 0.01–0.68). Two different AI models agree with each other at
+> 0.96. See [docs/evaluation.md](docs/evaluation.md).
 
-| Step | State |
+Full write-up with methods, tables and caveats: [docs/findings.md](docs/findings.md).
+
+![Demo: home chart, speech explorer and an MPC member page](docs/demo.gif)
+
+## How it works
+
+```mermaid
+flowchart LR
+    A["<b>Collect</b><br/>1,853 BoE speeches<br/>and MPC minutes,<br/>Bank Rate, votes,<br/>gilt yields"] --> B["<b>Score</b><br/>LLM stance −2..+2<br/>plus word-list<br/>baseline"]
+    B --> C["<b>Evaluate</b><br/>vs 36 blind<br/>hand labels"]
+    C --> D["<b>Analyse</b><br/>4 pre-registered tests,<br/>no look-ahead"]
+    D --> E["<b>Publish</b><br/>static site on<br/>GitHub Pages"]
+```
+
+1. **Collect** ([`hawk.speeches`](src/hawk/speeches), [`hawk.market`](src/hawk/market)):
+   the collector reads `robots.txt`, rate-limits its requests and caches every download.
+   Market data comes from the Bank's own series.
+2. **Score** ([`hawk.scoring`](src/hawk/scoring)): each document gets a relevance score
+   (is it about monetary policy?) and a stance. The model scores it with the speaker and
+   date hidden. Calls are cached and capped by spend; the full corpus cost $0.59.
+3. **Evaluate**: three models and the baseline are compared against blind hand labels,
+   and a fixed rule chooses the production model
+   ([docs/evaluation.md](docs/evaluation.md)).
+4. **Analyse** ([`hawk.analysis`](src/hawk/analysis)): an event study, an out-of-sample
+   ordered logit, gilt regressions with a placebo test, and a dissent regression. Four
+   primary tests were fixed in advance, with a Bonferroni threshold of p < 0.0125.
+5. **Publish** ([`hawk.site`](src/hawk/site)): a static site with Jinja templates, plain
+   CSS and uPlot. It is rebuilt and deployed on every push to `main`.
+
+## Tech stack
+
+| Area | Tools |
 | --- | --- |
-| Speech and minutes collector | ✅ built (`src/hawk/speeches/`) |
-| Market data (Bank Rate, gilt yields, MPC votes) | ✅ built (`src/hawk/market/`) |
-| Tone scoring (word list + LLM) | ✅ built, evaluated and run on the full corpus (`src/hawk/scoring/`, `data/scores.parquet`) |
-| Hand labels for evaluation | ✅ 36 blind labels (`labelling/labels.csv`) |
-| Analysis | ✅ built, tested and run on the AI scores (`src/hawk/analysis/`, [docs/findings.md](docs/findings.md)) |
-| Website | ✅ built on the final scores (`src/hawk/site/`) |
+| Language | Python 3.11+ |
+| Data | pandas, pyarrow (Parquet), requests, BeautifulSoup, lxml, pypdf |
+| Statistics | statsmodels (ordered logit, Newey-West, clustered SEs), SciPy, bootstrap CIs |
+| AI scoring | LLMs through the OpenRouter API, with a cached and budget-capped client |
+| Website | Jinja2, Markdown, uPlot, plain CSS/JS, GitHub Pages |
+| Quality | pytest (offline fixtures), mypy `--strict`, ruff, GitHub Actions, Lighthouse |
 
-## Install
+## Reproduce it
 
-Requires Python 3.11 or newer.
+Everything below runs offline from the committed data. No API key is needed unless you
+re-score.
 
 ```bash
 git clone https://github.com/manoselvaks/hawk.git
 cd hawk
 python -m venv .venv && source .venv/bin/activate
 pip install -e ".[dev]"
+
+make check                          # ruff, mypy --strict, pytest
+python -m hawk.analysis.run         # re-run every test on data/scores.parquet
+python -m hawk.site.serve           # build the site and open http://localhost:8000
 ```
 
-## Collect the speeches and minutes
+Optional steps:
 
 ```bash
-python -m hawk.speeches.collect                                  # full rebuild
-python -m hawk.speeches.collect --limit-speeches 20 --limit-minutes 10   # quick smoke run
+python -m hawk.speeches.collect     # re-collect the corpus (about 1 hour, polite rate limit)
+python -m hawk.market.collect       # refresh Bank Rate, votes and gilt yields
+export OPENROUTER_API_KEY=...       # then re-score (prints the cost first)
+python -m hawk.scoring.score_all --confirm
+make screenshots                    # docs/screenshots/ (needs Node and Playwright)
 ```
 
-(or `make collect` / `make collect-sample`). This writes `data/speeches.parquet` and
-`data/minutes.parquet` (1,544 speeches and 315 sets of minutes in the committed build);
-see [data/README.md](data/README.md) for the fields, per-year counts and known gaps.
+## Repo structure
 
-The collector is built to be a good citizen of the BoE website:
-
-- it identifies itself with a `User-Agent` that links back to this repository;
-- it reads `robots.txt` first, obeys it (including any `Crawl-delay`), and discovers pages
-  from the sitemaps listed there;
-- it waits at least one second between requests (`--min-interval` to slow it further);
-- every download is cached in `data/raw/` (gitignored), so an interrupted run can simply be
-  restarted and will pick up where it left off without re-downloading anything.
-
-Older speeches and minutes are often short web pages that link to a PDF; when a page has
-little text and links to a PDF, the PDF's text is used instead.
-
-## Score tone
-
-Each document gets a **relevance** (0–1: is it about monetary policy?) and a **stance**
-(−2 very dovish to +2 very hawkish), from two scorers: a transparent word-list baseline
-and an LLM through OpenRouter. See [docs/methodology.md](docs/methodology.md) for the
-design, and [docs/pilot.md](docs/pilot.md) for the model comparison.
-
-```bash
-python -m hawk.scoring.pilot                       # compare candidate models on 20 documents
-python -m hawk.scoring.make_labelling_set          # build labelling/label.html
-python -m hawk.scoring.evaluate --labels labelling/labels.csv --model MODEL   # one model vs hand labels
-python -m hawk.scoring.compare --labels labelling/labels.csv --models M1 M2 M3  # compare, choose (no API)
-python -m hawk.scoring.score_all                   # prints the cost estimate; --confirm to run
+```text
+hawk/
+├── src/hawk/
+│   ├── speeches/      # BoE speech and minutes collector
+│   ├── market/        # Bank Rate, MPC votes, gilt yields
+│   ├── scoring/       # word-list baseline, LLM scorer, labelling and evaluation
+│   ├── analysis/      # event study, prediction, market and dissent tests, charts
+│   └── site/          # static website (templates, CSS, JS)
+├── data/              # corpus, scores, market data and analysis outputs (committed)
+├── labelling/         # blind labelling tool and the 36 hand labels
+├── docs/              # findings, methodology, evaluation, data contract, images
+├── tests/             # offline tests with real BoE page fixtures
+└── scripts/           # screenshot helper
 ```
 
-## Analysis
+More detail: [methodology](docs/methodology.md), [data contract](docs/data-contract.md),
+[data notes](data/README.md), [changelog](docs/CHANGELOG.md).
 
-```bash
-python -m hawk.analysis.run                     # on data/scores.parquet
-python -m hawk.analysis.run --scorer baseline   # on word-list scores, no API needed
-```
+## Limitations
 
-Builds the meeting-level dataset (tone from documents published strictly before each
-decision, never that meeting's own minutes), then runs the event study, the
-out-of-sample prediction test, the gilt market-reaction test and the dissent test. Writes
-`data/analysis/findings.json` for the site, `findings_detail.json` and the charts in
-`docs/img/`. See [docs/findings.md](docs/findings.md).
+- **Small samples.** There are 315 decisions, about 70 of which are rate changes, and 36
+  hand labels. "No evidence" means "no effect large enough to see", not "no effect".
+- **One labeller.** The AI's agreement with the labels is modest, and the labels are one
+  student's reading.
+- **The model knows history.** Hiding the speaker and date reduces the risk that the
+  model recognises a speech and knows what happened next, but cannot remove it. This
+  matters most for the dissent result.
+- **Daily data.** Yields are end-of-day closes, speech times are unknown and same-day data
+  releases are not controlled for.
+- **Correlation, not causation.** Tone and decisions both respond to the same economic news.
 
-LLM calls are cached in `data/llm_cache/` and every call's cost is logged in
-`data/llm_spend.jsonl`; the scorer refuses to run past a spend cap ($4 by default,
-`--spend-cap` or `HAWK_SPEND_CAP_USD` to change). Set `OPENROUTER_API_KEY` to run
-locally.
+## Author
 
-## Website
+Built by **Manoj**, a finance student in London interested in markets and macro.
 
-A static site (home chart, speech explorer, MPC member pages, findings, methodology)
-built from the data files with Jinja templates, plain CSS and [uPlot](https://github.com/leeoniya/uPlot):
+- GitHub: [@manoselvaks](https://github.com/manoselvaks)
+<!-- TODO(Manoj): add your LinkedIn, e.g.
+- LinkedIn: [Manoj](https://www.linkedin.com/in/your-profile/)
+-->
 
-```bash
-make site                      # or: python -m hawk.site.build  -> site/_build/
-python -m hawk.site.serve      # build and preview on http://localhost:8000
-make screenshots               # docs/screenshots/ (needs Node + Playwright)
-```
-
-Until `data/scores.parquet` exists the site is built with demo scores and says
-"Preview" on every page. The files it reads are specified in
-[docs/data-contract.md](docs/data-contract.md). The **Website** workflow
-(`.github/workflows/pages.yml`) deploys it to GitHub Pages on every push to `main`.
-
-![Home page](docs/screenshots/home-desktop-light.png)
-
-## Development
-
-```bash
-make check   # ruff (lint + format), mypy (strict) and pytest
-```
-
-Tests run fully offline against trimmed copies of real BoE pages, a sitemap excerpt and
-the first pages of two real PDFs, in `tests/speeches/fixtures/`.
-CI runs the same checks on every push and pull request.
-
-## Licence
-
-MIT, see [LICENSE](LICENSE).
+If you use Hawk, please cite it ([CITATION.cff](CITATION.cff)). Not affiliated with the
+Bank of England. Code under the [MIT licence](LICENSE).

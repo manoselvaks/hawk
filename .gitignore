@@ -225,3 +225,17 @@ data/raw/
 # Hawk: built website and its preview-score cache (rebuild with `make site`)
 site/_build/
 site/.cache/
+
+# Hawk: local tooling output and OS/editor clutter
+node_modules/
+.lighthouseci/
+lighthouse-*.json
+*.report.html
+*.webm
+*.tmp
+*.swp
+*~
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
