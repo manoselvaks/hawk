@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.84,
+ "reason": "The Committee cut Bank Rate and described continuing disinflation, weakening demand and downside growth risks, while emphasizing a gradual, careful approach and noting two members favored a larger cut and two preferred no change.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18893,
+ "prompt_tokens": 4212,
+ "completion_tokens": 69,
+ "cost_usd": 0.000560925,
+ "attempts": 1
+}

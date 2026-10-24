@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.88,
+ "reason": "The speech supports substantial easing to counter deflationary pressures, noting that weak demand, rising unemployment and subdued pre-crisis inflation make looser policy appropriate, while describing further action as available if necessary.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23936,
+ "prompt_tokens": 5245,
+ "completion_tokens": 67,
+ "cost_usd": 0.00068905,
+ "attempts": 1
+}

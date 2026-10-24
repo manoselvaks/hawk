@@ -1,0 +1,15 @@
+{
+ "relevance": 0.8,
+ "stance": 0.5,
+ "confidence": 0.86,
+ "reason": "Sentance says stimulus should be gradually withdrawn as recovery strengthens and that the UK must reassess how much monetary support is still needed to keep the economy on a low-inflation course, while noting commodity-price inflation risks.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19265,
+ "prompt_tokens": 4481,
+ "completion_tokens": 74,
+ "cost_usd": 0.00059705,
+ "attempts": 1
+}

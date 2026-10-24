@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.96,
+ "reason": "The speech directly discusses the policy outlook and says the recent investment upturn and stronger recovery supported a 25-basis-point rate rise, while CPI inflation above target and rising expectations warranted action; however, it stresses uncertainty about future rates and month-by-month decisions rather than signalling a definite further increase.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16950,
+ "prompt_tokens": 4097,
+ "completion_tokens": 87,
+ "cost_usd": 0.00055555,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.95,
+ "reason": "The speech is primarily about the inflation outlook and monetary policy, and although it stresses a measured, steady-handed approach and risks to demand, the speaker says further tightening is needed and the transition remains incomplete to secure a sustainable return of inflation to target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23877,
+ "prompt_tokens": 5334,
+ "completion_tokens": 131,
+ "cost_usd": 0.000732175,
+ "attempts": 1
+}

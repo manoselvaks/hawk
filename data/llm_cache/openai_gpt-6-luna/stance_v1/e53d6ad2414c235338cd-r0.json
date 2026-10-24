@@ -1,0 +1,15 @@
+{
+ "relevance": 0.1,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The extract concerns bank capital structures, leverage externalities and the tax treatment of debt versus equity, not the UK monetary policy outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 2108,
+ "prompt_tokens": 1110,
+ "completion_tokens": 54,
+ "cost_usd": 0.000165675,
+ "attempts": 1
+}

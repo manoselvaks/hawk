@@ -176,14 +176,81 @@ reasons), and it does not make the labels "wrong". It does suggest two things fo
 next round: show the full text by default, and have a second person label a subset so the
 human ceiling is known.
 
+## Full-corpus run
+
+The production pass (`python -m hawk.scoring.score_all --confirm --max-retries 12
+--max-tokens 800`) scored all 1,853 documents with `openai/gpt-6-luna`, full text,
+`stance_v1`, on 23–24 October 2026. One document (`speech-d0cbbe0793`) failed once on a
+dropped connection and was filled in by a re-run from the cache; **none were skipped**.
+
+What came back: 1,086 documents with relevance ≥ 0.5 (773 speeches, all 314 minutes);
+1,135 with a stance (the model gives none below relevance 0.3, and occasionally none
+above it). Stances use the whole scale
+(42 at −2, 18 at +2; 385 at 0), mean confidence on relevant documents is 0.88. Era means
+move the expected way: −0.02 before 2008, −0.32 in 2008–15, −0.15 in 2016–21, +0.30 from
+2022. On the 1,001 documents both scorers call relevant, AI and word-list stances
+correlate at Spearman 0.41: they agree on direction often, but far from always.
+
+### Spot check: 10 random scores
+
+Ten documents drawn at random (`scores.sample(10, random_state=6)`), with the model's
+reason read against the document title and the word-list score:
+
+| document | relevance | stance | judgement |
+| --- | ---: | ---: | --- |
+| Hauser 2015, Fair and Effective Markets Review | 0.05 | – | Right: market conduct, not monetary policy |
+| Tucker 2009, Turner Review conference | 0.2 | – | Right: financial regulation (word lists said +0.67) |
+| MPC minutes, November 2015 | 1.0 | −0.5 | Right: hold, downside inflation risks, one member for a hike |
+| Plenderleith 2001, "Addressing the uncertainties" | 1.0 | −1.0 | Right: describes five cuts and readiness to ease (word lists 0) |
+| Clark 2011, macroprudential policy | 0.35 | 0 | Reasonable: mentions rates, no lean; below the 0.5 cut-off, so unused |
+| MPC minutes, December 2012 | 1.0 | −0.5 | Right: QE held, one member for more |
+| Miles 2013, asset purchases | 1.0 | −1.0 | Right: "next move might be more support" |
+| Jenkins 2011, lobbying | 0.05 | – | Right |
+| Posen 2011, "soft tyranny of inflation expectations" | 1.0 | −1.5 | Right: argues against tightening (word lists +0.27) |
+| Stimson 2023, climate transition plan | 0.05 | – | Right |
+
+All ten are defensible; none looks wrong. Where the word lists differ (Posen,
+Plenderleith, Tucker), the AI's reading matches the document's argument and the word
+lists are counting vocabulary.
+
+### Systematic issues noticed
+
+None that change the analysis, but four things worth knowing:
+
+- **"The extract".** 127 reasons call the input "the extract". These are the 955
+  documents longer than 24,000 characters, for which the model sees keyword-selected
+  passages rather than the whole text. A long speech whose conclusion falls outside the
+  passages can be misread, the same failure seen with the labelling tool
+  ([above](#where-the-labels-and-the-models-disagree)), though the model's 24,000
+  characters are ten times what the labeller saw first.
+- **Relevance between 0.3 and 0.5.** 65 documents get a stance but fall below the
+  analysis cut-off; most are financial-stability speeches that mention rates in passing
+  (Clark 2011 above). The robustness runs at cut-offs 0.3 and 0.8 give the same
+  conclusions ([findings](findings.md#3-market-reaction-do-2-year-gilts-listen)).
+- **Relevant but no stance.** One document (Haldane 2018, "How monetary policy affects
+  your GDP", relevance 0.85) has no stance: the model judged it about past policy with
+  no lean on the future path, which is what the prompt asks for.
+- **Non-determinism.** Luna ignores the temperature setting (see self-consistency
+  above), so a re-run would move about one score in five by half a point. The cache
+  pins the scores used here.
+
 ## Spend
 
-OpenRouter spend in this session: **$0.094** (72 Luna calls, 60 Haiku, 28 DeepSeek),
-logged call by call in [`data/llm_spend.jsonl`](../data/llm_spend.jsonl); $0.169 over the
-project's life. The run then stopped: OpenRouter answered "Insufficient credits. This
-account never purchased credits." The key's $5 limit is a cap, not a balance, and the
-calls so far ran on a small grace allowance. Scoring the full corpus (about $0.59 with
-Luna) needs credit added to the account.
+| run | calls | cost |
+| --- | ---: | ---: |
+| Pilot and earlier sessions | 244 | $0.075 |
+| Evaluation (72 Luna, 60 Haiku, 28 DeepSeek) | 160 | $0.094 |
+| **Full corpus, Luna (this run)** | **1,797** | **$0.992** |
+| Project total, logged | 2,201 | $1.161 |
+
+Every call is logged with OpenRouter's reported cost in
+[`data/llm_spend.jsonl`](../data/llm_spend.jsonl). The full pass averaged $0.00055 per
+document, against $0.00032 in the pilot, so it cost $0.99 rather than the estimated $0.59
+(the pilot's documents were about as long, so length is not the reason; the cause is not
+established). It stayed well inside the $2 stop set for this run. OpenRouter reports
+$1.162 used on the project's key, matching the log; the account total ($1.19) is $0.03
+higher because it also counts usage outside this key. The evaluation round had earlier stopped on "Insufficient credits";
+credit was added before this run.
 
 ## Reproduce
 

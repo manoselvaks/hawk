@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.5,
+ "confidence": 0.98,
+ "reason": "The speaker argues that domestic capacity and inflation pressures may be more persistent than forecast, urges the MPC to lean strongly against the risk of unanchored expectations, and prefers relatively quick tightening, while allowing that the pace will depend on the outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21449,
+ "prompt_tokens": 5043,
+ "completion_tokens": 76,
+ "cost_usd": 0.0006683,
+ "attempts": 1
+}

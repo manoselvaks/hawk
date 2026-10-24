@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.83,
+ "reason": "Lomax frames policy as a balance between downside risks from financial turmoil and slowing demand and upside inflation risks from oil, saying policy may be restrictive and that the MPC must respond to incoming data rather than signalling a clear tightening or easing direction.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17180,
+ "prompt_tokens": 4069,
+ "completion_tokens": 76,
+ "cost_usd": 0.00054655,
+ "attempts": 1
+}

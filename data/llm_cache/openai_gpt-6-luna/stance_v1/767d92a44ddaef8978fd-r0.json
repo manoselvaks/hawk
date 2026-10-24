@@ -1,0 +1,15 @@
+{
+ "relevance": 0.08,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech is about macroprudential policy and resilience in commercial property finance, including bank capital, lending standards and property funds, rather than the UK monetary policy outlook or Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 11897,
+ "prompt_tokens": 3116,
+ "completion_tokens": 64,
+ "cost_usd": 0.000421425,
+ "attempts": 1
+}

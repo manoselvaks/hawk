@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speech strongly supports maintaining the inflation-targeting framework and price stability, but presents asset-price and deflation risks as challenges to assess over the medium term without advocating either near-term tightening or easing.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23986,
+ "prompt_tokens": 5231,
+ "completion_tokens": 65,
+ "cost_usd": 0.0006863,
+ "attempts": 1
+}

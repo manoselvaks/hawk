@@ -1,0 +1,15 @@
+{
+ "relevance": 0.65,
+ "stance": 0.0,
+ "confidence": 0.58,
+ "reason": "The speech addresses inflation, wages, supply shocks and forward-looking evidence for monetary policy, but its conclusions emphasize improving data and forecasting rather than recommending a particular policy direction.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 2715,
+ "prompt_tokens": 1237,
+ "completion_tokens": 61,
+ "cost_usd": 0.00018505,
+ "attempts": 1
+}

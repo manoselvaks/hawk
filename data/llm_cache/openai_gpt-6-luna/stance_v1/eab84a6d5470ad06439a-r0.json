@@ -1,0 +1,15 @@
+{
+ "relevance": 0.1,
+ "stance": null,
+ "confidence": 0.97,
+ "reason": "The speech focuses on building-society competition, capital, funding, risk management and governance, with no substantive discussion of the UK monetary policy outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18988,
+ "prompt_tokens": 4362,
+ "completion_tokens": 158,
+ "cost_usd": 0.000624175,
+ "attempts": 1
+}

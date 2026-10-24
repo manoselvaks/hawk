@@ -1,0 +1,15 @@
+{
+ "relevance": 0.02,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech concerns PRA supervision and preparedness for major losses in the general insurance sector, not the UK monetary policy outlook or policy tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17892,
+ "prompt_tokens": 4069,
+ "completion_tokens": 54,
+ "cost_usd": 0.00053555,
+ "attempts": 1
+}

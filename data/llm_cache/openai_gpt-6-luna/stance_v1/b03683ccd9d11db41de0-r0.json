@@ -1,0 +1,15 @@
+{
+ "relevance": 0.2,
+ "stance": null,
+ "confidence": 0.97,
+ "reason": "The speech discusses Japan\u2019s recovery prospects, reconstruction, debt and deflation, rather than the UK monetary policy outlook or Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 10592,
+ "prompt_tokens": 2742,
+ "completion_tokens": 54,
+ "cost_usd": 0.000369675,
+ "attempts": 1
+}

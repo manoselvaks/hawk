@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.94,
+ "reason": "The Governor says global and domestic demand weakness put the UK at risk of undershooting the inflation target, explaining that the Bank had cut rates and would ease further if that risk persisted.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 14965,
+ "prompt_tokens": 3632,
+ "completion_tokens": 63,
+ "cost_usd": 0.000485425,
+ "attempts": 1
+}

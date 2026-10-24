@@ -1,0 +1,15 @@
+{
+ "relevance": 0.25,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech discusses the Bank\u2019s reserves, balance-sheet normalisation and repo-led operating framework, while explicitly saying QE and QT are not its focus; it does not address the outlook for inflation, demand, employment or Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19979,
+ "prompt_tokens": 4515,
+ "completion_tokens": 73,
+ "cost_usd": 0.0006008,
+ "attempts": 1
+}

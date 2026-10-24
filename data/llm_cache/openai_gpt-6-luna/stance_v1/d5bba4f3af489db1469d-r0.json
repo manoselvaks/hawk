@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.5,
+ "confidence": 0.98,
+ "reason": "The Committee judged domestic demand to be growing significantly faster than potential output and said further monetary tightening was needed, while raising rates by \u00bc point and leaving open the prospect of larger increases.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23917,
+ "prompt_tokens": 5555,
+ "completion_tokens": 65,
+ "cost_usd": 0.0007268,
+ "attempts": 1
+}

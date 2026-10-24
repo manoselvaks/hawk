@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.95,
+ "reason": "The speaker says inflation is on track toward 2% while demand and the labour market are weakening, and that this creates a possible need for a \u201cmore activist, more rapid withdrawal of monetary policy restrictiveness\u201d to sustain a soft landing.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24044,
+ "prompt_tokens": 5553,
+ "completion_tokens": 160,
+ "cost_usd": 0.00077405,
+ "attempts": 1
+}

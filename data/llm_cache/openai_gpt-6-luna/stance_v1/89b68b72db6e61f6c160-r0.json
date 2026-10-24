@@ -1,0 +1,15 @@
+{
+ "relevance": 0.75,
+ "stance": 0.5,
+ "confidence": 0.62,
+ "reason": "The speech says the economy has very little spare capacity and that growth around 1\u00be% would still generate excess demand, though it presents productivity risks in both directions and gives no explicit policy-rate signal.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 14759,
+ "prompt_tokens": 3557,
+ "completion_tokens": 263,
+ "cost_usd": 0.00057605,
+ "attempts": 1
+}

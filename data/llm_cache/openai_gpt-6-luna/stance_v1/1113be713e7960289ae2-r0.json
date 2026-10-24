@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speech is substantially about monetary policy institutions, inflation credibility, exchange-rate policy and zero-bound tools, but it presents these issues analytically without a clear lean toward tightening or easing UK policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22528,
+ "prompt_tokens": 4944,
+ "completion_tokens": 66,
+ "cost_usd": 0.000650925,
+ "attempts": 1
+}

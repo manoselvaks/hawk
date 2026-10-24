@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.91,
+ "reason": "The Committee kept rates unchanged, with some members favouring a cut and others considering a future tightening, but judged that it could wait for more evidence amid offsetting inflation risks.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24005,
+ "prompt_tokens": 5318,
+ "completion_tokens": 61,
+ "cost_usd": 0.000695175,
+ "attempts": 1
+}

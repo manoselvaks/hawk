@@ -1,0 +1,15 @@
+{
+ "relevance": 0.55,
+ "stance": -1.0,
+ "confidence": 0.8,
+ "reason": "The speech focuses mainly on business investment and the recovery, but says there is \u201cno immediate need to increase interest rates\u201d even if unemployment reaches 7% and that stimulus should be reduced only gradually.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 14652,
+ "prompt_tokens": 3473,
+ "completion_tokens": 253,
+ "cost_usd": 0.00056055,
+ "attempts": 1
+}

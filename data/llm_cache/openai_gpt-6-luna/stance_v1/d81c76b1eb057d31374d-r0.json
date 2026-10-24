@@ -1,0 +1,15 @@
+{
+ "relevance": 0.98,
+ "stance": -1.0,
+ "confidence": 0.78,
+ "reason": "The speech argues that the inflation hump is largely driven by external and administered factors, underlying disinflation remains on track, and labour-market slack and weaker demand limit second-round effects, implying a dovish lean despite noting inflation risks.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19194,
+ "prompt_tokens": 4590,
+ "completion_tokens": 204,
+ "cost_usd": 0.000675675,
+ "attempts": 1
+}

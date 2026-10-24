@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech is about FinTech innovation, payment infrastructure, climate-related financial risks and bank supervision, with no discussion of the UK monetary policy outlook or Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12804,
+ "prompt_tokens": 3193,
+ "completion_tokens": 60,
+ "cost_usd": 0.00042905,
+ "attempts": 1
+}

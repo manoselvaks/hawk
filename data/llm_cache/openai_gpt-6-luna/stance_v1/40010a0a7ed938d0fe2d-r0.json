@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.91,
+ "reason": "The speaker says the referendum shock is weighing on growth and investment, that \u201cfurther monetary stimulus will be required at some point,\u201d and describes the MPC\u2019s easing package, while noting its timing depends on incoming data.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19300,
+ "prompt_tokens": 4452,
+ "completion_tokens": 70,
+ "cost_usd": 0.000591425,
+ "attempts": 1
+}

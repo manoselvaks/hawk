@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.95,
+ "reason": "Fisher argues there is no immediate need to tighten, that many considerations counsel against hasty tightening, and that Bank Rate rises remain some way off and should be gradual, while acknowledging the need to guard against future excess inflation.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20207,
+ "prompt_tokens": 4551,
+ "completion_tokens": 72,
+ "cost_usd": 0.0006048,
+ "attempts": 1
+}

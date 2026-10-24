@@ -1,0 +1,15 @@
+{
+ "relevance": 0.55,
+ "stance": 0.0,
+ "confidence": 0.76,
+ "reason": "The speech discusses monetary policy mainly in broad historical terms and offers no forward policy lean, while cautioning investors not to read the steep futures curve as a reliable indicator of the likely course of UK official rates.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 10737,
+ "prompt_tokens": 2725,
+ "completion_tokens": 69,
+ "cost_usd": 0.00037505,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.94,
+ "reason": "The MPC judged that, if the economy evolved broadly as projected, ongoing gradual tightening would be appropriate, as limited slack and emerging excess demand were expected to raise domestic inflationary pressures.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24001,
+ "prompt_tokens": 5538,
+ "completion_tokens": 62,
+ "cost_usd": 0.000723175,
+ "attempts": 1
+}

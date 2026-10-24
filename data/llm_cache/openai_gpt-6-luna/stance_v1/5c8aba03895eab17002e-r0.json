@@ -1,0 +1,15 @@
+{
+ "relevance": 0.2,
+ "stance": null,
+ "confidence": 0.95,
+ "reason": "The speech is primarily about the Bank\u2019s finances, operational modernisation, technology and people strategy, with monetary policy mentioned only in passing.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17293,
+ "prompt_tokens": 4203,
+ "completion_tokens": 55,
+ "cost_usd": 0.0005528,
+ "attempts": 1
+}

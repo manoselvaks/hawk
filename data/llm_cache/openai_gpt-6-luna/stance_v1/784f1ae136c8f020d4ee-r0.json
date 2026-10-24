@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.5,
+ "confidence": 0.91,
+ "reason": "The speaker argues that medium-term inflation expectations and underlying inflation are worryingly elevated and that tighter monetary policy is needed to firmly lean against their drift, endorsing forceful tightening rather than a gradual approach.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23904,
+ "prompt_tokens": 5272,
+ "completion_tokens": 68,
+ "cost_usd": 0.000692925,
+ "attempts": 1
+}

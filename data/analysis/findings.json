@@ -1,29 +1,29 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-23T00:45:14+00:00",
-  "model": "baseline (word lists)",
+  "generated_at": "2026-10-24T00:43:02+00:00",
+  "model": "openai/gpt-6-luna",
   "prompt_version": "stance_v1",
   "sample": {
     "start": "1997-06-06",
     "end": "2026-09-17",
     "n_documents": 1853,
-    "n_relevant": 1019,
+    "n_relevant": 1086,
     "n_decisions": 315
   },
   "headline": [
     {
       "id": "prediction",
       "label": "Did tone lead decisions?",
-      "value": 0.0038,
+      "value": 0.0243,
       "display": "No reliable gain",
-      "detail": "Interim, word-list scores: Out of sample, adding tone to the previous decision changed log loss by +0.004 per meeting (95% CI -0.030 to +0.036; above zero = better) and called 4 of 44 rate changes, against 0."
+      "detail": "Out of sample, adding tone to the previous decision changed log loss by +0.024 per meeting (95% CI -0.011 to +0.060; above zero = better) and called 9 of 44 rate changes, against 0."
     },
     {
       "id": "market",
       "label": "Did gilts listen?",
-      "value": -0.2143,
-      "display": "-0.2 bp",
-      "detail": "Interim, word-list scores: 2-year gilt move per point of speech stance on 648 speech days (95% CI -0.86 to +0.43 bp)."
+      "value": 0.2077,
+      "display": "+0.2 bp",
+      "detail": "2-year gilt move per point of speech stance on 709 speech days (95% CI -0.23 to +0.65 bp)."
     },
     {
       "id": "accuracy",
@@ -34,7 +34,7 @@
     }
   ],
   "event_study": {
-    "takeaway": "Interim, word-list scores. Tone in the 12 weeks before hikes averaged +0.43, against -0.23 before cuts and -0.21 before holds (hike minus cut +0.65, 95% CI +0.52 to +0.79). Tone before hikes stood out, while holds and cuts looked alike; tone did not visibly build up in the final weeks before a move.",
+    "takeaway": "Tone in the 12 weeks before hikes averaged +0.53, against -0.48 before cuts and -0.12 before holds (hike minus cut +1.00, 95% CI +0.81 to +1.21). Tone before hikes stood out; tone fell a further 0.20 in the last four weeks before cuts (95% CI -0.40 to -0.00), with no such build-up before hikes (+0.02).",
     "method": "Mean stance of MPC-relevant speeches and minutes published in each week before the announcement (week 0 = the 7 days before it; the decision's own minutes never count); 95% bands by bootstrap over decisions.",
     "offsets_weeks": [
       -12,
@@ -56,147 +56,147 @@
         "decision": "hike",
         "n_events": 35,
         "mean": [
-          0.497,
-          0.417,
-          0.488,
-          0.264,
-          0.38,
-          0.319,
-          0.446,
-          0.471,
-          0.535,
-          0.406,
-          0.543,
-          0.438,
-          0.18
+          0.561,
+          0.562,
+          0.383,
+          0.484,
+          0.969,
+          0.469,
+          0.607,
+          0.378,
+          0.365,
+          0.707,
+          0.47,
+          0.453,
+          0.0
         ],
         "ci_low": [
           0.25,
-          0.224,
-          0.161,
-          0.031,
-          0.071,
+          0.375,
+          -0.033,
           0.146,
-          0.204,
-          0.236,
-          0.173,
-          0.201,
-          0.355,
-          0.101,
-          null
+          0.5,
+          0.263,
+          0.338,
+          0.017,
+          -0.038,
+          0.528,
+          0.193,
+          0.188,
+          -1.0
         ],
         "ci_high": [
-          0.746,
-          0.623,
-          0.8,
-          0.487,
-          0.701,
-          0.492,
-          0.686,
-          0.712,
-          0.84,
-          0.619,
-          0.73,
-          0.771,
-          null
+          0.851,
+          0.738,
+          0.75,
+          0.818,
+          1.344,
+          0.671,
+          0.858,
+          0.7,
+          0.731,
+          0.892,
+          0.742,
+          0.735,
+          1.0
         ]
       },
       {
         "decision": "hold",
         "n_events": 245,
         "mean": [
-          -0.18,
-          -0.263,
-          -0.247,
-          -0.313,
-          -0.177,
+          -0.039,
           -0.196,
-          -0.188,
-          -0.317,
-          -0.285,
-          -0.211,
-          -0.205,
-          -0.228,
-          -0.317
+          -0.184,
+          -0.144,
+          -0.088,
+          -0.116,
+          -0.215,
+          -0.19,
+          -0.135,
+          -0.059,
+          -0.107,
+          -0.303,
+          -0.336
         ],
         "ci_low": [
-          -0.288,
-          -0.35,
-          -0.377,
-          -0.506,
-          -0.336,
-          -0.29,
+          -0.181,
           -0.291,
-          -0.445,
-          -0.458,
-          -0.315,
-          -0.295,
-          -0.347,
-          -0.642
+          -0.333,
+          -0.344,
+          -0.281,
+          -0.226,
+          -0.321,
+          -0.348,
+          -0.33,
+          -0.195,
+          -0.207,
+          -0.452,
+          -0.621
         ],
         "ci_high": [
-          -0.075,
-          -0.182,
-          -0.121,
-          -0.119,
-          -0.021,
-          -0.099,
-          -0.085,
-          -0.185,
-          -0.119,
-          -0.106,
-          -0.116,
-          -0.111,
-          -0.002
+          0.095,
+          -0.102,
+          -0.037,
+          0.058,
+          0.097,
+          -0.012,
+          -0.112,
+          -0.034,
+          0.057,
+          0.075,
+          -0.016,
+          -0.152,
+          -0.052
         ]
       },
       {
         "decision": "cut",
         "n_events": 35,
         "mean": [
-          -0.215,
-          -0.224,
-          -0.087,
-          -0.071,
-          -0.107,
-          -0.341,
-          -0.288,
-          -0.089,
-          -0.708,
-          -0.195,
-          -0.39,
-          -0.104,
-          -0.546
+          -0.521,
+          -0.448,
+          -0.369,
+          -0.2,
+          -0.439,
+          -0.746,
+          -0.399,
+          -0.197,
+          -0.944,
+          -0.559,
+          -0.754,
+          -0.289,
+          -0.964
         ],
         "ci_low": [
-          -0.422,
-          -0.409,
-          -0.41,
-          -0.353,
-          -0.293,
-          -0.528,
-          -0.534,
-          -0.478,
-          -1.04,
-          -0.437,
-          -0.611,
-          -0.512,
-          -1.298
+          -0.829,
+          -0.71,
+          -0.625,
+          -0.533,
+          -0.939,
+          -1.08,
+          -0.681,
+          -0.636,
+          -1.611,
+          -0.849,
+          -1.008,
+          -0.683,
+          -1.501
         ],
         "ci_high": [
-          0.028,
-          -0.031,
-          0.248,
-          0.219,
-          0.124,
-          -0.153,
-          -0.026,
-          0.339,
-          -0.42,
-          0.041,
-          -0.176,
-          0.294,
-          0.27
+          -0.208,
+          -0.216,
+          -0.125,
+          0.1,
+          0.061,
+          -0.409,
+          -0.117,
+          0.212,
+          -0.278,
+          -0.303,
+          -0.496,
+          0.067,
+          -0.429
         ]
       }
     ],
@@ -204,31 +204,31 @@
       {
         "decision": "hike",
         "n_events": 35,
-        "mean_tone_before": 0.426,
-        "ci_low": 0.335,
-        "ci_high": 0.513,
-        "tone_change": 0.005
+        "mean_tone_before": 0.526,
+        "ci_low": 0.405,
+        "ci_high": 0.646,
+        "tone_change": 0.022
       },
       {
         "decision": "hold",
         "n_events": 245,
-        "mean_tone_before": -0.208,
-        "ci_low": -0.268,
-        "ci_high": -0.147,
-        "tone_change": 0.019
+        "mean_tone_before": -0.125,
+        "ci_low": -0.19,
+        "ci_high": -0.06,
+        "tone_change": 0.017
       },
       {
         "decision": "cut",
         "n_events": 35,
-        "mean_tone_before": -0.226,
-        "ci_low": -0.338,
-        "ci_high": -0.124,
-        "tone_change": -0.088
+        "mean_tone_before": -0.477,
+        "ci_low": -0.645,
+        "ci_high": -0.32,
+        "tone_change": -0.202
       }
     ]
   },
   "prediction_test": {
-    "takeaway": "Interim, word-list scores. Adding tone to the previous decision did not reliably improve out-of-sample forecasts (log-loss gain +0.004, 95% CI -0.030 to +0.036). Once the 2-year gilt yield is in the model, which on its own forecasts far better, tone adds nothing reliable (gain +0.025, CI -0.027 to +0.079).",
+    "takeaway": "Adding tone to the previous decision did not reliably improve out-of-sample forecasts (log-loss gain +0.024, 95% CI -0.011 to +0.060). Once the 2-year gilt yield is in the model, which on its own forecasts far better, tone adds nothing reliable (gain +0.036, CI -0.017 to +0.091). Individual members are different: those who went on to vote for a higher rate than the majority had spoken at +1.08 on average, those who voted with it at -0.15 and those who voted lower at -0.86 (slope p < 0.001).",
     "method": "Ordered logit, expanding window: before each scheduled decision from 2003 the model is re-fitted on earlier decisions only, with tone from documents published before each announcement. Accuracy is out of sample; pseudo R² is in sample.",
     "outcome": "cut / hold / hike",
     "models": [
@@ -272,9 +272,9 @@
         ],
         "uses_tone": true,
         "n": 244,
-        "accuracy": 0.8115,
-        "log_loss": 0.5233,
-        "pseudo_r2": 0.1753
+        "accuracy": 0.8238,
+        "log_loss": 0.5028,
+        "pseudo_r2": 0.2066
       },
       {
         "name": "Previous decision + market",
@@ -302,136 +302,132 @@
         ],
         "uses_tone": true,
         "n": 244,
-        "accuracy": 0.8115,
-        "log_loss": 0.406,
-        "pseudo_r2": 0.3929
+        "accuracy": 0.8443,
+        "log_loss": 0.3947,
+        "pseudo_r2": 0.412
       }
     ],
     "coefficients": [
       {
         "term": "prev_cut",
         "label": "Previous decision: cut",
-        "estimate": -1.7875,
-        "std_error": 0.418,
-        "p_value": 0.0,
-        "ci_low": -2.6069,
-        "ci_high": -0.9682
+        "estimate": -1.1104,
+        "std_error": 0.4619,
+        "p_value": 0.0162,
+        "ci_low": -2.0157,
+        "ci_high": -0.2051
       },
       {
         "term": "prev_hike",
         "label": "Previous decision: hike",
-        "estimate": 1.9218,
-        "std_error": 0.4541,
-        "p_value": 0.0,
-        "ci_low": 1.0317,
-        "ci_high": 2.8118
+        "estimate": 1.7412,
+        "std_error": 0.4542,
+        "p_value": 0.0001,
+        "ci_low": 0.8509,
+        "ci_high": 2.6314
       },
       {
         "term": "tone",
         "label": "Tone since last meeting",
-        "estimate": 1.1767,
-        "std_error": 0.3425,
-        "p_value": 0.0006,
-        "ci_low": 0.5054,
-        "ci_high": 1.8479
+        "estimate": 1.476,
+        "std_error": 0.3046,
+        "p_value": 0.0,
+        "ci_low": 0.879,
+        "ci_high": 2.0731
       },
       {
         "term": "tone_change",
         "label": "Change in tone vs previous window",
-        "estimate": -0.5986,
-        "std_error": 0.3813,
-        "p_value": 0.1164,
-        "ci_low": -1.3459,
-        "ci_high": 0.1487
+        "estimate": -0.8094,
+        "std_error": 0.3,
+        "p_value": 0.007,
+        "ci_low": -1.3974,
+        "ci_high": -0.2214
       }
     ]
   },
   "market_reaction": {
-    "takeaway": "Interim, word-list scores. On 648 speech days, a one-point more hawkish speech went with a -0.21 bp move in the 2-year gilt (95% CI -0.86 to +0.43, p = 0.52); random non-speech days produce slopes this large 32% of the time, so this is a null result.",
+    "takeaway": "On 709 speech days, a one-point more hawkish speech went with a +0.21 bp move in the 2-year gilt (95% CI -0.23 to +0.65, p = 0.35); random non-speech days produce slopes this large 26% of the time, so this is a null result.",
     "measure": "Average absolute daily change in the 2-year gilt yield",
     "method": "Close-to-close change on the business day a speech was published; MPC announcement and minutes days excluded. Newey-West standard errors.",
     "groups": [
       {
         "label": "No relevant speech",
-        "n": 6345,
-        "value": 3.1658,
-        "ci_low": 3.0873,
-        "ci_high": 3.251
+        "n": 6284,
+        "value": 3.1657,
+        "ci_low": 3.0863,
+        "ci_high": 3.2516
       },
       {
         "label": "Speech by a non-member",
-        "n": 23,
-        "value": 2.9317,
-        "ci_low": 1.7922,
-        "ci_high": 4.2514
+        "n": 27,
+        "value": 3.314,
+        "ci_low": 2.1247,
+        "ci_high": 4.5469
       },
       {
         "label": "Speech by an MPC member",
-        "n": 625,
-        "value": 3.4474,
-        "ci_low": 3.1645,
-        "ci_high": 3.7442
+        "n": 682,
+        "value": 3.4116,
+        "ci_low": 3.1488,
+        "ci_high": 3.6974
       }
     ],
     "by_stance": [
       {
         "label": "Dovish (≤ -0.5)",
-        "n": 212,
-        "value": 0.0968
+        "n": 266,
+        "value": -0.1293
       },
       {
         "label": "Neutral",
-        "n": 298,
-        "value": 0.5459
+        "n": 228,
+        "value": 0.4093
       },
       {
         "label": "Hawkish (≥ +0.5)",
-        "n": 138,
-        "value": -0.6772
+        "n": 215,
+        "value": 0.2408
       }
     ],
     "regression": [
       {
         "term": "stance",
         "label": "Speech stance (bp per point)",
-        "estimate": -0.2143,
-        "std_error": 0.33,
-        "p_value": 0.516,
-        "ci_low": -0.861,
-        "ci_high": 0.4324
+        "estimate": 0.2077,
+        "std_error": 0.2233,
+        "p_value": 0.3522,
+        "ci_low": -0.2299,
+        "ci_high": 0.6454
       },
       {
         "term": "surprise",
         "label": "Stance surprise vs last 60 days (bp per point)",
-        "estimate": -0.5622,
-        "std_error": 0.3637,
-        "p_value": 0.1222,
-        "ci_low": -1.2751,
-        "ci_high": 0.1507
+        "estimate": 0.0626,
+        "std_error": 0.2135,
+        "p_value": 0.7694,
+        "ci_low": -0.3558,
+        "ci_high": 0.481
       },
       {
         "term": "stance_2day",
         "label": "Speech stance, two-day change",
-        "estimate": 0.0242,
-        "std_error": 0.4256,
-        "p_value": 0.9547,
-        "ci_low": -0.8099,
-        "ci_high": 0.8582
+        "estimate": 0.6226,
+        "std_error": 0.3247,
+        "p_value": 0.0552,
+        "ci_low": -0.0138,
+        "ci_high": 1.259
       }
     ]
   },
   "caveats": [
-    {
-      "title": "Interim: word-list scores",
-      "text": "These results use the word-list baseline, not the AI scorer: the AI pass over the full corpus has not run yet. The baseline agreed with the hand labels about as well as the AI did, but it is a cruder reading of tone. Every number here will be recomputed from the AI scores."
-    },
     {
       "title": "A small sample",
       "text": "About 315 decisions, only about 70 of them rate changes, and 36 hand labels. Effects of a plausible size are hard to detect, so 'no evidence' is not 'no effect'."
     },
     {
       "title": "One labeller",
-      "text": "The AI was checked against one student's labels. The two AI models agree with each other far more than either agrees with him, so the labels are a noisy yardstick."
+      "text": "The AI was checked against one student's labels. The two AI models agree with each other far more than either agrees with the labels, so the labels are a noisy yardstick."
     },
     {
       "title": "The model knows history",

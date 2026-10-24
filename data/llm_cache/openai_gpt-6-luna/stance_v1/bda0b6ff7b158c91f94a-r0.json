@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.93,
+ "reason": "The speech says gradual withdrawal is appropriate as inflationary pressures build slowly, but also argues that smooth growth and house-price risks point to tightening earlier rather than later.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 15416,
+ "prompt_tokens": 3608,
+ "completion_tokens": 133,
+ "cost_usd": 0.000517425,
+ "attempts": 1
+}

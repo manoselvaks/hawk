@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.84,
+ "reason": "The speech describes inflation as expected to stay close to target and says near-term upside risks from buoyant spending and house prices are balanced by downside risks further out from debt and possible shocks, without signalling a clear change in policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24046,
+ "prompt_tokens": 5298,
+ "completion_tokens": 71,
+ "cost_usd": 0.000697675,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.65,
+ "stance": 1.0,
+ "confidence": 0.8,
+ "reason": "The speech mainly analyses long-run global equilibrium interest rates, but it notes that robust cost and price pressures and a tight labour market prompted rate increases and that the MPC would act forcefully if inflation persisted, while explicitly saying its structural analysis is not a near-term policy signal.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22146,
+ "prompt_tokens": 4930,
+ "completion_tokens": 82,
+ "cost_usd": 0.000657175,
+ "attempts": 1
+}

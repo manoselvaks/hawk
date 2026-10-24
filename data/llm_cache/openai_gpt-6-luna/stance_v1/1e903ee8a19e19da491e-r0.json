@@ -1,0 +1,15 @@
+{
+ "relevance": 0.35,
+ "stance": null,
+ "confidence": 0.91,
+ "reason": "The speech is chiefly about housing-market momentum, household indebtedness and financial-stability risks, rather than the UK monetary-policy outlook or Bank Rate path.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21061,
+ "prompt_tokens": 4890,
+ "completion_tokens": 58,
+ "cost_usd": 0.000640175,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.84,
+ "reason": "The Committee was unanimous in holding Bank Rate at 0.5%, and judged it more likely than not that rates would need to rise over the forecast period, but stressed that referendum uncertainty warranted cautious responses and future increases would be gradual and to a lower level than in past cycles.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23517,
+ "prompt_tokens": 5091,
+ "completion_tokens": 84,
+ "cost_usd": 0.0006783,
+ "attempts": 1
+}

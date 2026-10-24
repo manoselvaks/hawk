@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.5,
+ "confidence": 0.97,
+ "reason": "The speaker argues that stronger consumer spending could push the economy further into excess demand and that Bank Rate will probably need to rise further, sooner than markets project, while acknowledging a case to wait for more evidence.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24016,
+ "prompt_tokens": 5634,
+ "completion_tokens": 69,
+ "cost_usd": 0.000738675,
+ "attempts": 1
+}

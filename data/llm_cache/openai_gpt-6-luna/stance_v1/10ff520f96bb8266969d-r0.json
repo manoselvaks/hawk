@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.88,
+ "reason": "He rejects calls for substantially lower rates, warning they would fuel excess demand and accelerating inflation, while saying policy judgements will change with the evidence rather than signalling further tightening outright.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12546,
+ "prompt_tokens": 3204,
+ "completion_tokens": 248,
+ "cost_usd": 0.000524425,
+ "attempts": 1
+}

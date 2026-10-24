@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 0.5,
+ "confidence": 0.69,
+ "reason": "The speech stresses that the MPC must keep inflation at 2% and that it will do whatever is needed, while discussing uncertainty and credit-market risks without explicitly calling for a rate move, suggesting a mild hawkish lean.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17348,
+ "prompt_tokens": 4141,
+ "completion_tokens": 74,
+ "cost_usd": 0.00055455,
+ "attempts": 1
+}

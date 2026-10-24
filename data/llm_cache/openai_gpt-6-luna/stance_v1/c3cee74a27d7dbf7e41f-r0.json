@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.9,
+ "reason": "The Committee judged that \u201cthe case for increasing interest rates in order to restrain consumption growth was not yet pressing,\u201d while domestic inflationary pressures remained subdued and the net implications of labour-market developments were unclear, supporting a decision to leave the policy stance unchanged without a clear lean toward future tightening or easing.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24066,
+ "prompt_tokens": 5662,
+ "completion_tokens": 86,
+ "cost_usd": 0.000750675,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 2.0,
+ "confidence": 1,
+ "reason": "The speaker argues that persistent above-target inflation, limited spare capacity and rising inflation expectations require the MPC to act, saying it should have begun gradual Bank Rate rises and warning that delay risks requiring more abrupt tightening.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23948,
+ "prompt_tokens": 5346,
+ "completion_tokens": 65,
+ "cost_usd": 0.000700675,
+ "attempts": 1
+}

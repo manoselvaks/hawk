@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.97,
+ "reason": "George says further rate increases cannot be ruled out, but neither can a downward next move, and emphasizes that the Committee is monitoring evidence amid balanced risks to demand and inflation.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 9895,
+ "prompt_tokens": 2593,
+ "completion_tokens": 60,
+ "cost_usd": 0.00035405,
+ "attempts": 1
+}

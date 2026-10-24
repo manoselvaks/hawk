@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.56,
+ "reason": "The speech stresses that inflation is much too high and must return to target, but says that because the long-run equilibrium rate remains low, Bank Rate may not need to return to or stay near the higher levels seen in the past.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19884,
+ "prompt_tokens": 4607,
+ "completion_tokens": 314,
+ "cost_usd": 0.0007328,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.87,
+ "reason": "The Committee held that rates need not be cut immediately because growth was projected to recover and inflation risks were balanced to upside for most members, but it regarded the arguments for a small cut as finely balanced and noted a further reduction could be warranted if undershooting risks increased.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24049,
+ "prompt_tokens": 5329,
+ "completion_tokens": 82,
+ "cost_usd": 0.00070705,
+ "attempts": 1
+}

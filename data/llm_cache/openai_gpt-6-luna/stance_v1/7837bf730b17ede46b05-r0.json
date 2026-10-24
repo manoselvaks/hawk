@@ -1,0 +1,15 @@
+{
+ "relevance": 0.45,
+ "stance": 0.0,
+ "confidence": 0.9,
+ "reason": "The speech focuses largely on the institutional framework, independence, transparency and accountability of UK monetary policy, including the inflation target and MPC, without expressing a lean on future policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 14594,
+ "prompt_tokens": 3386,
+ "completion_tokens": 174,
+ "cost_usd": 0.000510175,
+ "attempts": 1
+}

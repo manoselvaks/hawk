@@ -1,0 +1,15 @@
+{
+ "relevance": 0.5,
+ "stance": 0.0,
+ "confidence": 0.89,
+ "reason": "The speech is mainly about whether monetary policy should lean against asset-price booms, and argues that policymakers cannot reliably identify harmful bubbles in time, without advocating a change in the future path of Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19184,
+ "prompt_tokens": 4604,
+ "completion_tokens": 68,
+ "cost_usd": 0.000609425,
+ "attempts": 1
+}

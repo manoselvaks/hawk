@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": 0.5,
+ "confidence": 0.78,
+ "reason": "The speech notes that domestic cost growth is already at or slightly above rates consistent with target inflation and that downside-skewed wage risks have receded, while endorsing only a limited and gradual path of further rate rises.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23989,
+ "prompt_tokens": 5576,
+ "completion_tokens": 219,
+ "cost_usd": 0.000806425,
+ "attempts": 1
+}

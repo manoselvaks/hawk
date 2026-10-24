@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": 0.0,
+ "confidence": 0.86,
+ "reason": "The speech examines real interest rates and the possible decline in the natural rate, but offers no directional signal on Bank Rate, concluding that policy should pragmatically keep inflation expectations anchored and get the real interest rate right.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18578,
+ "prompt_tokens": 4310,
+ "completion_tokens": 123,
+ "cost_usd": 0.000600175,
+ "attempts": 1
+}

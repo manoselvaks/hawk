@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": 0.0,
+ "confidence": 0.85,
+ "reason": "The speech explains the UK inflation-targeting framework and policy reaction function, but presents a largely balanced account of stabilisation and inflation control without advocating a change in Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24027,
+ "prompt_tokens": 5357,
+ "completion_tokens": 62,
+ "cost_usd": 0.00070055,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.55,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speech focuses mainly on the monetary-policy framework and the quality of economic data, noting that growth may have been a little higher than reported while inflation expectations remain anchored, without indicating a preferred future rate path.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16775,
+ "prompt_tokens": 3960,
+ "completion_tokens": 188,
+ "cost_usd": 0.000588925,
+ "attempts": 1
+}

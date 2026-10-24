@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.82,
+ "reason": "Although the speaker describes the MPC\u2019s stance as neutral with symmetric risks, they say the chance of weaker growth and the zero lower bound are grounds for not proceeding too hastily with tightening.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23917,
+ "prompt_tokens": 5411,
+ "completion_tokens": 185,
+ "cost_usd": 0.0007688,
+ "attempts": 1
+}

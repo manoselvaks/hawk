@@ -1,0 +1,15 @@
+{
+ "relevance": 0.75,
+ "stance": -1.5,
+ "confidence": 0.95,
+ "reason": "The speaker says UK inflation should reach target by mid-2026 and expects monetary policy to normalise at neutral sooner rather than later, with interest rates continuing downward if the outlook is borne out by the data.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 9092,
+ "prompt_tokens": 2497,
+ "completion_tokens": 73,
+ "cost_usd": 0.00034855,
+ "attempts": 1
+}

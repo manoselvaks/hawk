@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.87,
+ "reason": "He says policy will need tightening as recovery develops and warns that keeping rates low risks inflation moving above target beyond the two-year horizon, while acknowledging uncertainty and the need to assess recovery before deciding on further stimulus.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23731,
+ "prompt_tokens": 5198,
+ "completion_tokens": 194,
+ "cost_usd": 0.000746675,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.92,
+ "reason": "Fisher says inflation is most likely to fall below target as temporary pressures fade and that it was sensible not to tighten, while warning against stifling the recovery.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19124,
+ "prompt_tokens": 4671,
+ "completion_tokens": 149,
+ "cost_usd": 0.0006583,
+ "attempts": 1
+}

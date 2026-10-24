@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.93,
+ "reason": "Although the speech mainly advocates clearer communication of the MPC\u2019s preferred rate path, the speaker says that after a no-deal Brexit holding or cutting Bank Rate is more likely than raising it, and that they would be more likely to cut toward the effective lower bound.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24004,
+ "prompt_tokens": 5324,
+ "completion_tokens": 79,
+ "cost_usd": 0.000704925,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.95,
+ "reason": "The speaker anticipates further tightening and is willing to support a faster pace if persistent inflationary pressures emerge, while stressing that the scale and timing depend on incoming data and economic weakness.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 11186,
+ "prompt_tokens": 2827,
+ "completion_tokens": 62,
+ "cost_usd": 0.0003843,
+ "attempts": 1
+}

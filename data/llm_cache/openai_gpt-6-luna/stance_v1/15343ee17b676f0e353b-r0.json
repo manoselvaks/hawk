@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.99,
+ "reason": "Although the speech focuses on communicating forecast uncertainty, Weale says he has voted for an interest-rate increase since January and remains more concerned about inflation than the Committee, so he believes the monetary stance should be tightened.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23997,
+ "prompt_tokens": 5397,
+ "completion_tokens": 68,
+ "cost_usd": 0.00070855,
+ "attempts": 1
+}

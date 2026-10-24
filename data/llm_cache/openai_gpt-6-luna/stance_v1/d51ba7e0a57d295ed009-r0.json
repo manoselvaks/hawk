@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.9,
+ "reason": "Miles argues that recessionary forces make below-target inflation likely and that QE supports demand, while stressing that reversal should depend on the economic outlook rather than begin immediately.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24082,
+ "prompt_tokens": 5640,
+ "completion_tokens": 175,
+ "cost_usd": 0.000792425,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.96,
+ "reason": "The Committee unanimously held Bank Rate at 5.75%, judged inflation risks slightly tilted to the upside but growth risks balanced, and said most members had no firm view on whether rates would need to rise further.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22163,
+ "prompt_tokens": 4950,
+ "completion_tokens": 68,
+ "cost_usd": 0.000652675,
+ "attempts": 1
+}

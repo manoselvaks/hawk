@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.91,
+ "reason": "Bailey says the MPC will not tighten until there is clear evidence of progress on spare capacity and sustainably achieving the inflation target, and stresses avoiding premature tightening while recovery remains incomplete.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 15252,
+ "prompt_tokens": 3585,
+ "completion_tokens": 62,
+ "cost_usd": 0.00047905,
+ "attempts": 1
+}

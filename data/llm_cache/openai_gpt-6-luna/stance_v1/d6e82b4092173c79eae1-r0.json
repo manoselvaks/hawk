@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 2.0,
+ "confidence": 0.99,
+ "reason": "The speaker argues that the inflation outlook is too optimistic and that the MPC should raise interest rates sooner, faster and by more than markets expect to contain persistent inflationary pressures.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24026,
+ "prompt_tokens": 5352,
+ "completion_tokens": 60,
+ "cost_usd": 0.000698925,
+ "attempts": 1
+}

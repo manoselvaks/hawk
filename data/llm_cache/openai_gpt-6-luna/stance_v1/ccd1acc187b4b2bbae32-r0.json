@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.5,
+ "confidence": 0.95,
+ "reason": "The speaker argues that substantial spare capacity and persistent below-target core inflation warrant further stimulus, saying negative rates should boost growth and inflation and may be needed to eliminate slack and achieve the target sustainably.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24032,
+ "prompt_tokens": 5406,
+ "completion_tokens": 67,
+ "cost_usd": 0.000709175,
+ "attempts": 1
+}

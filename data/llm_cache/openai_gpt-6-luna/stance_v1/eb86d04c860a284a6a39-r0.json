@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.84,
+ "reason": "George describes the MPC debate as having shifted toward possible further monetary stimulus and asks whether cutting rates further could sustain demand, while stressing risks from household debt and house prices, indicating a modest dovish lean.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 11321,
+ "prompt_tokens": 2973,
+ "completion_tokens": 67,
+ "cost_usd": 0.00040505,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.89,
+ "reason": "She sees spare capacity and weakening demand, says demand growing faster than supply would need to be evidenced by rising domestic inflation before rate rises, and judges demand effects of Brexit more likely to require policy loosening.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24024,
+ "prompt_tokens": 5428,
+ "completion_tokens": 68,
+ "cost_usd": 0.000712425,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 1,
+ "reason": "The speech concerns the proposed switch from paper to polymer banknotes and public consultation, not the monetary policy outlook or policy tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16769,
+ "prompt_tokens": 3850,
+ "completion_tokens": 110,
+ "cost_usd": 0.000536175,
+ "attempts": 1
+}

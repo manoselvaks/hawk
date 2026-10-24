@@ -1,0 +1,15 @@
+{
+ "relevance": 0.8,
+ "stance": 0.0,
+ "confidence": 0.83,
+ "reason": "The speech explains the Bank\u2019s crisis-era monetary operations and asset purchases to support spending and meet the inflation target, but presents no clear preference about the future timing or direction of policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 14460,
+ "prompt_tokens": 3467,
+ "completion_tokens": 196,
+ "cost_usd": 0.0005313,
+ "attempts": 1
+}

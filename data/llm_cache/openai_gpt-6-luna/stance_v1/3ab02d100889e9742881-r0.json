@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.84,
+ "reason": "The speech explains the use and effectiveness of crisis-era asset purchases, while describing the inflation overshoot as primarily transitory and giving no clear lean on the future path of Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12564,
+ "prompt_tokens": 3031,
+ "completion_tokens": 176,
+ "cost_usd": 0.0004668,
+ "attempts": 1
+}

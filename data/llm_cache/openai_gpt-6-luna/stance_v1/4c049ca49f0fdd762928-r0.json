@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech focuses on financial stability and operational resilience, especially cyber risks, payments disruption and firm preparedness, rather than the inflation outlook or monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20971,
+ "prompt_tokens": 4650,
+ "completion_tokens": 57,
+ "cost_usd": 0.000609675,
+ "attempts": 1
+}

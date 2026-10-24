@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.88,
+ "reason": "Bean describes a highly stimulatory policy stance and argues that purchases should continue while medium-term inflation is more likely to undershoot target, although he also notes that stimulus has limits and should respond to the inflation outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20451,
+ "prompt_tokens": 4655,
+ "completion_tokens": 69,
+ "cost_usd": 0.0006163,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.88,
+ "reason": "The speech focuses substantially on the inflation outlook and argues that inflation is more likely than not to remain above target, while warning that additional stimulus could add to inflation without a productivity improvement.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23067,
+ "prompt_tokens": 5186,
+ "completion_tokens": 166,
+ "cost_usd": 0.000731175,
+ "attempts": 1
+}

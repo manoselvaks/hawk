@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.83,
+ "reason": "Weale supports sticking to forward guidance and says rates could remain at 0.5% even after unemployment falls below 7%, but stresses the risk of holding rates too low for too long and would consider increases if unemployment falls rapidly or inflation expectations rise.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23880,
+ "prompt_tokens": 5514,
+ "completion_tokens": 79,
+ "cost_usd": 0.000728675,
+ "attempts": 1
+}

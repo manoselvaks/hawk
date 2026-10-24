@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": 0.0,
+ "confidence": 0.82,
+ "reason": "The speech discusses monetary policy constraints and forward guidance, but presents Bank Rate as needing to adapt to the inflation outlook while assigning financial-stability risks chiefly to macroprudential tools, without advocating a particular future rate direction.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 15735,
+ "prompt_tokens": 3576,
+ "completion_tokens": 71,
+ "cost_usd": 0.000482425,
+ "attempts": 1
+}

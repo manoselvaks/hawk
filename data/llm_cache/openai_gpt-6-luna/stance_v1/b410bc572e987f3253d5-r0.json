@@ -1,0 +1,15 @@
+{
+ "relevance": 0,
+ "stance": null,
+ "confidence": 1,
+ "reason": "The speech concerns proposed Solvency II insurance regulation reforms, including investment flexibility, liability valuation and regulatory processes, rather than UK monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19716,
+ "prompt_tokens": 4357,
+ "completion_tokens": 96,
+ "cost_usd": 0.00059255,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech focuses on financial stability, non-bank financial intermediation and the System-Wide Exploratory Scenario, rather than the UK monetary policy outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18538,
+ "prompt_tokens": 4369,
+ "completion_tokens": 140,
+ "cost_usd": 0.00061605,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.45,
+ "stance": 0.0,
+ "confidence": 0.89,
+ "reason": "The speech mainly discusses the economics and UK participation in European monetary union, including the role of monetary discipline, but takes no clear position on the future path of UK Bank Rate or other domestic monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 15886,
+ "prompt_tokens": 3657,
+ "completion_tokens": 68,
+ "cost_usd": 0.00049105,
+ "attempts": 1
+}

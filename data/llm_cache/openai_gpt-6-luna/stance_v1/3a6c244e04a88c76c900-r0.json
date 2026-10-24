@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.95,
+ "reason": "A majority voted to raise Bank Rate by 25 basis points, citing strong domestic demand, a tightening labour market and increased medium-term inflation risks, though two members preferred no change.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24012,
+ "prompt_tokens": 5305,
+ "completion_tokens": 62,
+ "cost_usd": 0.00069405,
+ "attempts": 1
+}

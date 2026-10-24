@@ -1,0 +1,15 @@
+{
+ "relevance": 0.35,
+ "stance": 0.0,
+ "confidence": 0.83,
+ "reason": "The speech is primarily about commercial-property boom-bust cycles and macroprudential policy, and although it notes that macroprudential measures can support recovery under extraordinarily loose monetary policy, it gives no clear lean on the future path of Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 14888,
+ "prompt_tokens": 3766,
+ "completion_tokens": 76,
+ "cost_usd": 0.000508675,
+ "attempts": 1
+}

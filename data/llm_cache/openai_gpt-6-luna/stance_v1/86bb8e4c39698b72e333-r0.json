@@ -1,0 +1,15 @@
+{
+ "relevance": 0.86,
+ "stance": -0.5,
+ "confidence": 0.79,
+ "reason": "The speech says low inflation and subdued underlying pressures will persist, and that rate increases are expected to be \u201cmore gradual and more limited\u201d than anticipated, while still noting the UK is expanding solidly and rates may normalise.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 10409,
+ "prompt_tokens": 2740,
+ "completion_tokens": 76,
+ "cost_usd": 0.000380425,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.88,
+ "reason": "The Committee judged risks to both growth and inflation to be somewhat on the downside and eight members voted to hold the repo rate, although one member favoured a rise and some noted one might be warranted later.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21657,
+ "prompt_tokens": 4825,
+ "completion_tokens": 70,
+ "cost_usd": 0.00063805,
+ "attempts": 1
+}

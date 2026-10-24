@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech concerns prudential regulation and insurance supervision, including Solvency II, insurer capital, operational resilience and climate risk, rather than the UK monetary policy outlook or Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22214,
+ "prompt_tokens": 4885,
+ "completion_tokens": 64,
+ "cost_usd": 0.00064255,
+ "attempts": 1
+}

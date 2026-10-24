@@ -1,0 +1,15 @@
+{
+ "relevance": 0.45,
+ "stance": 0.0,
+ "confidence": 0.85,
+ "reason": "The speech focuses mainly on global financial stability and bank capital regulation, while noting that UK conditions are more robust but that changed risks, an easier labour market and inflation below target will inform the MPC\u2019s upcoming forecast review.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18333,
+ "prompt_tokens": 4162,
+ "completion_tokens": 71,
+ "cost_usd": 0.000555675,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 0.5,
+ "confidence": 0.82,
+ "reason": "The speaker says whether interest rates need to rise moderately further, sooner or later, is \u201cvery finely balanced,\u201d indicating a slight hawkish lean while acknowledging uncertainty.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 9701,
+ "prompt_tokens": 2470,
+ "completion_tokens": 62,
+ "cost_usd": 0.000339675,
+ "attempts": 1
+}

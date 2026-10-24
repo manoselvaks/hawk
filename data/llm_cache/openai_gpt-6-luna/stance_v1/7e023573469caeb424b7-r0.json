@@ -1,0 +1,15 @@
+{
+ "relevance": 0.1,
+ "stance": null,
+ "confidence": 0.95,
+ "reason": "The extract is mainly about internal auditing in central banks and professional standards, with only incidental references to the financial crisis and a US rate rise.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 931,
+ "prompt_tokens": 873,
+ "completion_tokens": 108,
+ "cost_usd": 0.0001413,
+ "attempts": 1
+}

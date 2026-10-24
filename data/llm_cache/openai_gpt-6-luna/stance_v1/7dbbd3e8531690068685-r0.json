@@ -1,0 +1,15 @@
+{
+ "relevance": 0.75,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speech discusses how monetary policy should respond to credit and asset-price booms, but concludes that interest rates are a blunt tool and should focus on price stability while macroprudential regulation addresses financial excesses, without signalling a near-term change in rates.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18304,
+ "prompt_tokens": 4177,
+ "completion_tokens": 78,
+ "cost_usd": 0.00056105,
+ "attempts": 1
+}

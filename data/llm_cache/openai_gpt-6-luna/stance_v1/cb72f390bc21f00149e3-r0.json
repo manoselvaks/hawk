@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.92,
+ "reason": "The speaker supports a gradual removal of monetary policy restriction but stresses that it is too early to declare victory, citing elevated wage and services inflation and concern about the costs of upside risks.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23965,
+ "prompt_tokens": 5389,
+ "completion_tokens": 64,
+ "cost_usd": 0.00070555,
+ "attempts": 1
+}

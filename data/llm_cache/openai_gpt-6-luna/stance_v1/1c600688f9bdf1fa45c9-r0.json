@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.86,
+ "reason": "The Committee unanimously maintained Bank Rate at 0.5% and the \u00a3125 billion asset-purchase target, judging that evidence did not yet justify a change while keeping the programme under review.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18970,
+ "prompt_tokens": 4307,
+ "completion_tokens": 64,
+ "cost_usd": 0.0005703,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.96,
+ "reason": "The Committee judged that the balance of medium-term inflation risks had shifted towards the downside and that most members saw further stimulus as warranted or likely to become warranted, although they deferred action pending euro-area developments and four members favoured immediate additional asset purchases.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23011,
+ "prompt_tokens": 5002,
+ "completion_tokens": 76,
+ "cost_usd": 0.000663175,
+ "attempts": 1
+}

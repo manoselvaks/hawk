@@ -1,0 +1,15 @@
+{
+ "relevance": 0.55,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speech explains how growth, potential supply and resource pressure inform MPC decisions to achieve the 2% inflation target, but it offers no directional signal for Bank Rate and focuses mainly on long-run growth, technology and trade.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22190,
+ "prompt_tokens": 5136,
+ "completion_tokens": 72,
+ "cost_usd": 0.000677925,
+ "attempts": 1
+}

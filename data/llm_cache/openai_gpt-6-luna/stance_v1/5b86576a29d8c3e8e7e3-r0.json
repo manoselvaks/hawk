@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 2.0,
+ "confidence": 0.99,
+ "reason": "Sentance argues that the MPC should \u201craise UK interest rates gradually soon,\u201d warning that persistent above-target inflation and global price pressures could otherwise require more aggressive tightening later.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23781,
+ "prompt_tokens": 5361,
+ "completion_tokens": 59,
+ "cost_usd": 0.00069955,
+ "attempts": 1
+}

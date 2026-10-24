@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.92,
+ "reason": "The speaker says the inflation outlook required further monetary stimulus, that Bank Rate should remain at 0.5% with the QE stock maintained, and that further purchases remain possible if the outlook warrants them, signalling a dovish lean despite noting eventual withdrawal of stimulus.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23018,
+ "prompt_tokens": 5001,
+ "completion_tokens": 79,
+ "cost_usd": 0.00066455,
+ "attempts": 1
+}

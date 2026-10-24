@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": 0.0,
+ "confidence": 0.85,
+ "reason": "Carney says Bank Rate will need to rise as the economy normalises, but stresses that timing depends on the data, increases should be gradual and limited, and slack and inflation pressures remain uncertain.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16356,
+ "prompt_tokens": 3896,
+ "completion_tokens": 67,
+ "cost_usd": 0.000520425,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": -1.0,
+ "confidence": 0.88,
+ "reason": "The speaker says monetary policy should remain exceptionally accommodative because domestic inflation pressures are weak, wage growth is low, and risks of prolonged weak growth are real, adding that it is not yet time to tighten.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12083,
+ "prompt_tokens": 3123,
+ "completion_tokens": 70,
+ "cost_usd": 0.0004253,
+ "attempts": 1
+}

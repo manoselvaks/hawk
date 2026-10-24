@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.93,
+ "reason": "The MPC raised Bank Rate by 0.15 percentage points, with most members judging an immediate increase warranted amid tight labour-market conditions and strong underlying inflation pressures, and saying modest further tightening was likely necessary.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23973,
+ "prompt_tokens": 5259,
+ "completion_tokens": 67,
+ "cost_usd": 0.0006908,
+ "attempts": 1
+}

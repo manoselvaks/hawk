@@ -1,0 +1,15 @@
+{
+ "relevance": 0.55,
+ "stance": 0.0,
+ "confidence": 0.9,
+ "reason": "The speech is mainly about transparency and financial-market development, but its monetary-policy section describes the benefits of transparent institutions and price stability without advocating a change in the future policy path.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18628,
+ "prompt_tokens": 4090,
+ "completion_tokens": 63,
+ "cost_usd": 0.000542675,
+ "attempts": 1
+}

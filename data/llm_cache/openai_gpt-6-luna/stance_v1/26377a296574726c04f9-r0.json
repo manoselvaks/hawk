@@ -1,0 +1,15 @@
+{
+ "relevance": 0.55,
+ "stance": 0.0,
+ "confidence": 0.83,
+ "reason": "The speech explains how the Bank\u2019s balance-sheet operations implement the MPC\u2019s Bank Rate and asset purchases, but focuses on liquidity provision and financial stability and offers no clear lean on the future monetary policy path.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 14666,
+ "prompt_tokens": 3483,
+ "completion_tokens": 68,
+ "cost_usd": 0.0004693,
+ "attempts": 1
+}

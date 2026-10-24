@@ -1,0 +1,15 @@
+{
+ "relevance": 0.12,
+ "stance": null,
+ "confidence": 0.97,
+ "reason": "The extract focuses on financial stability risks, mortgage borrower resilience and the FPC\u2019s housing tools and communication, rather than the monetary policy outlook or Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 4822,
+ "prompt_tokens": 1651,
+ "completion_tokens": 59,
+ "cost_usd": 0.0002358,
+ "attempts": 1
+}

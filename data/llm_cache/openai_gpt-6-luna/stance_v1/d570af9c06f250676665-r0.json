@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": -0.5,
+ "confidence": 0.73,
+ "reason": "He explains the August easing as a response to referendum uncertainty and expects weaker business investment, while noting activity has so far been stronger than feared and saying the MPC should wait for more evidence before drawing conclusions.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17912,
+ "prompt_tokens": 4284,
+ "completion_tokens": 71,
+ "cost_usd": 0.000570925,
+ "attempts": 1
+}

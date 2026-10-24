@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": -1.0,
+ "confidence": 0.78,
+ "reason": "The speaker says the implied policy stance in recent forecasts has been \u201cconsistently and, in my view excessively, restrictive,\u201d contributing to inflation being dragged down and slack being underestimated, though the speech focuses on forecasting and does not explicitly call for rate cuts.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23789,
+ "prompt_tokens": 5500,
+ "completion_tokens": 201,
+ "cost_usd": 0.000787925,
+ "attempts": 1
+}

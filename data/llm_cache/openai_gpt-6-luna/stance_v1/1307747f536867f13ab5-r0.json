@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.82,
+ "reason": "He balances the need to preserve confidence in the inflation target and says this limits scope to support demand, while also accepting some inflation-expectation risk for a smoother output path and judging the market-implied low-rate path consistent with the outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23892,
+ "prompt_tokens": 5326,
+ "completion_tokens": 243,
+ "cost_usd": 0.000787175,
+ "attempts": 1
+}

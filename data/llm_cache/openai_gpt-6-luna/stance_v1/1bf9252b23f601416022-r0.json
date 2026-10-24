@@ -1,0 +1,15 @@
+{
+ "relevance": 0.65,
+ "stance": -0.5,
+ "confidence": 0.72,
+ "reason": "The speech mainly examines exchange-rate regimes and global capital flows, but its UK policy discussion says the strong pound and slowdown reduced demand, so monetary policy needed to be less restrictive than otherwise, while noting that future currency weakness may require an offsetting response.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19263,
+ "prompt_tokens": 4198,
+ "completion_tokens": 81,
+ "cost_usd": 0.000565175,
+ "attempts": 1
+}

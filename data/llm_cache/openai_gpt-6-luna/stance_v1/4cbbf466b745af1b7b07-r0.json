@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": -1.0,
+ "confidence": 0.91,
+ "reason": "King says that with a deteriorating outlook \u201cthe case for a further monetary easing is growing\u201d and supports complementary measures to lower bank funding costs and sustain lending.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18655,
+ "prompt_tokens": 4297,
+ "completion_tokens": 61,
+ "cost_usd": 0.00056755,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 0.98,
+ "reason": "Miles argues that the evidence makes an \u201cexceptionally expansionary monetary policy appropriate,\u201d that the optimal path may involve slower disinflation, and that it may even be optimal to make policy more expansionary despite a lower estimate of slack.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24030,
+ "prompt_tokens": 5479,
+ "completion_tokens": 74,
+ "cost_usd": 0.0007218,
+ "attempts": 1
+}

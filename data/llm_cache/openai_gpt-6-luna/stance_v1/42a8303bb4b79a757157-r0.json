@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 2.0,
+ "confidence": 0.99,
+ "reason": "The speaker argues that the MPC should have begun gradual interest-rate rises and warns that delaying action risks embedded inflation, concluding that corrective monetary tightening is long overdue.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22161,
+ "prompt_tokens": 4938,
+ "completion_tokens": 57,
+ "cost_usd": 0.000645675,
+ "attempts": 1
+}

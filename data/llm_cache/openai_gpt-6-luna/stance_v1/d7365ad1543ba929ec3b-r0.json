@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 0.5,
+ "confidence": 0.62,
+ "reason": "Although disinflation is described as on course, the speech stresses that it may not be complete and that pay settlements remain above target-consistent rates, suggesting a modestly cautious, hawkish lean.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 1607,
+ "prompt_tokens": 1084,
+ "completion_tokens": 192,
+ "cost_usd": 0.000231425,
+ "attempts": 1
+}

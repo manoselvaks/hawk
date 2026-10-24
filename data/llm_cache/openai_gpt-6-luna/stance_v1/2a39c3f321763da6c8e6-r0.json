@@ -1,0 +1,15 @@
+{
+ "relevance": 0.35,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech is mainly about the structure and growth of the sterling non-gilt bond market, including its investors, issuance and liquidity, rather than the monetary policy outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 14075,
+ "prompt_tokens": 3407,
+ "completion_tokens": 61,
+ "cost_usd": 0.0004563,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.87,
+ "reason": "The MPC judged that ongoing tightening would be appropriate if the economy followed its projections, citing a tight labour market and rising pay, while stressing that any future Bank Rate increases would be gradual and limited.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23930,
+ "prompt_tokens": 5238,
+ "completion_tokens": 65,
+ "cost_usd": 0.000687175,
+ "attempts": 1
+}

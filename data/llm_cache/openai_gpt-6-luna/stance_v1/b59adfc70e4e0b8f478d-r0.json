@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.83,
+ "reason": "Although a majority was less certain that inflation would exceed target, some members judged domestic demand and pay pressures likely to put inflation above target and argued that withdrawing precautionary stimulus with a rate rise was appropriate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23992,
+ "prompt_tokens": 5882,
+ "completion_tokens": 68,
+ "cost_usd": 0.000769175,
+ "attempts": 1
+}

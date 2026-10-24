@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": 0.0,
+ "confidence": 0.78,
+ "reason": "The speech discusses consumption and income evidence, global supply shocks and trade changes relevant to the inflation outlook, but offers no clear recommendation to tighten or ease policy and emphasizes improving evidence and assessment.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12135,
+ "prompt_tokens": 3186,
+ "completion_tokens": 65,
+ "cost_usd": 0.000430675,
+ "attempts": 1
+}

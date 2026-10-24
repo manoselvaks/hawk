@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech is about financial stability, non-bank financial institutions and fire-sale risks, not the UK monetary policy outlook or policy tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 9129,
+ "prompt_tokens": 2709,
+ "completion_tokens": 54,
+ "cost_usd": 0.00036555,
+ "attempts": 1
+}

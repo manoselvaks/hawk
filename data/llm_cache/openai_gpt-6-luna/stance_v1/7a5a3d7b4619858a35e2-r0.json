@@ -1,0 +1,15 @@
+{
+ "relevance": 0,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech discusses Basel II, bank capital adequacy, disclosure, liquidity and financial stability, not the UK monetary policy outlook or Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 14616,
+ "prompt_tokens": 3514,
+ "completion_tokens": 111,
+ "cost_usd": 0.000494675,
+ "attempts": 1
+}

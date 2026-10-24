@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.92,
+ "reason": "The speech directly addresses the inflation shock and Bank Rate, but balances the risk of persistent second-round inflation against weak activity and a soft labour market, endorsing a hold for now and flexibility to adjust as events unfold.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16782,
+ "prompt_tokens": 3951,
+ "completion_tokens": 69,
+ "cost_usd": 0.0005283,
+ "attempts": 1
+}

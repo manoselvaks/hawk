@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": 0.0,
+ "confidence": 0.83,
+ "reason": "The speech analyzes how global financial shocks and stablecoins may affect UK activity, inflation and monetary-policy transmission, but presents the policy-rate response as an analytical consequence rather than arguing for a particular future policy direction.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 14324,
+ "prompt_tokens": 3373,
+ "completion_tokens": 200,
+ "cost_usd": 0.00052155,
+ "attempts": 1
+}

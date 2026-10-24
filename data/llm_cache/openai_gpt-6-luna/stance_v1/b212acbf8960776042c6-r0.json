@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.93,
+ "reason": "The speaker argues that rates may have been \u201cslightly too high\u201d and that holding them 25 basis points lower could have improved output and inflation outcomes, while also judging that the Budget\u2019s price pass-through and demand effects are likely overstated.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24047,
+ "prompt_tokens": 5534,
+ "completion_tokens": 76,
+ "cost_usd": 0.000729675,
+ "attempts": 1
+}

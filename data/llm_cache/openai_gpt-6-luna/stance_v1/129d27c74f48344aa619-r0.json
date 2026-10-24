@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.83,
+ "reason": "The speech focuses on QE/QT transmission and inflation, and argues that Bank Rate\u2014not QT\u2014has been the active tightening tool while recent inflation reflected external shocks, without indicating a future policy lean.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23989,
+ "prompt_tokens": 5414,
+ "completion_tokens": 65,
+ "cost_usd": 0.000709175,
+ "attempts": 1
+}

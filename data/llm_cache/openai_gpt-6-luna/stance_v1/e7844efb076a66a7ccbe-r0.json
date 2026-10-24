@@ -1,0 +1,15 @@
+{
+ "relevance": 0.2,
+ "stance": null,
+ "confidence": 0.95,
+ "reason": "The extracts chiefly discuss the history and use of economic models and AI at the Bank, explicitly noting that forecasting for monetary policy is not the focus, and offer no policy outlook or lean.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 6119,
+ "prompt_tokens": 1999,
+ "completion_tokens": 208,
+ "cost_usd": 0.0003538,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.94,
+ "reason": "The speech is centrally about the monetary-policy outlook and concludes that risks are two-sided, with near-term policy changes from the current setting judged as likely to be upward as downward.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21960,
+ "prompt_tokens": 4892,
+ "completion_tokens": 157,
+ "cost_usd": 0.000689925,
+ "attempts": 1
+}

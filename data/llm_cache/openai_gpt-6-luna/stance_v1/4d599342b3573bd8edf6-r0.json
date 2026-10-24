@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.5,
+ "confidence": 0.98,
+ "reason": "Posen argues that inflation expectations are anchored, wage and credit growth are weak, and oil-price pressures are not yet sustained, concluding that the UK faces little inflation risk and warning against pre-emptive rate rises.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 15055,
+ "prompt_tokens": 4144,
+ "completion_tokens": 72,
+ "cost_usd": 0.000553925,
+ "attempts": 1
+}

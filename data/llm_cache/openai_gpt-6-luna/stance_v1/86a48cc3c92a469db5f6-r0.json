@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.5,
+ "confidence": 0.91,
+ "reason": "The Committee judged that downside risks to activity and prices had increased, the two-year inflation projection had fallen below target, and an immediate 0.50% rate cut was widely viewed as justified.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24101,
+ "prompt_tokens": 5548,
+ "completion_tokens": 68,
+ "cost_usd": 0.000727425,
+ "attempts": 1
+}

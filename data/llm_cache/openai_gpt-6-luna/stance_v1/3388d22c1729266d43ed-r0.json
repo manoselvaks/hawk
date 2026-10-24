@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.9,
+ "reason": "The Committee unanimously left the repo rate unchanged, judging neither a cut nor a rise appropriate: inflation was projected below target for much of the forecast, but to return to target by the two-year horizon.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24045,
+ "prompt_tokens": 5525,
+ "completion_tokens": 235,
+ "cost_usd": 0.00080805,
+ "attempts": 1
+}

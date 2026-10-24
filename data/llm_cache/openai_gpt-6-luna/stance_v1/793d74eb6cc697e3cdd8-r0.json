@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.93,
+ "reason": "The majority backed a 0.75-point rate rise and said further increases might be needed, citing tight labour markets and persistent domestic price and wage pressures, while expecting the eventual peak to be lower than market pricing.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23979,
+ "prompt_tokens": 5380,
+ "completion_tokens": 69,
+ "cost_usd": 0.000706925,
+ "attempts": 1
+}

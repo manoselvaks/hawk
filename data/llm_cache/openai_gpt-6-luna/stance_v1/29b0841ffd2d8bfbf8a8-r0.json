@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.88,
+ "reason": "The speech says persistent domestic inflation requires \u201ca period of below-trend growth in demand\u201d and that \u201cmonetary policy needs to be tightened as well,\u201d while noting fiscal support would add to medium-term inflation.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22948,
+ "prompt_tokens": 5251,
+ "completion_tokens": 166,
+ "cost_usd": 0.0007393,
+ "attempts": 1
+}

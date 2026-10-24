@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.9,
+ "reason": "He says inflation is more likely than not to undershoot target and that there is a strong case for extending asset purchases after the current programme, while allowing that the Committee could wait for disinflation to become clear.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20967,
+ "prompt_tokens": 4745,
+ "completion_tokens": 153,
+ "cost_usd": 0.00066955,
+ "attempts": 1
+}

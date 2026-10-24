@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.93,
+ "reason": "The speech weighs downside risks from weaker consumer spending against upside risks from rapid money growth, rising import prices and possible wage pressure, and says the MPC will respond to whichever risks materialise.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 11806,
+ "prompt_tokens": 2982,
+ "completion_tokens": 63,
+ "cost_usd": 0.000404175,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech is about wholesale payment infrastructure, distributed ledger technology, and the Synchronisation Lab, rather than the inflation outlook or the future path of monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12748,
+ "prompt_tokens": 2899,
+ "completion_tokens": 59,
+ "cost_usd": 0.0003918,
+ "attempts": 1
+}

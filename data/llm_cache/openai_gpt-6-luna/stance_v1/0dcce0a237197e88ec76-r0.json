@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.81,
+ "reason": "Nickell argues that policy should not keep rates higher to restrain household debt or prick uncertain asset-price bubbles, and describes the target switch as requiring only a barely noticeable temporary loosening, though his discussion is largely analytical rather than a call for easing.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24040,
+ "prompt_tokens": 5699,
+ "completion_tokens": 79,
+ "cost_usd": 0.0007518,
+ "attempts": 1
+}

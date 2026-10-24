@@ -1,0 +1,15 @@
+{
+ "relevance": 0.75,
+ "stance": -0.5,
+ "confidence": 0.84,
+ "reason": "The speech says a low-for-long interest-rate environment is likely and that rate adjustments will be limited and gradual to avoid risking the recovery, while also acknowledging financial-stability risks from low rates.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 14363,
+ "prompt_tokens": 3286,
+ "completion_tokens": 69,
+ "cost_usd": 0.000445175,
+ "attempts": 1
+}

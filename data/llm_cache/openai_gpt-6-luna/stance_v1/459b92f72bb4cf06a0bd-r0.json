@@ -1,0 +1,15 @@
+{
+ "relevance": 0.65,
+ "stance": 0.0,
+ "confidence": 0.77,
+ "reason": "The speech discusses Bank Rate and monetary-policy transmission, but it offers no clear near-term policy lean, saying policy will return to a more normal setting as growth recovers and that recalibration may be needed.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 11963,
+ "prompt_tokens": 3104,
+ "completion_tokens": 69,
+ "cost_usd": 0.000422425,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.95,
+ "reason": "The MPC judged that ongoing gradual tightening would be appropriate as slack was absorbed and domestic cost pressures strengthened, although seven members voted to hold Bank Rate and two preferred an immediate increase.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23990,
+ "prompt_tokens": 5314,
+ "completion_tokens": 61,
+ "cost_usd": 0.000694675,
+ "attempts": 1
+}

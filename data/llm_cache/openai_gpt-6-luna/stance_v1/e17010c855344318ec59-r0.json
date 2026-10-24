@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 1,
+ "reason": "The Committee judged that further monetary easing was required because inflation risked undershooting the target, and unanimously cut Bank Rate by 0.5 percentage points while approving \u00a375 billion of asset purchases.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21569,
+ "prompt_tokens": 4729,
+ "completion_tokens": 107,
+ "cost_usd": 0.00064455,
+ "attempts": 1
+}

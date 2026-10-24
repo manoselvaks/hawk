@@ -1,0 +1,15 @@
+{
+ "relevance": 0.4,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speech mainly explains European unemployment through labour-market institutions, while its monetary-policy discussion describes how policy easing and tightening affected demand and inflation in past episodes without expressing a future policy preference.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24087,
+ "prompt_tokens": 5453,
+ "completion_tokens": 154,
+ "cost_usd": 0.00075855,
+ "attempts": 1
+}

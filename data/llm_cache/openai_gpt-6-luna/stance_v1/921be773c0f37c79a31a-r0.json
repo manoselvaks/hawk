@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.83,
+ "reason": "King says low interest rates \u201cwill not be withdrawn prematurely,\u201d is \u201cready to provide more stimulus if it is needed,\u201d and favors looking through administered-price inflation while market-generated pressures remain subdued, though he cautions against relying on monetary stimulus alone.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23422,
+ "prompt_tokens": 5258,
+ "completion_tokens": 78,
+ "cost_usd": 0.000696175,
+ "attempts": 1
+}

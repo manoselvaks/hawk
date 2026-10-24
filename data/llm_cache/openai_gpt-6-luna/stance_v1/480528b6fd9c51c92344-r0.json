@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.93,
+ "reason": "Seven members supported a 25-basis-point increase, judging that inflation would exceed target at 4.75% amid strong nominal demand and upside inflation risks, although two members preferred no increase because of downside risks.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19472,
+ "prompt_tokens": 4494,
+ "completion_tokens": 69,
+ "cost_usd": 0.000596175,
+ "attempts": 1
+}

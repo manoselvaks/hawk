@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.88,
+ "reason": "The Committee was divided, but it ultimately judged that mixed news pointed to somewhat higher prospective inflation and that a 25-basis-point rate rise was needed, while other members preferred no change given below-target inflation and downside risks.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23987,
+ "prompt_tokens": 5656,
+ "completion_tokens": 73,
+ "cost_usd": 0.000743425,
+ "attempts": 1
+}

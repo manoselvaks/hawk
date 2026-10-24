@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.88,
+ "reason": "Most members judged there was insufficient evidence of inflationary pressure to justify an immediate rate rise, citing weak wage growth and inflation projected below target, although two members argued for an early increase.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24021,
+ "prompt_tokens": 5250,
+ "completion_tokens": 226,
+ "cost_usd": 0.000769175,
+ "attempts": 1
+}

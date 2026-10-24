@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.91,
+ "reason": "The speech leans hawkish, arguing that interest rates \u201chave had to rise\u201d as domestic demand remains buoyant and moderation is needed to maintain stability, while acknowledging uncertainty and inflation currently below target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16902,
+ "prompt_tokens": 3960,
+ "completion_tokens": 132,
+ "cost_usd": 0.000560925,
+ "attempts": 1
+}

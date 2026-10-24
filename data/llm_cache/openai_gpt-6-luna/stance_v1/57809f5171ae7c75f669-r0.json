@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": 0.0,
+ "confidence": 0.82,
+ "reason": "The speech weighs subdued activity and easing pay momentum against a tight labour market and an inflation upside surprise, while expecting inflation to fall and offering no clear directional signal on future policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 7614,
+ "prompt_tokens": 2283,
+ "completion_tokens": 214,
+ "cost_usd": 0.0003923,
+ "attempts": 1
+}

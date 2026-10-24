@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.87,
+ "reason": "The Committee judged that holding the repo rate was appropriate: most members found neither a further cut nor a rise persuasive, balancing weaker demand against temporary inflation pressures and the need to keep expectations anchored.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23962,
+ "prompt_tokens": 5605,
+ "completion_tokens": 167,
+ "cost_usd": 0.00078405,
+ "attempts": 1
+}

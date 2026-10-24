@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.86,
+ "reason": "The Committee held Bank Rate at 4.5% with eight votes to one, citing strengthening growth and concern that a cut could increase medium-term inflation risks, although it judged growth risks downside and one member favored a cut.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19712,
+ "prompt_tokens": 4406,
+ "completion_tokens": 73,
+ "cost_usd": 0.000587175,
+ "attempts": 1
+}

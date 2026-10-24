@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech focuses on prudential regulation and supervision of general insurers, including Solvency II, soft insurance markets, reserving, capital and PPO risks, rather than the UK monetary policy outlook or Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16543,
+ "prompt_tokens": 3768,
+ "completion_tokens": 70,
+ "cost_usd": 0.000505925,
+ "attempts": 1
+}

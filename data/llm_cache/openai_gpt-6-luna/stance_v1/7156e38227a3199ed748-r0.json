@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.93,
+ "reason": "The majority judged it appropriate to leave Bank Rate unchanged while observing the effects of past tightening and weighing risks in both directions, although two members favoured an immediate 25-basis-point increase.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21770,
+ "prompt_tokens": 4834,
+ "completion_tokens": 64,
+ "cost_usd": 0.000636175,
+ "attempts": 1
+}

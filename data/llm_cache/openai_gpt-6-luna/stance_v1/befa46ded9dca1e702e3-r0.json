@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech is about banknotes, cash use and distribution, and counterfeit prevention, not the inflation outlook or the setting of monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18778,
+ "prompt_tokens": 4337,
+ "completion_tokens": 55,
+ "cost_usd": 0.00056955,
+ "attempts": 1
+}

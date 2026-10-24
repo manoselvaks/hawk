@@ -1,0 +1,15 @@
+{
+ "relevance": 0.08,
+ "stance": null,
+ "confidence": 0.97,
+ "reason": "The speech is mainly about prudential regulation, financial stability, bank resolution and the Funding for Lending Scheme, rather than the outlook for inflation, demand, or Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20554,
+ "prompt_tokens": 4605,
+ "completion_tokens": 62,
+ "cost_usd": 0.00060655,
+ "attempts": 1
+}

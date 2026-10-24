@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.82,
+ "reason": "The Committee held Bank Rate at 5.25% by eight votes to one, with most members concerned that medium-term inflation risks remained to the upside given elevated capacity utilisation, strong pricing intentions, sterling depreciation and higher oil prices, despite a slightly weaker near-term outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20015,
+ "prompt_tokens": 4570,
+ "completion_tokens": 82,
+ "cost_usd": 0.000612175,
+ "attempts": 1
+}

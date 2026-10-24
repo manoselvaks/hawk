@@ -1,0 +1,15 @@
+{
+ "relevance": 0.2,
+ "stance": null,
+ "confidence": 0.95,
+ "reason": "The speech focuses on innovation, regulation and financial-stability implications of digital money and payments, mentioning monetary policy only as a topic that could be discussed another day.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 15662,
+ "prompt_tokens": 3684,
+ "completion_tokens": 60,
+ "cost_usd": 0.000490425,
+ "attempts": 1
+}

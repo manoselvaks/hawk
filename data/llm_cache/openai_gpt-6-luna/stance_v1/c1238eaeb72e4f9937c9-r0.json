@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.9,
+ "reason": "The Committee weighed stronger activity and tighter-than-expected labour conditions against weaker-than-expected prices and a possible inflation undershoot, and agreed to hold the repo rate at 5% while awaiting further evidence.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23955,
+ "prompt_tokens": 5561,
+ "completion_tokens": 67,
+ "cost_usd": 0.00072855,
+ "attempts": 1
+}

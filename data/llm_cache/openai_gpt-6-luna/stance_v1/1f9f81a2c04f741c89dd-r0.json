@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech discusses the digital pound, payments, and the stability and interchangeability of money, explicitly noting that the digital pound is not a monetary policy instrument.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 3287,
+ "prompt_tokens": 1304,
+ "completion_tokens": 59,
+ "cost_usd": 0.000192425,
+ "attempts": 1
+}

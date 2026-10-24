@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.95,
+ "reason": "The speaker says tightening should wait for \u201ca bit more upward movement\u201d in wages and costs, noting that low inflation and falling oil prices provide more time before beginning gradual tightening.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24105,
+ "prompt_tokens": 5387,
+ "completion_tokens": 62,
+ "cost_usd": 0.0007043,
+ "attempts": 1
+}

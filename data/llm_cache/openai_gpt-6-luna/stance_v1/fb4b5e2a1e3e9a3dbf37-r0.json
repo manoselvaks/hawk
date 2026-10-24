@@ -1,0 +1,15 @@
+{
+ "relevance": 0.1,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The document examines UK self-employment and entrepreneurship, including labour-market transitions, credit, housing and economic growth, but does not discuss the monetary-policy outlook or policy tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21470,
+ "prompt_tokens": 5222,
+ "completion_tokens": 62,
+ "cost_usd": 0.000683675,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": -1.0,
+ "confidence": 0.84,
+ "reason": "He argues that disinflationary international forces and weaker domestic activity are likely to dominate remaining inflationary pass-through, while medium-term inflation expectations remain stable, implying a dovish lean without an explicit call for rate cuts.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24074,
+ "prompt_tokens": 5613,
+ "completion_tokens": 192,
+ "cost_usd": 0.00079755,
+ "attempts": 1
+}

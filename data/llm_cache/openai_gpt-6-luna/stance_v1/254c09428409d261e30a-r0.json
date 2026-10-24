@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.85,
+ "reason": "The speaker argues that UK inflation is stickier than in the US and that this may not be reflected in market rate-path pricing, highlighting persistent second-round inflation risks.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16680,
+ "prompt_tokens": 4196,
+ "completion_tokens": 206,
+ "cost_usd": 0.000627425,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.88,
+ "reason": "The Committee voted 8\u20131 to hold Bank Rate at 5%, with most members judging that a cut could unsettle inflation expectations as inflation was expected to rise further, though they balanced this against risks from weakening demand.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23907,
+ "prompt_tokens": 5238,
+ "completion_tokens": 220,
+ "cost_usd": 0.000764675,
+ "attempts": 1
+}

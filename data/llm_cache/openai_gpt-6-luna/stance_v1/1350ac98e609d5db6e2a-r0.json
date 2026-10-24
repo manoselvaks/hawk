@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.98,
+ "reason": "He says the immediate challenge is to support demand and head off deflationary risks, endorses aggressive rate cuts and quantitative easing, and sees inflation returning to target over time, though he notes inflation risks may change during recovery.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23978,
+ "prompt_tokens": 5514,
+ "completion_tokens": 72,
+ "cost_usd": 0.000725175,
+ "attempts": 1
+}

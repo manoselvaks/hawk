@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.73,
+ "reason": "The speech is directly about the inflation, wage and demand outlook and policy implications, but it presents offsetting developments: inflation and wage news have eased persistence concerns, while weaker demand risks are less likely to materialise, leaving no clear directional policy lean in the text provided.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 13203,
+ "prompt_tokens": 3275,
+ "completion_tokens": 386,
+ "cost_usd": 0.0006023,
+ "attempts": 1
+}

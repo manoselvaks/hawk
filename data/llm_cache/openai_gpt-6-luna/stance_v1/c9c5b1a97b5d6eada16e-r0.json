@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 0.99,
+ "reason": "Posen forecasts CPI inflation significantly below target at the two-plus-year horizon and argues for additional monetary easing to offset fiscal consolidation, warning the MPC not to tighten in response to temporary VAT and exchange-rate effects.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24002,
+ "prompt_tokens": 5495,
+ "completion_tokens": 68,
+ "cost_usd": 0.0007208,
+ "attempts": 1
+}

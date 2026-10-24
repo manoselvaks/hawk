@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.91,
+ "reason": "The Committee judged that the arguments for a rate reduction were on balance decisive, citing weaker output prospects and muted domestic inflationary pressures, though members also highlighted risks that supported holding rates at 4%.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23953,
+ "prompt_tokens": 5605,
+ "completion_tokens": 201,
+ "cost_usd": 0.00080105,
+ "attempts": 1
+}

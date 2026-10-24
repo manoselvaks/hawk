@@ -1,0 +1,15 @@
+{
+ "relevance": 0,
+ "stance": null,
+ "confidence": 1,
+ "reason": "The speech is about unveiling the new \u00a350 banknote and celebrating Alan Turing\u2019s scientific achievements and legacy, not UK monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 8035,
+ "prompt_tokens": 2334,
+ "completion_tokens": 55,
+ "cost_usd": 0.000319175,
+ "attempts": 1
+}

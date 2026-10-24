@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.96,
+ "reason": "Most members judged that a modest repo-rate rise was appropriate because growth and domestic demand were stronger, labour markets were tightening and inflation was projected to rise above target, although one member preferred to wait.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24087,
+ "prompt_tokens": 5597,
+ "completion_tokens": 65,
+ "cost_usd": 0.00073205,
+ "attempts": 1
+}

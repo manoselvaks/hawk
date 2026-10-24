@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.99,
+ "reason": "Nickell argues that a small rate cut was preferable because inflation was likely to undershoot the target throughout 2004, and he voted for a cut despite uncertain longer-term risks from household debt and house prices.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22685,
+ "prompt_tokens": 5157,
+ "completion_tokens": 69,
+ "cost_usd": 0.00067905,
+ "attempts": 1
+}

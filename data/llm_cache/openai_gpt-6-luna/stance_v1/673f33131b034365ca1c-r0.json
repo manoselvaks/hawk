@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.98,
+ "reason": "The Committee held Bank Rate at 0.5% and asset purchases at \u00a3200 billion, with seven members supporting the rate decision, one favouring more asset purchases, and two preferring a rate increase, reflecting opposing risks that were judged broadly balanced.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23404,
+ "prompt_tokens": 5048,
+ "completion_tokens": 77,
+ "cost_usd": 0.000669425,
+ "attempts": 1
+}

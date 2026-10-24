@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": -0.5,
+ "confidence": 0.88,
+ "reason": "The speech says the Bank had cut interest rates to buoy consumer spending because inflation was below target and external demand was weak, while any future rate rise was conditional on a recovery and explicitly not imminent.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 10360,
+ "prompt_tokens": 2738,
+ "completion_tokens": 70,
+ "cost_usd": 0.000377175,
+ "attempts": 1
+}

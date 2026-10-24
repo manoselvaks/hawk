@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.72,
+ "reason": "The Committee was divided: some judged that a 25 basis point cut was warranted as insurance against downside risks and persistently below-target inflation, while others preferred to wait for clearer evidence before easing.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24018,
+ "prompt_tokens": 5659,
+ "completion_tokens": 254,
+ "cost_usd": 0.0008343,
+ "attempts": 1
+}

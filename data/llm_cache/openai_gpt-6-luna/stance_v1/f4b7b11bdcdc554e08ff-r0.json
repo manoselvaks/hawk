@@ -1,0 +1,15 @@
+{
+ "relevance": 0.8,
+ "stance": 0.0,
+ "confidence": 0.8,
+ "reason": "The speech discusses inflation, consumer demand, external weakness and the outlook for balanced growth, expecting growth around or above trend with inflation close to target while noting risks on either side, without signalling a policy change.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 11448,
+ "prompt_tokens": 2959,
+ "completion_tokens": 69,
+ "cost_usd": 0.0004043,
+ "attempts": 1
+}

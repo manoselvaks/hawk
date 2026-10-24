@@ -1,0 +1,15 @@
+{
+ "relevance": 0,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech focuses on climate-related financial disclosure, risk management, stress testing and sustainable investment, not the UK inflation outlook or monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 6935,
+ "prompt_tokens": 1994,
+ "completion_tokens": 55,
+ "cost_usd": 0.000276675,
+ "attempts": 1
+}

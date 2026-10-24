@@ -1,0 +1,15 @@
+{
+ "relevance": 0.5,
+ "stance": 0.0,
+ "confidence": 0.95,
+ "reason": "The speech discusses the MPC\u2019s inflation target, interest-rate setting and communication, but offers no directional view on future rates, saying the Committee makes a fresh judgment each month based on new information.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 11772,
+ "prompt_tokens": 3072,
+ "completion_tokens": 66,
+ "cost_usd": 0.000416925,
+ "attempts": 1
+}

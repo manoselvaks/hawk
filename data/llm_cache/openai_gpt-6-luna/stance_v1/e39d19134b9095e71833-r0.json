@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.96,
+ "reason": "The Committee judged that the balance of medium-term inflation risks had not shifted enough to change policy, with three members favouring rate increases and one favouring more asset purchases, while six supported holding Bank Rate and eight maintaining the asset-purchase stock.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22489,
+ "prompt_tokens": 4807,
+ "completion_tokens": 75,
+ "cost_usd": 0.0006383,
+ "attempts": 1
+}

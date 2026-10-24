@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.82,
+ "reason": "The Committee weighed substantial arguments for a rate reduction against inflation upside risks and, with most members favouring waiting for more evidence, described the outlook as finely balanced.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24078,
+ "prompt_tokens": 5553,
+ "completion_tokens": 362,
+ "cost_usd": 0.00087505,
+ "attempts": 1
+}

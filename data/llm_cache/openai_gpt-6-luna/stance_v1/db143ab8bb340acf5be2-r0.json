@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.93,
+ "reason": "The speaker says the most likely next move is a \u201cgradual and limited increase in interest rates,\u201d citing robust domestic demand, rising wage growth and inflation returning to target, while noting easing tools remain available if conditions weaken.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 8612,
+ "prompt_tokens": 2333,
+ "completion_tokens": 70,
+ "cost_usd": 0.00032655,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.84,
+ "reason": "Lambert argues that downside risks to growth and inflation may be greater than projected, noting that consumers remain cautious and spare capacity is building, while warning that earlier tightening could cause unnecessary pain and inflation to drift below target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18539,
+ "prompt_tokens": 4329,
+ "completion_tokens": 70,
+ "cost_usd": 0.00057605,
+ "attempts": 1
+}

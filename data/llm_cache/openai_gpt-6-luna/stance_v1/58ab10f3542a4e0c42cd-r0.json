@@ -1,0 +1,15 @@
+{
+ "relevance": 0.15,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech focuses on prudential supervision, bank resolution, capital, and avoiding public bailouts, rather than the UK inflation outlook, demand, labour market, or monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18758,
+ "prompt_tokens": 4405,
+ "completion_tokens": 63,
+ "cost_usd": 0.00058205,
+ "attempts": 1
+}

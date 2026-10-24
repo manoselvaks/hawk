@@ -1,0 +1,15 @@
+{
+ "relevance": 0.1,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The document examines cross-country labour input, participation, unemployment and labour-market institutions, without discussing UK inflation or the outlook for Bank Rate or other monetary policy tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 13701,
+ "prompt_tokens": 3577,
+ "completion_tokens": 136,
+ "cost_usd": 0.00051505,
+ "attempts": 1
+}

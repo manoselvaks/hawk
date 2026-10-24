@@ -1,0 +1,15 @@
+{
+ "relevance": 0.55,
+ "stance": 0.0,
+ "confidence": 0.74,
+ "reason": "The speech is mainly about trade and financial services, but it notes that less efficient supply conditions contributed to the inflation surge and make central bankers\u2019 jobs harder, without signalling a preferred path for Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 15652,
+ "prompt_tokens": 3796,
+ "completion_tokens": 68,
+ "cost_usd": 0.000508425,
+ "attempts": 1
+}

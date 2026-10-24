@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 0.0,
+ "confidence": 0.87,
+ "reason": "The speech focuses on QE and yield curves, arguing that gradual, predictable QE unwind need not materially affect yields or the economy, without advocating a change in Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24086,
+ "prompt_tokens": 5481,
+ "completion_tokens": 157,
+ "cost_usd": 0.00076355,
+ "attempts": 1
+}

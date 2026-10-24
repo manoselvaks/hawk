@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech focuses on prudential regulation, financial-sector competitiveness and growth, and proposed PRA rules, rather than the inflation outlook or monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 7213,
+ "prompt_tokens": 2053,
+ "completion_tokens": 56,
+ "cost_usd": 0.00028455,
+ "attempts": 1
+}

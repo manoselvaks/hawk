@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.86,
+ "reason": "The Committee held Bank Rate at 0.5% and purchases at \u00a3125 billion, while noting that downside risks to the medium-term outlook remained and that the risk of sharp near-term contraction had receded only somewhat, a mildly dovish balance.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21603,
+ "prompt_tokens": 4725,
+ "completion_tokens": 79,
+ "cost_usd": 0.00063005,
+ "attempts": 1
+}

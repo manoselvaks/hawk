@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.95,
+ "reason": "The Committee judged that weaker domestic and global demand had increased the risk of inflation falling below target and cut rates by 25 basis points, while two members preferred a larger cut.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24063,
+ "prompt_tokens": 5521,
+ "completion_tokens": 62,
+ "cost_usd": 0.00072105,
+ "attempts": 1
+}

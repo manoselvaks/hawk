@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.88,
+ "reason": "The Governor says the Bank should continue supporting domestic demand and \u201cwill not hesitate to ease monetary policy further\u201d if weakness threatens to push inflation below target, while noting that reining demand back may be needed only when external demand recovers.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 13114,
+ "prompt_tokens": 3304,
+ "completion_tokens": 197,
+ "cost_usd": 0.000511425,
+ "attempts": 1
+}

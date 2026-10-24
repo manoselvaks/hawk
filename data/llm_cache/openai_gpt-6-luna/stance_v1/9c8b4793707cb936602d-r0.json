@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.95,
+ "reason": "She balances the risk that financial stress will slow demand too sharply against the risk that high inflation becomes persistent, saying the MPC must respond flexibly to the changing balance of these risks.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20531,
+ "prompt_tokens": 4714,
+ "completion_tokens": 62,
+ "cost_usd": 0.000620175,
+ "attempts": 1
+}

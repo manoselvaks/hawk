@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.87,
+ "reason": "The speech says that recovery has taken hold and Bank Rate at its current level is imparting greater stimulus, and reports guidance that some withdrawal of stimulus was likely appropriate in the coming months if slack continued to erode and underlying inflationary pressure rose.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24064,
+ "prompt_tokens": 5360,
+ "completion_tokens": 75,
+ "cost_usd": 0.000707425,
+ "attempts": 1
+}

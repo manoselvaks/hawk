@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.78,
+ "reason": "The speech describes five rate cuts to support domestic demand amid weak external growth and says the Bank is ready to ease if inflation is likely to undershoot, though it stresses balancing that support against buoyant consumption.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 15521,
+ "prompt_tokens": 3629,
+ "completion_tokens": 68,
+ "cost_usd": 0.00048755,
+ "attempts": 1
+}

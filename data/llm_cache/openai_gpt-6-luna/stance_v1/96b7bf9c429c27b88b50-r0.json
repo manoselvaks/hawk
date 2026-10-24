@@ -1,0 +1,15 @@
+{
+ "relevance": 0.45,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speech is mainly about financial stability, bank regulation, reserves and digital money, while its monetary-policy discussion says the MPC should respond to credit-market effects only insofar as they change the inflation outlook and should not aim off its preferred setting because of instability.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17296,
+ "prompt_tokens": 4173,
+ "completion_tokens": 79,
+ "cost_usd": 0.00056105,
+ "attempts": 1
+}

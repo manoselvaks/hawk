@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.76,
+ "reason": "All members agreed to hold policy, but expected Bank Rate to rise over the next three years, while tighter labour-market conditions and somewhat stronger labour costs provided a modest hawkish lean despite low inflation and divergent views.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24075,
+ "prompt_tokens": 5365,
+ "completion_tokens": 70,
+ "cost_usd": 0.00070555,
+ "attempts": 1
+}

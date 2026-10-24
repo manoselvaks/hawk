@@ -1,0 +1,15 @@
+{
+ "relevance": 0.55,
+ "stance": 0.0,
+ "confidence": 0.87,
+ "reason": "The speech mainly concerns financial-stability tools and the LDI intervention, while noting that the MPC was tightening and the Bank was undertaking QT and emphasizing that the temporary purchases were designed not to undermine monetary policy; it gives no lean on the future policy path.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 11339,
+ "prompt_tokens": 2868,
+ "completion_tokens": 79,
+ "cost_usd": 0.000397925,
+ "attempts": 1
+}

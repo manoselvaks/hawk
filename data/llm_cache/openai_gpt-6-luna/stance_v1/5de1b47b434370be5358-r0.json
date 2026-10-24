@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.98,
+ "reason": "Weale says it is \u201cappreciably more likely that monetary tightening rather than monetary easing will be needed\u201d and that the next move in rates is most likely up, citing building medium-term inflationary pressures and firmer unit wage costs.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23993,
+ "prompt_tokens": 5478,
+ "completion_tokens": 74,
+ "cost_usd": 0.000721675,
+ "attempts": 1
+}

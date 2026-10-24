@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 0.93,
+ "reason": "The speaker argues that central banks \u201ccan and should\u201d continue doing more through QE, including targeted purchases of alternative assets, until market rates, output, employment and inflation expectations move sufficiently in the desired directions.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23997,
+ "prompt_tokens": 5680,
+ "completion_tokens": 68,
+ "cost_usd": 0.000743925,
+ "attempts": 1
+}

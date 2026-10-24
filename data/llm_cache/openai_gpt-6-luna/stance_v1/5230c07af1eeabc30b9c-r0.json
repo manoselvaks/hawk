@@ -1,0 +1,15 @@
+{
+ "relevance": 0.45,
+ "stance": null,
+ "confidence": 0.97,
+ "reason": "The speech is mainly about public engagement and explaining the Bank\u2019s mission and communications, rather than setting out a monetary-policy outlook; it mentions the recent interest-rate change only as a topic for a later session.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 8725,
+ "prompt_tokens": 2458,
+ "completion_tokens": 69,
+ "cost_usd": 0.000341675,
+ "attempts": 1
+}

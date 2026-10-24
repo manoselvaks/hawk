@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.99,
+ "reason": "The speaker says he has been \u201cpushing for higher rates,\u201d citing strong global demand, low spare capacity, money and credit growth, and upside inflation risks, while noting that tightening should dampen consumption.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17634,
+ "prompt_tokens": 4058,
+ "completion_tokens": 67,
+ "cost_usd": 0.000540675,
+ "attempts": 1
+}

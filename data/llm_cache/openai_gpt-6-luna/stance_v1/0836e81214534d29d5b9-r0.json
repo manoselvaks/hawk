@@ -1,0 +1,15 @@
+{
+ "relevance": 0.35,
+ "stance": 0.0,
+ "confidence": 0.79,
+ "reason": "The speech discusses international monetary arrangements and global imbalances, noting that domestic monetary policies affect exchange rates and inflation, but gives no clear lean on the future path of UK policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 6376,
+ "prompt_tokens": 1876,
+ "completion_tokens": 63,
+ "cost_usd": 0.000265925,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 1,
+ "reason": "The speaker explicitly argues that \u201cfurther easing should be undertaken\u201d and that the UK should do more quantitative easing, warning that without further stimulus inflation may fall well short of target in 2012 and 2013.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24069,
+ "prompt_tokens": 5553,
+ "completion_tokens": 69,
+ "cost_usd": 0.00072855,
+ "attempts": 1
+}

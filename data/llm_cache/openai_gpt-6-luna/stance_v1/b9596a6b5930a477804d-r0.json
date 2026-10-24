@@ -1,0 +1,15 @@
+{
+ "relevance": 0.65,
+ "stance": 0.0,
+ "confidence": 0.84,
+ "reason": "The speech explains how climate-related supply shocks can raise inflation and says temporary effects may be looked through while larger, more frequent shocks could require leaning against second-round effects, without signalling a particular near-term policy direction.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 11053,
+ "prompt_tokens": 2763,
+ "completion_tokens": 196,
+ "cost_usd": 0.0004433,
+ "attempts": 1
+}

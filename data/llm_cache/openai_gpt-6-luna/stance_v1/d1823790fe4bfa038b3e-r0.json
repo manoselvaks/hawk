@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.86,
+ "reason": "The majority kept Bank Rate unchanged, judging underlying inflationary pressure insufficient to raise it, while the inflation risks were slightly to the downside and global headwinds persisted; one member dissented in favour of an increase.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23699,
+ "prompt_tokens": 5310,
+ "completion_tokens": 71,
+ "cost_usd": 0.000699175,
+ "attempts": 1
+}

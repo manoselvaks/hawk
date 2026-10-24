@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.8,
+ "reason": "He says the current accommodative stance should not be tightened while the forecast argues against it and the economy remains vulnerable to renewed recession, although he would support a rate rise if the recovery strengthens.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23989,
+ "prompt_tokens": 5446,
+ "completion_tokens": 225,
+ "cost_usd": 0.000793175,
+ "attempts": 1
+}

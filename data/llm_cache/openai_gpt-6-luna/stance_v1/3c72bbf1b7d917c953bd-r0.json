@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speech is chiefly about the MPC\u2019s structure, transparency and record, and describes its role as responding to economic developments to keep inflation on target without expressing a lean toward tighter or looser policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23958,
+ "prompt_tokens": 5287,
+ "completion_tokens": 67,
+ "cost_usd": 0.0006943,
+ "attempts": 1
+}

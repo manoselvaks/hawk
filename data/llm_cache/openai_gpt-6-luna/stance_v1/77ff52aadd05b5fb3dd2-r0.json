@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.92,
+ "reason": "The Committee held Bank Rate but three members favoured increases, while some members judged inflation risks and the chance of inflation exceeding 5% to make withdrawal of stimulus compelling; the majority nevertheless preferred to wait amid uncertainty about demand and inflation expectations.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22079,
+ "prompt_tokens": 4749,
+ "completion_tokens": 78,
+ "cost_usd": 0.00063255,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech concerns prudential regulation of banks, including remuneration, risk-taking and individual accountability, rather than the UK monetary policy outlook or policy tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 15054,
+ "prompt_tokens": 3560,
+ "completion_tokens": 55,
+ "cost_usd": 0.000472425,
+ "attempts": 1
+}

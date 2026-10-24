@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.99,
+ "reason": "The speaker argues that inflation persistence and possible structural inflationary pressures warrant caution, saying it was too early to cut in August and that future cuts should not come too far or too fast.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23854,
+ "prompt_tokens": 5319,
+ "completion_tokens": 63,
+ "cost_usd": 0.0006963,
+ "attempts": 1
+}

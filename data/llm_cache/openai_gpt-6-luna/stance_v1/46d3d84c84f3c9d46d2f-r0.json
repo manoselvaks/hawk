@@ -1,0 +1,15 @@
+{
+ "relevance": 0.75,
+ "stance": -1.0,
+ "confidence": 0.78,
+ "reason": "The speech emphasizes deficient demand and argues that monetary stimulus, including lower effective rates, can support activity, while warning that easing should be paired with measures that boost domestic demand.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 14256,
+ "prompt_tokens": 3415,
+ "completion_tokens": 303,
+ "cost_usd": 0.0005783,
+ "attempts": 1
+}

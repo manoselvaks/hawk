@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.72,
+ "reason": "Although the speaker says policy should be ready to move either way and notes some upside inflation risks, they stress substantial economic slack, defend QE as a significant easing, and say further expansion may become appropriate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23244,
+ "prompt_tokens": 5542,
+ "completion_tokens": 245,
+ "cost_usd": 0.000815175,
+ "attempts": 1
+}

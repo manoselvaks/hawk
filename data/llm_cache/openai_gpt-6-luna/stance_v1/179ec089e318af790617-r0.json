@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.88,
+ "reason": "Although most members judged an increase was not yet necessary because inflation would remain below or close to target and uncertainty warranted waiting, they thought developments had brought forward the need for a rise, with one member advocating an immediate increase.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23957,
+ "prompt_tokens": 5686,
+ "completion_tokens": 72,
+ "cost_usd": 0.000746675,
+ "attempts": 1
+}

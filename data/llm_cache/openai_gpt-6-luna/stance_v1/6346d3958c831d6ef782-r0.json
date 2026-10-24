@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.95,
+ "reason": "The Committee was evenly split: four members voted to leave the repo rate unchanged and four preferred an immediate increase, with arguments on both sides of the timing of tightening.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24110,
+ "prompt_tokens": 5344,
+ "completion_tokens": 125,
+ "cost_usd": 0.000730425,
+ "attempts": 1
+}

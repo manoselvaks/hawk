@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.92,
+ "reason": "The speech stresses that policy must bring inflation back to 2% but warns that most tightening has yet to affect demand and that too high a Bank Rate path risks undershooting inflation, while acknowledging that some tightening has been required for second-round pressures.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23761,
+ "prompt_tokens": 5228,
+ "completion_tokens": 76,
+ "cost_usd": 0.000691425,
+ "attempts": 1
+}

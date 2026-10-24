@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": 0.5,
+ "confidence": 0.64,
+ "reason": "The speech says inflation remains much too high and that monetary policy must prevent imported inflation becoming lasting inflation generated at home, which gives a modest hawkish lean without a clear signal about further rate rises.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12294,
+ "prompt_tokens": 3208,
+ "completion_tokens": 302,
+ "cost_usd": 0.000551925,
+ "attempts": 1
+}

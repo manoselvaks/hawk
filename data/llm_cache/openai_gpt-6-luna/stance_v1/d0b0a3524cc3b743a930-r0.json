@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.83,
+ "reason": "Although she notes slack, utility-price cuts and uncertainty, she says inflation risks are the main concern, flags tighter demand-supply balance and rising inflation expectations as upside risks, and argues that rates may need to respond actively to inflation news.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23765,
+ "prompt_tokens": 5425,
+ "completion_tokens": 258,
+ "cost_usd": 0.00080705,
+ "attempts": 1
+}

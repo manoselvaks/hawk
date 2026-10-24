@@ -1,0 +1,15 @@
+{
+ "relevance": 0.8,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speech discusses monetary policy directly, describing inflation as close to target and growth as near average while weighing downside demand risks against upside cost pressures, with the MPC set to respond to whichever risk materialises.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 11590,
+ "prompt_tokens": 2961,
+ "completion_tokens": 68,
+ "cost_usd": 0.00040405,
+ "attempts": 1
+}

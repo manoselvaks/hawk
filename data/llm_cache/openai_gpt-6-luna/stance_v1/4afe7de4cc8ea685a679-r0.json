@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.87,
+ "reason": "The Committee was finely balanced, voting 5\u20134 to hold while judging policy restrictive and saying further tightening would be required if more persistent inflationary pressures emerged.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23959,
+ "prompt_tokens": 5371,
+ "completion_tokens": 211,
+ "cost_usd": 0.0007768,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.94,
+ "reason": "The speaker says he voted for rate cuts because weak household spending, a loosening labour market and modest second-round inflation effects create downside risks, and he saw a 25bp cut as consistent with meeting the inflation target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 13466,
+ "prompt_tokens": 3365,
+ "completion_tokens": 71,
+ "cost_usd": 0.00045605,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.85,
+ "reason": "The speech focuses on inflation targeting and monetary policy strategy, emphasizing a symmetric 2% inflation target and the need to respond if expectations become unanchored, without signalling a general preference for tightening or easing.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24070,
+ "prompt_tokens": 5375,
+ "completion_tokens": 67,
+ "cost_usd": 0.0007053,
+ "attempts": 1
+}

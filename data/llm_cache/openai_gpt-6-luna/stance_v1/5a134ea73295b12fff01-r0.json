@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.77,
+ "reason": "The speech argues that tradable-goods inflation may fade before policy can affect it, but stresses that the tight labour market and possible further wage acceleration pose more persistent upside risks to inflation.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24059,
+ "prompt_tokens": 5530,
+ "completion_tokens": 323,
+ "cost_usd": 0.000852675,
+ "attempts": 1
+}

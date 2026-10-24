@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.9,
+ "reason": "The policy decision was finely balanced, but most members judged the case for leaving rates unchanged decisive, weighing the inflation risk from sterling\u2019s weakness and resilient domestic demand against arguments for a cut to support activity.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24007,
+ "prompt_tokens": 5749,
+ "completion_tokens": 197,
+ "cost_usd": 0.00081705,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.87,
+ "reason": "The Committee weighed downside risks and arguments for a rate cut against sterling depreciation and inflation-expectations risks, but most members found the case for maintaining the current repo rate more convincing.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24104,
+ "prompt_tokens": 5694,
+ "completion_tokens": 318,
+ "cost_usd": 0.000870675,
+ "attempts": 1
+}

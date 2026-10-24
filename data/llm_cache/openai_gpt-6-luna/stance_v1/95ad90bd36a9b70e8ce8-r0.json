@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.96,
+ "reason": "The Committee judged that arguments for keeping rates unchanged were more persuasive, citing below-target inflation for most of the forecast period and moderate demand, while also noting tightening labour conditions and the likelihood that rates would need to rise further.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24036,
+ "prompt_tokens": 5770,
+ "completion_tokens": 70,
+ "cost_usd": 0.000756175,
+ "attempts": 1
+}

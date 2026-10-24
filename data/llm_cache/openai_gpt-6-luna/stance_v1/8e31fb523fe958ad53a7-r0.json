@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.82,
+ "reason": "The speaker says there is no need for an immediate Bank Rate rise, but warns that pay and price pressures could pick up as slack erodes and argues the first increase should not be held back so that tightening can remain gradual.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21422,
+ "prompt_tokens": 5101,
+ "completion_tokens": 73,
+ "cost_usd": 0.00067405,
+ "attempts": 1
+}

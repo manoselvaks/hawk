@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": 0.0,
+ "confidence": 0.91,
+ "reason": "The speech devotes substantial attention to the UK outlook and monetary policy, but says inflation risks are \u201cfairly evenly balanced\u201d and that rates may remain at current levels until the way ahead is clearer.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16585,
+ "prompt_tokens": 3999,
+ "completion_tokens": 68,
+ "cost_usd": 0.0005338,
+ "attempts": 1
+}

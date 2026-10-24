@@ -1,0 +1,15 @@
+{
+ "relevance": 0.2,
+ "stance": null,
+ "confidence": 0.95,
+ "reason": "The speech focuses on current-account deficits, international capital flows and financial vulnerabilities, with only passing references to MPC assessments and inflation.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 14735,
+ "prompt_tokens": 3410,
+ "completion_tokens": 154,
+ "cost_usd": 0.000503175,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.1,
+ "stance": null,
+ "confidence": 0.97,
+ "reason": "The speech focuses on climate-transition risks, financial regulation and firms\u2019 climate actions, rather than the UK monetary policy outlook or Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 13476,
+ "prompt_tokens": 3194,
+ "completion_tokens": 55,
+ "cost_usd": 0.000426675,
+ "attempts": 1
+}

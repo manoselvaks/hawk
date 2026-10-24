@@ -1,0 +1,15 @@
+{
+ "relevance": 0.1,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech is about RTGS renewal, wholesale payments infrastructure, and innovation in settlement, mentioning Bank Rate only to explain how RTGS transmits it rather than discussing the monetary policy outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20582,
+ "prompt_tokens": 4437,
+ "completion_tokens": 65,
+ "cost_usd": 0.00058705,
+ "attempts": 1
+}

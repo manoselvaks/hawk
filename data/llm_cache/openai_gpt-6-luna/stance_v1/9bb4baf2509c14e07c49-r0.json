@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.88,
+ "reason": "Although the Committee judged risks broadly unchanged and unanimously held Bank Rate and asset purchases steady, some members said further asset purchases might become warranted, citing weakening employment and credit-supply risks.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23248,
+ "prompt_tokens": 5010,
+ "completion_tokens": 65,
+ "cost_usd": 0.000658675,
+ "attempts": 1
+}

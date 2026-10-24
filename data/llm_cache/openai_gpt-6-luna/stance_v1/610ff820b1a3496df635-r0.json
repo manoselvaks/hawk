@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.8,
+ "reason": "Bean says inflation is broadly on track but highlights upside risks from pay and firms\u2019 pricing power, warning that the MPC must remain alert and act as necessary while noting considerable uncertainty about rates.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 11978,
+ "prompt_tokens": 3031,
+ "completion_tokens": 65,
+ "cost_usd": 0.0004113,
+ "attempts": 1
+}

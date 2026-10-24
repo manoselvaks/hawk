@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.82,
+ "reason": "Although the Committee recognised weak growth and a case for easing, most members held asset purchases at \u00a3375 billion amid above-target inflation and judged that a Bank Rate cut was unlikely in the foreseeable future.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23842,
+ "prompt_tokens": 5095,
+ "completion_tokens": 223,
+ "cost_usd": 0.0007483,
+ "attempts": 1
+}

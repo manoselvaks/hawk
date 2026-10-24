@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.79,
+ "reason": "The speech is directly about assessing monetary-policy restrictiveness and the neutral rate, but it presents measurement challenges and competing channels without advocating a particular future policy move.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 11446,
+ "prompt_tokens": 3250,
+ "completion_tokens": 57,
+ "cost_usd": 0.000434675,
+ "attempts": 1
+}

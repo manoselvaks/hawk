@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speech is centrally about monetary policy design, but it presents balanced analysis of inflation targets, the zero lower bound and policy responses without signalling a directional lean toward tighter or looser UK policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24070,
+ "prompt_tokens": 5426,
+ "completion_tokens": 160,
+ "cost_usd": 0.000758175,
+ "attempts": 1
+}

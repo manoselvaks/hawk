@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": -0.5,
+ "confidence": 0.83,
+ "reason": "Although he stresses that strong domestic demand must be weighed against downside risks from a weakening world economy and a potentially softening UK labour market, he says the risks are not yet decisive and leaves the November decision open.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19604,
+ "prompt_tokens": 4598,
+ "completion_tokens": 73,
+ "cost_usd": 0.000611175,
+ "attempts": 1
+}

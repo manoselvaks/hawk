@@ -1,0 +1,15 @@
+{
+ "relevance": 0.75,
+ "stance": 0.0,
+ "confidence": 0.74,
+ "reason": "The speech discusses QE unwinding, Bank Rate, the effective lower bound and future countercyclical balance-sheet use, but presents these as framework considerations rather than a near-term tightening or easing preference.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 15714,
+ "prompt_tokens": 3807,
+ "completion_tokens": 68,
+ "cost_usd": 0.0005098,
+ "attempts": 1
+}

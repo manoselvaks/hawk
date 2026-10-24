@@ -1,0 +1,15 @@
+{
+ "relevance": 0.2,
+ "stance": null,
+ "confidence": 0.9,
+ "reason": "The extracts focus on debt servicing, asset prices and balance-sheet repair, rather than the outlook for UK inflation or the future path of monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 3780,
+ "prompt_tokens": 1490,
+ "completion_tokens": 234,
+ "cost_usd": 0.000303175,
+ "attempts": 1
+}

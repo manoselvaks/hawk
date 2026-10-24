@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": 0.5,
+ "confidence": 0.72,
+ "reason": "Although she notes that financial disruption has shifted activity risks to the downside, she says that in early August she worried the slowdown might not be sufficient to reduce upward inflation pressures and that commodity-price pressures remain a concern.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23695,
+ "prompt_tokens": 5501,
+ "completion_tokens": 242,
+ "cost_usd": 0.00080855,
+ "attempts": 1
+}

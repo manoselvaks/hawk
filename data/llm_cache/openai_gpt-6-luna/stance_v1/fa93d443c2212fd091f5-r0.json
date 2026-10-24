@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.5,
+ "confidence": 0.96,
+ "reason": "Haskel says he has voted for more accommodative policy and warns that cautious consumers, unemployment risk and weak demand could leave the economy recovering slowly and undershooting the inflation target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18943,
+ "prompt_tokens": 4401,
+ "completion_tokens": 65,
+ "cost_usd": 0.00058255,
+ "attempts": 1
+}

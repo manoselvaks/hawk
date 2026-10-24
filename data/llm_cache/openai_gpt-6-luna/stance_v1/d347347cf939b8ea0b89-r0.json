@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.9,
+ "reason": "Although the recovery was strengthening and unemployment nearing the 7% threshold, the Committee judged spare capacity remained and inflation would be at or slightly below target, so it saw scope to absorb more slack before a gradual Bank Rate rise and no case to tighten now.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23724,
+ "prompt_tokens": 5091,
+ "completion_tokens": 78,
+ "cost_usd": 0.0006753,
+ "attempts": 1
+}

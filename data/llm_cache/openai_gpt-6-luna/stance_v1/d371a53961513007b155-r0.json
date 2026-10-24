@@ -1,0 +1,15 @@
+{
+ "relevance": 0.75,
+ "stance": 0.0,
+ "confidence": 0.84,
+ "reason": "The speech discusses implementing QT and the balance-sheet framework, while stressing that Bank Rate is the primary policy instrument and that the MPC will choose the pace of QT in light of economic conditions, without signalling a near-term change in rates.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21929,
+ "prompt_tokens": 5127,
+ "completion_tokens": 74,
+ "cost_usd": 0.0006778,
+ "attempts": 1
+}

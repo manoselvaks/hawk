@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 1,
+ "reason": "The Committee unanimously cut Bank Rate by 1.5 percentage points to 3%, judging that sharply weaker demand and a substantially lower inflation outlook required aggressive monetary loosening.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20552,
+ "prompt_tokens": 4591,
+ "completion_tokens": 59,
+ "cost_usd": 0.0006033,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.5,
+ "confidence": 0.94,
+ "reason": "The Committee judged that weaker growth and subdued price pressures warranted a further rate cut, with some members also arguing that rates needed to fall further to avoid undershooting the inflation target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24084,
+ "prompt_tokens": 5664,
+ "completion_tokens": 268,
+ "cost_usd": 0.000841925,
+ "attempts": 1
+}

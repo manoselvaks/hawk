@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.92,
+ "reason": "The speech focuses on monetary-policy frameworks and future challenges, but advocates a balanced inflation-targeting approach that trades off returning inflation to target against output and employment fluctuations, without signalling a particular near-term change in rates.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23717,
+ "prompt_tokens": 5290,
+ "completion_tokens": 68,
+ "cost_usd": 0.000695175,
+ "attempts": 1
+}

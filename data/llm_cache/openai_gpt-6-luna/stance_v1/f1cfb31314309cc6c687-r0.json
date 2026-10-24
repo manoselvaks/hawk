@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 0.99,
+ "reason": "The speaker says the balance of medium-term inflation risks shifted decisively downward, projections show inflation below target, and \u201cfurther reductions may be necessary,\u201d while noting that the immediate priority is to address the downswing.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12928,
+ "prompt_tokens": 3228,
+ "completion_tokens": 70,
+ "cost_usd": 0.000438425,
+ "attempts": 1
+}

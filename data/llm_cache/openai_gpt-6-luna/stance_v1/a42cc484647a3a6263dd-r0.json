@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 1.0,
+ "confidence": 0.95,
+ "reason": "The speech says household-debt vulnerabilities weigh on the speaker\u2019s MPC decisions and that they had \u201con several occasions over recent months\u201d voted for a rise, reflecting concern about risks to demand and monetary stability.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 11950,
+ "prompt_tokens": 2969,
+ "completion_tokens": 69,
+ "cost_usd": 0.00040555,
+ "attempts": 1
+}

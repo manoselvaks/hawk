@@ -1,0 +1,15 @@
+{
+ "relevance": 0.15,
+ "stance": null,
+ "confidence": 0.95,
+ "reason": "The speech focuses on global trade imbalances, multilateral institutions and UK payments infrastructure, with no discussion of the UK inflation, demand, labour-market or Bank Rate outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16067,
+ "prompt_tokens": 3755,
+ "completion_tokens": 62,
+ "cost_usd": 0.0005003,
+ "attempts": 1
+}

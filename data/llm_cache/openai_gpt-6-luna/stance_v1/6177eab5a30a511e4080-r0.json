@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.87,
+ "reason": "The speaker says domestic strength and gradually firming underlying inflation could bring the start of gradual Bank Rate normalisation into sharper relief around year-end, while stressing that global disinflationary forces remain substantial and the timing depends on incoming evidence.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22779,
+ "prompt_tokens": 5105,
+ "completion_tokens": 75,
+ "cost_usd": 0.00067555,
+ "attempts": 1
+}

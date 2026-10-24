@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.96,
+ "reason": "The speaker argues that rapidly shrinking labour-market slack is likely to raise inflation and that delaying a \u00bc-point Bank Rate increase risks inflation exceeding target or requiring sharper tightening later, while acknowledging that current low inflation offsets some of that pressure.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24097,
+ "prompt_tokens": 5439,
+ "completion_tokens": 72,
+ "cost_usd": 0.0007158,
+ "attempts": 1
+}

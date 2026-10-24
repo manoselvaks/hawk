@@ -1,0 +1,15 @@
+{
+ "relevance": 0.45,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speech argues that monetary policy is poorly suited to restraining credit cycles and risks destabilising non-financial activity, but offers no lean on the future path of Bank Rate and instead focuses on macroprudential policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 10773,
+ "prompt_tokens": 2932,
+ "completion_tokens": 71,
+ "cost_usd": 0.000401925,
+ "attempts": 1
+}

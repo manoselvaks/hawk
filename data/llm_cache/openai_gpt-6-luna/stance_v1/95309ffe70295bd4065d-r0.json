@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.82,
+ "reason": "Bean says the MPC will support the recovery, expects Bank Rate to rise only gradually and remain materially below its pre-crisis average for some while, and cautions against focusing on the date of the first increase.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18437,
+ "prompt_tokens": 4369,
+ "completion_tokens": 280,
+ "cost_usd": 0.00068605,
+ "attempts": 1
+}

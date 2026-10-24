@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.77,
+ "reason": "The speech focuses on the MPC and inflation targeting, and warns that as temporary downward pressure from imports fades, domestic inflationary pressures will matter more and the MPC must respond to the inflation outlook, while offering no explicit call for an immediate rate change.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23901,
+ "prompt_tokens": 5335,
+ "completion_tokens": 77,
+ "cost_usd": 0.0007053,
+ "attempts": 1
+}

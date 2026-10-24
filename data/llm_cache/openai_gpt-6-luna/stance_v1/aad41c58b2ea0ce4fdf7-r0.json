@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.5,
+ "confidence": 0.93,
+ "reason": "Although he notes that energy base effects could bring inflation below target and that tightening risks weakening demand, he stresses persistent inflation risks from labour-market and supply pressures, voted for a 75-basis-point increase, and says policy should stand firm.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17859,
+ "prompt_tokens": 4414,
+ "completion_tokens": 195,
+ "cost_usd": 0.000649175,
+ "attempts": 1
+}

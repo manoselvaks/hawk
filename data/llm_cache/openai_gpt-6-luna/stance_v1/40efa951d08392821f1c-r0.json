@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.95,
+ "reason": "Gieve says credit-market disruption creates a serious downside risk to growth and that this was a key factor in his votes to cut rates in November and December, while noting that rising commodity prices and elevated inflation expectations complicate the case for easing.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21819,
+ "prompt_tokens": 5058,
+ "completion_tokens": 75,
+ "cost_usd": 0.000669675,
+ "attempts": 1
+}

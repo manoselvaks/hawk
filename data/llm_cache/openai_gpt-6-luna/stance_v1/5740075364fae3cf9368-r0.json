@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.78,
+ "reason": "The speech directly examines how foreign monetary-policy divergence affects UK inflation, activity and the appropriate policy response, but it describes competing spillover channels and does not signal a clear lean toward tightening or easing UK policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23983,
+ "prompt_tokens": 5519,
+ "completion_tokens": 67,
+ "cost_usd": 0.0007233,
+ "attempts": 1
+}

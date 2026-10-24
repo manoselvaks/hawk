@@ -1,0 +1,15 @@
+{
+ "relevance": 0,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The passage concerns a review of financial-services markets and regulatory interventions, not the UK monetary policy outlook or policy tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 920,
+ "prompt_tokens": 857,
+ "completion_tokens": 49,
+ "cost_usd": 0.0001102,
+ "attempts": 1
+}

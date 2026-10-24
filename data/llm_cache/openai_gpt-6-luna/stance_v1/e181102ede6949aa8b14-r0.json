@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.5,
+ "confidence": 0.98,
+ "reason": "The speaker argues that the risk of pre-emptive tightening outweighs the risk of temporary above-target inflation and concludes that policy should not be tightened until recovery is more certain.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19522,
+ "prompt_tokens": 4664,
+ "completion_tokens": 64,
+ "cost_usd": 0.000614925,
+ "attempts": 1
+}

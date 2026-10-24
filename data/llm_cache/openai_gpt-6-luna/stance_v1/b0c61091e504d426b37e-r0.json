@@ -1,0 +1,15 @@
+{
+ "relevance": 0.65,
+ "stance": 0.0,
+ "confidence": 0.76,
+ "reason": "The speech notes that \u201ca modest tightening of monetary policy over time\u201d should suffice if expansion continues, while emphasising a weakening global outlook and intensified downside risks, so its policy lean is broadly balanced.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16122,
+ "prompt_tokens": 3957,
+ "completion_tokens": 247,
+ "cost_usd": 0.00061805,
+ "attempts": 1
+}

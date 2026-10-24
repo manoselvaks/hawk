@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.63,
+ "reason": "The speech is about the inflation outlook and monetary policy, and it stresses that low labour-market participation is adding to an already tight labour market and upward pressure on wages, while describing the resulting tightness as a key consideration in the speaker\u2019s MPC votes.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16077,
+ "prompt_tokens": 3875,
+ "completion_tokens": 244,
+ "cost_usd": 0.0006063,
+ "attempts": 1
+}

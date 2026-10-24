@@ -1,0 +1,15 @@
+{
+ "relevance": 0,
+ "stance": null,
+ "confidence": 1,
+ "reason": "The speech announces a new \u00a35 banknote and celebrates Winston Churchill\u2019s life and historical significance, with no discussion of monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 4294,
+ "prompt_tokens": 1570,
+ "completion_tokens": 50,
+ "cost_usd": 0.000221175,
+ "attempts": 1
+}

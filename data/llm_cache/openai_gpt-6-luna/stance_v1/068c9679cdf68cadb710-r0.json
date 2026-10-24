@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.97,
+ "reason": "King says the medium-term balance of inflation risks shifted decisively to the downside and the MPC cut Bank Rate by half a percentage point, while noting it will act to keep inflation on target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17392,
+ "prompt_tokens": 4149,
+ "completion_tokens": 65,
+ "cost_usd": 0.00055105,
+ "attempts": 1
+}

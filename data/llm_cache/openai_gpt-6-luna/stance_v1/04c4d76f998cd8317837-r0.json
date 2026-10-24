@@ -1,0 +1,15 @@
+{
+ "relevance": 0.1,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech focuses on the City of London's financial services sector, market regulation, technology and other challenges, without discussing the UK inflation outlook or monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17642,
+ "prompt_tokens": 3967,
+ "completion_tokens": 58,
+ "cost_usd": 0.0005248,
+ "attempts": 1
+}

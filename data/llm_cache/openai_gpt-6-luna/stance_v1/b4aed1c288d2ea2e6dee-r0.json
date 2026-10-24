@@ -1,0 +1,15 @@
+{
+ "relevance": 0,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech is about prudential financial regulation and post-Brexit legislative frameworks, not the UK monetary policy outlook or policy tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20657,
+ "prompt_tokens": 4695,
+ "completion_tokens": 52,
+ "cost_usd": 0.0006128,
+ "attempts": 1
+}

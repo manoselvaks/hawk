@@ -1,0 +1,15 @@
+{
+ "relevance": 0.3,
+ "stance": null,
+ "confidence": 0.96,
+ "reason": "The extract discusses money creation, the inflation target and the monetary-policy framework only as background to a broader discussion of cryptocurrencies, banknotes and payments.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 2990,
+ "prompt_tokens": 1286,
+ "completion_tokens": 57,
+ "cost_usd": 0.000189175,
+ "attempts": 1
+}

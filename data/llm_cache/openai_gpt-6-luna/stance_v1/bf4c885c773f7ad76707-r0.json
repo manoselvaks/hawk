@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.88,
+ "reason": "The majority held Bank Rate at 4.25% and judged there was not a strong case for easing immediately, but the Committee expected continued disinflation and a gradual further withdrawal of restraint, with three members voting for a cut.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24056,
+ "prompt_tokens": 5327,
+ "completion_tokens": 76,
+ "cost_usd": 0.0007038,
+ "attempts": 1
+}

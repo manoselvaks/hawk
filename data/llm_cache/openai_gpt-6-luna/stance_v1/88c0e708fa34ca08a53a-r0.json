@@ -1,0 +1,15 @@
+{
+ "relevance": 0.45,
+ "stance": 0.0,
+ "confidence": 0.83,
+ "reason": "The speech discusses weak global and UK growth, low inflation and equilibrium interest rates, but mainly argues for green finance and structural investment rather than signalling a change in monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 7348,
+ "prompt_tokens": 2120,
+ "completion_tokens": 62,
+ "cost_usd": 0.000295925,
+ "attempts": 1
+}

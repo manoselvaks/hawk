@@ -1,0 +1,15 @@
+{
+ "relevance": 0.65,
+ "stance": 0.0,
+ "confidence": 0.81,
+ "reason": "The speech is mainly about financial stability and central-bank liquidity operations, but its monetary-policy discussion says policy must balance inflation risks and that it cannot reliably be used to mop up after bubbles, without signalling a preferred change in Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16473,
+ "prompt_tokens": 3867,
+ "completion_tokens": 74,
+ "cost_usd": 0.0005203,
+ "attempts": 1
+}

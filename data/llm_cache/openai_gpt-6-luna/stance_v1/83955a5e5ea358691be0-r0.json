@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.87,
+ "reason": "Although seven members judged policy appropriate and one favoured an immediate rate rise, the Committee said that if the economy followed its central projection, policy could need to be tightened somewhat more over the forecast period than markets expected.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24066,
+ "prompt_tokens": 5173,
+ "completion_tokens": 71,
+ "cost_usd": 0.00068205,
+ "attempts": 1
+}

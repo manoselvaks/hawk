@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.97,
+ "reason": "The majority judged that limited slack and rising domestic inflationary pressure warranted a small withdrawal of stimulus, while future Bank Rate increases were expected to be gradual and limited.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24021,
+ "prompt_tokens": 5233,
+ "completion_tokens": 58,
+ "cost_usd": 0.00068305,
+ "attempts": 1
+}

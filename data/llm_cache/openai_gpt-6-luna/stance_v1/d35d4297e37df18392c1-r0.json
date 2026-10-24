@@ -1,0 +1,15 @@
+{
+ "relevance": 0.5,
+ "stance": -0.5,
+ "confidence": 0.68,
+ "reason": "The speech is mainly about financial risk and macro-prudential policy, but it notes that monetary and fiscal policy are close to fully stretched and argues for loosening prudential settings if credit falls below neutral to support risk-taking and growth.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23378,
+ "prompt_tokens": 5502,
+ "completion_tokens": 78,
+ "cost_usd": 0.000726675,
+ "attempts": 1
+}

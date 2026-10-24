@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.5,
+ "confidence": 0.96,
+ "reason": "The speaker expects inflation to rise \u201csignificantly and persistently,\u201d warns that anchoring could require \u201cmaterially larger and/or faster interest rate rises,\u201d and calls for immediate action to unwind QE.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23936,
+ "prompt_tokens": 5522,
+ "completion_tokens": 68,
+ "cost_usd": 0.000724175,
+ "attempts": 1
+}

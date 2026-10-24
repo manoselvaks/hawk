@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 2.0,
+ "confidence": 0.98,
+ "reason": "He argues that \u201ca first move up in Bank Rate soon is likely to be right\u201d and that waiting too long risks preventing a gradual return towards a more normal policy setting.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23856,
+ "prompt_tokens": 5685,
+ "completion_tokens": 182,
+ "cost_usd": 0.00080155,
+ "attempts": 1
+}

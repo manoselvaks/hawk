@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": -0.5,
+ "confidence": 0.66,
+ "reason": "The speech is substantially about inflation dynamics and monetary policy calibration, and its emphasis on easing upstream price pressures, lags in transmission and the existing tightening cycle building\u2014with little immediate scope to affect inflation\u2014leans mildly dovish, though it stresses the commitment to return inflation sustainably to target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23918,
+ "prompt_tokens": 5180,
+ "completion_tokens": 87,
+ "cost_usd": 0.000690925,
+ "attempts": 1
+}

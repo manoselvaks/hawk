@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 0.5,
+ "confidence": 0.78,
+ "reason": "The speech is substantially about monetary policy and the indicators shaping it; its mild hawkish lean comes from saying the MPC would want more evidence before treating wage growth as clearly declining, while acknowledging that some inflation pressures may fade independently of policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23962,
+ "prompt_tokens": 5492,
+ "completion_tokens": 267,
+ "cost_usd": 0.000819925,
+ "attempts": 1
+}

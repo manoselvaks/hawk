@@ -1,0 +1,15 @@
+{
+ "relevance": 0.55,
+ "stance": -0.5,
+ "confidence": 0.72,
+ "reason": "The speech discusses monetary policy and the outlook, noting inflation below target, possible slowing private spending and persistent downward price pressures, while also flagging vigilance about pay pressures in a tight labour market.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 10833,
+ "prompt_tokens": 2780,
+ "completion_tokens": 233,
+ "cost_usd": 0.000463925,
+ "attempts": 1
+}

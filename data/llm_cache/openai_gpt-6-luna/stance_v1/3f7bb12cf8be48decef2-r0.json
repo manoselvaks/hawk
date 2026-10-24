@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech explains the PRA\u2019s enforcement approach, investigations, and accountability of regulated firms and senior managers, rather than the UK monetary policy outlook or policy tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18324,
+ "prompt_tokens": 4373,
+ "completion_tokens": 59,
+ "cost_usd": 0.00057605,
+ "attempts": 1
+}

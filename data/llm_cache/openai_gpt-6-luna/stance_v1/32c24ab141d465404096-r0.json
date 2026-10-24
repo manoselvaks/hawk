@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.9,
+ "reason": "Vlieghe emphasizes that underlying inflation pressure is unlikely until labour-market slack is eroded, argues that tightening too early would be costly, and says in his central scenario the first Bank Rate rise is appropriate only well into next year, while allowing for an earlier rise if wage and inflation pressures emerge.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24072,
+ "prompt_tokens": 5447,
+ "completion_tokens": 87,
+ "cost_usd": 0.0007243,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.94,
+ "reason": "The MPC unanimously held Bank Rate and asset purchases unchanged, while judging it \u201cmore likely than not\u201d that Bank Rate would need to increase over the forecast period, albeit gradually and to a lower level than in past cycles.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23886,
+ "prompt_tokens": 5239,
+ "completion_tokens": 72,
+ "cost_usd": 0.0006908,
+ "attempts": 1
+}

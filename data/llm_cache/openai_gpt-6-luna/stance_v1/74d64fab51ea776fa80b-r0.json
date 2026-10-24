@@ -1,0 +1,15 @@
+{
+ "relevance": 0.45,
+ "stance": -0.5,
+ "confidence": 0.69,
+ "reason": "The speech focuses mainly on macroprudential policy, but its monetary-policy discussion stresses weak output and demand, with anaemic growth likely to make inflation undershoot the target, despite noting that some emergency stimulus might eventually be withdrawn.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 10002,
+ "prompt_tokens": 2558,
+ "completion_tokens": 257,
+ "cost_usd": 0.000448175,
+ "attempts": 1
+}

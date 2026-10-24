@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.88,
+ "reason": "Tucker says the MPC has responded to deteriorating activity with more QE and that escape velocity has not been achieved, while endorsing continued monetary accommodation and taking longer to return inflation to target to limit damage to demand and supply capacity.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12256,
+ "prompt_tokens": 3095,
+ "completion_tokens": 73,
+ "cost_usd": 0.0004233,
+ "attempts": 1
+}

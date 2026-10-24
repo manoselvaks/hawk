@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.94,
+ "reason": "Although he says an immediate Bank Rate increase is no longer justified because inflation and wage growth will pick up later, he expects to return to voting for tightening and sees a risk of an inflation overshoot.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23916,
+ "prompt_tokens": 5317,
+ "completion_tokens": 170,
+ "cost_usd": 0.00074955,
+ "attempts": 1
+}

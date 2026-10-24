@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.87,
+ "reason": "The Committee held Bank Rate at 5% by an 8\u20131 majority, judging the stance appropriate and favouring gradual removal of restraint while warning that inflation persistence could require rates to stay tighter for longer.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24033,
+ "prompt_tokens": 5334,
+ "completion_tokens": 70,
+ "cost_usd": 0.000701675,
+ "attempts": 1
+}

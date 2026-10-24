@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The Committee weighed inflation risks from above-trend activity, stubborn inflation and wage pressures against moderating demand and sterling-related disinflation, and concluded uncertainty made it reasonable to wait for further developments.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23866,
+ "prompt_tokens": 5264,
+ "completion_tokens": 65,
+ "cost_usd": 0.000690425,
+ "attempts": 1
+}

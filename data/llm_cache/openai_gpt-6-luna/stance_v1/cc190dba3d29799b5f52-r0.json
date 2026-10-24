@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The Committee noted both downside risks from fragile recovery and spare capacity and upside inflation risks from commodities and expectations, but unanimously maintained Bank Rate and asset purchases, agreeing to keep the current stimulatory stance.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18650,
+ "prompt_tokens": 4210,
+ "completion_tokens": 65,
+ "cost_usd": 0.000558675,
+ "attempts": 1
+}

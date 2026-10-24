@@ -1,0 +1,15 @@
+{
+ "relevance": 0.35,
+ "stance": 0.0,
+ "confidence": 0.82,
+ "reason": "The speech is mainly about climate-related financial risks and regulation, but it discusses greening the Corporate Bond Purchase Scheme while stating that its target remains set to achieve the inflation objective, without signalling a change in the future policy stance.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17155,
+ "prompt_tokens": 4019,
+ "completion_tokens": 299,
+ "cost_usd": 0.0006518,
+ "attempts": 1
+}

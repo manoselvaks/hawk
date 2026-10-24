@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.98,
+ "reason": "Vlieghe stresses that the pandemic is causing an exceptionally severe contraction and disinflationary shortfall, endorsing lower rates, QE and other support to prevent demand weakening further, with the MPC ready to take further action.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24032,
+ "prompt_tokens": 5312,
+ "completion_tokens": 73,
+ "cost_usd": 0.000700425,
+ "attempts": 1
+}

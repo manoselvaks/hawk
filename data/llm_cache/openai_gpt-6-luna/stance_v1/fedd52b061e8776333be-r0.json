@@ -1,0 +1,15 @@
+{
+ "relevance": 0.65,
+ "stance": -0.5,
+ "confidence": 0.67,
+ "reason": "The speech discusses QE as preventing an unwarranted tightening in financial conditions and emphasises subdued business expectations and uncertainty, while offering no explicit call for rate cuts and describing policy mainly as support for investment.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 11305,
+ "prompt_tokens": 2968,
+ "completion_tokens": 71,
+ "cost_usd": 0.000406425,
+ "attempts": 1
+}

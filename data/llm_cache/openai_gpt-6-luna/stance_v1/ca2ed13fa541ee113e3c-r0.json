@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 1,
+ "reason": "He says the weak outlook and low inflation justify looser policy, explains that he voted to cut Bank Rate, and advocates cutting now as insurance against reaching the effective lower bound.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21519,
+ "prompt_tokens": 5023,
+ "completion_tokens": 60,
+ "cost_usd": 0.0006578,
+ "attempts": 1
+}

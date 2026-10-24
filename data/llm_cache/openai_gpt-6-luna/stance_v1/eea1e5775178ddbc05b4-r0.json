@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech focuses on financial stability and the resolution of too-big-to-fail banks and central counterparties, rather than the UK monetary policy outlook or policy tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 13646,
+ "prompt_tokens": 3429,
+ "completion_tokens": 60,
+ "cost_usd": 0.00045855,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.82,
+ "reason": "The majority held Bank Rate at 0.5% while judging that a gently rising path would return inflation to target, and one member favoured an immediate increase because medium-term inflation risks were tilted upwards.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24042,
+ "prompt_tokens": 5232,
+ "completion_tokens": 69,
+ "cost_usd": 0.000688425,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "Bean discusses the inflation-targeting framework and monetary policy at the zero lower bound, but stresses that persistent above-target inflation must be weighed against weak demand and warns that keeping policy loose for long risks renewed financial imbalances and de-anchored expectations.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24112,
+ "prompt_tokens": 5307,
+ "completion_tokens": 75,
+ "cost_usd": 0.0007008,
+ "attempts": 1
+}

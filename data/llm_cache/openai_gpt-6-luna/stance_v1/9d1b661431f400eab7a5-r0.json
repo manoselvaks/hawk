@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": -0.5,
+ "confidence": 0.8,
+ "reason": "King says the extraordinary monetary stimulus is \u201ctoo soon to reverse,\u201d with withdrawal guided by the inflation outlook as activity recovers, indicating a modestly dovish near-term lean despite outlining eventual rate rises and asset run-down.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 15998,
+ "prompt_tokens": 3768,
+ "completion_tokens": 75,
+ "cost_usd": 0.000508425,
+ "attempts": 1
+}

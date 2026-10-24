@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech focuses on payment-system resilience, financial stability, and resolution planning, rather than UK inflation, demand, labour-market conditions, or monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20884,
+ "prompt_tokens": 4533,
+ "completion_tokens": 58,
+ "cost_usd": 0.00059555,
+ "attempts": 1
+}

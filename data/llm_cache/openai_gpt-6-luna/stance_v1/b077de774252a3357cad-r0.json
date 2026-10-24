@@ -1,0 +1,15 @@
+{
+ "relevance": 0.7,
+ "stance": 0.0,
+ "confidence": 0.79,
+ "reason": "The speech discusses monetary policy independence and QE, but describes UK inflation risks as well contained and medium-term risks as more evenly balanced, with no clear lean toward tightening or easing.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24027,
+ "prompt_tokens": 5264,
+ "completion_tokens": 63,
+ "cost_usd": 0.000689425,
+ "attempts": 1
+}

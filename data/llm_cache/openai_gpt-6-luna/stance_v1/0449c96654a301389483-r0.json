@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": 0.0,
+ "confidence": 0.78,
+ "reason": "The speech examines monetary-policy frameworks and the causes of inflation, but presents competing good-policy and good-luck explanations and ends by stressing that policy must adapt to volatility without signalling a particular near-term tightening or easing direction.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24054,
+ "prompt_tokens": 5533,
+ "completion_tokens": 71,
+ "cost_usd": 0.00072705,
+ "attempts": 1
+}

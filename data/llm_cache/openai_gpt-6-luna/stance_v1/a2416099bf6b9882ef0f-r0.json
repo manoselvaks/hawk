@@ -1,0 +1,15 @@
+{
+ "relevance": 0.35,
+ "stance": 0.0,
+ "confidence": 0.79,
+ "reason": "The extract primarily discusses macroprudential policy, financial stability, and trade-offs with growth; it notes that interest rates are used to influence demand and inflation but expresses no lean on their future path.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 9223,
+ "prompt_tokens": 2392,
+ "completion_tokens": 67,
+ "cost_usd": 0.000332425,
+ "attempts": 1
+}

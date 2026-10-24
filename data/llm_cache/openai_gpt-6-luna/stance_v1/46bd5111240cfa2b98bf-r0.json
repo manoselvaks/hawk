@@ -1,0 +1,15 @@
+{
+ "relevance": 0.35,
+ "stance": 0.0,
+ "confidence": 0.87,
+ "reason": "The speech focuses on financial stability, market regulation and misconduct, with only brief references to monetary policy tools and the low-for-long interest-rate environment, and gives no directional signal about future Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21980,
+ "prompt_tokens": 5050,
+ "completion_tokens": 67,
+ "cost_usd": 0.000664675,
+ "attempts": 1
+}

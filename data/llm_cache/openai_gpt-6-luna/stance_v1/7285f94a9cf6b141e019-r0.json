@@ -1,0 +1,15 @@
+{
+ "relevance": 0.55,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speech explains how market intelligence, data and survey expectations inform the MPC, but offers no directional view on the future path of Bank Rate or the inflation outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 14103,
+ "prompt_tokens": 3428,
+ "completion_tokens": 187,
+ "cost_usd": 0.000521925,
+ "attempts": 1
+}

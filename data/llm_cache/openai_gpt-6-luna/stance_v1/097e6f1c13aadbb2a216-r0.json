@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.82,
+ "reason": "Seven members opposed an immediate rate rise, citing unexpectedly weak inflation, subdued pay and cost pressures, and risks to growth, although two members argued for raising Bank Rate now.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23883,
+ "prompt_tokens": 5304,
+ "completion_tokens": 63,
+ "cost_usd": 0.000694425,
+ "attempts": 1
+}

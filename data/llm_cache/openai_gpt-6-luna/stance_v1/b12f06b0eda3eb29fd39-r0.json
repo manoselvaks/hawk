@@ -1,0 +1,15 @@
+{
+ "relevance": 0.35,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speech mainly discusses financial-stability liquidity facilities, while noting that operations must remain consistent with monetary policy and describing how reserves are managed to keep overnight rates aligned with Bank Rate, without signalling a preferred future policy path.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12529,
+ "prompt_tokens": 3111,
+ "completion_tokens": 263,
+ "cost_usd": 0.0005203,
+ "attempts": 1
+}

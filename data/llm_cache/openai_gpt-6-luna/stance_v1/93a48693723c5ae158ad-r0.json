@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 0.5,
+ "confidence": 0.77,
+ "reason": "Bean says policy should be set \u201cvery cautiously,\u201d warning that pushing activity higher could generate inflation pressure and damage inflation-target credibility, though he does not advocate an immediate rate increase.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23971,
+ "prompt_tokens": 5125,
+ "completion_tokens": 65,
+ "cost_usd": 0.00067305,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.91,
+ "reason": "The speech says the MPC raised rates from 5% to 6% pre-emptively to restrain domestic demand and maintain the inflation target, emphasizing that policy must preserve low inflation despite pressure to ease for manufacturing.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16732,
+ "prompt_tokens": 4049,
+ "completion_tokens": 70,
+ "cost_usd": 0.00054105,
+ "attempts": 1
+}

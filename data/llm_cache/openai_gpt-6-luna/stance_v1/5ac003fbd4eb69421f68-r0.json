@@ -1,0 +1,15 @@
+{
+ "relevance": 0.65,
+ "stance": 0.0,
+ "confidence": 0.85,
+ "reason": "The speech says monetary policy may need to remain restrictive for an extended period to return inflation sustainably to target, but primarily discusses financial stability and gives no signal to tighten or ease further.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 15107,
+ "prompt_tokens": 3409,
+ "completion_tokens": 64,
+ "cost_usd": 0.00045805,
+ "attempts": 1
+}

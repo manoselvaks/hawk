@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speech discusses the MPC\u2019s growth and inflation outlook, says its central projection is for growth to recover, and assesses inflation risks as balanced while growth risks lean downside, with no clear policy-rate direction.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22079,
+ "prompt_tokens": 5188,
+ "completion_tokens": 66,
+ "cost_usd": 0.000681425,
+ "attempts": 1
+}

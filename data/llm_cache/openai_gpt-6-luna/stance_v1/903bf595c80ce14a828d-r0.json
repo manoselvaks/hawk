@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.99,
+ "reason": "Vlieghe says downside risks remain skewed, favors negative Bank Rate if persistent slack emerges, and argues against early tightening even in a stronger recovery, with stimulus likely to remain until well into 2023\u201324 in the central scenario.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20042,
+ "prompt_tokens": 4669,
+ "completion_tokens": 76,
+ "cost_usd": 0.00062155,
+ "attempts": 1
+}

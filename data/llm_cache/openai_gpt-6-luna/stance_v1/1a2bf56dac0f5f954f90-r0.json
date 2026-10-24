@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 0.5,
+ "confidence": 0.83,
+ "reason": "The speech says neutral real rates are likely to stay low, so any increases in official rates are likely to be \u201climited and gradual,\u201d while acknowledging rates may eventually rise as headwinds dissipate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20932,
+ "prompt_tokens": 4972,
+ "completion_tokens": 69,
+ "cost_usd": 0.000655925,
+ "attempts": 1
+}

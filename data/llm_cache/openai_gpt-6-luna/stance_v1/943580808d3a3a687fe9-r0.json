@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 2.0,
+ "confidence": 1,
+ "reason": "McCafferty explicitly argues that a small Bank Rate rise should happen in good time, citing limited remaining slack, possible wage pressures, and the risk that delaying normalisation would require a larger response later.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23637,
+ "prompt_tokens": 5262,
+ "completion_tokens": 65,
+ "cost_usd": 0.000690175,
+ "attempts": 1
+}

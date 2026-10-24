@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.96,
+ "reason": "Although the MPC judged inflation risks balanced, the speaker judges UK risks skewed to the upside and warns inflation may overshoot, requiring policymakers to act more assertively than markets currently expect.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24032,
+ "prompt_tokens": 5638,
+ "completion_tokens": 63,
+ "cost_usd": 0.000736175,
+ "attempts": 1
+}

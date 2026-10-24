@@ -1,0 +1,15 @@
+{
+ "relevance": 0.8,
+ "stance": 0.0,
+ "confidence": 0.91,
+ "reason": "The paper examines how UK households form inflation expectations and their implications for monetary policy, but presents empirical findings without advocating a change in Bank Rate or a particular policy direction.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24045,
+ "prompt_tokens": 5205,
+ "completion_tokens": 129,
+ "cost_usd": 0.00071505,
+ "attempts": 1
+}

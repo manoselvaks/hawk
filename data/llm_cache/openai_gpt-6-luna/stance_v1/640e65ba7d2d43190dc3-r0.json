@@ -1,0 +1,15 @@
+{
+ "relevance": 0.5,
+ "stance": 0.0,
+ "confidence": 0.77,
+ "reason": "The speech mainly discusses productivity and business investment, while noting that the economy is expected to slow as higher inflation squeezes real earnings and that the Committee will monitor incoming evidence and both upside and downside risks, without signalling a policy lean.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 7061,
+ "prompt_tokens": 2048,
+ "completion_tokens": 157,
+ "cost_usd": 0.000334425,
+ "attempts": 1
+}

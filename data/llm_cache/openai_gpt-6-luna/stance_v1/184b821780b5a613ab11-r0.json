@@ -1,0 +1,15 @@
+{
+ "relevance": 0.7,
+ "stance": 0.0,
+ "confidence": 0.78,
+ "reason": "The speech discusses monetary-policy frameworks and warns that a large shock could unsettle inflation expectations, but it offers no directional signal about changing Bank Rate or the policy stance.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 9401,
+ "prompt_tokens": 2508,
+ "completion_tokens": 61,
+ "cost_usd": 0.000343925,
+ "attempts": 1
+}

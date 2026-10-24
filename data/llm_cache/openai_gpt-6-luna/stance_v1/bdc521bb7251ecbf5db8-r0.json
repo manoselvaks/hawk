@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.91,
+ "reason": "The Committee voted five to four to cut Bank Rate by 25 basis points, with the majority citing subdued output and downside risks to demand, although a substantial minority preferred to hold rates because inflation pressures remained a concern.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23440,
+ "prompt_tokens": 5146,
+ "completion_tokens": 72,
+ "cost_usd": 0.000679175,
+ "attempts": 1
+}

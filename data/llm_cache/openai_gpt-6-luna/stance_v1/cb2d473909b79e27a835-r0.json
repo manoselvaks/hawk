@@ -1,0 +1,15 @@
+{
+ "relevance": 0.6,
+ "stance": 0.0,
+ "confidence": 0.83,
+ "reason": "The speech discusses the case for monetary policy focused on stable, low inflation and the trade-off between protecting struggling sectors and maintaining economy-wide stability, but gives no indication of a future change in policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 10902,
+ "prompt_tokens": 2682,
+ "completion_tokens": 172,
+ "cost_usd": 0.000421175,
+ "attempts": 1
+}

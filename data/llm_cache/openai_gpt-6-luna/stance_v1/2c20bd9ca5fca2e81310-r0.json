@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.88,
+ "reason": "The Committee cut Bank Rate by 0.25 percentage points and judged that a gradual further withdrawal of restraint was appropriate, while stressing inflation persistence risks and that policy must remain restrictive for sufficiently long.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17502,
+ "prompt_tokens": 3977,
+ "completion_tokens": 66,
+ "cost_usd": 0.00053005,
+ "attempts": 1
+}

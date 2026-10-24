@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.89,
+ "reason": "Most members judged that no change in the repo rate was needed, with inflation risks broadly balanced and near-term demand downside risks offsetting upside inflation concerns, although one member favoured a rise.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22228,
+ "prompt_tokens": 4849,
+ "completion_tokens": 64,
+ "cost_usd": 0.00063805,
+ "attempts": 1
+}

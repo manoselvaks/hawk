@@ -60,6 +60,10 @@ def clean(x: Any) -> Any:
     return x
 
 
+def _p_text(p: float) -> str:
+    return "< 0.001" if p < 0.001 else f"= {p:.3f}"
+
+
 def _sig(p: float | None) -> bool:
     return p is not None and p < ALPHA
 
@@ -197,14 +201,27 @@ def takeaways(detail: dict[str, Any]) -> dict[str, str]:
     holds_like_cuts = (
         abs((tab["hold"]["mean_tone_before"] or 0) - (tab["cut"]["mean_tone_before"] or 0)) < 0.1
     )
-    flat = all(abs(tab[k]["tone_change"] or 0) < 0.15 for k in ("hike", "cut"))
+    moved = [k for k in ("hike", "cut") if abs(tab[k]["tone_change"] or 0) >= 0.15]
     es_txt += (
         "Tone before hikes stood out"
         + (", while holds and cuts looked alike" if holds_like_cuts else "")
         + (
             "; tone did not visibly build up in the final weeks before a move."
-            if flat
-            else "; tone also shifted in the final weeks before a move."
+            if not moved
+            else "; "
+            + " and ".join(
+                f"tone {'rose' if tab[k]['tone_change'] > 0 else 'fell'} a further "
+                f"{abs(tab[k]['tone_change']):.2f} in the last four weeks before {k}s "
+                f"(95% CI {tab[k]['tone_change_ci_low']:+.2f} to "
+                f"{tab[k]['tone_change_ci_high']:+.2f})"
+                for k in moved
+            )
+            + "".join(
+                f", with no such build-up before {k}s ({tab[k]['tone_change']:+.2f})"
+                for k in ("hike", "cut")
+                if k not in moved
+            )
+            + "."
         )
     )
     pred = detail["prediction_test"]
@@ -219,6 +236,20 @@ def takeaways(detail: dict[str, Any]) -> dict[str, str]:
         + ("still adds" if gm["ci_low"] > 0 else "adds nothing reliable")
         + f" (gain {gm['mean_gain']:+.3f}, CI {gm['ci_low']:+.3f} to {gm['ci_high']:+.3f})."
     )
+    ds = detail["dissent"].get("slope")
+    if ds:
+        dv = {v["label"]: v["mean_tone"] for v in detail["dissent"]["by_vote"]}
+        pt_txt += (
+            " Individual members are different: those who went on to vote for a higher rate "
+            f"than the majority had spoken at {dv['Voted for a higher rate']:+.2f} on average, "
+            f"those who voted with it at {dv['Voted with the majority']:+.2f} and those who "
+            f"voted lower at {dv['Voted for a lower rate']:+.2f} "
+            + (
+                f"(slope p {_p_text(ds['p_value'])})."
+                if _sig(ds["p_value"])
+                else f"(slope p = {ds['p_value']:.2f}, not significant)."
+            )
+        )
     s = detail["market_reaction"]["regressions"]["stance"]
     pl = detail["market_reaction"]["placebo_stance"]
     mr_txt = (
@@ -235,20 +266,19 @@ def takeaways(detail: dict[str, Any]) -> dict[str, str]:
     return {"event_study": es_txt, "prediction_test": pt_txt, "market_reaction": mr_txt}
 
 
-INTERIM_CAVEAT = {
-    "title": "Interim: word-list scores",
-    "text": "These results use the word-list baseline, not the AI scorer: the AI pass over "
-    "the full corpus has not run yet. The baseline agreed with the hand labels about as "
-    "well as the AI did, but it is a cruder reading of tone. Every number here will be "
-    "recomputed from the AI scores.",
+WORDLIST_CAVEAT = {
+    "title": "Word-list scores",
+    "text": "These results use the word-list baseline, not the AI scorer: a robustness run. "
+    "The baseline agreed with the hand labels about as well as the AI did, but it is a "
+    "cruder reading of tone, and its scale is compressed.",
 }
 
 
 def findings_json(detail: dict[str, Any], evaluation: dict[str, Any] | None) -> dict[str, Any]:
     tk = takeaways(detail)
-    interim = detail["model"] == dataset.BASELINE_MODEL
-    if interim:
-        tk = {k: "Interim, word-list scores. " + v for k, v in tk.items()}
+    wordlist = detail["model"] == dataset.BASELINE_MODEL
+    if wordlist:
+        tk = {k: "Word-list scores. " + v for k, v in tk.items()}
     es = detail["event_study"]
     pred = detail["prediction_test"]
     mkt = detail["market_reaction"]
@@ -267,8 +297,8 @@ def findings_json(detail: dict[str, Any], evaluation: dict[str, Any] | None) -> 
         "prompt_version": detail["prompt_version"],
         "sample": detail["sample"],
         "headline": [
-            {**h, "detail": "Interim, word-list scores: " + h["detail"]}
-            if interim and h["id"] != "accuracy"
+            {**h, "detail": "Word-list scores: " + h["detail"]}
+            if wordlist and h["id"] != "accuracy"
             else h
             for h in headline(pred, mkt, evaluation)
         ],
@@ -353,7 +383,7 @@ def findings_json(detail: dict[str, Any], evaluation: dict[str, Any] | None) -> 
                 },
             ],
         },
-        "caveats": ([INTERIM_CAVEAT] if interim else []) + CAVEATS,
+        "caveats": ([WORDLIST_CAVEAT] if wordlist else []) + CAVEATS,
     }
 
 
@@ -370,7 +400,8 @@ CAVEATS = [
     {
         "title": "One labeller",
         "text": "The AI was checked against one student's labels. The two AI models agree with "
-        "each other far more than either agrees with him, so the labels are a noisy yardstick.",
+        "each other far more than either agrees with the labels, so the labels are a noisy "
+        "yardstick.",
     },
     {
         "title": "The model knows history",

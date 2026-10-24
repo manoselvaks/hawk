@@ -1,0 +1,15 @@
+{
+ "relevance": 0.94,
+ "stance": -1.0,
+ "confidence": 0.88,
+ "reason": "The speech says the UK is most likely to keep growing at a slower pace with low inflation, and that the effects of this year\u2019s monetary easing will feed through, while advising \u201cprudence\u201d and \u201cpatience\u201d rather than signalling further tightening.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 11963,
+ "prompt_tokens": 3082,
+ "completion_tokens": 79,
+ "cost_usd": 0.000424675,
+ "attempts": 1
+}

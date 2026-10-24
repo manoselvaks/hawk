@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.82,
+ "reason": "The MPC unanimously held Bank Rate but judged it more likely than not that rates would need to rise over the forecast period as inflation returned to and moved slightly above target, while emphasizing that any increases would be gradual and risks were skewed slightly to the downside near term.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24058,
+ "prompt_tokens": 5220,
+ "completion_tokens": 259,
+ "cost_usd": 0.000781925,
+ "attempts": 1
+}

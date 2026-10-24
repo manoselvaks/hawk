@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.5,
+ "confidence": 0.94,
+ "reason": "King stresses the risk that inflation will fall below target amid a sharp contraction and says the MPC is preparing unconventional measures to stimulate credit and demand if needed.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19524,
+ "prompt_tokens": 4360,
+ "completion_tokens": 152,
+ "cost_usd": 0.000620925,
+ "attempts": 1
+}

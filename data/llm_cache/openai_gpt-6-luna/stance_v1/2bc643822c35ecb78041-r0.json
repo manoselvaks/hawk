@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.91,
+ "reason": "McCafferty argues that weak activity and subdued wages justify looking through supply-driven above-target inflation, saying tighter policy would depress activity and could derail the recovery.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20130,
+ "prompt_tokens": 4779,
+ "completion_tokens": 59,
+ "cost_usd": 0.0006268,
+ "attempts": 1
+}

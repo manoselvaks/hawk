@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": -1.0,
+ "confidence": 0.82,
+ "reason": "The speech is substantially about UK monetary policy and explains that external influences are disinflationary, policy is therefore easier than otherwise, and the Bank is making a further move today, while presenting policy as balancing inflation risks rather than calling for aggressive easing.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 10655,
+ "prompt_tokens": 2724,
+ "completion_tokens": 243,
+ "cost_usd": 0.000461925,
+ "attempts": 1
+}

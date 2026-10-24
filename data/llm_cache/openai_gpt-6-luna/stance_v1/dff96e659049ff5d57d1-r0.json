@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.96,
+ "reason": "Although Weale calls the decision to tighten finely balanced and oil prices provide breathing space, he emphasizes accelerating wage growth and falling unemployment as an upside inflation risk, saying that continued wage acceleration without productivity growth would strengthen the case for a Bank Rate rise.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23999,
+ "prompt_tokens": 5544,
+ "completion_tokens": 75,
+ "cost_usd": 0.000730425,
+ "attempts": 1
+}

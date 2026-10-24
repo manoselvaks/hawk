@@ -1,0 +1,15 @@
+{
+ "relevance": 0.3,
+ "stance": null,
+ "confidence": 0.85,
+ "reason": "The speech is mainly about investment, productivity, technology and Scottish economic opportunities, with interest rates mentioned only in passing as part of the Bank\u2019s role.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 11590,
+ "prompt_tokens": 3023,
+ "completion_tokens": 58,
+ "cost_usd": 0.0004068,
+ "attempts": 1
+}

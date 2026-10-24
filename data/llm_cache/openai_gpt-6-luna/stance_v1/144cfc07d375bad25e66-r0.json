@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.95,
+ "reason": "Fisher says significant medium-term downside risks to inflation and the risk of undershooting the target justified aggressive easing, including cutting Bank Rate to 0.5% and expanding asset purchases to \u00a3125bn, while stressing the need to restore demand.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21515,
+ "prompt_tokens": 4757,
+ "completion_tokens": 76,
+ "cost_usd": 0.00063255,
+ "attempts": 1
+}

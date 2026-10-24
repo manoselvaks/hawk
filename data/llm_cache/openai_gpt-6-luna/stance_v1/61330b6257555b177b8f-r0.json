@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.93,
+ "reason": "The majority judged the existing stance appropriate for now but saw prospective weakness in employment and inflation and downside risks as potentially requiring further action, while two members preferred an immediate \u00a3100 billion increase in asset purchases.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24109,
+ "prompt_tokens": 5299,
+ "completion_tokens": 67,
+ "cost_usd": 0.0006958,
+ "attempts": 1
+}

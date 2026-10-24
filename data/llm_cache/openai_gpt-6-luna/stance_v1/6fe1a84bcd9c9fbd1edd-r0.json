@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.88,
+ "reason": "The Committee unanimously maintained Bank Rate at 0.5% and the \u00a3175 billion asset-purchase programme, while noting substantial spare capacity, rising unemployment and weak demand, though it judged the medium-term outlook little changed and saw no case to adjust the programme.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19785,
+ "prompt_tokens": 4463,
+ "completion_tokens": 81,
+ "cost_usd": 0.0005983,
+ "attempts": 1
+}

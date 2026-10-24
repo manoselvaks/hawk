@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 0.0,
+ "confidence": 0.86,
+ "reason": "The speech focuses on improving inflation forecasts and monetary-policy analysis, but it offers no clear lean on future Bank Rate, instead arguing for better data and forecasting infrastructure to support policy decisions.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17162,
+ "prompt_tokens": 3984,
+ "completion_tokens": 64,
+ "cost_usd": 0.000529925,
+ "attempts": 1
+}

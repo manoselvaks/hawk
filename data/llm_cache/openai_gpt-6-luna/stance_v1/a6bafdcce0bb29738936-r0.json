@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech concerns prudential regulation, bank governance, ring fencing and competition, not the UK inflation outlook or monetary policy decisions and tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21216,
+ "prompt_tokens": 4792,
+ "completion_tokens": 55,
+ "cost_usd": 0.000626425,
+ "attempts": 1
+}

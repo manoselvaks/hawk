@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.82,
+ "reason": "Although he stresses weak demand and the limits of further QE, he warns that inflation may return to target only slowly and highlights persistent administered-price and food-price pressures, suggesting caution about additional easing.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18255,
+ "prompt_tokens": 4249,
+ "completion_tokens": 66,
+ "cost_usd": 0.00056405,
+ "attempts": 1
+}

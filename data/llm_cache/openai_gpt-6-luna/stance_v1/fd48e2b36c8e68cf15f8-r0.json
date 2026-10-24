@@ -1,0 +1,15 @@
+{
+ "relevance": 0.35,
+ "stance": 0.5,
+ "confidence": 0.86,
+ "reason": "The speech is mainly about insurance regulation, but it says interest-rate increases are getting closer and expected to begin, while stressing they will be gradual and limited and their timing depends on the data.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20398,
+ "prompt_tokens": 4419,
+ "completion_tokens": 238,
+ "cost_usd": 0.0006713,
+ "attempts": 1
+}

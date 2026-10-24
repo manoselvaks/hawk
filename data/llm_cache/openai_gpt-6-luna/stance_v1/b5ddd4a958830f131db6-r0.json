@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.91,
+ "reason": "Saunders argues that underlying pay growth and labour-cost risks are likely to remain modest, says policy should not rule out unemployment below 5%, and sees no major upside inflation risk from labour costs in 2017, while acknowledging sterling-driven inflation and that tightening could still be warranted if warning signs emerge.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23830,
+ "prompt_tokens": 5709,
+ "completion_tokens": 87,
+ "cost_usd": 0.00075705,
+ "attempts": 1
+}

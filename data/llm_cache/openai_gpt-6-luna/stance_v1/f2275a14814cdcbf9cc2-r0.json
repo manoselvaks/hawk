@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": 0.0,
+ "confidence": 0.84,
+ "reason": "The speech discusses monetary policy and recent tightening, but its central focus is the interaction with financial stability and it offers no clear lean on future rates, saying only that the duration of higher rates is unknown.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17089,
+ "prompt_tokens": 3976,
+ "completion_tokens": 68,
+ "cost_usd": 0.000530925,
+ "attempts": 1
+}

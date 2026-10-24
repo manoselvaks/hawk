@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.94,
+ "reason": "King discusses the inflation outlook and monetary policy challenges, but describes risks on both sides, says the central view is steady growth and low inflation, and offers no clear lean toward tightening or easing.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 14789,
+ "prompt_tokens": 3615,
+ "completion_tokens": 64,
+ "cost_usd": 0.0004838,
+ "attempts": 1
+}

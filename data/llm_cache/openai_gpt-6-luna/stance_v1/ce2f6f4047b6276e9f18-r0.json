@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speech says inflation should move towards target and that the chances of being above or below target are roughly equal, while defending acceptance of temporary above-target inflation rather than a markedly higher Bank Rate to restrain it.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20726,
+ "prompt_tokens": 4689,
+ "completion_tokens": 68,
+ "cost_usd": 0.00062005,
+ "attempts": 1
+}

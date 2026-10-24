@@ -1,0 +1,15 @@
+{
+ "relevance": 0.98,
+ "stance": 1.0,
+ "confidence": 0.82,
+ "reason": "King stresses that inflation could rise above target as sterling\u2019s disinflationary effects fade, with high earnings growth and buoyant consumption posing risks, so domestic demand must slow sufficiently to contain inflation.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17630,
+ "prompt_tokens": 4196,
+ "completion_tokens": 213,
+ "cost_usd": 0.000630925,
+ "attempts": 1
+}

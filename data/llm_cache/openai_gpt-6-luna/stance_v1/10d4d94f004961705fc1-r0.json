@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.94,
+ "reason": "Lomax stresses that strengthening demand is putting upward pressure on costs and the labour market is tightening, arguing for early action to contain future inflation and signalling readiness to tighten further if needed.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 11071,
+ "prompt_tokens": 2924,
+ "completion_tokens": 63,
+ "cost_usd": 0.000396925,
+ "attempts": 1
+}

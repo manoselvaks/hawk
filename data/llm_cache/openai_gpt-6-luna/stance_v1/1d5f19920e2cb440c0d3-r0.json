@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.78,
+ "reason": "The Committee left the repo rate unchanged at 4%, balancing below-target inflation and downside risks to growth against buoyant household spending, a rising inflation projection at the two-year horizon and a possible later cut if demand slowed.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24099,
+ "prompt_tokens": 5469,
+ "completion_tokens": 248,
+ "cost_usd": 0.00080755,
+ "attempts": 1
+}

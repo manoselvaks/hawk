@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.97,
+ "reason": "The speaker says progress is insufficient to warrant tightening, that weaker growth and inflation mean firming will take longer, and that any eventual rate rises are likely to be gradual and limited.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24067,
+ "prompt_tokens": 5461,
+ "completion_tokens": 140,
+ "cost_usd": 0.00075255,
+ "attempts": 1
+}

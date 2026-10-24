@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.95,
+ "reason": "He argues that spare capacity is at least as large as in July, the labour market is loosening, and downside risks from a demand slowdown outweigh near-term momentum, implying lower inflation risks and a less pressing case for tightening.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23823,
+ "prompt_tokens": 5596,
+ "completion_tokens": 72,
+ "cost_usd": 0.000735425,
+ "attempts": 1
+}

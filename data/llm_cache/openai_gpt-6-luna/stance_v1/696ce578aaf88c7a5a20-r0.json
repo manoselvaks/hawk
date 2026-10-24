@@ -1,0 +1,15 @@
+{
+ "relevance": 0.1,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech is about Basel III bank capital and liquidity rules, resolution regimes, macroprudential supervision, and the institutional design of UK financial regulation, rather than the inflation, demand, labour-market or Bank Rate outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17217,
+ "prompt_tokens": 4218,
+ "completion_tokens": 71,
+ "cost_usd": 0.000562675,
+ "attempts": 1
+}

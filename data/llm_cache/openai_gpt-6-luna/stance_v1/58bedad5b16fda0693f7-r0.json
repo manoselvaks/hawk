@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.95,
+ "reason": "The speaker concludes that weaker global growth, geopolitical risks and weak wage and commodity-price pressures mean interest rates could remain lower for longer without endangering the inflation target, despite saying his earlier judgement favoured moving rates sooner.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24113,
+ "prompt_tokens": 5704,
+ "completion_tokens": 71,
+ "cost_usd": 0.000748425,
+ "attempts": 1
+}

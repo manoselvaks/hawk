@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.9,
+ "reason": "The Committee judged growth near trend and inflation close to target, with most members supporting an unchanged rate while one member argued for a 25-basis-point cut, leaving the overall position balanced.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19861,
+ "prompt_tokens": 4423,
+ "completion_tokens": 64,
+ "cost_usd": 0.0005848,
+ "attempts": 1
+}

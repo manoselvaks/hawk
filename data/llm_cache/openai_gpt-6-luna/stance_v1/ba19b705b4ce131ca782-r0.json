@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.84,
+ "reason": "The Committee held Bank Rate and asset purchases unchanged, with most judging no further stimulus necessary, but one member strongly favoured additional purchases and the text emphasizes subdued growth, spare capacity and headwinds to recovery.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18788,
+ "prompt_tokens": 4158,
+ "completion_tokens": 70,
+ "cost_usd": 0.000554675,
+ "attempts": 1
+}

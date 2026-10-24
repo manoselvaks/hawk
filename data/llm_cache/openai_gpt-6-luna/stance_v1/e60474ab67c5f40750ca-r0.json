@@ -1,0 +1,15 @@
+{
+ "relevance": 0.2,
+ "stance": null,
+ "confidence": 0.95,
+ "reason": "The speech focuses on the FPC\u2019s monitoring of corporate debt, financial stability and the supply of business finance, rather than the monetary policy outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 14108,
+ "prompt_tokens": 3385,
+ "completion_tokens": 172,
+ "cost_usd": 0.00050905,
+ "attempts": 1
+}

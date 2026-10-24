@@ -8,7 +8,9 @@ rate, ``-1`` lower, ``0`` with the majority (from the Bank's voting record).
 
 Model: linear regression of the outcome on tone, with standard errors clustered by
 member (a few members dissent often, so votes by one person are not independent).
-Also reported: the mean tone before each kind of vote.
+Also reported: the mean tone before each kind of vote, and, as a robustness check,
+the same regression controlling for the member's own vote at the previous decision
+(dissenters tend to dissent again, and their speeches may simply reflect that).
 """
 
 from __future__ import annotations
@@ -65,6 +67,7 @@ def member_meetings(
     dec = decisions.sort_values("date").reset_index(drop=True)
     rows = []
     prev: pd.Timestamp | None = None
+    prev_votes: dict[str, int] = {}
     for d in dec.to_dict("records"):
         date = pd.Timestamp(d["date"])
         win = sp[(sp["published_date"] < date)]
@@ -72,21 +75,29 @@ def member_meetings(
             win = win[win["published_date"] >= prev]
         votes = parse_votes(d["dissenters"])
         sitting = set(members.loc[(first <= date) & (last >= date), "member"])
+        this_votes = {
+            str(m): (
+                0
+                if votes.get(str(m)) is None
+                else vote_direction(votes[str(m)], int(d["change_bp"]))
+            )
+            for m in sitting
+        }
         for name, g in win.groupby("speaker"):
             if name not in sitting:
                 continue
-            pref = votes.get(str(name))
-            direction = 0 if pref is None else vote_direction(pref, int(d["change_bp"]))
             rows.append(
                 {
                     "date": date,
                     "member": name,
                     "tone": float(g["llm_stance"].mean()),
                     "n_speeches": len(g),
-                    "vote": direction,
+                    "vote": this_votes[str(name)],
+                    "prev_vote": prev_votes.get(str(name), np.nan),
                 }
             )
         prev = date
+        prev_votes = this_votes
     return pd.DataFrame(rows)
 
 
@@ -96,11 +107,8 @@ def dissent_test(
     mm = member_meetings(scores, decisions, members)
     if mm.empty or mm["member"].nunique() < 3:
         return {"n": len(mm)}
-    X = sm.add_constant(mm[["tone"]].astype(float))
-    res = sm.OLS(mm["vote"].astype(float), X).fit(
-        cov_type="cluster", cov_kwds={"groups": pd.factorize(mm["member"])[0]}
-    )
-    ci = res.conf_int().loc["tone"]
+    slope = _tone_slope(mm, ["tone"])
+    with_prev = mm.dropna(subset=["prev_vote"])
     by_vote = []
     for v, label in [
         (1, "Voted for a higher rate"),
@@ -116,13 +124,27 @@ def dissent_test(
         "n_members": int(mm["member"].nunique()),
         "n_dissents": int((mm["vote"] != 0).sum()),
         "by_vote": by_vote,
-        "slope": {
-            "term": "tone",
-            "label": "Member's own speech tone",
-            "estimate": float(res.params["tone"]),
-            "std_error": float(res.bse["tone"]),
-            "p_value": float(res.pvalues["tone"]),
-            "ci_low": float(ci.iloc[0]),
-            "ci_high": float(ci.iloc[1]),
+        "slope": slope,
+        "slope_controlling_prev_vote": {
+            **_tone_slope(with_prev, ["tone", "prev_vote"]),
+            "n": len(with_prev),
         },
+    }
+
+
+def _tone_slope(mm: pd.DataFrame, cols: list[str]) -> dict[str, Any]:
+    """OLS of the vote on ``cols``, clustered by member; the coefficient on tone."""
+    X = sm.add_constant(mm[cols].astype(float))
+    res = sm.OLS(mm["vote"].astype(float), X).fit(
+        cov_type="cluster", cov_kwds={"groups": pd.factorize(mm["member"])[0]}
+    )
+    ci = res.conf_int().loc["tone"]
+    return {
+        "term": "tone",
+        "label": "Member's own speech tone",
+        "estimate": float(res.params["tone"]),
+        "std_error": float(res.bse["tone"]),
+        "p_value": float(res.pvalues["tone"]),
+        "ci_low": float(ci.iloc[0]),
+        "ci_high": float(ci.iloc[1]),
     }

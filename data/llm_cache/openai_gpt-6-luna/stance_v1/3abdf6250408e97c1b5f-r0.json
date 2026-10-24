@@ -1,0 +1,15 @@
+{
+ "relevance": 0.2,
+ "stance": null,
+ "confidence": 0.9,
+ "reason": "The extracts focus on how uncertainty, especially Brexit downside risks, discourages business investment and affects employment and productivity, without addressing the inflation outlook, Bank Rate or monetary policy tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12752,
+ "prompt_tokens": 3244,
+ "completion_tokens": 63,
+ "cost_usd": 0.000436925,
+ "attempts": 1
+}

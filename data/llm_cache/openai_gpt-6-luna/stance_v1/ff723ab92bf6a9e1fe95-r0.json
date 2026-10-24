@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": 0.0,
+ "confidence": 0.84,
+ "reason": "The speech focuses on monetary policy and inflation risks, but emphasizes uncertainty, monitoring developments, and readiness to act \u201cin either direction,\u201d without signalling a clear tightening or easing lean.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17116,
+ "prompt_tokens": 4027,
+ "completion_tokens": 63,
+ "cost_usd": 0.0005348,
+ "attempts": 1
+}

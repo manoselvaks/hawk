@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.94,
+ "reason": "Pill argues that inflation persistence is becoming more pressing and that the MPC should withdraw restriction more cautiously, warning against cutting Bank Rate too far or too fast, while allowing for further cuts if the outlook evolves as expected.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24073,
+ "prompt_tokens": 5244,
+ "completion_tokens": 69,
+ "cost_usd": 0.000689925,
+ "attempts": 1
+}

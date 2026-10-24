@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The extract discusses banking, money funds, securities dealers and securities lending risks, rather than the UK monetary policy outlook or policy tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 6214,
+ "prompt_tokens": 1923,
+ "completion_tokens": 97,
+ "cost_usd": 0.0002888,
+ "attempts": 1
+}

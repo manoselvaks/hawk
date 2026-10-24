@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.93,
+ "reason": "The speaker supports the August stimulus and argues that fully offsetting sterling\u2019s inflation impact with tighter policy would be excessively costly for output and employment, while accepting some above-target inflation but noting it cannot be tolerated indefinitely.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21564,
+ "prompt_tokens": 4988,
+ "completion_tokens": 69,
+ "cost_usd": 0.000657925,
+ "attempts": 1
+}

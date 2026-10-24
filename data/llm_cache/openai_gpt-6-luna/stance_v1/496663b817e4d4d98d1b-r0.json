@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.93,
+ "reason": "The Committee concluded that its forecast clearly pointed to a further rate cut, with weaker activity, lower inflation projections and downside risks, although members differed over the size of the cut and some noted continuing domestic inflation pressures.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24064,
+ "prompt_tokens": 5456,
+ "completion_tokens": 69,
+ "cost_usd": 0.000716425,
+ "attempts": 1
+}

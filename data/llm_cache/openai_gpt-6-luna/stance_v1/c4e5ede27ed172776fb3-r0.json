@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 0.95,
+ "reason": "The Committee judged that without further stimulus inflation was likely to remain below target, and voted to expand asset purchases by \u00a350 billion, with three members preferring an even larger expansion.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23195,
+ "prompt_tokens": 5115,
+ "completion_tokens": 245,
+ "cost_usd": 0.0007618,
+ "attempts": 1
+}

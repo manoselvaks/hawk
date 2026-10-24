@@ -1,0 +1,15 @@
+{
+ "relevance": 0.8,
+ "stance": 0.0,
+ "confidence": 0.78,
+ "reason": "The speech examines the effects of the low-inflation regime and policy trade-offs, but balances concerns about household debt and inflation expectations against the risk that restraining adjustment would unnecessarily hold down growth, without signalling a preferred change in Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24006,
+ "prompt_tokens": 5327,
+ "completion_tokens": 170,
+ "cost_usd": 0.0007508,
+ "attempts": 1
+}

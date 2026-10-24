@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.97,
+ "reason": "The speech says the inflation risks are \u201cfinely balanced\u201d and explains that the author voted to maintain Bank Rate at 5.0%, while highlighting both downside risks to demand and upside risks to persistent inflation.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18997,
+ "prompt_tokens": 4264,
+ "completion_tokens": 114,
+ "cost_usd": 0.000589925,
+ "attempts": 1
+}

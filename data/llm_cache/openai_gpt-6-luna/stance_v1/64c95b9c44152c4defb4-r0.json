@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech is about workplace diversity and inclusion in the Bank and insurance sector, including the PRA\u2019s regulatory expectations, with no discussion of the monetary policy outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18095,
+ "prompt_tokens": 4210,
+ "completion_tokens": 59,
+ "cost_usd": 0.000555675,
+ "attempts": 1
+}

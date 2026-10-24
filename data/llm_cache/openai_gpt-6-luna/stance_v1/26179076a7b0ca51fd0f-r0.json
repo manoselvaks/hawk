@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech is about prudential regulation of insurers, policyholder protection, Solvency II reform and insurance stress testing, not the UK monetary policy outlook or Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21757,
+ "prompt_tokens": 4942,
+ "completion_tokens": 62,
+ "cost_usd": 0.000648675,
+ "attempts": 1
+}

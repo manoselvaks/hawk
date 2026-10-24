@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.9,
+ "reason": "The majority held Bank Rate at 5.25%, judging that the risks had not shifted enough to change policy, while some members favoured a 25-basis-point cut because of downside risks to growth and inflation.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22647,
+ "prompt_tokens": 4947,
+ "completion_tokens": 188,
+ "cost_usd": 0.0007123,
+ "attempts": 1
+}

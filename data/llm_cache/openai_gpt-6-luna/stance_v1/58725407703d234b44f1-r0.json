@@ -1,0 +1,15 @@
+{
+ "relevance": 0,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The extracts concern market-based finance, derivatives margin calls and liquidity pressures on pension funds and other investors, not UK monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 943,
+ "prompt_tokens": 869,
+ "completion_tokens": 95,
+ "cost_usd": 0.0001344,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.78,
+ "reason": "The speech is chiefly about UK monetary policy and, while noting tight labour-market and consumer-demand upside risks, says the main risk from low saving is on the downside and that a sharper slowdown would require interest-rate cuts to keep inflation on target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24038,
+ "prompt_tokens": 5375,
+ "completion_tokens": 255,
+ "cost_usd": 0.0007993,
+ "attempts": 1
+}

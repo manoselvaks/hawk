@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 0.99,
+ "reason": "The Committee agreed that interest rates needed to be reduced again, projections pointed to easing, and some members argued for cuts of 75\u2013100 basis points because of weak activity and downside inflation risks.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24052,
+ "prompt_tokens": 5327,
+ "completion_tokens": 66,
+ "cost_usd": 0.0006988,
+ "attempts": 1
+}

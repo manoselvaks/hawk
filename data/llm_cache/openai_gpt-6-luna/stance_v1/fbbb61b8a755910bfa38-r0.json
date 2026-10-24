@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.91,
+ "reason": "The Committee judged the outlook broadly consistent with its target and said all members agreed that more evidence of slack reducing was needed before a Bank Rate increase, while expected any eventual rise to be gradual.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22960,
+ "prompt_tokens": 5087,
+ "completion_tokens": 64,
+ "cost_usd": 0.0006678,
+ "attempts": 1
+}

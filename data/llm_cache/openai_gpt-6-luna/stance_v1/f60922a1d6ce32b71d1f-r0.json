@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech is about operationalising macroprudential policy to identify and mitigate systemic financial risks and build financial-system resilience, not the UK monetary policy outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 10950,
+ "prompt_tokens": 2661,
+ "completion_tokens": 58,
+ "cost_usd": 0.00036155,
+ "attempts": 1
+}

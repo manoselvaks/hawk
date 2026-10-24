@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": 0.0,
+ "confidence": 0.82,
+ "reason": "The speaker says a small tightening would be needed under a smooth Brexit scenario, but that weaker global conditions, a likely temporary undershoot of inflation and recent developments delay any rate rise, with no pickup expected in the next few months.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24072,
+ "prompt_tokens": 5350,
+ "completion_tokens": 74,
+ "cost_usd": 0.000705675,
+ "attempts": 1
+}

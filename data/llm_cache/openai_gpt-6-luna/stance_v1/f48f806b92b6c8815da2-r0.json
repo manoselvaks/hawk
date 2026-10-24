@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech concerns pension risk transfer and insurers\u2019 investment risks, PRA regulation and sector resilience, rather than UK monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 5785,
+ "prompt_tokens": 1775,
+ "completion_tokens": 52,
+ "cost_usd": 0.0002478,
+ "attempts": 1
+}

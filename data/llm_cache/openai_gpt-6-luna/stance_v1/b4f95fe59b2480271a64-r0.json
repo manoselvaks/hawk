@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.5,
+ "confidence": 0.95,
+ "reason": "The speaker says the balance of risks has decisively shifted to the downside, inflation is more likely to return to target or undershoot, and monetary policy should counter the risk that activity and employment weaken more than necessary.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24115,
+ "prompt_tokens": 5668,
+ "completion_tokens": 72,
+ "cost_usd": 0.000744425,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": -1.0,
+ "confidence": 0.86,
+ "reason": "The speech argues that global competition, technology and price transparency are exerting downward pressure on inflation and \u201cwill limit or delay the rise in interest rates necessary\u201d even when domestic demand is strong, while recommending pre-emptive but delicate policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23830,
+ "prompt_tokens": 5258,
+ "completion_tokens": 77,
+ "cost_usd": 0.000695675,
+ "attempts": 1
+}

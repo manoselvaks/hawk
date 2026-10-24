@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.5,
+ "confidence": 0.95,
+ "reason": "The speaker says they prefer to lean against inflation momentum, stresses that the labour market and wage growth remain very tight, and says further Bank Rate increases cannot be ruled out.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24016,
+ "prompt_tokens": 5785,
+ "completion_tokens": 62,
+ "cost_usd": 0.00075405,
+ "attempts": 1
+}

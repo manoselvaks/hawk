@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.93,
+ "reason": "The speech argues that the neutral Bank Rate will probably remain below its pre-crisis level for some time, owing to persistent risk perceptions and demand headwinds, while noting current slack in the labour market.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23886,
+ "prompt_tokens": 5474,
+ "completion_tokens": 67,
+ "cost_usd": 0.000717675,
+ "attempts": 1
+}

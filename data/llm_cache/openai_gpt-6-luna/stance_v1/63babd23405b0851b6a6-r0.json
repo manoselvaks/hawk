@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.95,
+ "reason": "The speaker expects Bank Rate to rise, saying the decision will come into sharper relief around year-end and increases should be gradual, while emphasising that inflation pressures and domestic costs need to firm.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21078,
+ "prompt_tokens": 4853,
+ "completion_tokens": 64,
+ "cost_usd": 0.00063855,
+ "attempts": 1
+}

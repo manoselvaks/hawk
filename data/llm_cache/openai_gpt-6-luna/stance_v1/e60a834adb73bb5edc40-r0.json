@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.79,
+ "reason": "The eight-member majority held Bank Rate amid softer growth, subdued inflation and wage growth, while one member favoured a hike; the Committee expected any future increases to be gradual.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24034,
+ "prompt_tokens": 5389,
+ "completion_tokens": 254,
+ "cost_usd": 0.00080055,
+ "attempts": 1
+}

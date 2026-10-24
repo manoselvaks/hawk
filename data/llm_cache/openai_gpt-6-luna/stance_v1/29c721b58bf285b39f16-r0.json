@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.98,
+ "reason": "The Committee judged that no policy guidance knockout had been breached and, with unemployment still above the 7% threshold, agreed that it was not appropriate to tighten or loosen monetary policy at that time.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23405,
+ "prompt_tokens": 5174,
+ "completion_tokens": 65,
+ "cost_usd": 0.000679175,
+ "attempts": 1
+}

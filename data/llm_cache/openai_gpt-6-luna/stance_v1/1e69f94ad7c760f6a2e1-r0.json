@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.86,
+ "reason": "Miles says Bank Rate is likely to rise gradually from its exceptionally low level, but probably to below the pre-crisis normal, while stressing uncertainty and that this is an expectation rather than a commitment.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24008,
+ "prompt_tokens": 5371,
+ "completion_tokens": 67,
+ "cost_usd": 0.0007048,
+ "attempts": 1
+}

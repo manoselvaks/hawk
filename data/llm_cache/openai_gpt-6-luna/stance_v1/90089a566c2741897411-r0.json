@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.95,
+ "reason": "The Committee saw competing risks\u2014tight labour markets and earnings pressures could require tightening later, but inflation was below target and sterling\u2019s appreciation risked weakening output\u2014so it left rates at 6% without a clear overall lean on further tightening.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23920,
+ "prompt_tokens": 5409,
+ "completion_tokens": 74,
+ "cost_usd": 0.00071305,
+ "attempts": 1
+}

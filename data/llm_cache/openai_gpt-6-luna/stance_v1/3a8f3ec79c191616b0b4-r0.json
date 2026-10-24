@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.78,
+ "reason": "Broadbent says real interest rates still need to be low and warns sub-target inflation could persist through weak wage growth, but sees broad deflation as unlikely, expects inflation to rise, and notes the labour market is tightening.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24077,
+ "prompt_tokens": 5546,
+ "completion_tokens": 73,
+ "cost_usd": 0.000729675,
+ "attempts": 1
+}

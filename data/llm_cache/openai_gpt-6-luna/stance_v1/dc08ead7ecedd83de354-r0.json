@@ -1,0 +1,15 @@
+{
+ "relevance": 0.65,
+ "stance": -0.5,
+ "confidence": 0.65,
+ "reason": "The speech discusses the monetary framework and says that, with inflation below target and external weakness, the Bank stimulated domestic demand to avoid recession, while noting downside risks to the global recovery.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19650,
+ "prompt_tokens": 4444,
+ "completion_tokens": 67,
+ "cost_usd": 0.000588925,
+ "attempts": 1
+}

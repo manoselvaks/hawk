@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.8,
+ "reason": "He expects Bank Rate increases to be gradual and limited, judges inflationary overshoot the lesser risk amid persistent disinflation and weak growth, and says he would reassess if growth, pay and productivity falter.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22234,
+ "prompt_tokens": 5195,
+ "completion_tokens": 72,
+ "cost_usd": 0.0006853,
+ "attempts": 1
+}

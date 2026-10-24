@@ -1,0 +1,15 @@
+{
+ "relevance": 0.1,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech focuses on FinTech, digital currencies, banknotes and payment-system infrastructure, without discussing the inflation or demand outlook or signaling a Bank Rate path.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12461,
+ "prompt_tokens": 3157,
+ "completion_tokens": 59,
+ "cost_usd": 0.00042405,
+ "attempts": 1
+}

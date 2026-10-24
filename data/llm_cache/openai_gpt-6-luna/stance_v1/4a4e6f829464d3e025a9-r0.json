@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.77,
+ "reason": "The majority judged that the existing stance remained appropriate to support growth and absorb spare capacity, while inflation was below target and its near-term outlook had weakened; one member dissented in favour of an immediate rate increase.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23907,
+ "prompt_tokens": 5262,
+ "completion_tokens": 71,
+ "cost_usd": 0.000693175,
+ "attempts": 1
+}

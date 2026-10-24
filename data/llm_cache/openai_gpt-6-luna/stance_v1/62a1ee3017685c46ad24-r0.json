@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.84,
+ "reason": "The Committee unanimously raised Bank Rate by 25 basis points and said rates could rise further as necessary, with medium-term inflation risks weighted to the upside, though members favoured caution while assessing past increases.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21997,
+ "prompt_tokens": 4918,
+ "completion_tokens": 66,
+ "cost_usd": 0.000647675,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.65,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speech explains how market intelligence informs MPC decisions and Bank Rate expectations, but it advocates a new engagement forum rather than expressing a directional view on future policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21466,
+ "prompt_tokens": 4722,
+ "completion_tokens": 59,
+ "cost_usd": 0.000619675,
+ "attempts": 1
+}

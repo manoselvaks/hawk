@@ -1,0 +1,15 @@
+{
+ "relevance": 0.65,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speech discusses monetary policy tools and the use of forward guidance, but mainly to illustrate communication and public engagement, describing guidance as having supported spending without arguing for a particular future policy direction.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18105,
+ "prompt_tokens": 4275,
+ "completion_tokens": 65,
+ "cost_usd": 0.0005668,
+ "attempts": 1
+}

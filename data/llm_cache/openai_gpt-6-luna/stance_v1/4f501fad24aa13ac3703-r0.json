@@ -1,0 +1,15 @@
+{
+ "relevance": 0.35,
+ "stance": 0.0,
+ "confidence": 0.91,
+ "reason": "The speech is primarily about PRA supervision and prudential regulation, while describing high inflation, weak growth and past rate rises without expressing a view on the future path of Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19971,
+ "prompt_tokens": 4597,
+ "completion_tokens": 63,
+ "cost_usd": 0.00060605,
+ "attempts": 1
+}

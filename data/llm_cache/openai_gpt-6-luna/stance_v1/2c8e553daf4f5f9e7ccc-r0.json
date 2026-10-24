@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.91,
+ "reason": "All members agreed to leave policy unchanged, while recognising low inflation and weak wages alongside reduced labour-market slack, and agreeing that Bank Rate was more likely than not to rise over the three-year forecast period.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22496,
+ "prompt_tokens": 5085,
+ "completion_tokens": 66,
+ "cost_usd": 0.00066855,
+ "attempts": 1
+}

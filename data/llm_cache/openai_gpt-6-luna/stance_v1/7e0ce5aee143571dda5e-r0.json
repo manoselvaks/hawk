@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech is about FX market conduct, adoption of the FX Global Code and settlement risk, not the UK inflation outlook or monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 11994,
+ "prompt_tokens": 3174,
+ "completion_tokens": 55,
+ "cost_usd": 0.000424175,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": 0.0,
+ "confidence": 0.89,
+ "reason": "The speech discusses the inflation outlook and monetary policy responses to consumer debt and housing risks, but Barker says a house-price fall would require easing only if needed to keep inflation on target and that policy should respond to asset-price changes as they occur rather than target house prices.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 14290,
+ "prompt_tokens": 3515,
+ "completion_tokens": 81,
+ "cost_usd": 0.0004798,
+ "attempts": 1
+}

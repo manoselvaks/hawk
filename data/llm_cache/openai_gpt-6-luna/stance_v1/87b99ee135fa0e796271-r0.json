@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.91,
+ "reason": "The speaker says the MPC expects \u201csome further rises in interest rates\u201d to return policy toward neutral and personally expects capacity pressures and pay growth to build faster, requiring an earlier return to neutral.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21799,
+ "prompt_tokens": 4993,
+ "completion_tokens": 64,
+ "cost_usd": 0.00065605,
+ "attempts": 1
+}

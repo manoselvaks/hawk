@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": -0.5,
+ "confidence": 0.72,
+ "reason": "The speech is substantially about monetary policy\u2019s role in asset-price booms and argues that central banks should not tighten interest rates to counter bubbles, though it gives no direct signal about the overall future path of Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23366,
+ "prompt_tokens": 5257,
+ "completion_tokens": 305,
+ "cost_usd": 0.00080955,
+ "attempts": 1
+}

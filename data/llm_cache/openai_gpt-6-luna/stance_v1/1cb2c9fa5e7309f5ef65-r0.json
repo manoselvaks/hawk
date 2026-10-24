@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech concerns reform of insurance prudential regulation under Solvency II, including policyholder protection and insurer investment, rather than the monetary policy outlook or Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 9625,
+ "prompt_tokens": 2565,
+ "completion_tokens": 99,
+ "cost_usd": 0.00037005,
+ "attempts": 1
+}

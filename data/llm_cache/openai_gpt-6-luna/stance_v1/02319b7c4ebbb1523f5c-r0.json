@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.84,
+ "reason": "He reversed his earlier votes to raise Bank Rate because the demand outlook had weakened materially and says further deterioration might require additional monetary loosening, while noting that high inflation and weak supply growth constrain that possibility.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23938,
+ "prompt_tokens": 5197,
+ "completion_tokens": 250,
+ "cost_usd": 0.00077455,
+ "attempts": 1
+}

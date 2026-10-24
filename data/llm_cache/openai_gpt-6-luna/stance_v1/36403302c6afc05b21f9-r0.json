@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 2.0,
+ "confidence": 0.99,
+ "reason": "The speaker says the \u201clift-off\u201d in UK interest rates \u201cshould not be delayed any longer,\u201d argues that sterling-driven persistent inflation and limited slack make tightening urgent, and notes that she voted against the MPC majority\u2019s decision to hold rates.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24084,
+ "prompt_tokens": 5399,
+ "completion_tokens": 116,
+ "cost_usd": 0.0007328,
+ "attempts": 1
+}

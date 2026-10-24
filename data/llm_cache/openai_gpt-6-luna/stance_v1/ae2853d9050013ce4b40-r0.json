@@ -1,0 +1,15 @@
+{
+ "relevance": 0.7,
+ "stance": 0.0,
+ "confidence": 0.87,
+ "reason": "The speech discusses the UK recovery, inflation and real incomes, but offers no clear lean on future policy, instead arguing that real-income pressures have real-economy causes and that the recovery depends on productivity and external conditions.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24076,
+ "prompt_tokens": 5543,
+ "completion_tokens": 174,
+ "cost_usd": 0.0007798,
+ "attempts": 1
+}

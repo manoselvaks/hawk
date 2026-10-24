@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.96,
+ "reason": "Saunders expects further labour-market tightening and pay growth above consensus, concluding that \u201cinterest rates will need to rise further over time,\u201d though any tightening would be limited and gradual.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24039,
+ "prompt_tokens": 5584,
+ "completion_tokens": 61,
+ "cost_usd": 0.000728425,
+ "attempts": 1
+}

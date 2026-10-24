@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 0.99,
+ "reason": "The speaker says policy remains overly restrictive, warns that the market-implied path risks pushing inflation below target and creating excessive slack, and supports a lower Bank Rate now and a lower path over the coming year.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24051,
+ "prompt_tokens": 5880,
+ "completion_tokens": 68,
+ "cost_usd": 0.000768925,
+ "attempts": 1
+}

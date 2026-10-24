@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 0.96,
+ "reason": "The MPC unanimously held Bank Rate at 0.1% after cutting it by 65 basis points and launching \u00a3200 billion of asset purchases, citing a severe economic shock and saying monetary policy should support households and businesses, while standing ready to respond further as necessary.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24022,
+ "prompt_tokens": 5336,
+ "completion_tokens": 80,
+ "cost_usd": 0.000706925,
+ "attempts": 1
+}

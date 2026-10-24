@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.55,
+ "reason": "The forecast put inflation above target for most of the horizon with risks tilted upward, but the slowdown and downside risks also supported waiting, leaving only a mild hawkish lean overall.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24099,
+ "prompt_tokens": 5574,
+ "completion_tokens": 312,
+ "cost_usd": 0.000852675,
+ "attempts": 1
+}

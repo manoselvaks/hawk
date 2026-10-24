@@ -1,0 +1,15 @@
+{
+ "relevance": 0.55,
+ "stance": 0.0,
+ "confidence": 0.82,
+ "reason": "The speech discusses a substantial monetary stimulus in response to downside risks and QE, but gives no clear lean toward further easing or near-term tightening, saying only that the MPC will retighten when warranted by the medium-term inflation outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 15117,
+ "prompt_tokens": 3585,
+ "completion_tokens": 261,
+ "cost_usd": 0.00057855,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.87,
+ "reason": "The majority held Bank Rate at 4.75% and said it should remain restrictive for sufficiently long, citing elevated inflation and persistence risks, though three members preferred a cut and activity was weak.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23846,
+ "prompt_tokens": 5218,
+ "completion_tokens": 67,
+ "cost_usd": 0.000685675,
+ "attempts": 1
+}

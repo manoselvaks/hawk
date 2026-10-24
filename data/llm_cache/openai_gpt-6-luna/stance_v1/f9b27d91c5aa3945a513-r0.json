@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.5,
+ "confidence": 0.98,
+ "reason": "The speech argues that rates should remain low until recovery is secure, says raising them prematurely would choke off growth, and allows for more stimulus if conditions tighten, while retaining safeguards to control inflation.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16934,
+ "prompt_tokens": 3987,
+ "completion_tokens": 67,
+ "cost_usd": 0.0005318,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.8,
+ "stance": 1.0,
+ "confidence": 0.98,
+ "reason": "The speaker argues that a tight labour market and mounting wage pressures warrant a modest reduction in monetary stimulus, says further gradual tightening is likely, and explains that they voted to raise Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19135,
+ "prompt_tokens": 4512,
+ "completion_tokens": 65,
+ "cost_usd": 0.000596425,
+ "attempts": 1
+}

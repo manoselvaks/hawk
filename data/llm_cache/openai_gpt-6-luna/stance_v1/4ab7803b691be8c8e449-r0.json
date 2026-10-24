@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.87,
+ "reason": "The speaker sees some downside risk from weak consumption and supports easing, but says persistent services inflation and upside activity risks warrant a cautious, gradual approach, having voted to hold Bank Rate at 5% after the August cut.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21566,
+ "prompt_tokens": 4830,
+ "completion_tokens": 73,
+ "cost_usd": 0.000640175,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.9,
+ "reason": "The Committee voted 8\u20131 to raise Bank Rate by 25 basis points, citing stronger-than-expected activity, tightening labour-market and wage pressures, and the need to restrain medium-term inflation despite near-term inflation below target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24072,
+ "prompt_tokens": 5259,
+ "completion_tokens": 73,
+ "cost_usd": 0.0006938,
+ "attempts": 1
+}

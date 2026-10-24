@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.83,
+ "reason": "The Committee unanimously held Bank Rate and asset purchases unchanged, with several members judging additional stimulus more likely than not and one saying there was a good case for more purchases, though weak demand was balanced against inflation remaining above target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22453,
+ "prompt_tokens": 4890,
+ "completion_tokens": 73,
+ "cost_usd": 0.000647675,
+ "attempts": 1
+}

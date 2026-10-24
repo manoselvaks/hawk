@@ -1,0 +1,15 @@
+{
+ "relevance": 0.35,
+ "stance": 0.0,
+ "confidence": 0.85,
+ "reason": "The speech is mainly about the Bank\u2019s role in financial stability, regulation, the City and global financial developments; monetary policy appears only in passing, including monitoring how technology may affect productivity and monetary stability.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 15204,
+ "prompt_tokens": 3467,
+ "completion_tokens": 68,
+ "cost_usd": 0.0004673,
+ "attempts": 1
+}

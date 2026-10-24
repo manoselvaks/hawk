@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.98,
+ "reason": "The speaker stresses persistent upside inflation risks and warns that a wait-and-see approach could leave policy behind the curve, saying their preference has been for a \u201cmodestly higher\u201d Bank Rate and that underlying inflation risks remain clearly to the upside.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24015,
+ "prompt_tokens": 5202,
+ "completion_tokens": 73,
+ "cost_usd": 0.000686675,
+ "attempts": 1
+}

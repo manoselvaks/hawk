@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": -0.5,
+ "confidence": 0.58,
+ "reason": "The speech describes waning pipeline cost pressures and headline disinflation, and notes that restrictive policy weighs on investment and living standards, though it also flags uncertain risks to the outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 2185,
+ "prompt_tokens": 1161,
+ "completion_tokens": 214,
+ "cost_usd": 0.00025205,
+ "attempts": 1
+}

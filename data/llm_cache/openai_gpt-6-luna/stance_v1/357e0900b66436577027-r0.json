@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.78,
+ "reason": "Although seven members held Bank Rate at 5.25% and stressed keeping policy restrictive, the two dissenters favoured an immediate cut and the Committee noted below-target medium-term inflation projections, loosening labour-market conditions and downside risks to inflation.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18087,
+ "prompt_tokens": 4136,
+ "completion_tokens": 78,
+ "cost_usd": 0.000555925,
+ "attempts": 1
+}

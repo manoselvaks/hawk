@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.94,
+ "reason": "Fisher sees medium-term inflation risks as broadly balanced and immediate downside risks to growth, warning that a Bank Rate increase now could damage the recovery and saying there is time to wait before tightening.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20874,
+ "prompt_tokens": 4820,
+ "completion_tokens": 65,
+ "cost_usd": 0.000634925,
+ "attempts": 1
+}

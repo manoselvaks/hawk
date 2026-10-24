@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.88,
+ "reason": "Weale sees downside risks to medium-term growth and no case for further QE, but highlights persistent and upside inflation risks and says a Bank Rate rise could come earlier than mid-2014 if they materialise.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23972,
+ "prompt_tokens": 5312,
+ "completion_tokens": 70,
+ "cost_usd": 0.000698925,
+ "attempts": 1
+}

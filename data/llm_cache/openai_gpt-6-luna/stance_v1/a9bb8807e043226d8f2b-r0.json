@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 0.99,
+ "reason": "The Committee unanimously approved \u00a375 billion of additional asset purchases, judging that weaker demand and greater slack made a medium-term inflation undershoot more likely without further monetary stimulus.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23504,
+ "prompt_tokens": 5013,
+ "completion_tokens": 60,
+ "cost_usd": 0.00065655,
+ "attempts": 1
+}

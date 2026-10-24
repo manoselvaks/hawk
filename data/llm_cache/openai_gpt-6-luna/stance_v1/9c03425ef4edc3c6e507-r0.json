@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.87,
+ "reason": "The speaker says the burden of proof for tightening is high and policy will not tighten until there is clear progress in eliminating spare capacity and achieving the inflation target, while highlighting risks of persistent unemployment and economic scarring.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23367,
+ "prompt_tokens": 5315,
+ "completion_tokens": 152,
+ "cost_usd": 0.0007403,
+ "attempts": 1
+}

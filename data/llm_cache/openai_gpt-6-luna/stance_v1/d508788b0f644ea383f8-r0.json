@@ -1,0 +1,15 @@
+{
+ "relevance": 0.7,
+ "stance": 0.0,
+ "confidence": 0.84,
+ "reason": "The speech discusses monetary policy and the new inflation target, but its policy signal is balanced: the Bank aims for 2.5% inflation with an even chance of outcomes above or below target, while emphasizing that price stability can coexist with growth.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 11742,
+ "prompt_tokens": 2932,
+ "completion_tokens": 77,
+ "cost_usd": 0.000404925,
+ "attempts": 1
+}

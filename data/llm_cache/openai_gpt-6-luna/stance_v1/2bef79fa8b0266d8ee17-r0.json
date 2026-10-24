@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.91,
+ "reason": "The Committee\u2019s majority judged that maintaining Bank Rate at 5.0% would most likely balance medium-term inflation risks, despite one member favouring a rise and another a cut.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21468,
+ "prompt_tokens": 4946,
+ "completion_tokens": 150,
+ "cost_usd": 0.000693175,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.95,
+ "reason": "Although the central projection shows inflation rising above target at the horizon, Nickell argues that the recovery is fragile and that delaying a rate rise is sensible because later tightening can still bring inflation back to target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24014,
+ "prompt_tokens": 5486,
+ "completion_tokens": 67,
+ "cost_usd": 0.000719175,
+ "attempts": 1
+}

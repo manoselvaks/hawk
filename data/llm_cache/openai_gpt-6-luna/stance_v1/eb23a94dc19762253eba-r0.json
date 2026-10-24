@@ -1,0 +1,15 @@
+{
+ "relevance": 0.4,
+ "stance": 0.0,
+ "confidence": 0.72,
+ "reason": "The speech mainly discusses credit cycles and macroprudential policy, while describing steady UK growth and monetary policy normalisation as expected to be limited and gradual without advocating a particular rate path.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 7860,
+ "prompt_tokens": 2264,
+ "completion_tokens": 264,
+ "cost_usd": 0.000414925,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.73,
+ "reason": "He stresses that inflation is likely to remain above target for much of the next two years and says the MPC may factor the Government\u2019s actions into the timing of tightening, while also emphasising the high cost of materially tighter policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18891,
+ "prompt_tokens": 4394,
+ "completion_tokens": 287,
+ "cost_usd": 0.000692675,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.86,
+ "reason": "The speech says a \u201cgradual and careful approach\u201d to withdrawing restraint is appropriate and that rates remain on a \u201cgradual downward path,\u201d while stressing two-sided inflation risks and that there was not yet a strong enough case to cut at the June meeting.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16341,
+ "prompt_tokens": 3868,
+ "completion_tokens": 80,
+ "cost_usd": 0.000523425,
+ "attempts": 1
+}

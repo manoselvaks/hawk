@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.83,
+ "reason": "The Committee judged inflation more likely to be below target at the forecast horizon amid weak growth and downside risks, and some members said further asset purchases might become warranted, although it held the programme unchanged at this meeting.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23424,
+ "prompt_tokens": 4984,
+ "completion_tokens": 192,
+ "cost_usd": 0.000718925,
+ "attempts": 1
+}

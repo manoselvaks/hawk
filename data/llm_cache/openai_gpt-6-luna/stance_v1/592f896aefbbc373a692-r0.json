@@ -1,0 +1,15 @@
+{
+ "relevance": 0.15,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The extracts focus on financial crises, credit growth, leverage and macroprudential resilience, with no substantive discussion of the current UK monetary policy outlook or Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 8430,
+ "prompt_tokens": 2329,
+ "completion_tokens": 116,
+ "cost_usd": 0.00034905,
+ "attempts": 1
+}

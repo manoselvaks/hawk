@@ -1,0 +1,15 @@
+{
+ "relevance": 0.35,
+ "stance": -1.0,
+ "confidence": 0.84,
+ "reason": "The speech is mainly about currency unions, but it says the recovery has some way to run before it is appropriate to move away from emergency monetary policy, with any eventual rate increases gradual.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 10951,
+ "prompt_tokens": 2758,
+ "completion_tokens": 351,
+ "cost_usd": 0.000520175,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.86,
+ "reason": "He says the 0.25% policy rate remains appropriate and that tighter policy would bring more economic slack, lower real income growth and higher unemployment, while accepting above-target inflation temporarily.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 5390,
+ "prompt_tokens": 1713,
+ "completion_tokens": 64,
+ "cost_usd": 0.00024605,
+ "attempts": 1
+}

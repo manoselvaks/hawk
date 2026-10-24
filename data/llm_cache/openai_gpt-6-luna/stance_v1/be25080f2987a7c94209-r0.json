@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.5,
+ "confidence": 0.95,
+ "reason": "Carney argues that substantial labour-market slack and contained inflation mean policy should remain exceptionally stimulative, with no immediate rate rise at the 7% unemployment threshold and any eventual move away from emergency settings gradual.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22011,
+ "prompt_tokens": 4873,
+ "completion_tokens": 159,
+ "cost_usd": 0.00068855,
+ "attempts": 1
+}

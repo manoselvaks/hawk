@@ -1,0 +1,15 @@
+{
+ "relevance": 0.55,
+ "stance": 0.0,
+ "confidence": 0.73,
+ "reason": "The speech mainly develops a framework for macroprudential policy, while describing the MPC\u2019s inflation-targeting trade-offs and noting that the MPC is assessing scenario implications without indicating a directional change in Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24025,
+ "prompt_tokens": 5344,
+ "completion_tokens": 68,
+ "cost_usd": 0.000701925,
+ "attempts": 1
+}

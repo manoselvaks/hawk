@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 0.5,
+ "confidence": 0.78,
+ "reason": "The speech explains that domestic demand growth needs to moderate to maintain stability and says interest rates have had to rise, though it forecasts continuing low inflation and does not explicitly call for further tightening.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 13884,
+ "prompt_tokens": 3355,
+ "completion_tokens": 228,
+ "cost_usd": 0.0005333,
+ "attempts": 1
+}

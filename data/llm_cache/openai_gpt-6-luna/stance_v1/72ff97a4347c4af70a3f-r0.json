@@ -1,0 +1,15 @@
+{
+ "relevance": 0.25,
+ "stance": null,
+ "confidence": 0.95,
+ "reason": "The speech focuses on financial stability and macroprudential tools, arguing that these should address financial-cycle risks so monetary policy can remain focused on price and economic stability.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16589,
+ "prompt_tokens": 3763,
+ "completion_tokens": 60,
+ "cost_usd": 0.0005003,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.83,
+ "reason": "The majority held the repo rate at 5\u00bc%, citing robust consumption, a buoyant labour market and somewhat higher near-term inflation, while one member favoured a cut and the Committee remained prepared to move in either direction.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23859,
+ "prompt_tokens": 5704,
+ "completion_tokens": 73,
+ "cost_usd": 0.000749425,
+ "attempts": 1
+}

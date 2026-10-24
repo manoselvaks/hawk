@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.9,
+ "reason": "The speech is substantially about monetary policy and argues that tighter policy would have caused unnecessary output and employment costs, with the speaker saying he would have preferred a looser Bank Rate path to prevent the output gap and unemployment from rising further.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20421,
+ "prompt_tokens": 4672,
+ "completion_tokens": 173,
+ "cost_usd": 0.000670425,
+ "attempts": 1
+}

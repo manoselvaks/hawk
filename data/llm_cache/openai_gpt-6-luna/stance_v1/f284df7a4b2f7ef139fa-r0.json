@@ -1,0 +1,15 @@
+{
+ "relevance": 0.12,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech is about transitioning from LIBOR to SONIA and preparing businesses for benchmark reform, not the outlook for UK monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 6672,
+ "prompt_tokens": 2119,
+ "completion_tokens": 54,
+ "cost_usd": 0.0002918,
+ "attempts": 1
+}

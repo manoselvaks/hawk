@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": 0.5,
+ "confidence": 0.88,
+ "reason": "He says that if consumer spending does not moderate as external demand strengthens, the Bank would need to consider raising interest rates, while stressing that such a move is not imminent.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 15279,
+ "prompt_tokens": 3754,
+ "completion_tokens": 185,
+ "cost_usd": 0.000561675,
+ "attempts": 1
+}

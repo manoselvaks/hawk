@@ -1,0 +1,15 @@
+{
+ "relevance": 0.65,
+ "stance": 0.0,
+ "confidence": 0.86,
+ "reason": "The speech discusses monetary policy mainly as an application of a business-cycle debate, and argues that policy should assess inflation, output and economic slack while treating estimates with scepticism, without signalling a directional change in rates.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 10011,
+ "prompt_tokens": 2577,
+ "completion_tokens": 70,
+ "cost_usd": 0.00035705,
+ "attempts": 1
+}

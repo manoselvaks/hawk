@@ -1,0 +1,15 @@
+{
+ "relevance": 0.45,
+ "stance": 0.0,
+ "confidence": 0.9,
+ "reason": "The speech discusses how monetary and macro-prudential policies interact, including trade-offs in using interest rates to stabilise output, inflation and financial stability, but it gives no directional signal about future Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 7844,
+ "prompt_tokens": 2241,
+ "completion_tokens": 138,
+ "cost_usd": 0.00034905,
+ "attempts": 1
+}

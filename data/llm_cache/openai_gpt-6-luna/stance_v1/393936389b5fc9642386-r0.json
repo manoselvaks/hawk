@@ -1,0 +1,15 @@
+{
+ "relevance": 0.7,
+ "stance": 0.0,
+ "confidence": 0.42,
+ "reason": "The speech concerns inflation projections, household consumption, pay, and firms\u2019 pricing behaviour and expectations, but the supplied text contains no clear indication of how monetary policy should change.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 3768,
+ "prompt_tokens": 1529,
+ "completion_tokens": 217,
+ "cost_usd": 0.00029955,
+ "attempts": 1
+}

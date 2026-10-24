@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.85,
+ "reason": "The Committee judged the news mixed and chose to wait for more information, while noting that a further rate cut could worsen economic imbalances; one member nevertheless argued for a cut.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24093,
+ "prompt_tokens": 5626,
+ "completion_tokens": 245,
+ "cost_usd": 0.000825675,
+ "attempts": 1
+}

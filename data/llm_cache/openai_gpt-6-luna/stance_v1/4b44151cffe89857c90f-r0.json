@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.91,
+ "reason": "Although most members held Bank Rate at 5.75% because of upside inflation risks, two favoured an immediate cut and the Committee judged growth risks to be downside-heavy, with the projection already assuming rate reductions.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21548,
+ "prompt_tokens": 4740,
+ "completion_tokens": 72,
+ "cost_usd": 0.000628425,
+ "attempts": 1
+}

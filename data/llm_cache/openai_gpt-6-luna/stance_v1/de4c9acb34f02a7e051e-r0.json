@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.91,
+ "reason": "All members agreed to leave policy unchanged, with guidance that any rises would be gradual; although two saw a possible case for a later-year increase and wages had surprised upward, the Committee judged inflation risks balanced and one member saw the next move as equally likely to be easing or tightening.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24015,
+ "prompt_tokens": 5323,
+ "completion_tokens": 82,
+ "cost_usd": 0.0007063,
+ "attempts": 1
+}

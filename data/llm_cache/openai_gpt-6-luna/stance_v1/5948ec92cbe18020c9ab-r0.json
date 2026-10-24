@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.83,
+ "reason": "The Committee said the market-implied rise in Bank Rate was unwarranted and, if sustained, an unwelcome tightening that could hamper recovery; although most members considered current policy appropriate and held asset purchases at \u00a3375 billion, some favoured further stimulus.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22302,
+ "prompt_tokens": 4890,
+ "completion_tokens": 245,
+ "cost_usd": 0.000733675,
+ "attempts": 1
+}

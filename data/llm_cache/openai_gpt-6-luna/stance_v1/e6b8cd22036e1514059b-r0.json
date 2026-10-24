@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 1,
+ "reason": "The speaker says there is \u201clittle ambiguity\u201d that the appropriate response is \u201ceasing,\u201d argues for \u201cmaterial\u201d and \u201cprompt\u201d monetary easing next month, and judges downside risks to activity and inflation expectations to dominate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 14539,
+ "prompt_tokens": 3611,
+ "completion_tokens": 69,
+ "cost_usd": 0.0004858,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.8,
+ "stance": -1.0,
+ "confidence": 0.87,
+ "reason": "He describes monetary easing as needed to support nominal demand and guard against deflation amid a severe downturn, while noting sterling-related upward price pressure and the need to preserve the inflation target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 11352,
+ "prompt_tokens": 2795,
+ "completion_tokens": 65,
+ "cost_usd": 0.0003818,
+ "attempts": 1
+}

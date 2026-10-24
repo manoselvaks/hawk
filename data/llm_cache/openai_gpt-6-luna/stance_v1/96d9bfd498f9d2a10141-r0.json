@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": 0.0,
+ "confidence": 0.82,
+ "reason": "The speech extensively discusses how climate-related physical and transition shocks affect inflation and says policymakers must be ready to react as needed, but it gives no directional signal to raise or cut Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19627,
+ "prompt_tokens": 4576,
+ "completion_tokens": 65,
+ "cost_usd": 0.000604425,
+ "attempts": 1
+}

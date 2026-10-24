@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.86,
+ "reason": "The speech presents a broadly balanced outlook\u2014growth is expected to remain steady, inflation is modestly below target, and domestic and external developments pull in different directions\u2014without signalling a preferred change in interest rates.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17371,
+ "prompt_tokens": 4156,
+ "completion_tokens": 156,
+ "cost_usd": 0.000597425,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.45,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speech is mainly about Big Data research, including applications to inflation measurement, labour markets and QE efficacy, but it offers no lean on the future path of monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 9956,
+ "prompt_tokens": 2628,
+ "completion_tokens": 62,
+ "cost_usd": 0.000359425,
+ "attempts": 1
+}

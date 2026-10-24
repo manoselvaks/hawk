@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.97,
+ "reason": "King says inflation has risen above target, that the balance of risks has shifted upward and that the MPC raised Bank Rate, while stressing it will monitor risks and that future action depends on how they develop.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 13602,
+ "prompt_tokens": 3394,
+ "completion_tokens": 66,
+ "cost_usd": 0.000457175,
+ "attempts": 1
+}

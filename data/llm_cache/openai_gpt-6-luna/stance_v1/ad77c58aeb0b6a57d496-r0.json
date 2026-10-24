@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech concerns PRA supervisory expectations for banks\u2019 and insurers\u2019 management of climate-related financial risks, not the UK monetary policy outlook or policy tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 11460,
+ "prompt_tokens": 2834,
+ "completion_tokens": 57,
+ "cost_usd": 0.000382675,
+ "attempts": 1
+}

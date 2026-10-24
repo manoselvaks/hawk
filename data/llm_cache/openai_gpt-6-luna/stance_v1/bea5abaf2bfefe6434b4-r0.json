@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 0.5,
+ "confidence": 0.75,
+ "reason": "The speech says policy was accommodative and that inflationary pressures would build if growth stayed above trend, so rates would probably edge upwards, while noting changing risks and a different communications outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19588,
+ "prompt_tokens": 4519,
+ "completion_tokens": 67,
+ "cost_usd": 0.0005983,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speech focuses on QE, QT, money growth and the causes of inflation, but argues for interpreting policy effects through interest rates and asset prices while balancing monetary-aggregate concerns against external supply shocks, without signalling a preferred future change in Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24007,
+ "prompt_tokens": 5596,
+ "completion_tokens": 77,
+ "cost_usd": 0.000737925,
+ "attempts": 1
+}

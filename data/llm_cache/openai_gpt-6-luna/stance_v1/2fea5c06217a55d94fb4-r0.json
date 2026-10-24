@@ -1,0 +1,15 @@
+{
+ "relevance": 0.35,
+ "stance": null,
+ "confidence": 0.94,
+ "reason": "The speech focuses on exchange-rate regimes, global imbalances, reserve currencies and international monetary cooperation, rather than the UK inflation outlook or Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 9327,
+ "prompt_tokens": 2472,
+ "completion_tokens": 57,
+ "cost_usd": 0.000337425,
+ "attempts": 1
+}

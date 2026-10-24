@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.89,
+ "reason": "Most members judged subdued growth and the likely medium-term return of inflation to target made the existing asset-purchase programme appropriate, while one member favoured \u00a325 billion more purchases, giving the Committee a slight dovish lean.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22779,
+ "prompt_tokens": 4966,
+ "completion_tokens": 73,
+ "cost_usd": 0.000657175,
+ "attempts": 1
+}

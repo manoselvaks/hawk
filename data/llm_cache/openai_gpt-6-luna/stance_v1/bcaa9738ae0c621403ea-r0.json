@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.88,
+ "reason": "King describes the recovery as slow and uncertain, says the MPC will consider further asset purchases and stands ready to inject more money if positive signs fade, while noting that inflation is close to target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19301,
+ "prompt_tokens": 4529,
+ "completion_tokens": 65,
+ "cost_usd": 0.00059855,
+ "attempts": 1
+}

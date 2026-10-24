@@ -1,0 +1,15 @@
+{
+ "relevance": 0.1,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech focuses on insurance prudential regulation, Solvency II, and industry challenges, rather than the UK monetary policy outlook or the future path of Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12905,
+ "prompt_tokens": 3096,
+ "completion_tokens": 61,
+ "cost_usd": 0.000417425,
+ "attempts": 1
+}

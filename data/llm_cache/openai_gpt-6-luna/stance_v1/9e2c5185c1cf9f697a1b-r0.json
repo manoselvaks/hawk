@@ -1,0 +1,15 @@
+{
+ "relevance": 0.75,
+ "stance": 0.0,
+ "confidence": 0.83,
+ "reason": "The speech discusses productivity prospects and their implications for MPC forecasts and interest rates, but presents the policy balance as uncertain: weaker productivity could require higher rates in the short term, while slower underlying growth could keep rates lower over the medium term.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23954,
+ "prompt_tokens": 5483,
+ "completion_tokens": 75,
+ "cost_usd": 0.0007228,
+ "attempts": 1
+}

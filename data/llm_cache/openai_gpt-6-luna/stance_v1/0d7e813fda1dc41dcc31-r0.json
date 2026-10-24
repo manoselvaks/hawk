@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.88,
+ "reason": "The Committee judged that ongoing tightening would be appropriate if the outlook evolved as projected, citing a tight labour market and firming pay pressures, although six members preferred to wait and three voted to raise Bank Rate immediately.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24083,
+ "prompt_tokens": 5354,
+ "completion_tokens": 68,
+ "cost_usd": 0.000703175,
+ "attempts": 1
+}

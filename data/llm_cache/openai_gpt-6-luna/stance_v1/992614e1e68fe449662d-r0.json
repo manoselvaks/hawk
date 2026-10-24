@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 2.0,
+ "confidence": 1,
+ "reason": "The speaker argues that inflation is above target and rising, says there are \u201cthree powerful arguments for a gradual rise in interest rates,\u201d and calls for a gradual withdrawal of monetary stimulus.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23816,
+ "prompt_tokens": 5413,
+ "completion_tokens": 60,
+ "cost_usd": 0.00070655,
+ "attempts": 1
+}

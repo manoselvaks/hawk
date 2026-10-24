@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.5,
+ "confidence": 0.98,
+ "reason": "The speaker argues that further tightening risks harming output and causing an undershoot, and concludes that policy should be held steady as external pressures ease and demand remains weak.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24035,
+ "prompt_tokens": 5323,
+ "completion_tokens": 61,
+ "cost_usd": 0.0006958,
+ "attempts": 1
+}

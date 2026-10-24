@@ -1,0 +1,15 @@
+{
+ "relevance": 0,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech concerns the PRA\u2019s proposed captive insurance regulatory regime, including its design, supervision and economic benefits, not the UK monetary policy outlook or policy tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12139,
+ "prompt_tokens": 3062,
+ "completion_tokens": 57,
+ "cost_usd": 0.000411175,
+ "attempts": 1
+}

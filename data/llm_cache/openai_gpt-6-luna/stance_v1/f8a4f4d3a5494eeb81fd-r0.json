@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech marks the FXJSC\u2019s 50th anniversary and discusses foreign-exchange market structure, technology, settlement risk and standards, not the UK monetary policy outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 10595,
+ "prompt_tokens": 2878,
+ "completion_tokens": 62,
+ "cost_usd": 0.000390675,
+ "attempts": 1
+}

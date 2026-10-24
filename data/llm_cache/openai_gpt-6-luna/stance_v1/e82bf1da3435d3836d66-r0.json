@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.84,
+ "reason": "The speech evaluates the effects of forward guidance and says that while rapid growth and falling unemployment strengthen the case for tightening, good news on underlying inflation reduces it, without expressing a clear overall lean toward raising or cutting rates.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24085,
+ "prompt_tokens": 5350,
+ "completion_tokens": 69,
+ "cost_usd": 0.000703175,
+ "attempts": 1
+}

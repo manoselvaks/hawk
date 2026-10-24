@@ -1,0 +1,15 @@
+{
+ "relevance": 0,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The extract concerns climate-change risks and the resilience of the insurance industry, not the monetary policy outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 1567,
+ "prompt_tokens": 984,
+ "completion_tokens": 70,
+ "cost_usd": 0.0001334,
+ "attempts": 1
+}

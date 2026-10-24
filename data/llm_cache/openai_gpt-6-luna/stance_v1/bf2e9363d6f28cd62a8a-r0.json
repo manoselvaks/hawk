@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.88,
+ "reason": "Bean describes weak activity, spare capacity and inflation likely to remain below target, supporting substantial stimulus, while noting that tightening will eventually be needed as recovery takes hold.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12660,
+ "prompt_tokens": 3145,
+ "completion_tokens": 59,
+ "cost_usd": 0.00042255,
+ "attempts": 1
+}

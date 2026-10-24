@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 0.0,
+ "confidence": 0.91,
+ "reason": "The speech focuses on the Bank\u2019s monetary-policy operating framework and balance-sheet normalisation, but presents a repo-led system and the transition away from abundant reserves without signalling a preferred future path for Bank Rate or a near-term change in monetary stance.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20518,
+ "prompt_tokens": 4655,
+ "completion_tokens": 201,
+ "cost_usd": 0.0006823,
+ "attempts": 1
+}

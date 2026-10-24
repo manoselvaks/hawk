@@ -1,0 +1,15 @@
+{
+ "relevance": 0.1,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech is about LIBOR transition, benchmark robustness, and financial-market coordination rather than the UK inflation outlook, demand, labour market, or future Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20731,
+ "prompt_tokens": 4709,
+ "completion_tokens": 60,
+ "cost_usd": 0.00061855,
+ "attempts": 1
+}

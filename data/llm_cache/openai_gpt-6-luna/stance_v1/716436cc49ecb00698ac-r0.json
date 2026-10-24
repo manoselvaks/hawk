@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.76,
+ "reason": "The speech says the economy remains weak and \u201cthe onus on monetary policy is to continue to stimulate the economy,\u201d and that policy \u201ccan respond\u201d if the outlook deteriorates, but cautions that further easing must be weighed against its costs and the inflation target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21036,
+ "prompt_tokens": 4751,
+ "completion_tokens": 82,
+ "cost_usd": 0.0006348,
+ "attempts": 1
+}

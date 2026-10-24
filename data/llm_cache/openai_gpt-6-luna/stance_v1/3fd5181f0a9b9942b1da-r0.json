@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.97,
+ "reason": "The speaker argues that the economy is moving into excess demand, the labour market is at effective full employment and wage and inflation risks are to the upside, so the MPC should continue modest tightening without undue delay.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24093,
+ "prompt_tokens": 5463,
+ "completion_tokens": 67,
+ "cost_usd": 0.0007163,
+ "attempts": 1
+}

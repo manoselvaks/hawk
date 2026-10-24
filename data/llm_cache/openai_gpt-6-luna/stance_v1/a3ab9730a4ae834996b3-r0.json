@@ -1,0 +1,15 @@
+{
+ "relevance": 0,
+ "stance": null,
+ "confidence": 1,
+ "reason": "The speech proposes regulation and oversight of shadow banking to strengthen financial stability, rather than discussing the UK monetary policy outlook or Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18061,
+ "prompt_tokens": 4230,
+ "completion_tokens": 102,
+ "cost_usd": 0.000579675,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speaker supports holding Bank Rate at 5.25%, notes that inflation persistence remains elevated, and says more evidence is needed to judge how long rates must stay at their current level, while endorsing the MPC\u2019s more balanced inflation-risk outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 14947,
+ "prompt_tokens": 3682,
+ "completion_tokens": 77,
+ "cost_usd": 0.000498675,
+ "attempts": 1
+}

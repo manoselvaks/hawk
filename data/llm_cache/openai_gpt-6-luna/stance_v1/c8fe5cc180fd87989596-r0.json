@@ -1,0 +1,15 @@
+{
+ "relevance": 0.1,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech is about the Financial Policy Committee\u2019s macroprudential role and financial stability recommendations, not the UK monetary policy outlook or Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21272,
+ "prompt_tokens": 4502,
+ "completion_tokens": 56,
+ "cost_usd": 0.000590675,
+ "attempts": 1
+}

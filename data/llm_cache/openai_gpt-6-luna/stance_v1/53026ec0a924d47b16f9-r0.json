@@ -1,0 +1,15 @@
+{
+ "relevance": 0.45,
+ "stance": 0.5,
+ "confidence": 0.73,
+ "reason": "The speech is mainly about bond markets and their evolution, but notes that strong growth has led to widespread interest-rate increases and calls for an environment of steady growth with low inflation, reflecting a mildly tightening backdrop without a specific UK policy recommendation.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 10640,
+ "prompt_tokens": 2794,
+ "completion_tokens": 77,
+ "cost_usd": 0.000387675,
+ "attempts": 1
+}

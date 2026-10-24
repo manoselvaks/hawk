@@ -1,0 +1,15 @@
+{
+ "relevance": 0.5,
+ "stance": 0.0,
+ "confidence": 0.76,
+ "reason": "The speech discusses how global shocks and energy-price volatility affect UK inflation and monetary policy, but it gives no clear steer on Bank Rate and concludes only that interventions should stabilise the economy while remaining consistent with low inflation.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23205,
+ "prompt_tokens": 5239,
+ "completion_tokens": 206,
+ "cost_usd": 0.0007578,
+ "attempts": 1
+}

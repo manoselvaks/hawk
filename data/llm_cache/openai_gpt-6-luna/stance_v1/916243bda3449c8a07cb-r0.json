@@ -1,0 +1,15 @@
+{
+ "relevance": 0.88,
+ "stance": 1.0,
+ "confidence": 0.93,
+ "reason": "The speech says domestic demand has grown above its sustainable trend and that pre-emptive action is needed to slow it, citing the MPC\u2019s 100 basis points of rate increases since September.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12188,
+ "prompt_tokens": 3162,
+ "completion_tokens": 66,
+ "cost_usd": 0.000428175,
+ "attempts": 1
+}

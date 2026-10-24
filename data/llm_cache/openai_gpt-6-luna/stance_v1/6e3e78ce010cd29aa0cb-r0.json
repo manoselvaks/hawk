@@ -1,0 +1,15 @@
+{
+ "relevance": 0.65,
+ "stance": 0.0,
+ "confidence": 0.74,
+ "reason": "The speech focuses mainly on coordination between monetary and prudential policy, describing past easing and the possibility of gradual normalization, without advocating a particular future change in UK Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22414,
+ "prompt_tokens": 4729,
+ "completion_tokens": 62,
+ "cost_usd": 0.00062205,
+ "attempts": 1
+}

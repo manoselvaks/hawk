@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.5,
+ "confidence": 0.96,
+ "reason": "The speaker says they are growing uncomfortable with the current inflation-growth trade-off and that solid real activity alongside continued inflation pickup could soon suggest a Bank Rate increase, while remaining open to adjustment in either direction.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24077,
+ "prompt_tokens": 5525,
+ "completion_tokens": 68,
+ "cost_usd": 0.00072455,
+ "attempts": 1
+}

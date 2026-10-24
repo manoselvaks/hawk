@@ -10,20 +10,23 @@ explains?** See [PLAN.md](PLAN.md) for the full plan.
 
 **Website: <https://manoselvaks.github.io/hawk/>**
 
-## Headline results (interim)
+## Headline results
 
-> Interim: these use the word-list scorer. The AI pass over the full corpus is waiting on
-> OpenRouter credit; `python -m hawk.analysis.run` will redo every number from it.
-> Full write-up with methods and caveats: [docs/findings.md](docs/findings.md).
+> From the AI scorer (`openai/gpt-6-luna`) over all 1,853 documents. Full write-up with
+> methods, caveats and the same tests on word-list scores: [docs/findings.md](docs/findings.md).
 
-- **Tone before hikes is clearly hawkish** (+0.43 on a −2..+2 scale in the 12 weeks
-  before, against −0.23 before cuts and −0.21 before holds), but it does not build up in
-  the final weeks before a move.
-- **Tone does not help forecast the next decision.** Out of sample, from 2003, adding tone
-  to the previous decision gave no reliable gain (log loss +0.004 per meeting, 95% CI
-  −0.030 to +0.036). The 2-year gilt yield the day before forecasts far better.
-- **2-year gilts did not move with speech tone**: −0.2 bp per stance point on 648 speech
-  days (95% CI −0.9 to +0.4 bp), no different from random days.
+- **Tone before hikes is clearly hawkish, before cuts clearly dovish** (+0.53 on a −2..+2
+  scale in the 12 weeks before hikes, −0.12 before holds, −0.48 before cuts; hike minus
+  cut +1.00, 95% CI +0.81 to +1.21). It does not build up in the final weeks before a hike.
+- **Tone does not reliably help forecast the committee's next decision.** Out of sample,
+  from 2003, adding tone to the previous decision improved log loss by +0.024 per meeting
+  (95% CI −0.011 to +0.060). The 2-year gilt yield the day before forecasts far better.
+- **2-year gilts did not move with speech tone**: +0.2 bp per stance point on 709 speech
+  days (95% CI −0.2 to +0.6 bp), no different from random days.
+- **But members' speeches do predict their own dissents.** Members who went on to vote for
+  a higher rate than the majority had spoken at +1.08 on average, those voting lower at
+  −0.86, the majority at −0.15 (p < 0.001; still clear after controlling for the member's
+  previous vote). The word-list scorer missed this.
 - **The AI scorer agrees with one student's 36 blind labels only modestly** (ρ = 0.37,
   95% CI 0.01–0.68), as does the word-list baseline (0.42); two AI models agree with each
   other at 0.96. See [docs/evaluation.md](docs/evaluation.md).
@@ -36,10 +39,10 @@ explains?** See [PLAN.md](PLAN.md) for the full plan.
 | --- | --- |
 | Speech and minutes collector | ✅ built (`src/hawk/speeches/`) |
 | Market data (Bank Rate, gilt yields, MPC votes) | ✅ built (`src/hawk/market/`) |
-| Tone scoring (word list + LLM) | ✅ built and evaluated (`src/hawk/scoring/`); full-corpus AI pass waiting on API credit |
+| Tone scoring (word list + LLM) | ✅ built, evaluated and run on the full corpus (`src/hawk/scoring/`, `data/scores.parquet`) |
 | Hand labels for evaluation | ✅ 36 blind labels (`labelling/labels.csv`) |
-| Analysis | ✅ built and tested (`src/hawk/analysis/`); interim results on word-list scores |
-| Website | ✅ built; preview banner until the AI scores exist (`src/hawk/site/`) |
+| Analysis | ✅ built, tested and run on the AI scores (`src/hawk/analysis/`, [docs/findings.md](docs/findings.md)) |
+| Website | ✅ built on the final scores (`src/hawk/site/`) |
 
 ## Install
 

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.93,
+ "reason": "The speaker says underlying inflation pressures have continued to fall and endorses a gradual reduction in restrictiveness, including a 25bp cut, while noting that the demand-weakening scenario could call for Bank Rate almost 50bp lower; persistent inflation risks temper but do not outweigh this dovish lean.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17932,
+ "prompt_tokens": 4104,
+ "completion_tokens": 91,
+ "cost_usd": 0.000558425,
+ "attempts": 1
+}

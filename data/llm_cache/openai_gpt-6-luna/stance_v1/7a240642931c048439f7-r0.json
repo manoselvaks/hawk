@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 0.95,
+ "reason": "He says the immediate challenge is to counter the demand shock and deflationary risks, endorsing a \u201csignificant relaxation of policy in the short-term\u201d and noting inflation risks below target over the medium term.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23889,
+ "prompt_tokens": 5682,
+ "completion_tokens": 69,
+ "cost_usd": 0.000744675,
+ "attempts": 1
+}

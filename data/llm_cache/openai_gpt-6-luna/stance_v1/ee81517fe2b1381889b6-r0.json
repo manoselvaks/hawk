@@ -1,0 +1,15 @@
+{
+ "relevance": 0.7,
+ "stance": 0.0,
+ "confidence": 0.82,
+ "reason": "The speech surveys global risks and their implications for the UK, but offers a balanced policy signal: the MPC will keep inflation on target, while domestic demand growth needs to slow and overseas shocks could alter the outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 13916,
+ "prompt_tokens": 3356,
+ "completion_tokens": 207,
+ "cost_usd": 0.000522925,
+ "attempts": 1
+}

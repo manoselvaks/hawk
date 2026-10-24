@@ -1,0 +1,15 @@
+{
+ "relevance": 0.75,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speech focuses on the MPC\u2019s institutional design and communication, and although it discusses inflation expectations, Bank Rate and monetary strategy, it offers no clear lean toward tightening or easing.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23969,
+ "prompt_tokens": 5296,
+ "completion_tokens": 63,
+ "cost_usd": 0.000693425,
+ "attempts": 1
+}

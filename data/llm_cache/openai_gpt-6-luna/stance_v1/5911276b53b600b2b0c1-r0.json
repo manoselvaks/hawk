@@ -1,0 +1,15 @@
+{
+ "relevance": 0.15,
+ "stance": null,
+ "confidence": 0.94,
+ "reason": "The extract concerns the transition from sterling LIBOR to SONIA benchmarks and related market conventions, not the UK monetary policy outlook or policy setting.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 2885,
+ "prompt_tokens": 1279,
+ "completion_tokens": 56,
+ "cost_usd": 0.0001878,
+ "attempts": 1
+}

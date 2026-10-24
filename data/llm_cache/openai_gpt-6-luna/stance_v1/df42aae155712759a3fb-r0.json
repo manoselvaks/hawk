@@ -1,0 +1,15 @@
+{
+ "relevance": 0.65,
+ "stance": 0.0,
+ "confidence": 0.82,
+ "reason": "The speech discusses inflation dynamics and monetary-policy toolkits in response to global and supply shocks, but gives no clear signal about the future path of Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 2148,
+ "prompt_tokens": 1178,
+ "completion_tokens": 134,
+ "cost_usd": 0.000214175,
+ "attempts": 1
+}

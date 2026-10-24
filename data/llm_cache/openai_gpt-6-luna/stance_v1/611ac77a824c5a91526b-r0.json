@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.9,
+ "reason": "The speaker supports a measured further tightening, noting that more may be needed if the forecast holds and that second-round wage and cost pressures would require a response, while stressing two-sided risks and voting for 25bp rather than 50bp.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24094,
+ "prompt_tokens": 5212,
+ "completion_tokens": 167,
+ "cost_usd": 0.000734925,
+ "attempts": 1
+}

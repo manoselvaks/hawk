@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The extracts focus on cryptoassets, stablecoins, financial stability and regulation, rather than the UK monetary policy outlook or policy tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 4025,
+ "prompt_tokens": 1441,
+ "completion_tokens": 54,
+ "cost_usd": 0.00020705,
+ "attempts": 1
+}

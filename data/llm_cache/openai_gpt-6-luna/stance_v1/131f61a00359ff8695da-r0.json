@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": -1.0,
+ "confidence": 0.91,
+ "reason": "The speech describes subdued inflation, weak wage growth and a loss of growth momentum, and says the downward move in market interest-rate expectations has provided needed stimulus, while emphasizing that policy should respond to weaker demand and inflation.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24090,
+ "prompt_tokens": 5479,
+ "completion_tokens": 72,
+ "cost_usd": 0.0007208,
+ "attempts": 1
+}

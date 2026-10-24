@@ -1,0 +1,15 @@
+{
+ "relevance": 0.55,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speech explains how climate-related physical and transition shocks could affect UK inflation, output and equilibrium interest rates, but presents these as analytical challenges without advocating a particular future policy path.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18030,
+ "prompt_tokens": 4505,
+ "completion_tokens": 63,
+ "cost_usd": 0.00059455,
+ "attempts": 1
+}

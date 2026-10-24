@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.83,
+ "reason": "The Committee judged that modest tightening would likely be needed over the forecast period, while one member preferred an earlier reduction in stimulus and others stressed that inflation pressures were expected to be temporary and risks remained two-sided.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23850,
+ "prompt_tokens": 5205,
+ "completion_tokens": 69,
+ "cost_usd": 0.00068505,
+ "attempts": 1
+}

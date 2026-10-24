@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.97,
+ "reason": "The speaker expects a limited, gradual tightening over the next three years because a tight labour market should raise domestic cost pressures, while saying a short wait for clearer demand data is reasonable.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24099,
+ "prompt_tokens": 5347,
+ "completion_tokens": 62,
+ "cost_usd": 0.0006993,
+ "attempts": 1
+}

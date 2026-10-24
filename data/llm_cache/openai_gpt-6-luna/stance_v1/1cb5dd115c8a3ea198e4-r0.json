@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": -1.0,
+ "confidence": 0.9,
+ "reason": "King says spare capacity and unemployment remain high, recovery still needs support and there is \u201ca powerful case for more stimulus,\u201d while noting inflation should fall back to target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17941,
+ "prompt_tokens": 4277,
+ "completion_tokens": 62,
+ "cost_usd": 0.00056555,
+ "attempts": 1
+}

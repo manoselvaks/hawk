@@ -1,0 +1,15 @@
+{
+ "relevance": 0.3,
+ "stance": 0.0,
+ "confidence": 0.78,
+ "reason": "The speech discusses the effects of low interest rates and loose monetary policy on equity risk premia and investment, but offers no clear view on the future policy path.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 7375,
+ "prompt_tokens": 2169,
+ "completion_tokens": 264,
+ "cost_usd": 0.00040305,
+ "attempts": 1
+}

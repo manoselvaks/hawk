@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.94,
+ "reason": "Most members judged growth and inflation risks broadly balanced and saw neither a pressing need to tighten nor a need to stimulate demand, so six voted to hold rates at 4.5%, with one member preferring a cut and one a rise.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19966,
+ "prompt_tokens": 4518,
+ "completion_tokens": 74,
+ "cost_usd": 0.000601675,
+ "attempts": 1
+}

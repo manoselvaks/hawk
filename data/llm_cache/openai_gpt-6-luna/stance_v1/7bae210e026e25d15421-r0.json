@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.9,
+ "reason": "The speech says labour-market capacity constraints were threatening the inflation target and explains that this concern formed the background to the June rate increase, while emphasizing that policy should bring inflation back to target gradually.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24020,
+ "prompt_tokens": 5260,
+ "completion_tokens": 64,
+ "cost_usd": 0.000689425,
+ "attempts": 1
+}

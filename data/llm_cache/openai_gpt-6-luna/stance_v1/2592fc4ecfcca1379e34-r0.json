@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The Committee unanimously maintained Bank Rate and asset purchases, noting that rates would likely rise gradually under continued EU membership, while the referendum\u2019s opposing demand, supply and exchange-rate effects made the future policy direction uncertain.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23687,
+ "prompt_tokens": 5160,
+ "completion_tokens": 67,
+ "cost_usd": 0.000678425,
+ "attempts": 1
+}

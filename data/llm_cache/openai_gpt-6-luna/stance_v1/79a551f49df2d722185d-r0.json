@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.72,
+ "reason": "The Committee saw inflation and activity risks as clearly to the downside and some members judged a rate cut warranted, but others favoured pausing for more evidence, making the overall lean mildly dovish.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24108,
+ "prompt_tokens": 5422,
+ "completion_tokens": 308,
+ "cost_usd": 0.000831675,
+ "attempts": 1
+}

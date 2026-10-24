@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.87,
+ "reason": "Eight members judged the current stance appropriate, but noted that relatively little further upside news could warrant earlier withdrawal of support, while one member favoured a 25-basis-point rate increase because inflation risks and limited slack were more pressing.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24097,
+ "prompt_tokens": 5133,
+ "completion_tokens": 74,
+ "cost_usd": 0.00067855,
+ "attempts": 1
+}

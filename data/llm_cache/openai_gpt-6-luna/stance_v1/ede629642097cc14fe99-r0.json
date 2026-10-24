@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.95,
+ "reason": "He argues that the inflation peak is likely temporary, substantial labour-market slack and pandemic risks remain, and current monetary stimulus should stay in place for several quarters before any tightening.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23995,
+ "prompt_tokens": 5507,
+ "completion_tokens": 61,
+ "cost_usd": 0.0007188,
+ "attempts": 1
+}

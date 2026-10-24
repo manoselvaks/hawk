@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.5,
+ "confidence": 0.96,
+ "reason": "The speech says that \u201cthe appropriate time for a rise in Bank Rate might be as early as in the coming months\u201d if eroding slack, rising pay pressure, stronger household spending and robust global growth continue.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23994,
+ "prompt_tokens": 5631,
+ "completion_tokens": 70,
+ "cost_usd": 0.0007388,
+ "attempts": 1
+}

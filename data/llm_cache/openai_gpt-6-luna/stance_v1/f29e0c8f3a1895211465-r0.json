@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 0.0,
+ "confidence": 0.87,
+ "reason": "The speech argues that flexible inflation targeting should account for risks from financial imbalances, but presents this as a policy framework discussion rather than leaning toward a particular near-term direction for Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24041,
+ "prompt_tokens": 5390,
+ "completion_tokens": 146,
+ "cost_usd": 0.000746675,
+ "attempts": 1
+}

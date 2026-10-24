@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech focuses on banks\u2019 counterparty and intraday trading risks involving Principal Trading Firms, rather than the UK monetary policy outlook or policy tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20947,
+ "prompt_tokens": 4454,
+ "completion_tokens": 89,
+ "cost_usd": 0.000601175,
+ "attempts": 1
+}

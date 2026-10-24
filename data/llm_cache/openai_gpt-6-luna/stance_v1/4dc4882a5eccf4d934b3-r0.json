@@ -1,0 +1,15 @@
+{
+ "relevance": 0.22,
+ "stance": null,
+ "confidence": 0.95,
+ "reason": "The speech is mainly about the FPC\u2019s financial-stability role and housing-market risks; Bank Rate and MPC guidance are discussed only as context, without a clear monetary-policy lean.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 14599,
+ "prompt_tokens": 3715,
+ "completion_tokens": 231,
+ "cost_usd": 0.0005798,
+ "attempts": 1
+}

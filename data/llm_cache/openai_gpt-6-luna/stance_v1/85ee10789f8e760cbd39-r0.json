@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "Eight members judged Bank Rate should remain at 0.5%, while one favored an immediate increase; the Committee described risks as varied and expected any future rises to be gradual and dependent on economic circumstances.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23992,
+ "prompt_tokens": 5314,
+ "completion_tokens": 66,
+ "cost_usd": 0.000697175,
+ "attempts": 1
+}

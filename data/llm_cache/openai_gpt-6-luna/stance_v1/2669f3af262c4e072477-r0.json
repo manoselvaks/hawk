@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.94,
+ "reason": "The Committee unanimously maintained Bank Rate but said that, if the economy followed its expected path, further modest increases would be warranted over the next few years as slack eroded and domestic inflationary pressures gradually picked up.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24071,
+ "prompt_tokens": 5298,
+ "completion_tokens": 68,
+ "cost_usd": 0.000696175,
+ "attempts": 1
+}

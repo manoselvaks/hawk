@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.86,
+ "reason": "The majority judged that maintaining Bank Rate at 3.75% was appropriate amid upside inflation risks and downside risks to activity, while one member favoured a hike and others noted policy could tighten or ease depending on how the shock develops.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23256,
+ "prompt_tokens": 5082,
+ "completion_tokens": 73,
+ "cost_usd": 0.000671675,
+ "attempts": 1
+}

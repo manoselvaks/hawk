@@ -1,0 +1,15 @@
+{
+ "relevance": 0.8,
+ "stance": 0.0,
+ "confidence": 0.8,
+ "reason": "The speech discusses greening the corporate bond purchase scheme while stating that its overall stock will remain set by the MPC to meet the inflation objective and that the fund will unwind when the outlook allows, without signalling a change in the future policy-rate path.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 6850,
+ "prompt_tokens": 2041,
+ "completion_tokens": 77,
+ "cost_usd": 0.00029355,
+ "attempts": 1
+}

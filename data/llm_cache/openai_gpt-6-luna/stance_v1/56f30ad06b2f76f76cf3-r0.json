@@ -1,0 +1,15 @@
+{
+ "relevance": 0.2,
+ "stance": null,
+ "confidence": 0.94,
+ "reason": "The speech focuses on finance, social trust and public understanding of the Bank, mentioning monetary policy mainly as an example of communication rather than discussing the policy outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 7163,
+ "prompt_tokens": 2123,
+ "completion_tokens": 150,
+ "cost_usd": 0.0003403,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.94,
+ "reason": "The MPC says that, if the economy evolves broadly as projected, gradual and limited monetary tightening would be appropriate, as excess demand builds and domestic inflationary pressures push inflation above target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24078,
+ "prompt_tokens": 5583,
+ "completion_tokens": 62,
+ "cost_usd": 0.0007288,
+ "attempts": 1
+}

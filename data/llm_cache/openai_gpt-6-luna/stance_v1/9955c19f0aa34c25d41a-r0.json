@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.96,
+ "reason": "The speech says the point at which rates begin to normalise is getting closer and that prudent rate increases will be needed as expansion progresses, while stressing they should be gradual and depend on inflation and slack.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19099,
+ "prompt_tokens": 4550,
+ "completion_tokens": 70,
+ "cost_usd": 0.000603675,
+ "attempts": 1
+}

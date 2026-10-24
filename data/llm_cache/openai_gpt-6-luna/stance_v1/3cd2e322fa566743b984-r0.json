@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.89,
+ "reason": "She stresses that wage and price expectations risk embedding a strong-for-longer inflation dynamic and says monetary policy should lean against it, while noting that a shallower path of future rate rises may suffice if expectations and global prices ease.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21213,
+ "prompt_tokens": 4940,
+ "completion_tokens": 71,
+ "cost_usd": 0.000652925,
+ "attempts": 1
+}

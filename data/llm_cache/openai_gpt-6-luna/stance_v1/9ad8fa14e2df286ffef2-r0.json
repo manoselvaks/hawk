@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": -1.0,
+ "confidence": 0.88,
+ "reason": "The speech is substantially about UK monetary policy and its framework, and it leans dovish by saying that if weak activity persists, risk-management considerations favour a relatively prompt response, while noting spare capacity, subdued core inflation and downside risks.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24032,
+ "prompt_tokens": 5184,
+ "completion_tokens": 154,
+ "cost_usd": 0.000724925,
+ "attempts": 1
+}

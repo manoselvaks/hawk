@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.97,
+ "reason": "The speech concludes that the balance of risks has shifted toward tightening too late and that withdrawing some stimulus would be prudent in the second half of the year, provided incoming data remain on track.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24095,
+ "prompt_tokens": 5478,
+ "completion_tokens": 112,
+ "cost_usd": 0.000740675,
+ "attempts": 1
+}

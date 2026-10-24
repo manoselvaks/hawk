@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.77,
+ "reason": "He sees a downside risk to next year\u2019s inflation forecast from oil, but says policy should look through short-term external shocks rather than loosen aggressively because their effects should fade by early 2017.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24012,
+ "prompt_tokens": 5613,
+ "completion_tokens": 68,
+ "cost_usd": 0.00073555,
+ "attempts": 1
+}

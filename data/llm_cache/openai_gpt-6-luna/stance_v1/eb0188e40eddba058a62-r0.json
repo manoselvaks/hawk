@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.65,
+ "reason": "The speech stresses that the current labour market is looser, the economy has excess supply and monetary conditions are restrictive, which should limit second-round effects, while cautioning that persistent inflationary pressure cannot be ignored.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24047,
+ "prompt_tokens": 5503,
+ "completion_tokens": 257,
+ "cost_usd": 0.0008163,
+ "attempts": 1
+}

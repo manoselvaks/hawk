@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.96,
+ "reason": "Miles argues that policy should remain exceptionally expansionary and not be tightened until recovery has reduced unemployment, saying the stronger recovery \u201cdoes not need right now\u201d tighter monetary policy and that current settings are appropriate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23634,
+ "prompt_tokens": 5325,
+ "completion_tokens": 67,
+ "cost_usd": 0.00069905,
+ "attempts": 1
+}

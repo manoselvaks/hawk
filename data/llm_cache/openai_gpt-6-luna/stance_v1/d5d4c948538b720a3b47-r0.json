@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech focuses on financial-sector regulation and reform, financial stability, and opportunities for the City, rather than the UK inflation outlook or monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20143,
+ "prompt_tokens": 4378,
+ "completion_tokens": 57,
+ "cost_usd": 0.000575675,
+ "attempts": 1
+}

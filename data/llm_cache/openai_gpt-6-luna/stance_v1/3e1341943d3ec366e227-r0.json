@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.5,
+ "confidence": 0.94,
+ "reason": "Weale says weak demand and worsening prospects justify further stimulus, that easing inflation leaves \u201cappreciably more room\u201d for it, and that he supports monetary stimulus while awaiting the outcome of funding discussions.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19864,
+ "prompt_tokens": 4610,
+ "completion_tokens": 71,
+ "cost_usd": 0.000611675,
+ "attempts": 1
+}

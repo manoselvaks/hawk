@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.94,
+ "reason": "Miles accepts inflation will remain above target during 2011 but expects it to fall back to target in 2012, sees growth risks skewed to the downside, and argues there is no strong case to tighten faster than the gradual path implied by market rates.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20744,
+ "prompt_tokens": 4890,
+ "completion_tokens": 79,
+ "cost_usd": 0.000650675,
+ "attempts": 1
+}

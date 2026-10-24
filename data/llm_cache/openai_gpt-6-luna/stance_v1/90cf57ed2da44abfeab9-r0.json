@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech is about payment-system infrastructure, access to RTGS, ISO 20022 and payments innovation, rather than the UK inflation outlook or monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20443,
+ "prompt_tokens": 4344,
+ "completion_tokens": 59,
+ "cost_usd": 0.000572425,
+ "attempts": 1
+}

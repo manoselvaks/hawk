@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.98,
+ "reason": "The speaker stresses that returning inflation to 2% is the absolute priority, says inflation risks are tilted to the upside and that persistent price or wage pressures could require forceful action, including a 50 basis point rise, while acknowledging weakening growth.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12473,
+ "prompt_tokens": 3222,
+ "completion_tokens": 75,
+ "cost_usd": 0.000440175,
+ "attempts": 1
+}

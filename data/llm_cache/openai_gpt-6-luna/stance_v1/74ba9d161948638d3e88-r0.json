@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.95,
+ "reason": "The Committee unanimously judged the shock\u2019s impact on activity to be clearly downside and cut rates by 25 basis points, while two members favoured a larger 50-basis-point reduction and some expected further easing might soon be warranted.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 14043,
+ "prompt_tokens": 3319,
+ "completion_tokens": 73,
+ "cost_usd": 0.0004513,
+ "attempts": 1
+}

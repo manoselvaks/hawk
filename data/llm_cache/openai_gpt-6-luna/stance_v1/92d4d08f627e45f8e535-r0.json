@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 1,
+ "reason": "The Committee judged that inflation would substantially undershoot the target without further action and unanimously cut Bank Rate by 1 percentage point to 2.0%, citing severe downside risks to demand and inflation.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18763,
+ "prompt_tokens": 4225,
+ "completion_tokens": 64,
+ "cost_usd": 0.00056005,
+ "attempts": 1
+}

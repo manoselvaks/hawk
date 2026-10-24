@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 0.5,
+ "confidence": 0.78,
+ "reason": "The speech explains that inflation is projected to rise to around 3% and warns that policy must prevent higher inflation expectations from becoming entrenched, while also stressing the need to avoid an excessive slowdown.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 8998,
+ "prompt_tokens": 2376,
+ "completion_tokens": 217,
+ "cost_usd": 0.000405425,
+ "attempts": 1
+}

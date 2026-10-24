@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": 0.0,
+ "confidence": 0.87,
+ "reason": "The speech focuses on the transparency and communication of monetary policy, describing past rate decisions and the inflation-target framework, but expresses no clear lean toward tightening or easing and stresses the MPC\u2019s shared commitment to keeping inflation close to 2%.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23767,
+ "prompt_tokens": 5253,
+ "completion_tokens": 75,
+ "cost_usd": 0.00069405,
+ "attempts": 1
+}

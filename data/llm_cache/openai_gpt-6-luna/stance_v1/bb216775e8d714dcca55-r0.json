@@ -1,0 +1,15 @@
+{
+ "relevance": 0.87,
+ "stance": -1.0,
+ "confidence": 0.79,
+ "reason": "The speech describes emergency easing\u2014including interest-rate cuts, \u00a3200bn of asset purchases and cheap funding\u2014to address a sharply worsening economic outlook and reinforce monetary transmission.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 8354,
+ "prompt_tokens": 2367,
+ "completion_tokens": 60,
+ "cost_usd": 0.0003258,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.86,
+ "reason": "Most members judged the current setting appropriate and voted to maintain asset purchases at \u00a3375 billion, while other members argued that further stimulus was compelling, leaving the Committee\u2019s overall position balanced.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21427,
+ "prompt_tokens": 4707,
+ "completion_tokens": 184,
+ "cost_usd": 0.0006803,
+ "attempts": 1
+}

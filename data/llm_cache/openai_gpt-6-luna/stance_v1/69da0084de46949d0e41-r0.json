@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.92,
+ "reason": "The MPC says that, if the economy develops broadly as projected, ongoing monetary tightening would be appropriate, while noting increases are likely to be gradual and limited.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24097,
+ "prompt_tokens": 5500,
+ "completion_tokens": 102,
+ "cost_usd": 0.000738425,
+ "attempts": 1
+}

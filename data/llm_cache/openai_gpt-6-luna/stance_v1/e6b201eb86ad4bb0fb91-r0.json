@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.82,
+ "reason": "Although he expects spare capacity to pull inflation below target and supports significant stimulus, he voted against expanding asset purchases and preferred to grow the economy a little less rapidly because of uncertainty about spare capacity and risks to asset prices.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17364,
+ "prompt_tokens": 3975,
+ "completion_tokens": 282,
+ "cost_usd": 0.0006378,
+ "attempts": 1
+}

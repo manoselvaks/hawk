@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 0.99,
+ "reason": "The Committee judged that medium-term inflation risks had shifted decisively to the downside and that a relaxation was needed, unanimously voting to cut Bank Rate by 50 basis points to 4.5%.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17282,
+ "prompt_tokens": 4007,
+ "completion_tokens": 67,
+ "cost_usd": 0.0005343,
+ "attempts": 1
+}

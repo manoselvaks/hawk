@@ -1,0 +1,15 @@
+{
+ "relevance": 0.55,
+ "stance": 0.0,
+ "confidence": 0.75,
+ "reason": "The speech discusses the monetary regime and policy implementation, but offers no clear prospective policy lean, describing uncertainty around rates and noting that robust growth and lower risk do not remove the possibility of shocks.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 13474,
+ "prompt_tokens": 3283,
+ "completion_tokens": 66,
+ "cost_usd": 0.0004433,
+ "attempts": 1
+}

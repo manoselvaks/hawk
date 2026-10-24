@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.77,
+ "reason": "The speech discusses the outlook and risks relevant to setting UK interest rates, but presents offsetting forces\u2014including subdued euro-area demand and high oil-price risks\u2014without a clear directional policy recommendation, noting that the MPC may face hard choices.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 14436,
+ "prompt_tokens": 3553,
+ "completion_tokens": 72,
+ "cost_usd": 0.00048005,
+ "attempts": 1
+}

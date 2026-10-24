@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.83,
+ "reason": "The Committee judged the existing stance appropriate and unanimously held rates and purchases, while noting downside risks and standing ready to ease if inflation weakened; it explicitly did not intend to tighten until spare capacity was being eliminated and inflation sustainably at target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24029,
+ "prompt_tokens": 5251,
+ "completion_tokens": 75,
+ "cost_usd": 0.0006938,
+ "attempts": 1
+}

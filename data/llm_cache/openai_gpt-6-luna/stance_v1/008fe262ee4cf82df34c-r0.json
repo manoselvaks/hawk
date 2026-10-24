@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.85,
+ "reason": "The Committee noted weaker-than-expected inflation, downside risks to growth and that constant Bank Rate could support the recovery, concluding there could be a case for not raising Bank Rate immediately when unemployment reached 7%.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23845,
+ "prompt_tokens": 5236,
+ "completion_tokens": 71,
+ "cost_usd": 0.000689925,
+ "attempts": 1
+}

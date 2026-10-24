@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.84,
+ "reason": "The Committee was split, with three members preferring an immediate rate rise and the majority holding rates; although some saw a case for a cut, no member advocated one, and concerns about a tightening labour market and upside inflation risks remained.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24071,
+ "prompt_tokens": 5273,
+ "completion_tokens": 75,
+ "cost_usd": 0.00069655,
+ "attempts": 1
+}

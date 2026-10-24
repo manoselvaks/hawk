@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.5,
+ "confidence": 0.97,
+ "reason": "The speaker voted for a further rate increase, arguing that current rates might not sufficiently restrain credit growth and nominal demand, and judged the risk of moving too slowly and allowing higher inflation to be more concerning than an unnecessary slowdown.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20798,
+ "prompt_tokens": 4847,
+ "completion_tokens": 73,
+ "cost_usd": 0.0006423,
+ "attempts": 1
+}

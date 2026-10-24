@@ -1,0 +1,15 @@
+{
+ "relevance": 0.45,
+ "stance": 0.0,
+ "confidence": 0.84,
+ "reason": "The speech uses the Bank\u2019s inflation forecast and MPC deliberations to illustrate how policy uncertainty is communicated, but it offers no directional view on the inflation outlook or future Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 9723,
+ "prompt_tokens": 2574,
+ "completion_tokens": 63,
+ "cost_usd": 0.000353175,
+ "attempts": 1
+}

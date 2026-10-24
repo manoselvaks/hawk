@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": -1.0,
+ "confidence": 0.9,
+ "reason": "He argues that a lower NAIRU, global price pressures and a weakening economy point to lower UK inflation, notes his own inflation projection was below the Committee\u2019s, and identifies a self-reinforcing downturn as a downside risk.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24102,
+ "prompt_tokens": 5613,
+ "completion_tokens": 168,
+ "cost_usd": 0.00078555,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 2.0,
+ "confidence": 0.99,
+ "reason": "The speaker says the current stance is \u201cnot sufficiently tight,\u201d voted for a 25 basis point Bank Rate increase at the last two meetings, and argues that further rises are needed to maintain credibility and contain upside inflation risks.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20643,
+ "prompt_tokens": 4715,
+ "completion_tokens": 70,
+ "cost_usd": 0.0006243,
+ "attempts": 1
+}

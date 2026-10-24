@@ -1,0 +1,15 @@
+{
+ "relevance": 0.5,
+ "stance": 0.0,
+ "confidence": 0.9,
+ "reason": "The speech discusses climate change\u2019s implications for monetary policy and the greening of the corporate bond portfolio, but presents the policy effects as uncertain and balanced, noting both upward and downward pressures on natural rates and no case for a particular Bank Rate path.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 15231,
+ "prompt_tokens": 3585,
+ "completion_tokens": 77,
+ "cost_usd": 0.00048655,
+ "attempts": 1
+}

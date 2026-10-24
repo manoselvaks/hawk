@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.5,
+ "confidence": 0.98,
+ "reason": "The Committee judged the medium-term inflation risks to be on the downside and approved a 50 basis point Bank Rate cut, with one member arguing for a larger 100 basis point cut because recession and unemployment risks were worsening.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21513,
+ "prompt_tokens": 4786,
+ "completion_tokens": 73,
+ "cost_usd": 0.000634675,
+ "attempts": 1
+}

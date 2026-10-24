@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.88,
+ "reason": "He says the policy debate has shifted toward whether to sustain domestic demand by lowering interest rates and promises to keep monetary policy supportive as far as sensible, reflecting concern about weaker global demand despite acknowledging risks from household borrowing and house prices.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12579,
+ "prompt_tokens": 3275,
+ "completion_tokens": 72,
+ "cost_usd": 0.0004453,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.82,
+ "reason": "The majority held Bank Rate at 4.5% and stressed that there was no pre-set path, while judging that a gradual withdrawal of restraint remained appropriate; one member explicitly preferred a cut, and the majority acknowledged demand weakness as a risk that could warrant a less restrictive path.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24094,
+ "prompt_tokens": 5247,
+ "completion_tokens": 85,
+ "cost_usd": 0.0006983,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.87,
+ "reason": "Most members saw medium-term inflation risks moving further to the upside and no case for a rate cut, while some considered an immediate rise; the Committee held Bank Rate at 5.0% by an 8\u20131 vote, with one member preferring a cut.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21043,
+ "prompt_tokens": 4623,
+ "completion_tokens": 82,
+ "cost_usd": 0.0006188,
+ "attempts": 1
+}

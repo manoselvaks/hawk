@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": 0.0,
+ "confidence": 0.82,
+ "reason": "The speech examines how trade diversion may affect UK prices and inflation, but it gives no clear signal about whether monetary policy should tighten or ease.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23964,
+ "prompt_tokens": 5754,
+ "completion_tokens": 181,
+ "cost_usd": 0.000809675,
+ "attempts": 1
+}

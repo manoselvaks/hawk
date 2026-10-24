@@ -1,0 +1,15 @@
+{
+ "relevance": 0.62,
+ "stance": 0.0,
+ "confidence": 0.82,
+ "reason": "The speech discusses inflation, demand and expected short-term interest rates in the UK and other economies, but mainly analyses bond-market expectations and macroeconomic discipline, without advocating a change in UK monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12830,
+ "prompt_tokens": 3146,
+ "completion_tokens": 67,
+ "cost_usd": 0.000426675,
+ "attempts": 1
+}

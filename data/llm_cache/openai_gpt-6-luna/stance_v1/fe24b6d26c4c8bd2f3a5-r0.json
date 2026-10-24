@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.9,
+ "reason": "The Committee unanimously maintained Bank Rate and asset purchases, balancing expected above-target inflation from sterling\u2019s depreciation against weaker real incomes and activity, and said policy could respond in either direction as the outlook evolved.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23959,
+ "prompt_tokens": 5229,
+ "completion_tokens": 65,
+ "cost_usd": 0.00068605,
+ "attempts": 1
+}

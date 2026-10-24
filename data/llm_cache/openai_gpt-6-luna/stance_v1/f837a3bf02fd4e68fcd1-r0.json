@@ -1,0 +1,15 @@
+{
+ "relevance": 0.45,
+ "stance": 0.0,
+ "confidence": 0.72,
+ "reason": "The speech is mainly about prudential regulation, accountability and international financial stability, with monetary policy discussed only in passing as a framework for transparency and medium-term inflation targeting, without a clear lean on future Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 14504,
+ "prompt_tokens": 3579,
+ "completion_tokens": 70,
+ "cost_usd": 0.0004823,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 0.99,
+ "reason": "She says the outlook implies significant spare capacity and inflation below target, that Bank Rate cuts are insufficient, and strongly supports decisive quantitative easing to counter the downside risks to growth and inflation.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24029,
+ "prompt_tokens": 5273,
+ "completion_tokens": 63,
+ "cost_usd": 0.00069055,
+ "attempts": 1
+}

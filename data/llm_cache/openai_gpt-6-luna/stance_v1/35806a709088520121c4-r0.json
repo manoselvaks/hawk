@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.69,
+ "reason": "Although members worried that strong domestic demand and rapid money and credit growth posed upside inflation risks, others judged inflation risks to be on the downside and argued for a rate cut, leaving a modest dovish lean overall.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24076,
+ "prompt_tokens": 5518,
+ "completion_tokens": 332,
+ "cost_usd": 0.000855675,
+ "attempts": 1
+}

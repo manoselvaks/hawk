@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.86,
+ "reason": "Although he stresses that persistently weak wage growth could justify maintaining stimulus, he argues that labour-market slack may be overstated, that policy should be tighter than the May forecast, and that the first gradual Bank Rate rise should come sooner.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20034,
+ "prompt_tokens": 4668,
+ "completion_tokens": 151,
+ "cost_usd": 0.000658925,
+ "attempts": 1
+}

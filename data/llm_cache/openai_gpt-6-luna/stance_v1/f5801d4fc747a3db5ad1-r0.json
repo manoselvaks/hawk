@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.87,
+ "reason": "The speaker expects inflation could reach 3%, sees limited labour-market slack and judges policy clearly accommodative, while emphasizing that rates may need to respond to the outlook, though they voted to hold in March and do not pre-announce a May decision.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20698,
+ "prompt_tokens": 4938,
+ "completion_tokens": 76,
+ "cost_usd": 0.000655175,
+ "attempts": 1
+}

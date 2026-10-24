@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.84,
+ "reason": "The Committee judged the existing stance appropriate and said it would not tighten until there was clear evidence of significant progress, while most members still considered downside-risk support necessary despite a stronger outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24002,
+ "prompt_tokens": 5306,
+ "completion_tokens": 65,
+ "cost_usd": 0.000695675,
+ "attempts": 1
+}

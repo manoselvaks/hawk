@@ -146,6 +146,9 @@ def test_member_meetings_window(decisions: pd.DataFrame) -> None:
     mm = dissent.member_meetings(scores, decisions, members).set_index("member")
     assert mm.loc["B Hawk", "tone"] == 2.0 and mm.loc["B Hawk", "vote"] == 1
     assert mm.loc["C Dove", "vote"] == -1
+    # both spoke before the May meeting; at the March meeting both voted with the majority
+    assert (mm["date"] == pd.Timestamp("2022-05-05")).all()
+    assert mm.loc["B Hawk", "prev_vote"] == 0 and mm.loc["C Dove", "prev_vote"] == 0
 
 
 def test_clean_makes_json_safe() -> None:

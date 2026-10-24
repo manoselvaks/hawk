@@ -1,0 +1,15 @@
+{
+ "relevance": 0.5,
+ "stance": 0.0,
+ "confidence": 0.83,
+ "reason": "The speech discusses the distributional effects of monetary policy and how credit tightening may limit recovery, but it does not advocate a change in Bank Rate or other policy tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 7247,
+ "prompt_tokens": 2092,
+ "completion_tokens": 181,
+ "cost_usd": 0.000351925,
+ "attempts": 1
+}

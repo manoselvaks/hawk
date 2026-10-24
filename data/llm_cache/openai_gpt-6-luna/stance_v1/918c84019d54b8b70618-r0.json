@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.86,
+ "reason": "Dale says the MPC intends to keep exceptionally stimulative policy in place until growth is sustained and slack has narrowed significantly, and that rates will rise only against a much stronger economic backdrop.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22658,
+ "prompt_tokens": 5123,
+ "completion_tokens": 64,
+ "cost_usd": 0.0006723,
+ "attempts": 1
+}

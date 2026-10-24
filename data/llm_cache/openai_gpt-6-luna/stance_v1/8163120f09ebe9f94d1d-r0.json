@@ -1,0 +1,15 @@
+{
+ "relevance": 0.35,
+ "stance": 0.0,
+ "confidence": 0.93,
+ "reason": "The speech discusses the independence of interest-rate setting and the Bank\u2019s public accountability, but gives no view on the monetary policy outlook or future rates.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 2439,
+ "prompt_tokens": 1171,
+ "completion_tokens": 57,
+ "cost_usd": 0.0001748,
+ "attempts": 1
+}

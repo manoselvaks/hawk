@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.89,
+ "reason": "King describes the competing risks of sharply slower activity and above-target inflation, saying the MPC must balance them and keep inflation on track in the medium term, without signalling a clear direction for Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 13537,
+ "prompt_tokens": 3348,
+ "completion_tokens": 65,
+ "cost_usd": 0.000450925,
+ "attempts": 1
+}

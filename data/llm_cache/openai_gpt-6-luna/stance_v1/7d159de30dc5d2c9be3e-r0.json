@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.94,
+ "reason": "Although seven members voted to hold, two favoured a 25-basis-point cut and cited weaker demand, easing labour-market conditions and the risk that inflation would fall below target, giving the Committee a slight dovish lean.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22439,
+ "prompt_tokens": 5013,
+ "completion_tokens": 74,
+ "cost_usd": 0.00066355,
+ "attempts": 1
+}

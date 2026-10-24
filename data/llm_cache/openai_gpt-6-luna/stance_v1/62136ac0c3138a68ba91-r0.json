@@ -1,0 +1,15 @@
+{
+ "relevance": 0.75,
+ "stance": 0.0,
+ "confidence": 0.81,
+ "reason": "Although much of the speech concerns the Northern Rock crisis and banking reforms, King says inflation is near target, demand needs to slow moderately, and the MPC will monitor both tighter-credit effects and upside inflation risks without signalling a preferred change in Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19301,
+ "prompt_tokens": 4539,
+ "completion_tokens": 77,
+ "cost_usd": 0.0006058,
+ "attempts": 1
+}

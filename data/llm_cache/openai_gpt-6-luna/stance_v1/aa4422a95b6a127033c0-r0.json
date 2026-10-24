@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.86,
+ "reason": "She judges the downside risk to growth and inflation from credit tightening to be greater than the upside risk, and says tighter credit makes any given Bank Rate more restrictive, but stresses that an immediate case for lowering rates is not compelling amid rising inflation pressures.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21701,
+ "prompt_tokens": 4920,
+ "completion_tokens": 78,
+ "cost_usd": 0.000653925,
+ "attempts": 1
+}

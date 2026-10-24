@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech is about opening Oxford\u2019s Economics Building and acknowledging its contribution to economic research and the Bank\u2019s staff, with no discussion of the monetary policy outlook or tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 3807,
+ "prompt_tokens": 1473,
+ "completion_tokens": 104,
+ "cost_usd": 0.00023605,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.87,
+ "reason": "Most members judged that medium-term inflation risks had shifted upwards, with two voting to raise Bank Rate, although the majority held rates pending further assessment and one member favoured more asset purchases.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23699,
+ "prompt_tokens": 5135,
+ "completion_tokens": 217,
+ "cost_usd": 0.0007503,
+ "attempts": 1
+}

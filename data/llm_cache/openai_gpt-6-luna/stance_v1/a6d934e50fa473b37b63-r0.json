@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.91,
+ "reason": "He favours a \u201csomewhat higher burden of proof\u201d before tightening, citing uncertain supply conditions and domestic inflation pressures that are not yet firmly established, while allowing that gradual tightening may be needed to meet the target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21785,
+ "prompt_tokens": 5093,
+ "completion_tokens": 223,
+ "cost_usd": 0.00074805,
+ "attempts": 1
+}

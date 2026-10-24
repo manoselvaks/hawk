@@ -1,0 +1,15 @@
+{
+ "relevance": 0.15,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech focuses on financial stability risks from public and global indebtedness and the UK\u2019s limited fiscal space, rather than the monetary policy outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19242,
+ "prompt_tokens": 4498,
+ "completion_tokens": 136,
+ "cost_usd": 0.000630175,
+ "attempts": 1
+}

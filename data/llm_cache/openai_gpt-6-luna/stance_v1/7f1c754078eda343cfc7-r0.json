@@ -1,0 +1,15 @@
+{
+ "relevance": 0.15,
+ "stance": null,
+ "confidence": 0.92,
+ "reason": "The extract focuses on NBFI systemic liquidity risks and central-bank facilities for financial stability, rather than the inflation outlook, demand, or the future path of Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 6225,
+ "prompt_tokens": 1869,
+ "completion_tokens": 62,
+ "cost_usd": 0.00026455,
+ "attempts": 1
+}

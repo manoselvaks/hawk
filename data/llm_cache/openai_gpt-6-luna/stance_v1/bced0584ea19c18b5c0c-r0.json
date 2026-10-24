@@ -1,0 +1,15 @@
+{
+ "relevance": 0.7,
+ "stance": 0.0,
+ "confidence": 0.79,
+ "reason": "The speech explains QE\u2019s effects and notes negligible UK growth and that yields may remain low for some time, but it gives no clear signal for further easing or tightening.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19319,
+ "prompt_tokens": 4484,
+ "completion_tokens": 232,
+ "cost_usd": 0.000676425,
+ "attempts": 1
+}

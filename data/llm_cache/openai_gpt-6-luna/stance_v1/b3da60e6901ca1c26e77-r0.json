@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.88,
+ "reason": "The speaker supports holding Bank Rate but says upside risks to price stability are mounting and stands ready to act to contain lasting inflationary pressures.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20912,
+ "prompt_tokens": 4509,
+ "completion_tokens": 53,
+ "cost_usd": 0.00059005,
+ "attempts": 1
+}

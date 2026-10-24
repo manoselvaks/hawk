@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.83,
+ "reason": "The Committee judged the current stance appropriate and said gradual, limited tightening would be appropriate if its February projections materialised, while emphasizing that Brexit could require a response in either direction.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23762,
+ "prompt_tokens": 5247,
+ "completion_tokens": 63,
+ "cost_usd": 0.0006873,
+ "attempts": 1
+}

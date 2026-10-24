@@ -1,0 +1,15 @@
+{
+ "relevance": 0.75,
+ "stance": -1.0,
+ "confidence": 0.75,
+ "reason": "The speech focuses on investment and its economic implications, and highlights persistent Brexit uncertainty as a downside risk to the GDP forecast, with weak investment potentially continuing, but gives no direct call for a rate cut.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17033,
+ "prompt_tokens": 4237,
+ "completion_tokens": 69,
+ "cost_usd": 0.00056405,
+ "attempts": 1
+}

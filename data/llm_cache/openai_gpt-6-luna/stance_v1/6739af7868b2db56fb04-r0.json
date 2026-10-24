@@ -1,0 +1,15 @@
+{
+ "relevance": 0.12,
+ "stance": null,
+ "confidence": 0.9,
+ "reason": "The extracts focus on financial stability, property and bank lending risks, prudential measures, and bank returns, rather than the UK monetary policy outlook or Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 6972,
+ "prompt_tokens": 2135,
+ "completion_tokens": 60,
+ "cost_usd": 0.0002968,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.1,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech focuses on the Bank\u2019s RTGS system and the evolution of payments and market infrastructure, mentioning monetary policy only as context.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 4183,
+ "prompt_tokens": 1461,
+ "completion_tokens": 95,
+ "cost_usd": 0.00023005,
+ "attempts": 1
+}

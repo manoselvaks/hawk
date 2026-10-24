@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.87,
+ "reason": "Although the speaker says low inflation does not make more expansionary policy necessary, they also say there is \u201cno great urgency\u201d in moving policy back towards a more normal setting, signalling a mild lean toward holding rates low for longer.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24049,
+ "prompt_tokens": 5328,
+ "completion_tokens": 221,
+ "cost_usd": 0.000776425,
+ "attempts": 1
+}

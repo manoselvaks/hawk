@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.89,
+ "reason": "The Committee judged risks around its inflation and growth projections broadly balanced and, for most members, the outlook justified maintaining policy, while two members argued for an early Bank Rate rise given tightening labour-market conditions.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23954,
+ "prompt_tokens": 5099,
+ "completion_tokens": 182,
+ "cost_usd": 0.0007283,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.9,
+ "reason": "The speaker favours further stimulus if consistent with the inflation target, citing substantial spare capacity and the costs of unemployment, but judges that the majority sees no compelling case to ease or tighten policy at present because inflation is above target and expectations could rise.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 14246,
+ "prompt_tokens": 3506,
+ "completion_tokens": 78,
+ "cost_usd": 0.000477175,
+ "attempts": 1
+}
