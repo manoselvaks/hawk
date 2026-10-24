@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": -1.0,
+ "confidence": 0.94,
+ "reason": "Although the speech recognises tight labour markets, strong pay growth and possible second-round inflation requiring further tightening, the speaker voted against a rate increase and says they are not convinced heavy, persistent tightening is needed as higher commodity prices depress activity and risk driving inflation below target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22214,
+ "prompt_tokens": 5109,
+ "completion_tokens": 82,
+ "cost_usd": 0.00067955,
+ "attempts": 1
+}

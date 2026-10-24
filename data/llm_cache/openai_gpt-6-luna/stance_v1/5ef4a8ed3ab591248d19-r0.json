@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.5,
+ "confidence": 0.98,
+ "reason": "He says activity risks remain skewed to the downside, policy should lean strongly against them, and he remains open to further support, including preparing for a negative Bank Rate, while seeing little risk of sustained above-target inflation.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23188,
+ "prompt_tokens": 5400,
+ "completion_tokens": 73,
+ "cost_usd": 0.000711425,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.5,
+ "confidence": 0.99,
+ "reason": "The Committee agreed that \u201can immediate easing of policy was appropriate\u201d because the outlook had weakened and inflation was expected to remain below target, with some members judging downside risks sufficiently large that a 50 basis point cut could be justified, although they chose a gradual 25 basis point reduction.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23968,
+ "prompt_tokens": 5521,
+ "completion_tokens": 86,
+ "cost_usd": 0.00073305,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.96,
+ "reason": "Shafik says she will not vote to raise Bank Rate until wage growth is sustained, citing uncertainty and downside risks, although she expects faster increases than the market curve once that condition is met.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23647,
+ "prompt_tokens": 5446,
+ "completion_tokens": 68,
+ "cost_usd": 0.000714675,
+ "attempts": 1
+}

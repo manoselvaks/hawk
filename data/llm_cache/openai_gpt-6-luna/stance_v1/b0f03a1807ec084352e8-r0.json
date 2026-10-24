@@ -1,0 +1,15 @@
+{
+ "relevance": 0,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech is about gender diversity and inclusion in financial services and the Bank of England\u2019s workplace initiatives, with no discussion of the monetary policy outlook or tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20038,
+ "prompt_tokens": 4664,
+ "completion_tokens": 59,
+ "cost_usd": 0.000612425,
+ "attempts": 1
+}

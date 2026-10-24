@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.98,
+ "reason": "Ramsden says domestic inflation risks are tilted to the downside, persistence is receding and weaker pay and services inflation are likely, while committing only to a watchful approach to future policy decisions.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21165,
+ "prompt_tokens": 4974,
+ "completion_tokens": 66,
+ "cost_usd": 0.000654675,
+ "attempts": 1
+}

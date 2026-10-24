@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.5,
+ "confidence": 0.96,
+ "reason": "The speaker favoured a 50bp hike, sees inflation risks as tilted upward because domestic capacity, pay and inflation-expectation pressures may persist, and says further tightening is likely to be appropriate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23782,
+ "prompt_tokens": 5678,
+ "completion_tokens": 210,
+ "cost_usd": 0.000814675,
+ "attempts": 1
+}

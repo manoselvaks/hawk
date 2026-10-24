@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 0.0,
+ "confidence": 0.84,
+ "reason": "George expects steady growth, high employment and inflation around target, while noting that demand must moderate and labour-market tightness could lift earnings, but gives no clear signal of a change in policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 8160,
+ "prompt_tokens": 2273,
+ "completion_tokens": 158,
+ "cost_usd": 0.00036305,
+ "attempts": 1
+}

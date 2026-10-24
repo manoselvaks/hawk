@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.77,
+ "reason": "The Committee voted 7\u20132 to hold, with the majority judging risks to the inflation forecast still to the downside and saying more data were needed, despite two members preferring an immediate rate rise.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23633,
+ "prompt_tokens": 5139,
+ "completion_tokens": 69,
+ "cost_usd": 0.0006768,
+ "attempts": 1
+}

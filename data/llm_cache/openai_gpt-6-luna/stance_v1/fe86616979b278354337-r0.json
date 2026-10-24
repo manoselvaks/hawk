@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.97,
+ "reason": "The Committee said a majority expected to support a further Bank Rate cut to its effective lower bound if the outlook matched its August projections, despite slightly stronger near-term data; two members also considered the additional gilt-purchase stimulus unwarranted.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23974,
+ "prompt_tokens": 5284,
+ "completion_tokens": 74,
+ "cost_usd": 0.000697425,
+ "attempts": 1
+}

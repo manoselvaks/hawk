@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.84,
+ "reason": "The Committee held Bank Rate at 4% and said gradual, careful restraint remained appropriate, with prominent upside inflation risks and future reductions conditional on continued disinflation, while two members favored a cut because of subdued demand and growing slack.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23987,
+ "prompt_tokens": 5381,
+ "completion_tokens": 75,
+ "cost_usd": 0.00071005,
+ "attempts": 1
+}

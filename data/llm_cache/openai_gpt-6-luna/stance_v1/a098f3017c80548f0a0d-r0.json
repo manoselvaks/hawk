@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.9,
+ "reason": "The Committee judged the short-term outlook for growth and inflation to be little changed, noted some increased downside risks to demand but warned it would need tighter policy if oil-price effects fed into wages or medium-term expectations, and unanimously held the repo rate at 4.5%.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20844,
+ "prompt_tokens": 4652,
+ "completion_tokens": 250,
+ "cost_usd": 0.000706425,
+ "attempts": 1
+}

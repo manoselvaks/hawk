@@ -1,0 +1,15 @@
+{
+ "relevance": 0.45,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speech mainly examines globalisation\u2019s effects on UK demand, financial conditions and productivity, and offers no clear lean on the future path of Bank Rate or other monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 15470,
+ "prompt_tokens": 3828,
+ "completion_tokens": 62,
+ "cost_usd": 0.000509425,
+ "attempts": 1
+}

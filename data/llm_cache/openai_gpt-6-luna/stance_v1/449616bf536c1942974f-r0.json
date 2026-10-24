@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.82,
+ "reason": "He says the HICP switch would call for slightly looser policy for a limited period, while judging that it would barely affect the current stance and rejecting higher rates to deter household borrowing.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24100,
+ "prompt_tokens": 5786,
+ "completion_tokens": 218,
+ "cost_usd": 0.000832175,
+ "attempts": 1
+}

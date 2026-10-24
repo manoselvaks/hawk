@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": -0.5,
+ "confidence": 0.79,
+ "reason": "The speaker says the weaker outlook and lower inflation risks reduce the case for an early rate rise, sees no case for an immediate increase, and says further weakening would call for additional monetary support, while noting that buoyant consumption alongside stronger exports and investment could require rate increases.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16472,
+ "prompt_tokens": 3819,
+ "completion_tokens": 85,
+ "cost_usd": 0.0005198,
+ "attempts": 1
+}

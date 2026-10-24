@@ -1,0 +1,15 @@
+{
+ "relevance": 0.75,
+ "stance": 0.0,
+ "confidence": 0.82,
+ "reason": "The speech discusses the recent Bank Rate cut and the TFS as ways to strengthen monetary-policy transmission, but offers no clear preference about the future path of policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20047,
+ "prompt_tokens": 4604,
+ "completion_tokens": 216,
+ "cost_usd": 0.000683425,
+ "attempts": 1
+}

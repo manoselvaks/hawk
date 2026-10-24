@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.83,
+ "reason": "Although he stresses vigilance against rising inflation expectations, he says the encouraging news there contrasts with the risk of underestimating the credit crisis\u2019s deflationary consequences and the possibility that the slowdown will be amplified.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23226,
+ "prompt_tokens": 5221,
+ "completion_tokens": 239,
+ "cost_usd": 0.00077205,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.1,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech focuses on payments innovation, digital money, payment infrastructure and related regulation, with no discussion of the UK inflation, demand, labour-market or Bank Rate outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 13987,
+ "prompt_tokens": 3272,
+ "completion_tokens": 61,
+ "cost_usd": 0.000439425,
+ "attempts": 1
+}

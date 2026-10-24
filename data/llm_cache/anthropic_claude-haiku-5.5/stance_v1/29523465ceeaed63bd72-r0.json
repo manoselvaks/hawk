@@ -1,0 +1,15 @@
+{
+ "relevance": 0.6,
+ "stance": 1.0,
+ "confidence": 0.6,
+ "reason": "Speech is partly about globalisation and inflation dynamics but its later sections argue that with slack eroding and inflation likely to overshoot, 'some withdrawal of monetary stimulus is likely to be appropriate' and 'a modest monetary tightening' is reinforced, though it also stresses a gradual pace and continued support.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24084,
+ "prompt_tokens": 8754,
+ "completion_tokens": 143,
+ "cost_usd": 0.0009469,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.88,
+ "reason": "King explains the MPC's recent rate cut in response to weaker confidence, international turbulence and downside risks to demand, while noting that domestic demand is slowing as desired and that rapid monetary growth and uncertain earnings still matter for inflation.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 13877,
+ "prompt_tokens": 3397,
+ "completion_tokens": 71,
+ "cost_usd": 0.00046005,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.5,
+ "stance": 0.0,
+ "confidence": 0.5,
+ "reason": "The speech is mainly about household saving, fiscal policy and national saving rather than the policy outlook, with a partial section on the near-term inflation and consumption outlook that stresses not overreacting to monthly data and keeping inflation on track to the 2% target, giving a balanced lean.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 13150,
+ "prompt_tokens": 5142,
+ "completion_tokens": 127,
+ "cost_usd": 0.0005777,
+ "attempts": 1
+}

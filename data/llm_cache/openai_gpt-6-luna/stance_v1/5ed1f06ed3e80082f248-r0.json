@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.78,
+ "reason": "Although the speaker judged stronger demand to outweigh bad employment news and voted to maintain the stance, he says risks remain skewed to the downside, highlights persistent unemployment, and stands ready to adjust policy to support the economy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22359,
+ "prompt_tokens": 5151,
+ "completion_tokens": 72,
+ "cost_usd": 0.0006798,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech focuses on bank capital regulation, financial stability, and the Basel Accord, not the UK monetary policy outlook or policy tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21411,
+ "prompt_tokens": 4674,
+ "completion_tokens": 54,
+ "cost_usd": 0.000611175,
+ "attempts": 1
+}

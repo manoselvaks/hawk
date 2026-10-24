@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.91,
+ "reason": "The majority judged that some withdrawal of monetary stimulus was likely to be appropriate over the coming months as slack eroded and inflationary pressure rose, although seven members held Bank Rate and two preferred an immediate increase.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23917,
+ "prompt_tokens": 5165,
+ "completion_tokens": 67,
+ "cost_usd": 0.00067905,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": -0.5,
+ "confidence": 0.84,
+ "reason": "He judged that credit tightening warranted an easing offset and expected Bank Rate to be lowered over time, but balanced this against commodity-driven inflation pressures and concluded an immediate cut was unnecessary.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22602,
+ "prompt_tokens": 5035,
+ "completion_tokens": 220,
+ "cost_usd": 0.0007393,
+ "attempts": 1
+}

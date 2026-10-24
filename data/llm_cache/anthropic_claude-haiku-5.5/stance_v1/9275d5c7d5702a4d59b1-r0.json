@@ -1,0 +1,15 @@
+{
+ "relevance": 0.5,
+ "stance": -0.5,
+ "confidence": 0.6,
+ "reason": "The speech is largely about global imbalances, current account deficits, and trade policy, but its monetary section states that 'now is not yet the time' to begin raising Bank Rate given 'anaemic wage growth' and 'mixed signals on consumer spending', leaning mildly dovish.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12349,
+ "prompt_tokens": 5078,
+ "completion_tokens": 129,
+ "cost_usd": 0.0005723,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.88,
+ "reason": "The speaker supports the August easing and sees more labour-market slack and subdued pay growth than the MPC forecast, while arguing policy should not prevent lower unemployment; however, stronger-than-expected growth could temper support for further cuts.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23985,
+ "prompt_tokens": 5545,
+ "completion_tokens": 71,
+ "cost_usd": 0.00072855,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech announces Alan Turing as the character for the new \u00a350 note and celebrates his scientific achievements and legacy, without discussing UK monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12918,
+ "prompt_tokens": 3326,
+ "completion_tokens": 55,
+ "cost_usd": 0.000443175,
+ "attempts": 1
+}

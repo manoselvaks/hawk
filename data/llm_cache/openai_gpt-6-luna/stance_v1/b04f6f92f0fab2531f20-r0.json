@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.82,
+ "reason": "The Committee judged that inflation risks had shifted somewhat to the downside and that a 25 basis point rate reduction was appropriate, with some members arguing for larger cuts to prevent undershooting the inflation target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23943,
+ "prompt_tokens": 5435,
+ "completion_tokens": 66,
+ "cost_usd": 0.0007123,
+ "attempts": 1
+}

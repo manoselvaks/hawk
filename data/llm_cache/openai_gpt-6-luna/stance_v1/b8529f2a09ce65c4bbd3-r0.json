@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.93,
+ "reason": "The speaker argues that the MPC should not hold rates above what is needed to meet the two-year inflation target, and says an overvalued sterling and household debt instead make him cautious about raising rates, while acknowledging that vigilance may be needed if inflation expectations rise.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23367,
+ "prompt_tokens": 5273,
+ "completion_tokens": 79,
+ "cost_usd": 0.00069855,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": -0.5,
+ "confidence": 0.84,
+ "reason": "The speaker says rate cuts were needed to support demand amid weakening exports, expects recovery with inflation on target, and argues that higher services inflation does not warrant a rate rise, while noting uncertainty about whether service-sector flexibility has lowered the natural rate of unemployment.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23784,
+ "prompt_tokens": 5364,
+ "completion_tokens": 81,
+ "cost_usd": 0.000710925,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.83,
+ "reason": "The speech presents inflationary pressures and possible need for further rate rises alongside weak consumption, some labour-market slack and downside risks to growth and inflation, concluding that rates are not obviously too low.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23910,
+ "prompt_tokens": 5421,
+ "completion_tokens": 291,
+ "cost_usd": 0.00082305,
+ "attempts": 1
+}

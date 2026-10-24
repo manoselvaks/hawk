@@ -1,0 +1,15 @@
+{
+ "relevance": 0.75,
+ "stance": 0.0,
+ "confidence": 0.82,
+ "reason": "The speech discusses MPC tools and the framework for unwinding asset purchases, but says reductions will be gradual and conditional on meeting the inflation target without signalling a directional lean on future policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 6583,
+ "prompt_tokens": 1995,
+ "completion_tokens": 221,
+ "cost_usd": 0.0003598,
+ "attempts": 1
+}

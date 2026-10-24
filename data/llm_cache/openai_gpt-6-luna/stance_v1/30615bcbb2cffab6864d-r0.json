@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.68,
+ "reason": "The speech directly informs monetary policy decisions and examines inflation persistence and restrictive policy for longer, but balances that hawkish concern with increased downside risks to growth and weak consumption without clearly recommending a change in policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23921,
+ "prompt_tokens": 5216,
+ "completion_tokens": 66,
+ "cost_usd": 0.000684925,
+ "attempts": 1
+}

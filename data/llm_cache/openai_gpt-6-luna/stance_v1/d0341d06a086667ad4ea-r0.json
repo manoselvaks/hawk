@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.9,
+ "reason": "The speech says Bank Rate will not be raised until unemployment falls to 7%, and stresses maintaining an exceptionally stimulative stance to support the recovery while exploring spare capacity.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24098,
+ "prompt_tokens": 5389,
+ "completion_tokens": 60,
+ "cost_usd": 0.00070355,
+ "attempts": 1
+}

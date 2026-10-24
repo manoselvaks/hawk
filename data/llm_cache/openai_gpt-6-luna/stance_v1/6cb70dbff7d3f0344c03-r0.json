@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.5,
+ "confidence": 0.98,
+ "reason": "The Committee voted 7\u20132 to raise Bank Rate by 0.5 percentage points amid persistent inflation and tight labour-market concerns, and said further tightening would be required if those pressures persisted.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24031,
+ "prompt_tokens": 5473,
+ "completion_tokens": 177,
+ "cost_usd": 0.00077255,
+ "attempts": 1
+}

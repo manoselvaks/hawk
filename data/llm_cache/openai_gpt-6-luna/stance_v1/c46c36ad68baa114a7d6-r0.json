@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.82,
+ "reason": "George describes the central outlook as growth around trend with inflation close to target, while stressing uncertainty and saying the MPC stands ready to change rates in either direction if risks crystallise.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12022,
+ "prompt_tokens": 3098,
+ "completion_tokens": 61,
+ "cost_usd": 0.000417675,
+ "attempts": 1
+}

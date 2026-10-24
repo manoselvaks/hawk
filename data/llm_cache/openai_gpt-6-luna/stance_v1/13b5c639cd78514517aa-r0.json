@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.93,
+ "reason": "The Committee unanimously maintained Bank Rate at 4.75%, judging that the November projection of inflation rising toward and then slightly above target remained reasonable, while subdued pay pressures, easing money and credit growth, and limited new information left no case for a change.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20513,
+ "prompt_tokens": 4604,
+ "completion_tokens": 77,
+ "cost_usd": 0.000613925,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.82,
+ "reason": "The speech focuses on UK inflation targeting and monetary policy, but mainly analyses the framework and open-economy inflation dynamics without advocating a particular future policy path.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23919,
+ "prompt_tokens": 5327,
+ "completion_tokens": 189,
+ "cost_usd": 0.0007603,
+ "attempts": 1
+}

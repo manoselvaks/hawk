@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 2.0,
+ "confidence": 1,
+ "reason": "The speaker argues that inflation is persistently above target and risks are to the upside, votes for an immediate 0.5 percentage-point Bank Rate increase, and says further rises are likely to be needed.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24045,
+ "prompt_tokens": 5436,
+ "completion_tokens": 65,
+ "cost_usd": 0.000711925,
+ "attempts": 1
+}

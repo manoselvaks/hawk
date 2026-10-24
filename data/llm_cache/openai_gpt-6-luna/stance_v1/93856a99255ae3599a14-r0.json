@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": 0.0,
+ "confidence": 0.9,
+ "reason": "The speech focuses on monetary policy strategy and the inflation target, but explicitly avoids the immediate policy stance and makes no case for tightening or easing, instead stressing a clear, systematic commitment to price stability.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 13354,
+ "prompt_tokens": 3183,
+ "completion_tokens": 162,
+ "cost_usd": 0.0004788,
+ "attempts": 1
+}

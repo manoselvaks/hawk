@@ -1,0 +1,15 @@
+{
+ "relevance": 0.55,
+ "stance": 0.0,
+ "confidence": 0.87,
+ "reason": "The speech discusses monetary policy only as one example of simple rules of thumb and mentions interest rates as an input to housing demand, while its main focus is agent-based modelling and financial-market dynamics rather than the policy outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 7765,
+ "prompt_tokens": 2323,
+ "completion_tokens": 71,
+ "cost_usd": 0.0003258,
+ "attempts": 1
+}

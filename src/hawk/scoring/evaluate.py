@@ -3,7 +3,7 @@
 Usage::
 
     python -m hawk.scoring.evaluate --labels labels.csv [--model MODEL] [--input-mode passages]
-                                    [--out docs/evaluation.md]
+                                    [--out data/analysis/models/<model>-<mode>.md]
 
 ``labels.csv`` is the file exported by ``labelling/label.html``: one row per item
 with ``score`` (-2..+2, blank when not about monetary policy) and
@@ -22,7 +22,9 @@ What is reported, for each scorer:
 * **LLM self-consistency**: the same items scored a second time (``replicate=1``),
   with exact and within-0.5 agreement and the mean absolute difference.
 
-It also writes the same numbers as JSON (``--json-out``) for the website.
+It also writes the same numbers as JSON (``--json-out``). ``hawk.scoring.compare``
+combines several models into ``docs/evaluation.md`` and the website's
+``data/analysis/evaluation.json``.
 
 The metric functions are pure and take plain frames, so they are tested with a
 synthetic labels file and no network.
@@ -34,6 +36,7 @@ import argparse
 import json
 import logging
 import math
+import re
 from dataclasses import dataclass
 from datetime import UTC, datetime
 from pathlib import Path
@@ -49,6 +52,9 @@ from hawk.scoring.make_labelling_set import OUT_DIR, SET_FILE
 log = logging.getLogger("hawk.scoring.evaluate")
 
 LLM_RELEVANCE_THRESHOLD = 0.5
+# One report per model; hawk.scoring.compare combines them into docs/evaluation.md and
+# data/analysis/evaluation.json.
+MODELS_DIR = Path("data/analysis/models")
 SCALE = [-2, -1, 0, 1, 2]
 
 
@@ -385,9 +391,10 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--model", default=DEFAULT_MODEL)
     parser.add_argument("--input-mode", choices=["passages", "full"], default=DEFAULT_INPUT_MODE)
     parser.add_argument("--no-consistency", action="store_true", help="skip the second run")
-    parser.add_argument("--out", type=Path, default=Path("docs/evaluation.md"))
+    parser.add_argument("--out", type=Path, default=None, help="markdown report")
+    parser.add_argument("--json-out", type=Path, default=None)
     parser.add_argument(
-        "--json-out", type=Path, default=Path("data/analysis/evaluation.json"), help="for the site"
+        "--max-retries", type=int, default=3, help="attempts per document (OpenRouter 402s)"
     )
     args = parser.parse_args(argv)
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
@@ -402,12 +409,15 @@ def main(argv: list[str] | None = None) -> int:
     docs = load_documents()
     items = chosen[chosen["item"].isin(labels["item"])].merge(docs[["doc_id", "text"]], on="doc_id")
 
-    scorer = LLMScorer(args.model, input_mode=args.input_mode)
+    scorer = LLMScorer(args.model, input_mode=args.input_mode, max_retries=args.max_retries)
     preds, first = predict(items, scorer, replicate=0)
     consistency = None
     if not args.no_consistency:
         _, second = predict(items, scorer, replicate=1)
         consistency = self_consistency(first, second)
+    slug = re.sub(r"[^A-Za-z0-9._-]+", "_", args.model)
+    args.out = args.out or MODELS_DIR / f"{slug}-{args.input_mode}.md"
+    args.json_out = args.json_out or MODELS_DIR / f"{slug}-{args.input_mode}.json"
     report = build_report(labels, preds, consistency, model=args.model, input_mode=args.input_mode)
     args.out.parent.mkdir(parents=True, exist_ok=True)
     args.out.write_text(report)

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 0.0,
+ "confidence": 0.9,
+ "reason": "The speech analyses how market power and mark-ups could affect inflation dynamics and monetary policy, but concludes that their effect on the optimal interest-rate path is modest and presents no clear lean toward tightening or easing.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23912,
+ "prompt_tokens": 5417,
+ "completion_tokens": 159,
+ "cost_usd": 0.00075655,
+ "attempts": 1
+}

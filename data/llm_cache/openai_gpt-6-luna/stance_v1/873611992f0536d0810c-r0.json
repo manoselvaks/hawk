@@ -1,0 +1,15 @@
+{
+ "relevance": 0.72,
+ "stance": 0.0,
+ "confidence": 0.83,
+ "reason": "The speech examines wage and productivity data, labour-market slack and their interpretation for inflation pressure, but says compositional shifts have little direct bearing on inflation and offers no clear direction for Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19388,
+ "prompt_tokens": 4591,
+ "completion_tokens": 66,
+ "cost_usd": 0.0006068,
+ "attempts": 1
+}

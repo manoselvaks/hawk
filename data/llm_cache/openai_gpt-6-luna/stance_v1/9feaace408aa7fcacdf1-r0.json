@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.82,
+ "reason": "The Committee was closely split, with five voting to hold and four preferring an immediate increase, while the minutes noted that the inflation-risk balance remained on the upside and rapid money and credit growth posed an upside risk.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20987,
+ "prompt_tokens": 4797,
+ "completion_tokens": 279,
+ "cost_usd": 0.00073905,
+ "attempts": 1
+}

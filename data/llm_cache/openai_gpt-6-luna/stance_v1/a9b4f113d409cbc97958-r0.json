@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech concerns liberalisation, regulation and integration of European financial markets, not the UK inflation outlook, demand, labour market or monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 14323,
+ "prompt_tokens": 3303,
+ "completion_tokens": 56,
+ "cost_usd": 0.0004408,
+ "attempts": 1
+}

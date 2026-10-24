@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.78,
+ "reason": "The speech expects global inflationary pressures to moderate but stresses that the labour market is tight and wage pressures require vigilance, while describing a general path of rising rates as consistent with the recovery.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23999,
+ "prompt_tokens": 5680,
+ "completion_tokens": 227,
+ "cost_usd": 0.000823425,
+ "attempts": 1
+}

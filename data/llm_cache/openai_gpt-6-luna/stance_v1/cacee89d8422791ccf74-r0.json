@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.77,
+ "reason": "The Committee continued \u00a3375 billion of asset purchases rather than expanding them, although some members saw a good case for more; weak growth and inflation judged more likely below target than above for much of the forecast period give the overall discussion a slight dovish lean.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23142,
+ "prompt_tokens": 5017,
+ "completion_tokens": 80,
+ "cost_usd": 0.00066705,
+ "attempts": 1
+}

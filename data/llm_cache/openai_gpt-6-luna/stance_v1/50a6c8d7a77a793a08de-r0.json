@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 2.0,
+ "confidence": 0.99,
+ "reason": "The Committee concluded that buoyant domestic demand required tighter policy to meet the inflation target, judged an immediate modest increase necessary, and unanimously voted to raise rates by 0.25%.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23292,
+ "prompt_tokens": 5402,
+ "completion_tokens": 63,
+ "cost_usd": 0.000706675,
+ "attempts": 1
+}

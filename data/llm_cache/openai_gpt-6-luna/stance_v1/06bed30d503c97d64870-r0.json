@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.84,
+ "reason": "The speech stresses that CPI inflation has risen above 3%, warns that money and credit growth can signal inflationary risks, and says the MPC must do whatever is necessary to keep inflation on target, indicating a hawkish lean without an explicit call for an immediate rate rise.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24009,
+ "prompt_tokens": 5387,
+ "completion_tokens": 178,
+ "cost_usd": 0.0007623,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.2,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The extract is about prudential rule-making and bank leverage requirements, with monetary policy mentioned only as context for a past adjustment.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 1810,
+ "prompt_tokens": 1088,
+ "completion_tokens": 53,
+ "cost_usd": 0.000162425,
+ "attempts": 1
+}

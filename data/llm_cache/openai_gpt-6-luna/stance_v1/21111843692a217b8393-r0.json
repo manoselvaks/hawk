@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.5,
+ "confidence": 0.99,
+ "reason": "The speaker voted for another Bank Rate increase and argues that persistent services inflation, asymmetric firm pricing and upside energy risks make sustainably reaching the 2% target elusive, though the decision was finely balanced.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16282,
+ "prompt_tokens": 3907,
+ "completion_tokens": 67,
+ "cost_usd": 0.0005218,
+ "attempts": 1
+}

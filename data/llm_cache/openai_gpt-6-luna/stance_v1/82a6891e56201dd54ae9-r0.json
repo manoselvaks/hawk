@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.91,
+ "reason": "The speaker says the case for holding rates until Brexit becomes clearer is strong and that they would be \u201cvery cautious about considering a monetary policy loosening\u201d absent a sharp downturn, citing little slack, inflation at target and an accommodative stance.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23797,
+ "prompt_tokens": 5505,
+ "completion_tokens": 74,
+ "cost_usd": 0.00072505,
+ "attempts": 1
+}

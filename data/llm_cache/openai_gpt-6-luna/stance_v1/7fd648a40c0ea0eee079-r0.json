@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speech is explicitly about how asset prices inform UK monetary policy, and argues that policy should target prospective consumption-price inflation while treating asset prices as indicators rather than independent targets, without advocating a particular tightening or easing.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23981,
+ "prompt_tokens": 5259,
+ "completion_tokens": 68,
+ "cost_usd": 0.0006913,
+ "attempts": 1
+}

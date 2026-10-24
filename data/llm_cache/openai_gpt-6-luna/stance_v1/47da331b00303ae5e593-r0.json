@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 0.0,
+ "confidence": 0.86,
+ "reason": "The speech says spare capacity is a key input to setting interest rates, but concludes that labour-market slack remains while capacity within firms is relatively tight, with no strong evidence of accelerating prices or rising margins.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18405,
+ "prompt_tokens": 4557,
+ "completion_tokens": 68,
+ "cost_usd": 0.00060355,
+ "attempts": 1
+}

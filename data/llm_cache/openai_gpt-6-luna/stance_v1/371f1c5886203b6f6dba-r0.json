@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.94,
+ "reason": "The Governor says the outlook has weakened, risks to inflation are more on the downside, and monetary policy has been eased quite sharply in the past two months, while promising to adjust policy symmetrically as evidence emerges.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 13604,
+ "prompt_tokens": 3500,
+ "completion_tokens": 70,
+ "cost_usd": 0.000472425,
+ "attempts": 1
+}

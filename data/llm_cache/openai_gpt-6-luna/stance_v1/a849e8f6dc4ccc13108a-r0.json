@@ -1,0 +1,15 @@
+{
+ "relevance": 0.78,
+ "stance": 0.0,
+ "confidence": 0.85,
+ "reason": "The speech discusses the MPC\u2019s inflation outlook and says UK inflation is already below target but is expected to return to target at a two-to-three-year horizon, while emphasising that expectations have held up and require careful monitoring rather than signalling a policy change.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19454,
+ "prompt_tokens": 4546,
+ "completion_tokens": 78,
+ "cost_usd": 0.000607175,
+ "attempts": 1
+}

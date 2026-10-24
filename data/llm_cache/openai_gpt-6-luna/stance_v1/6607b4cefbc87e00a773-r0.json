@@ -1,0 +1,15 @@
+{
+ "relevance": 0.55,
+ "stance": 0.0,
+ "confidence": 0.75,
+ "reason": "The speech discusses how macroprudential policy can reduce pressure on monetary policy to raise rates beyond what the inflation and employment outlook warrants, but it gives no specific lean on the future path of Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 10115,
+ "prompt_tokens": 2535,
+ "completion_tokens": 68,
+ "cost_usd": 0.0003508,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.5,
+ "stance": 0.0,
+ "confidence": 0.79,
+ "reason": "The speech explains why interest rates matter for business investment and discusses Bank Rate as one cost-of-capital measure, but focuses on measurement and research opportunities rather than signalling a future policy direction.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 10587,
+ "prompt_tokens": 2923,
+ "completion_tokens": 65,
+ "cost_usd": 0.0003978,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": 1.0,
+ "confidence": 0.7,
+ "reason": "The speech is about UK inflation persistence, labour market tightness and expectations, and says inflation dynamics 'have not yet been quelled' and the policy path should 'stay the course', leaning hawkish though it stresses turning-point uncertainty.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 20427,
+ "prompt_tokens": 7688,
+ "completion_tokens": 116,
+ "cost_usd": 0.0008268,
+ "attempts": 1
+}

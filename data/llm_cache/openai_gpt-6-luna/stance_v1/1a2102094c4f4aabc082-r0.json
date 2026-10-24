@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.5,
+ "confidence": 0.99,
+ "reason": "The speaker says a modest rise in Bank Rate is appropriate because slack is nearly exhausted and inflation is likely to remain above target, and warns that waiting risks falling behind the curve.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23313,
+ "prompt_tokens": 5482,
+ "completion_tokens": 63,
+ "cost_usd": 0.000716675,
+ "attempts": 1
+}

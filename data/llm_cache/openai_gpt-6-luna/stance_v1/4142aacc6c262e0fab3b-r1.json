@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.5,
+ "confidence": 0.92,
+ "reason": "The speaker says pre-shock conditions supported rate cuts and a swift move to neutral, and argues that a mild energy shock should generally be looked through, with no hikes under the alternative policy scenario and cuts possible once risks diminish.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 24047,
+ "prompt_tokens": 5535,
+ "completion_tokens": 177,
+ "cost_usd": 0.00014412,
+ "attempts": 1
+}

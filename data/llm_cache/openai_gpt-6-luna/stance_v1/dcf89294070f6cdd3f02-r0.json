@@ -1,0 +1,15 @@
+{
+ "relevance": 0,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The extracts discuss financial stability and regulation, including leveraged lending, insurer risk transfer and prime brokerage, without addressing the UK monetary policy outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 3997,
+ "prompt_tokens": 1462,
+ "completion_tokens": 109,
+ "cost_usd": 0.000237175,
+ "attempts": 1
+}

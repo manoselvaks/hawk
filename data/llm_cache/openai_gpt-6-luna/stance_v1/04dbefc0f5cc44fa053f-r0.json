@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The extract concerns prudential regulation of small banks, regulatory complexity, resilience and competition, not the UK monetary policy outlook or Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 4336,
+ "prompt_tokens": 1498,
+ "completion_tokens": 55,
+ "cost_usd": 0.000214675,
+ "attempts": 1
+}

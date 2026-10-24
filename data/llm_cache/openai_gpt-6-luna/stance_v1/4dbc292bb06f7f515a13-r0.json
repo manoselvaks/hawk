@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.77,
+ "reason": "The speech says interest-rate judgments must weigh sterling's damage to manufacturing against buoyant domestic demand and the risk that demand must moderate before sterling recovers, while stressing vigilance in maintaining low inflation.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 8146,
+ "prompt_tokens": 2196,
+ "completion_tokens": 66,
+ "cost_usd": 0.000307425,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.94,
+ "reason": "The speech focuses extensively on the monetary-policy outlook and says that if sterling does not decline, \u201cthere might need to be further easing of interest rates,\u201d while describing inflation as likely to remain near target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17187,
+ "prompt_tokens": 4032,
+ "completion_tokens": 71,
+ "cost_usd": 0.000539425,
+ "attempts": 1
+}

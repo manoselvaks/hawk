@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 0.95,
+ "reason": "The Committee judged that at 4.5% inflation would be materially below target, and the majority supported a 50-basis-point cut to underpin demand amid a deeper global slowdown, with one member favouring 50 or 75 basis points.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23966,
+ "prompt_tokens": 5579,
+ "completion_tokens": 77,
+ "cost_usd": 0.0007358,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": -1.0,
+ "confidence": 0.88,
+ "reason": "The speaker says temporary inflation rises would not justify tightening and identifies scenarios that could require looser policy later in the year, while presenting this easing outlook as conditional on downside risks.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23222,
+ "prompt_tokens": 5120,
+ "completion_tokens": 177,
+ "cost_usd": 0.000728425,
+ "attempts": 1
+}

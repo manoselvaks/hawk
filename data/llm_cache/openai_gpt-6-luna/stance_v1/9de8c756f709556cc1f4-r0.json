@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.88,
+ "reason": "The speech stresses below-target inflation and the need to support activity, and says the MPC should require strong evidence that inflation will return sustainably to target before tightening.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12515,
+ "prompt_tokens": 3109,
+ "completion_tokens": 58,
+ "cost_usd": 0.00041755,
+ "attempts": 1
+}

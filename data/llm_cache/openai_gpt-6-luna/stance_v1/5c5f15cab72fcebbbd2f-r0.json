@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.97,
+ "reason": "Although the speech stresses inflation risks and the need to remain restrictive for longer, the speaker ultimately justifies voting for a 50-basis-point Bank Rate cut, judging weak labour demand and consumption likely to limit pass-through of the inflation hump.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23815,
+ "prompt_tokens": 5356,
+ "completion_tokens": 75,
+ "cost_usd": 0.000706925,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 2.0,
+ "confidence": 1,
+ "reason": "Assuming that in the near term the economy evolves broadly in line with the latest MPR projections and given my assessment of the balance of risks, then I expect that further increases in Bank rate are going to be required to ensure a sustainable return of inflation to target.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23968,
+ "prompt_tokens": 5782,
+ "completion_tokens": 1044,
+ "cost_usd": 0.00092674,
+ "attempts": 1
+}

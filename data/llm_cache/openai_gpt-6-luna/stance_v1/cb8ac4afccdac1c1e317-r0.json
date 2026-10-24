@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.91,
+ "reason": "Tucker says that if the economy follows the November 2003 projections, the repo rate will need to rise gradually to keep inflation on target, and he personally emphasised that point.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24120,
+ "prompt_tokens": 5579,
+ "completion_tokens": 63,
+ "cost_usd": 0.0007288,
+ "attempts": 1
+}

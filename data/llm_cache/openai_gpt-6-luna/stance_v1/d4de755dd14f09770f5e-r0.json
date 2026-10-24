@@ -1,0 +1,15 @@
+{
+ "relevance": 0.55,
+ "stance": 0.0,
+ "confidence": 0.83,
+ "reason": "The speech discusses monetary policy implementation and possible future operating frameworks, but the speaker says he will not speculate on when policy will change and presents the options and tools without a directional signal on Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 13014,
+ "prompt_tokens": 3199,
+ "completion_tokens": 67,
+ "cost_usd": 0.0004333,
+ "attempts": 1
+}

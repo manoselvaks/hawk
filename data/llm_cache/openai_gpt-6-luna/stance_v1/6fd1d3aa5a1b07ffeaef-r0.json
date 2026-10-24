@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speech focuses on monetary-policy forward guidance and the uncertain path of Bank Rate, concluding that rises will probably be gradual and below the old normal while emphasizing that policy must respond to how the economy evolves.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24075,
+ "prompt_tokens": 5457,
+ "completion_tokens": 66,
+ "cost_usd": 0.00071505,
+ "attempts": 1
+}

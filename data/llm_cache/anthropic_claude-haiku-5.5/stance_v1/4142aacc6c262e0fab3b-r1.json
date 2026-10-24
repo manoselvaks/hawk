@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": -1.0,
+ "confidence": 0.8,
+ "reason": "The speech is centrally about the MPC's policy outlook after an energy shock, and the author stresses widening labour market slack, falling inflation undershooting target, and says \"Our latest decision should not be seen as a shift in direction\" and that \"little change is needed,\" while noting \"before the recent Middle East developments, inflation was nearly at target and slack emergent, supporting the case for rate cuts\" and that the shock may allow \"more rate cuts once risks diminish\", leaning dovish but with the shock treated as looked-through rather than an explicit call for immediate cuts.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 24047,
+ "prompt_tokens": 9016,
+ "completion_tokens": 225,
+ "cost_usd": 0.0010141,
+ "attempts": 1
+}

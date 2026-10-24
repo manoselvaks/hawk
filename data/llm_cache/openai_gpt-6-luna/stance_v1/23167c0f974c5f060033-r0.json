@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.93,
+ "reason": "The eight-member majority judged the current stance appropriate amid strong domestic demand but subdued inflation and increased global downside risks, while one member favored an immediate rate rise because of building inflationary pressures.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24031,
+ "prompt_tokens": 5225,
+ "completion_tokens": 63,
+ "cost_usd": 0.00068455,
+ "attempts": 1
+}

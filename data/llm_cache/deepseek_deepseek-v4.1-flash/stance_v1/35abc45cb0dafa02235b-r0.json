@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 1,
+ "reason": "The speaker concludes that structural factors require policy to remain restrictive for longer to purge embedded inflation behaviors, stating, 'Policy therefore needs to remain restrictive for longer to purge these behaviours.'",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24081,
+ "prompt_tokens": 5409,
+ "completion_tokens": 875,
+ "cost_usd": 0.00081613,
+ "attempts": 1
+}

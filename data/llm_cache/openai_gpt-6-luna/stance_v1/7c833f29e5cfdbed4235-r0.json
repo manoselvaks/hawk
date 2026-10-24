@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.86,
+ "reason": "George says rates may eventually need to rise if domestic demand fails to moderate as external demand strengthens, while stressing that such a move is not imminent and that rates could instead be cut if growth and inflation prove weaker than expected.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12910,
+ "prompt_tokens": 3325,
+ "completion_tokens": 72,
+ "cost_usd": 0.00045155,
+ "attempts": 1
+}

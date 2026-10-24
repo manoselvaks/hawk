@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.92,
+ "reason": "Although some members saw a case for a modest rate reduction because sterling strength and weaker near-term inflation risked an undershoot, the Committee was divided and others argued that stronger demand, rising house prices and the fading of disinflationary effects did not justify further easing.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24043,
+ "prompt_tokens": 5298,
+ "completion_tokens": 81,
+ "cost_usd": 0.000702675,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.8,
+ "stance": -0.5,
+ "confidence": 0.6,
+ "reason": "The paper, co-authored by an MPC member, is largely about the macro policy consequences of A8 migration for inflation and the natural rate, concluding that migration suppresses inflationary pressures and that the rise in unemployment reflects greater slack, which is likely to keep wage and inflation pressures subdued, a mildly dovish lean.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24075,
+ "prompt_tokens": 8767,
+ "completion_tokens": 147,
+ "cost_usd": 0.0009502,
+ "attempts": 1
+}

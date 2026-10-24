@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.8,
+ "reason": "He expects growth to recover and says domestic demand will need to moderate to avoid inflationary pressure, with interest-rate increases to be considered if consumer spending does not moderate on its own.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23338,
+ "prompt_tokens": 5326,
+ "completion_tokens": 218,
+ "cost_usd": 0.000774675,
+ "attempts": 1
+}

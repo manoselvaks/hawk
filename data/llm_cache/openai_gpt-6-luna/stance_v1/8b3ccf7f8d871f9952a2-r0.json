@@ -1,0 +1,15 @@
+{
+ "relevance": 0.98,
+ "stance": 0.0,
+ "confidence": 0.87,
+ "reason": "Weale judges that slack can be used up over the next two to three years while inflation remains near target, expects rates to remain low over that period but says this cannot be guaranteed, and emphasizes that policy will respond to evolving conditions.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23992,
+ "prompt_tokens": 5436,
+ "completion_tokens": 75,
+ "cost_usd": 0.000716925,
+ "attempts": 1
+}

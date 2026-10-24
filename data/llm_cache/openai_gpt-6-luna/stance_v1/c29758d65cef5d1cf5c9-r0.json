@@ -1,0 +1,15 @@
+{
+ "relevance": 0.35,
+ "stance": -1.0,
+ "confidence": 0.72,
+ "reason": "The speech is mainly about long-run growth, regulation and AI, but its policy passages note that inflation would otherwise have returned to target, activity is soft, and the return to target will take longer, without signalling a need for tighter policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 10056,
+ "prompt_tokens": 2641,
+ "completion_tokens": 77,
+ "cost_usd": 0.00036855,
+ "attempts": 1
+}

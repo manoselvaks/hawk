@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.83,
+ "reason": "Although seven members voted to hold Bank Rate, two favoured an immediate 25-basis-point rise, citing upside inflation risks from robust demand, tight capacity and strong money and credit growth.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22434,
+ "prompt_tokens": 5062,
+ "completion_tokens": 66,
+ "cost_usd": 0.000665675,
+ "attempts": 1
+}

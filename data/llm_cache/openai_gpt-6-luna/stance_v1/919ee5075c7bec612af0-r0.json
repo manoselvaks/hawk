@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 0.5,
+ "confidence": 0.78,
+ "reason": "The speech focuses substantially on inflation and monetary policy, and its warning that rising oil prices and terms-of-trade shocks could threaten inflation expectations means it is safer to err on the side of caution.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 10884,
+ "prompt_tokens": 2754,
+ "completion_tokens": 69,
+ "cost_usd": 0.000378675,
+ "attempts": 1
+}

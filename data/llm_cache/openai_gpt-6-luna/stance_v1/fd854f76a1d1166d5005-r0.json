@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.89,
+ "reason": "Although he voted for a rate rise to anchor expectations amid food and oil price increases, he stresses a loose labour market, benign wage growth and weak near-term wage pressures, leaning against further tightening.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23938,
+ "prompt_tokens": 5641,
+ "completion_tokens": 66,
+ "cost_usd": 0.00073805,
+ "attempts": 1
+}

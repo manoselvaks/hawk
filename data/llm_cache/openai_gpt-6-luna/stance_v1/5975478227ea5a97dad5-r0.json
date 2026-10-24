@@ -1,0 +1,15 @@
+{
+ "relevance": 0.25,
+ "stance": null,
+ "confidence": 0.96,
+ "reason": "The extract discusses corporate governance, underinvestment and risk-taking as sources of low growth and financial risk, but gives no monetary-policy outlook or policy guidance.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 2547,
+ "prompt_tokens": 1194,
+ "completion_tokens": 58,
+ "cost_usd": 0.000178175,
+ "attempts": 1
+}

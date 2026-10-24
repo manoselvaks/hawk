@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.95,
+ "reason": "The majority backed an immediate 25 basis point rise, citing robust demand, diminishing spare capacity and upside inflation risks, though four members preferred to wait for more evidence.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18759,
+ "prompt_tokens": 4261,
+ "completion_tokens": 59,
+ "cost_usd": 0.00056205,
+ "attempts": 1
+}

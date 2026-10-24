@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 0.5,
+ "confidence": 0.83,
+ "reason": "She explains that brighter growth prospects were expected to put upward pressure on inflation and describes the rate rise as a move back towards neutral, while stressing that it does not signal an immediate further rise.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20104,
+ "prompt_tokens": 4713,
+ "completion_tokens": 228,
+ "cost_usd": 0.00070305,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 0.0,
+ "confidence": 0.82,
+ "reason": "The speech explains how globalisation affects inflation and monetary policy, but its policy guidance is balanced: it advises preventing sustained rises or falls in inflation and weighing both the benefits and risks of a flatter inflation-activity relationship.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 20585,
+ "prompt_tokens": 4644,
+ "completion_tokens": 247,
+ "cost_usd": 0.00017021,
+ "attempts": 1
+}

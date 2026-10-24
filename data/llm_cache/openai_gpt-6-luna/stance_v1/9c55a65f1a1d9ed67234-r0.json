@@ -1,0 +1,15 @@
+{
+ "relevance": 0.2,
+ "stance": null,
+ "confidence": 0.91,
+ "reason": "The speech is mainly about the Bank\u2019s market-intelligence programme, financial innovation and systemic risks; monetary policy appears only as background on past rate cuts, asset purchases and the low-interest-rate environment.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12455,
+ "prompt_tokens": 3003,
+ "completion_tokens": 67,
+ "cost_usd": 0.0004088,
+ "attempts": 1
+}

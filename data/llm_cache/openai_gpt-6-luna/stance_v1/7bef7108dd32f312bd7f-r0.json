@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": -1.0,
+ "confidence": 0.75,
+ "reason": "The speech is largely historical and explanatory, but it highlights that the MPC could be patient amid spare capacity and that its expected policy path was \u201climited and gradual,\u201d signalling a modestly dovish lean rather than advocating near-term tightening.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18033,
+ "prompt_tokens": 4159,
+ "completion_tokens": 75,
+ "cost_usd": 0.0005573,
+ "attempts": 1
+}

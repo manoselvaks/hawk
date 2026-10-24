@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": -0.5,
+ "confidence": 0.78,
+ "reason": "George notes that UK inflation is below target and that the Bank has cut rates four times this year to support domestic demand amid a global slowdown, while also stressing capacity and labour-market pressures.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21541,
+ "prompt_tokens": 4752,
+ "completion_tokens": 68,
+ "cost_usd": 0.000627925,
+ "attempts": 1
+}

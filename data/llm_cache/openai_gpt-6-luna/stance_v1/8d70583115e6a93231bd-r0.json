@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.91,
+ "reason": "The speaker judges spare capacity to be greater and longer-lasting than the MPR forecast, warns this could keep core inflation subdued and tilt the outlook below target, and discusses easing tools if needed, while noting demand risks are mixed.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23792,
+ "prompt_tokens": 5458,
+ "completion_tokens": 72,
+ "cost_usd": 0.000718175,
+ "attempts": 1
+}

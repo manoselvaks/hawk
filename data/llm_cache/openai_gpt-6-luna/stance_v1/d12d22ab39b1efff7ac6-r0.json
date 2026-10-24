@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.87,
+ "reason": "The speech focuses on the inflation-targeting framework and the economic outlook, but argues for neither tightening nor easing, stressing that policy should remain focused on meeting the inflation target and weighing demand and inflation risks.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24039,
+ "prompt_tokens": 5332,
+ "completion_tokens": 66,
+ "cost_usd": 0.000699425,
+ "attempts": 1
+}

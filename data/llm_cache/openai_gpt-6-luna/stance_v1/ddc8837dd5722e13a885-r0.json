@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.83,
+ "reason": "The Committee held Bank Rate while stressing that upside inflation risks had increased and that a larger or more persistent shock could require tighter policy, but it also highlighted weakening activity and said policy would be less restrictive if the shock proved short-lived or widened economic slack.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24055,
+ "prompt_tokens": 5274,
+ "completion_tokens": 206,
+ "cost_usd": 0.000762175,
+ "attempts": 1
+}

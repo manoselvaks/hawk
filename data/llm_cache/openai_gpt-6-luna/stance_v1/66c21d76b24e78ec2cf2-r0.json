@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.88,
+ "reason": "The speech says near-zero rates do not yet merit a change, but inflation should gradually pick up as slack closes and wages rise, and these trends could factor into a case to tighten in the near future.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24098,
+ "prompt_tokens": 5269,
+ "completion_tokens": 69,
+ "cost_usd": 0.00069305,
+ "attempts": 1
+}

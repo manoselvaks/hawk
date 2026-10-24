@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.95,
+ "reason": "The extracts discuss prudential regulation, financial stability mandates, regulatory independence and bank efficiency, not the UK monetary policy outlook or Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 6666,
+ "prompt_tokens": 2013,
+ "completion_tokens": 55,
+ "cost_usd": 0.00027905,
+ "attempts": 1
+}

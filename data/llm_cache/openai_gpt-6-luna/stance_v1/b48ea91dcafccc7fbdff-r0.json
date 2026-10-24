@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.76,
+ "reason": "Bean says inflation may be more persistent than projected, but argues this must be weighed against weak growth and spare capacity, and that allowing inflation to return gradually would help capacity close without excessive output volatility.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21666,
+ "prompt_tokens": 4931,
+ "completion_tokens": 68,
+ "cost_usd": 0.0006503,
+ "attempts": 1
+}

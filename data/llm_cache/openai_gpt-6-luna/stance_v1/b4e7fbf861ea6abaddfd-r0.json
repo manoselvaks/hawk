@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.88,
+ "reason": "Although most members held policy unchanged, they judged that downside risks to medium-term inflation had increased and that recent developments weakened the case for removing stimulus, with one member favouring further asset purchases.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23363,
+ "prompt_tokens": 4902,
+ "completion_tokens": 175,
+ "cost_usd": 0.000700175,
+ "attempts": 1
+}

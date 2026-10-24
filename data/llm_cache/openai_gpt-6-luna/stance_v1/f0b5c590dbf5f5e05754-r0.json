@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.78,
+ "reason": "The Committee unanimously held Bank Rate at 0.5%, while most judged there was no reason to change policy and one member favoured more asset purchases, citing substantial slack and the risk that weak growth could damage supply; balanced against inflation risks, this gives a slight dovish lean.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23706,
+ "prompt_tokens": 5221,
+ "completion_tokens": 86,
+ "cost_usd": 0.00069555,
+ "attempts": 1
+}

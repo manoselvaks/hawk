@@ -1,0 +1,15 @@
+{
+ "relevance": 0.35,
+ "stance": 0.0,
+ "confidence": 0.9,
+ "reason": "The speech is mainly about economics and personal financial education, and its monetary-policy discussion explains the Bank\u2019s inflation target and the benefits of public understanding without expressing a lean on future policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12481,
+ "prompt_tokens": 3197,
+ "completion_tokens": 64,
+ "cost_usd": 0.00043155,
+ "attempts": 1
+}

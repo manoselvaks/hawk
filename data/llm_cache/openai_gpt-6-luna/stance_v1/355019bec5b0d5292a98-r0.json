@@ -1,0 +1,15 @@
+{
+ "relevance": 0.8,
+ "stance": 0.0,
+ "confidence": 0.81,
+ "reason": "The speech discusses monetary policy\u2019s role in exchange-rate and tariff transmission and argues that the appropriate response to trade barriers depends on their supply and demand effects, without signalling a clear preferred direction for UK rates.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20520,
+ "prompt_tokens": 4620,
+ "completion_tokens": 68,
+ "cost_usd": 0.000611425,
+ "attempts": 1
+}

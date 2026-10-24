@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.94,
+ "reason": "The Committee judged that further stimulus was required, with seven members supporting \u00a350 billion more asset purchases because downside growth risks had increased and upside inflation risks had declined, although two members preferred no increase.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21300,
+ "prompt_tokens": 4710,
+ "completion_tokens": 66,
+ "cost_usd": 0.000621675,
+ "attempts": 1
+}

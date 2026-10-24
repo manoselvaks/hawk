@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.91,
+ "reason": "The speaker says the inflationary scenario currently carries more weight and that conditions for considering tightening could be met sooner than previously expected, while stressing that risks remain two-sided and no tightening presumption is warranted.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24018,
+ "prompt_tokens": 5357,
+ "completion_tokens": 66,
+ "cost_usd": 0.00070255,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": 0.0,
+ "confidence": 0.94,
+ "reason": "The speech focuses on redesigning the Bank\u2019s balance-sheet and market-operations framework to keep overnight rates aligned with the MPC\u2019s rate, while offering no directional signal about future Bank Rate decisions.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24097,
+ "prompt_tokens": 5637,
+ "completion_tokens": 181,
+ "cost_usd": 0.00079505,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.82,
+ "reason": "He stresses the MPC\u2019s determination to return inflation to 2% and warns against inflation becoming embedded in wages and prices, while also highlighting contraction risks and the need to look through temporary shocks, leaving his policy lean mildly hawkish but balanced.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19123,
+ "prompt_tokens": 4477,
+ "completion_tokens": 76,
+ "cost_usd": 0.00059755,
+ "attempts": 1
+}

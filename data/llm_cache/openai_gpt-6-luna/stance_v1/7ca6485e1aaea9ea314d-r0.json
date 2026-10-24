@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.86,
+ "reason": "Although views ranged from an immediate rise to an immediate cut, six members voted to leave rates unchanged and the majority saw no need for an immediate move, with the outlook broadly on track but future tightening still possible.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24070,
+ "prompt_tokens": 5458,
+ "completion_tokens": 68,
+ "cost_usd": 0.000716175,
+ "attempts": 1
+}

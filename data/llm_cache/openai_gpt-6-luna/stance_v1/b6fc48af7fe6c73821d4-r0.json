@@ -1,0 +1,15 @@
+{
+ "relevance": 0,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The extracts discuss global financial integration, financial stability arrangements and debt instruments, not the UK inflation outlook or Bank Rate policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 2376,
+ "prompt_tokens": 1172,
+ "completion_tokens": 52,
+ "cost_usd": 0.000172425,
+ "attempts": 1
+}

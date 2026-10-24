@@ -1,0 +1,15 @@
+{
+ "relevance": 0.1,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech focuses on prudential supervision, bank capital and stress testing, insurance regulation, misconduct, remuneration and governance, rather than the UK inflation outlook or monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16548,
+ "prompt_tokens": 3969,
+ "completion_tokens": 61,
+ "cost_usd": 0.00052655,
+ "attempts": 1
+}

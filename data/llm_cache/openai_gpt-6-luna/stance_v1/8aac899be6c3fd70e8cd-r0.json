@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The foreword discusses regulatory capture and financial-sector regulation, especially capital requirements, rather than the outlook for UK inflation, demand, Bank Rate or monetary policy tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 5812,
+ "prompt_tokens": 1786,
+ "completion_tokens": 60,
+ "cost_usd": 0.000253175,
+ "attempts": 1
+}

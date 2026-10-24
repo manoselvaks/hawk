@@ -1,0 +1,15 @@
+{
+ "relevance": 0.65,
+ "stance": -1.0,
+ "confidence": 0.77,
+ "reason": "The speech mainly discusses financial-market functioning and implementation of the corporate bond scheme, but it describes the August easing package as supporting the economy and says the scheme helped ensure downside risks after the referendum did not materialise, with no signal favouring tighter policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21858,
+ "prompt_tokens": 4894,
+ "completion_tokens": 79,
+ "cost_usd": 0.000651175,
+ "attempts": 1
+}

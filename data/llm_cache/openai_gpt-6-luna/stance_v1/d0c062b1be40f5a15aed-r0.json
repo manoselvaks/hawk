@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.93,
+ "reason": "The 7\u20132 majority held Bank Rate, judging that economic slack and tighter financial conditions would restrain inflation, while recognising upside risks and the need for rates to remain restrictive longer or rise if second-round effects become persistent.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24109,
+ "prompt_tokens": 5134,
+ "completion_tokens": 73,
+ "cost_usd": 0.000678175,
+ "attempts": 1
+}

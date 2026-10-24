@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech focuses on implementing and supervising the banking ring-fence, prudential requirements and financial stability, not the UK monetary policy outlook or Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20868,
+ "prompt_tokens": 4785,
+ "completion_tokens": 58,
+ "cost_usd": 0.00062705,
+ "attempts": 1
+}

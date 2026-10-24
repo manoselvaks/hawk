@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.84,
+ "reason": "He argues that raising Bank Rate now would slow recovery and raise unemployment, while weak demand, subdued money growth and slack should bring inflation down, though he acknowledges upside risks and says they must be considered.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20398,
+ "prompt_tokens": 4713,
+ "completion_tokens": 181,
+ "cost_usd": 0.00067955,
+ "attempts": 1
+}

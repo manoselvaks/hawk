@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.88,
+ "reason": "The 7\u20132 majority held Bank Rate at 5.25% and said it must remain restrictive for sufficiently long, while inflation persistence was moderating and two members argued for a cut, leaving the Committee mildly hawkish overall.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24018,
+ "prompt_tokens": 5362,
+ "completion_tokens": 75,
+ "cost_usd": 0.000707675,
+ "attempts": 1
+}

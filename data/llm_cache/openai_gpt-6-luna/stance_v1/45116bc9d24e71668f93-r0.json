@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.91,
+ "reason": "The Committee judged that Bank Rate was likely to be reduced further and that inflation-persistence risks had receded, though the 5\u20134 vote and differing views on the pace of easing make the overall lean only mildly dovish.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22878,
+ "prompt_tokens": 5030,
+ "completion_tokens": 75,
+ "cost_usd": 0.000666175,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.89,
+ "reason": "The majority judged existing policy appropriate and said it should guard against downside risks and avoid premature tightening, while one member argued for less stimulus because of rising inflation risks.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24074,
+ "prompt_tokens": 5222,
+ "completion_tokens": 61,
+ "cost_usd": 0.000683175,
+ "attempts": 1
+}

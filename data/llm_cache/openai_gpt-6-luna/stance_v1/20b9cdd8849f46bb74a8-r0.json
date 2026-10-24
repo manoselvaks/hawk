@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.78,
+ "reason": "The speech focuses on monetary-policy communication and estimates of the neutral rate, but explicitly distinguishes discussing the long-run endpoint from guiding the policy stance, so it gives no clear lean on the future path of Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16242,
+ "prompt_tokens": 3917,
+ "completion_tokens": 193,
+ "cost_usd": 0.00058605,
+ "attempts": 1
+}

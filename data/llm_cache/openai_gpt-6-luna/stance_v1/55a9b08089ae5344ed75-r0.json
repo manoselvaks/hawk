@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": -0.5,
+ "confidence": 0.7,
+ "reason": "Tucker says he opposed a January rate increase because inflation was expected to fall, and describes current conditions as edging toward restrictive, while stressing that future votes depend on the balance of demand and inflation risks.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 10378,
+ "prompt_tokens": 2641,
+ "completion_tokens": 260,
+ "cost_usd": 0.00046005,
+ "attempts": 1
+}

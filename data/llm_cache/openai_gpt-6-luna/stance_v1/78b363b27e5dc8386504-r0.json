@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.88,
+ "reason": "The Committee adopted guidance not to raise Bank Rate until unemployment fell to 7%, aiming to prevent stimulus being withdrawn prematurely, while keeping inflation-target and financial-stability knockouts in place.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24050,
+ "prompt_tokens": 5026,
+ "completion_tokens": 64,
+ "cost_usd": 0.000660175,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.6,
+ "stance": 0.0,
+ "confidence": 0.83,
+ "reason": "The speech examines how trade shocks may affect UK growth and inflation, but stresses that price effects are uncertain and gives no clear signal about the future path of Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21952,
+ "prompt_tokens": 5231,
+ "completion_tokens": 162,
+ "cost_usd": 0.0007348,
+ "attempts": 1
+}

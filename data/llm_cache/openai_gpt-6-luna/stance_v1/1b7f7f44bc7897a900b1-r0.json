@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.84,
+ "reason": "The Committee concluded there was no case for a rate rise at this meeting, citing slightly weaker activity news and increased downside risks from the housing market and US growth, although some members saw a case for raising rates because of above-trend growth and inflationary pressures.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23968,
+ "prompt_tokens": 5840,
+ "completion_tokens": 81,
+ "cost_usd": 0.000770425,
+ "attempts": 1
+}

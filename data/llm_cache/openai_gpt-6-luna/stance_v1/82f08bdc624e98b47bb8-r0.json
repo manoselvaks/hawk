@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.76,
+ "reason": "The Committee judged that no policy change was warranted, but some members saw a risk of undershooting the inflation target and thought further asset purchases were likely to be required.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18813,
+ "prompt_tokens": 4198,
+ "completion_tokens": 268,
+ "cost_usd": 0.000658675,
+ "attempts": 1
+}

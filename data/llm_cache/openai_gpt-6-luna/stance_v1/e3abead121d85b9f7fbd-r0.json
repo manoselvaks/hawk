@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.97,
+ "reason": "The majority voted to raise Bank Rate by 25 basis points to 5.75%, citing strong output, capacity pressures and import-price risks, though some members urged caution and the majority did not signal a clear presumption of further increases.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22478,
+ "prompt_tokens": 4926,
+ "completion_tokens": 74,
+ "cost_usd": 0.000652675,
+ "attempts": 1
+}

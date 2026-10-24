@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.94,
+ "reason": "Miles says the UK should not hurry to normalise policy and that the next move might be to provide even more support to demand, while arguing QE has helped prevent a damaging downward spiral.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21306,
+ "prompt_tokens": 5005,
+ "completion_tokens": 64,
+ "cost_usd": 0.00065755,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.2,
+ "stance": null,
+ "confidence": 0.94,
+ "reason": "The extract focuses on the Bank\u2019s role, banking regulation and central bank digital currency, mentioning monetary policy only as background and a possible CBDC benefit.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 2638,
+ "prompt_tokens": 1195,
+ "completion_tokens": 58,
+ "cost_usd": 0.0001783,
+ "attempts": 1
+}

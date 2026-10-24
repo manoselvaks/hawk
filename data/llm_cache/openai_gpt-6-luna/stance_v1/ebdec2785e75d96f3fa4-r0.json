@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.5,
+ "confidence": 0.96,
+ "reason": "The speech says inflation was significantly above target and that a further rate rise was needed to restrain demand and keep inflation on track, adding that the need to reinforce low inflation and check demand had pointed to raising rates.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24047,
+ "prompt_tokens": 5626,
+ "completion_tokens": 71,
+ "cost_usd": 0.000738675,
+ "attempts": 1
+}

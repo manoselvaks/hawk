@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech is about payments choice, cash access, digital payments and payment-system resilience, with no discussion of the inflation outlook, demand, the labour market or Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18298,
+ "prompt_tokens": 4034,
+ "completion_tokens": 62,
+ "cost_usd": 0.000535175,
+ "attempts": 1
+}

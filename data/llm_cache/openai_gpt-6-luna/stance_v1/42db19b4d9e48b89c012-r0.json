@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.86,
+ "reason": "Although all members agreed to hold Bank Rate and judged gradual increases likely, two members found the immediate decision finely balanced between holding and raising, while the collective outlook showed inflation returning to target and slightly more likely to exceed it later.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23844,
+ "prompt_tokens": 5317,
+ "completion_tokens": 73,
+ "cost_usd": 0.00070105,
+ "attempts": 1
+}

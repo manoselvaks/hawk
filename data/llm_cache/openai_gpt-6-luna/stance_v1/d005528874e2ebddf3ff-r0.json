@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.84,
+ "reason": "The Committee judged that the arguments against a rate cut were more compelling, while its central projection had inflation returning towards the target at the unchanged 4% repo rate and risks were broadly balanced.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23970,
+ "prompt_tokens": 5726,
+ "completion_tokens": 254,
+ "cost_usd": 0.000842675,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.82,
+ "reason": "The speech argues that inflation is expected to rebound toward the 2% target by early 2016 and that low global inflation creates little extra drag, while acknowledging risks from expectations and persistent low inflation that need monitoring.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24072,
+ "prompt_tokens": 5333,
+ "completion_tokens": 71,
+ "cost_usd": 0.00070205,
+ "attempts": 1
+}

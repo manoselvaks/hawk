@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.94,
+ "reason": "King says the MPC should look through the temporary inflation effects of depreciation and commodities, citing subdued earnings and money growth as evidence inflation will fall, and that it is impossible to know when monetary tightening will begin.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 15999,
+ "prompt_tokens": 3773,
+ "completion_tokens": 68,
+ "cost_usd": 0.00050555,
+ "attempts": 1
+}

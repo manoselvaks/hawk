@@ -1,0 +1,15 @@
+{
+ "relevance": 0.75,
+ "stance": 1.0,
+ "confidence": 0.84,
+ "reason": "King says rapid money and credit growth has strengthened demand and capacity pressures, contributing to underlying upward inflation pressure and four rate rises, while emphasizing that inflation must return to target and be kept there.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12151,
+ "prompt_tokens": 3037,
+ "completion_tokens": 66,
+ "cost_usd": 0.00041255,
+ "attempts": 1
+}

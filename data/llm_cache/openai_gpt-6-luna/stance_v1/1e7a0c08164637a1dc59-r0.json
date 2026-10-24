@@ -1,0 +1,15 @@
+{
+ "relevance": 0.65,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speech discusses reserves, QE/QT and the framework for implementing Bank Rate, but presents no lean on the future path of Bank Rate or other monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16355,
+ "prompt_tokens": 3907,
+ "completion_tokens": 149,
+ "cost_usd": 0.0005628,
+ "attempts": 1
+}

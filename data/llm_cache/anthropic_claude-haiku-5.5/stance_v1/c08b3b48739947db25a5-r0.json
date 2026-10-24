@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.6,
+ "reason": "The Monetary Policy Report and summary are wholly about the MPC outlook and Bank Rate, and they describe a balanced outlook: risks to inflation are 'broadly balanced' and policy 'could respond in either direction', with a possible modest tightening later offset by possible loosening if global growth fails to stabilise.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24031,
+ "prompt_tokens": 8965,
+ "completion_tokens": 140,
+ "cost_usd": 0.0009665,
+ "attempts": 1
+}

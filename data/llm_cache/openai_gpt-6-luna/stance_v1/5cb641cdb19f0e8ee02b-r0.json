@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.88,
+ "reason": "The Committee narrowly cut Bank Rate by 0.25 percentage points, judging that restrictive policy was weighing on activity and inflation pressures were moderating, while stressing that policy must remain restrictive and noting upside inflation risks.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16701,
+ "prompt_tokens": 3896,
+ "completion_tokens": 71,
+ "cost_usd": 0.000522425,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.45,
+ "stance": 0.0,
+ "confidence": 0.83,
+ "reason": "The speech focuses primarily on public engagement and economic literacy, with monetary policy appearing as context\u2014such as explaining the inflation target and describing how regional intelligence informs policy\u2014rather than advocating a change in Bank Rate or other policy tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22717,
+ "prompt_tokens": 5341,
+ "completion_tokens": 73,
+ "cost_usd": 0.00070405,
+ "attempts": 1
+}

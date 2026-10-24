@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.84,
+ "reason": "Gieve stresses that inflation is well above target and says policy must ensure it returns to target, while also highlighting a fierce credit squeeze and rapidly slowing activity, leaving the MPC weighing inflation risks against downside risks rather than signalling a clear rate move.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18352,
+ "prompt_tokens": 4320,
+ "completion_tokens": 76,
+ "cost_usd": 0.000577925,
+ "attempts": 1
+}

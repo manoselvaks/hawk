@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The extracts discuss innovation, automation, economic growth and education, without addressing the UK inflation outlook, monetary conditions or Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 5046,
+ "prompt_tokens": 1674,
+ "completion_tokens": 53,
+ "cost_usd": 0.000235675,
+ "attempts": 1
+}

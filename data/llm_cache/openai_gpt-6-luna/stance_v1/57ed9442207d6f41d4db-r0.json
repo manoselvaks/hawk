@@ -1,0 +1,15 @@
+{
+ "relevance": 0.7,
+ "stance": 0.5,
+ "confidence": 0.78,
+ "reason": "The speech says domestic demand growth cannot be sustained at its recent pace without risking inflation and that it remains a fine judgement whether demand will slow soon enough, while noting that exchange-rate disinflation and tightening already in the pipeline give some time.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20873,
+ "prompt_tokens": 4687,
+ "completion_tokens": 286,
+ "cost_usd": 0.0007288,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.55,
+ "stance": -1.0,
+ "confidence": 0.77,
+ "reason": "The speech is mainly about financial-market liquidity and resilience, but notes that the MPC expanded asset purchases to ease conditions and describes a severe downturn scenario with Bank Rate held at 0.1%, pointing to downside risks rather than a case for tightening.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 8570,
+ "prompt_tokens": 2352,
+ "completion_tokens": 78,
+ "cost_usd": 0.000332925,
+ "attempts": 1
+}

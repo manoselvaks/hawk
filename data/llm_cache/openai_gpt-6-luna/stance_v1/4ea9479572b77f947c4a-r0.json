@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.91,
+ "reason": "Although the speaker sees no immediate case for a policy change and says rates may move either way, they judge inflation risks skewed to the downside and argue policy should stand ready to ease if those risks materialise.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24079,
+ "prompt_tokens": 5465,
+ "completion_tokens": 71,
+ "cost_usd": 0.00071855,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.94,
+ "reason": "The Committee unanimously judged the existing stance appropriate and, although gradual tightening would be appropriate under the smooth-Brexit projection, said the response to Brexit could be in either direction amid increased downside risks.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23987,
+ "prompt_tokens": 5286,
+ "completion_tokens": 65,
+ "cost_usd": 0.000693175,
+ "attempts": 1
+}

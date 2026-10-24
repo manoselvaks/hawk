@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.91,
+ "reason": "Although the majority held Bank Rate at 4.0%, some members favoured a further cut because inflation and domestic price pressures were subdued, while the majority judged another reduction unnecessary at this meeting.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24052,
+ "prompt_tokens": 5582,
+ "completion_tokens": 68,
+ "cost_usd": 0.000731675,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.25,
+ "stance": null,
+ "confidence": 0.9,
+ "reason": "The speech is mainly about household debt, financial-system resilience and FPC mortgage-market tools, with monetary policy mentioned only as context for household pressures.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17388,
+ "prompt_tokens": 4050,
+ "completion_tokens": 163,
+ "cost_usd": 0.000587675,
+ "attempts": 1
+}

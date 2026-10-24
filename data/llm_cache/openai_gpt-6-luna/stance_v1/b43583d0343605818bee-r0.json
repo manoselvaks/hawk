@@ -1,0 +1,15 @@
+{
+ "relevance": 0.4,
+ "stance": 0.0,
+ "confidence": 0.85,
+ "reason": "The speech is primarily about inclusive capitalism and financial reform, while describing monetary stimulus as supporting the recovery and warning that inflation hurts the poor without signalling a preferred future path for Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23917,
+ "prompt_tokens": 5043,
+ "completion_tokens": 64,
+ "cost_usd": 0.0006623,
+ "attempts": 1
+}

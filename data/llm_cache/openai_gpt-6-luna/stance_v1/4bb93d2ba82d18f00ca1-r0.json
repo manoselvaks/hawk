@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.83,
+ "reason": "The speaker stresses persistent above-target inflation, possible lower-than-expected slack and rising global price pressures, warning that as recovery develops the MPC must reassess whether policy remains too supportive and be ready to adapt.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22447,
+ "prompt_tokens": 5072,
+ "completion_tokens": 67,
+ "cost_usd": 0.000667425,
+ "attempts": 1
+}

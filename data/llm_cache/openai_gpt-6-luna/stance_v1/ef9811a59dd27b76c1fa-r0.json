@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.77,
+ "reason": "The speaker argues that services disinflation may be proceeding symmetrically with the earlier rise, consistent with the less-persistent case in which inflation rises less above target, and notes easing labour-market tightness and wage growth.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20305,
+ "prompt_tokens": 4875,
+ "completion_tokens": 266,
+ "cost_usd": 0.0007423,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.65,
+ "stance": 0.0,
+ "confidence": 0.83,
+ "reason": "The speech is primarily about the causes of weak productivity and possible structural remedies, and its interest-rate counterfactual is illustrative rather than an argument for a different policy path, while it favours a greater role for structural policies and somewhat less reliance on monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23211,
+ "prompt_tokens": 5241,
+ "completion_tokens": 80,
+ "cost_usd": 0.00069505,
+ "attempts": 1
+}

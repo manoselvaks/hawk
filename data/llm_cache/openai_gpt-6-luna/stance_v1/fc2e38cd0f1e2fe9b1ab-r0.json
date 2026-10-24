@@ -1,0 +1,15 @@
+{
+ "relevance": 0.7,
+ "stance": 0.0,
+ "confidence": 0.9,
+ "reason": "The speech discusses money, price stability and the MPC\u2019s institutional design, but offers no view on the future path of Bank Rate or a policy lean.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 6945,
+ "prompt_tokens": 2011,
+ "completion_tokens": 116,
+ "cost_usd": 0.0003093,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.8,
+ "stance": 1.0,
+ "confidence": 0.88,
+ "reason": "The speaker expects \u201cperhaps a couple more increases in Bank Rate\u201d over three years as domestic inflationary pressures rise, while noting productivity could alter that path.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23951,
+ "prompt_tokens": 5494,
+ "completion_tokens": 59,
+ "cost_usd": 0.000716175,
+ "attempts": 1
+}

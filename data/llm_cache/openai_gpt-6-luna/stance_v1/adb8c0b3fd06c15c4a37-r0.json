@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.79,
+ "reason": "The speech says policy must contain second-round inflation effects and that the MPC should act forcefully if persistent pressures require it, while stressing that external shocks drove much of the overshoot and that unnecessary tightening risks volatility, so its lean is mildly hawkish but balanced.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23977,
+ "prompt_tokens": 5119,
+ "completion_tokens": 80,
+ "cost_usd": 0.0006798,
+ "attempts": 1
+}

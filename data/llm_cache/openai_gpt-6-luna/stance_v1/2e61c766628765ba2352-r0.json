@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.9,
+ "reason": "The Committee voted 8\u20131 to raise the repo rate by 25 basis points to 6.0%, with members citing buoyant domestic demand, a tight labour market and medium-term upside risks to inflation, although others stressed sterling\u2019s appreciation and the near-term undershoot.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23964,
+ "prompt_tokens": 5389,
+ "completion_tokens": 82,
+ "cost_usd": 0.00071455,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.5,
+ "confidence": 0.99,
+ "reason": "Walton voted for a 25 basis point rate increase, arguing that upside risks to growth, spare capacity, imported prices and inflation expectations make the balance of inflation risks too high for comfort and justify tightening.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 9292,
+ "prompt_tokens": 2479,
+ "completion_tokens": 69,
+ "cost_usd": 0.0003443,
+ "attempts": 1
+}

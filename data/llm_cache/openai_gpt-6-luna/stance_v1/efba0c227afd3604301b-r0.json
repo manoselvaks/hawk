@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": 0.0,
+ "confidence": 0.84,
+ "reason": "The speech links house-price inflation to consumption, aggregate demand and future inflation, but stresses uncertainty about house-price prospects and does not signal a preferred change in monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23225,
+ "prompt_tokens": 5190,
+ "completion_tokens": 61,
+ "cost_usd": 0.000679175,
+ "attempts": 1
+}

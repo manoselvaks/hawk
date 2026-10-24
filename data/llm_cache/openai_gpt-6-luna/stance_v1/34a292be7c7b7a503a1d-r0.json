@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.84,
+ "reason": "The speech says the MPC has edged rates up to 6% to moderate buoyant demand and prevent future price pressures, and stresses vigilance because of labour-market cost pressures, while noting inflation is below target and activity may be moderating.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17287,
+ "prompt_tokens": 4025,
+ "completion_tokens": 75,
+ "cost_usd": 0.00054055,
+ "attempts": 1
+}

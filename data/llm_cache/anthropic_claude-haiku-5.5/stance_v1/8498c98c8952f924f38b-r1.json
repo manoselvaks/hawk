@@ -1,0 +1,15 @@
+{
+ "relevance": 0.8,
+ "stance": -1.5,
+ "confidence": 0.8,
+ "reason": "The speech is largely about the UK outlook for output, inflation and Bank Rate after cutting to 1.5%, stressing sharp falls in output, below-target CPI, and that 'the risks remain clearly to the down side' while urging consideration of further interest rate action, a clearly dovish lean.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 18094,
+ "prompt_tokens": 6657,
+ "completion_tokens": 134,
+ "cost_usd": 0.0007327,
+ "attempts": 1
+}

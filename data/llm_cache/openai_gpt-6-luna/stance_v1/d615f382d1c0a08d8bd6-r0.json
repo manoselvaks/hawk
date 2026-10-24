@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.87,
+ "reason": "Although the speech notes that growth might move into excess demand and that tightening could eventually be needed, it says growth is currently too weak to create excess demand, inflation is reasonably well behaved, and \u201cfor now it makes sense to wait\u201d for Brexit developments.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24041,
+ "prompt_tokens": 5656,
+ "completion_tokens": 80,
+ "cost_usd": 0.000746925,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.96,
+ "reason": "Ramsden argues that wage flexibility and subdued domestic inflation leave more room than headline slack suggests, and says he voted to hold Bank Rate while waiting for more evidence before withdrawing stimulus.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23500,
+ "prompt_tokens": 5249,
+ "completion_tokens": 63,
+ "cost_usd": 0.00068755,
+ "attempts": 1
+}

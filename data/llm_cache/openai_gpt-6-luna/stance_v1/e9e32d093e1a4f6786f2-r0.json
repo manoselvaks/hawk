@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.84,
+ "reason": "The Committee judged that the prior rate rise and tighter market conditions would restrain demand, while below-target inflation and competitive price pressures balanced upside risks from strong growth and a tight labour market, concluding there was no need to move rates immediately.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24041,
+ "prompt_tokens": 5480,
+ "completion_tokens": 191,
+ "cost_usd": 0.000780425,
+ "attempts": 1
+}

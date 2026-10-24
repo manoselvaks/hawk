@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.5,
+ "confidence": 0.95,
+ "reason": "The speech argues that inflation persistence is greater than in the baseline, that the upside-persistence scenario is playing out, and that under the market-rate curve policy is not tight enough, while acknowledging weak growth as a countervailing risk.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21633,
+ "prompt_tokens": 4834,
+ "completion_tokens": 75,
+ "cost_usd": 0.000641675,
+ "attempts": 1
+}

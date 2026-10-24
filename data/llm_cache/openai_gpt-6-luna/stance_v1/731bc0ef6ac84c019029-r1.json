@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.5,
+ "confidence": 0.94,
+ "reason": "The speech argues that the energy shock\u2019s steep profile and monetary-policy lags limit how much can be offset, and warns that further tightening risks overtightening and undershooting the 2% target in the medium term.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 3946,
+ "prompt_tokens": 1547,
+ "completion_tokens": 75,
+ "cost_usd": 5.324e-05,
+ "attempts": 1
+}

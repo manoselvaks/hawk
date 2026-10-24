@@ -1,0 +1,15 @@
+{
+ "relevance": 0.15,
+ "stance": null,
+ "confidence": 0.8,
+ "reason": "The speech is a long-run essay on economic growth, innovation, and sociological determinants of living standards, touching only briefly on neutral real interest rates and not on the current UK policy outlook, Bank Rate, or other policy tools.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 23785,
+ "prompt_tokens": 8597,
+ "completion_tokens": 109,
+ "cost_usd": 0.0009142,
+ "attempts": 1
+}

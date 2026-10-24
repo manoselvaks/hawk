@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.86,
+ "reason": "The Committee judged the existing stance appropriate, noted material spare capacity and downside risks, and said it would not tighten until there was clear progress in eliminating spare capacity and sustainably achieving the inflation target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24069,
+ "prompt_tokens": 5218,
+ "completion_tokens": 65,
+ "cost_usd": 0.000684675,
+ "attempts": 1
+}

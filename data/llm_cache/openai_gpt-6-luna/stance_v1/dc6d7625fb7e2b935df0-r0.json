@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.82,
+ "reason": "The Committee unanimously kept the repo rate unchanged, with some members judging downside risks to inflation had increased and none finding a persuasive case for a rise, while others considered the news balanced.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23986,
+ "prompt_tokens": 5823,
+ "completion_tokens": 65,
+ "cost_usd": 0.0007603,
+ "attempts": 1
+}

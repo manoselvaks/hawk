@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.5,
+ "confidence": 0.96,
+ "reason": "She says the risk of tightening too little is more salient, prefers to err on the side of over-tightening, and argues policy should act more forcefully and sooner to prevent inflation becoming embedded.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24122,
+ "prompt_tokens": 5356,
+ "completion_tokens": 223,
+ "cost_usd": 0.000780925,
+ "attempts": 1
+}

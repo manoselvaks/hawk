@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.85,
+ "reason": "The speech weighs a significant growth slowdown against food, energy and exchange-rate inflation pressures, and says the future course of rates depends on incoming evidence about whether inflation risks or the risk of a sharper slowdown predominate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22656,
+ "prompt_tokens": 5263,
+ "completion_tokens": 193,
+ "cost_usd": 0.0007543,
+ "attempts": 1
+}

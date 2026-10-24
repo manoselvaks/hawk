@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.84,
+ "reason": "The speech argues that QE is needed to support nominal demand and that low rates do not necessarily mean policy is loose, but says the MPC will eventually need to tighten through higher rates and quantitative tightening to head off medium-term upside inflation risks.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18452,
+ "prompt_tokens": 4264,
+ "completion_tokens": 75,
+ "cost_usd": 0.000570425,
+ "attempts": 1
+}

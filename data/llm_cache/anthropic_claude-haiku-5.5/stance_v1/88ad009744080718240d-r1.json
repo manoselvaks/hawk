@@ -1,0 +1,15 @@
+{
+ "relevance": 0.8,
+ "stance": -0.5,
+ "confidence": 0.6,
+ "reason": "The paper is a Blanchflower-Saleheen-Shadforth MPC-related study on A8 migration's effects on inflation and the natural rate, concluding that rising unemployment reflects greater slack and that immigration keeps inflationary pressures subdued, which leans dovish.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 24075,
+ "prompt_tokens": 8767,
+ "completion_tokens": 130,
+ "cost_usd": 0.0009417,
+ "attempts": 1
+}

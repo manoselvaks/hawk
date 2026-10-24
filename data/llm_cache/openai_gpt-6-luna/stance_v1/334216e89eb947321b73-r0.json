@@ -1,0 +1,15 @@
+{
+ "relevance": 0.75,
+ "stance": 0.0,
+ "confidence": 0.83,
+ "reason": "The paper directly examines monetary transmission and policy design, but presents conditional model results rather than a current policy lean, concluding only that financial frictions can require more aggressive policy under some circumstances.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23955,
+ "prompt_tokens": 5203,
+ "completion_tokens": 65,
+ "cost_usd": 0.0006828,
+ "attempts": 1
+}

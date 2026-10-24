@@ -1,0 +1,15 @@
+{
+ "relevance": 0.55,
+ "stance": -0.5,
+ "confidence": 0.69,
+ "reason": "The speech is mainly about construction and its growth prospects, but its policy discussion says further easing under nominal-income targeting would have pushed inflation further above target and concludes that policy should continue to meet the inflation target, without advocating a near-term change in Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24033,
+ "prompt_tokens": 5783,
+ "completion_tokens": 82,
+ "cost_usd": 0.0007638,
+ "attempts": 1
+}

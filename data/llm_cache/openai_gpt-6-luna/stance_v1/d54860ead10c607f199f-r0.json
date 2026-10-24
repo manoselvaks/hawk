@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.91,
+ "reason": "The majority cut Bank Rate and judged that it would likely continue on a gradual downward path as disinflation progressed and demand and labour-market downside risks remained, although four members favoured holding rates to guard against persistent inflation.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24023,
+ "prompt_tokens": 5206,
+ "completion_tokens": 71,
+ "cost_usd": 0.000686175,
+ "attempts": 1
+}

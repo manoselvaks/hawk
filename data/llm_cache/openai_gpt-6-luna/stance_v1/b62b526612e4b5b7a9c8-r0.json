@@ -1,0 +1,15 @@
+{
+ "relevance": 0,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The extract discusses climate-related financial disclosures, ESG measurement and the TCFD\u2019s role in the transition to net zero, not UK monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 1728,
+ "prompt_tokens": 1034,
+ "completion_tokens": 84,
+ "cost_usd": 0.000171175,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": 0.0,
+ "confidence": 0.83,
+ "reason": "The speech examines how monetary policy should account for asset-price booms and credit-crunch risks, concluding that optimal responses depend on commitment and expectations without advocating a clear tightening or easing lean.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18041,
+ "prompt_tokens": 4559,
+ "completion_tokens": 65,
+ "cost_usd": 0.0006023,
+ "attempts": 1
+}

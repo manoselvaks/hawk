@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": 0.0,
+ "confidence": 0.89,
+ "reason": "The speech is principally about forward guidance and how policy should respond conditionally to the outlook, stressing that future rates are uncertain and that guidance is generally an explanation of the reaction function rather than a commitment to tighten or ease.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23976,
+ "prompt_tokens": 5486,
+ "completion_tokens": 72,
+ "cost_usd": 0.000721675,
+ "attempts": 1
+}

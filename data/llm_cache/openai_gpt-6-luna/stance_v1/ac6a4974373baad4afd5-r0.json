@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": -1.5,
+ "confidence": 0.92,
+ "reason": "The speaker says policy should lean strongly against downside risks, supports additional \u00a3150bn of asset purchases, and stresses a high bar to tightening until spare capacity is eliminated and inflation is sustainably at target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21634,
+ "prompt_tokens": 4906,
+ "completion_tokens": 154,
+ "cost_usd": 0.000690175,
+ "attempts": 1
+}

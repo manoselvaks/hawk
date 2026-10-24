@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.96,
+ "reason": "Bean argues that weaker growth and greater slack make medium-term inflation more likely to undershoot target, motivating renewed \u00a375 billion of asset purchases, although he notes that inflation should fall sharply and external price shocks remain possible.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17901,
+ "prompt_tokens": 4150,
+ "completion_tokens": 70,
+ "cost_usd": 0.000553675,
+ "attempts": 1
+}

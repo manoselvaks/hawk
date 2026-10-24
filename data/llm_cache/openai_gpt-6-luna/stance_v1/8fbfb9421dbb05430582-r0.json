@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.91,
+ "reason": "The speech focuses on the new CPI inflation target and its implications for policy, saying the change should not materially affect MPC decisions and that the January decision to leave rates unchanged reflected this view.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12143,
+ "prompt_tokens": 3121,
+ "completion_tokens": 141,
+ "cost_usd": 0.00046055,
+ "attempts": 1
+}

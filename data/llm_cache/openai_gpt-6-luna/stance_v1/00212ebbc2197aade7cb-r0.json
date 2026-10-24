@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech focuses on financial stability and macro-prudential policy, including resilience, non-bank finance, cryptoassets and climate risks, rather than the UK monetary policy outlook or Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21409,
+ "prompt_tokens": 4872,
+ "completion_tokens": 65,
+ "cost_usd": 0.000641425,
+ "attempts": 1
+}

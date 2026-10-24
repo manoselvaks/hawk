@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": 0.0,
+ "confidence": 0.83,
+ "reason": "The speech focuses on how the MPC uses forecasts and other information in inflation-policy decisions, but Budd discusses decision-making methods rather than advocating a particular future path for Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17508,
+ "prompt_tokens": 4168,
+ "completion_tokens": 215,
+ "cost_usd": 0.000628425,
+ "attempts": 1
+}

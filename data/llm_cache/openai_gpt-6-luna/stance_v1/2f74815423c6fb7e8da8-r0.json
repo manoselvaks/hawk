@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.95,
+ "reason": "The MPC judges that excess demand will emerge and inflation will remain above target, concluding that policy needs to be tightened somewhat earlier and by somewhat more than anticipated in November.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24104,
+ "prompt_tokens": 5511,
+ "completion_tokens": 59,
+ "cost_usd": 0.0007183,
+ "attempts": 1
+}

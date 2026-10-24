@@ -1,0 +1,15 @@
+{
+ "relevance": 0.35,
+ "stance": null,
+ "confidence": 0.75,
+ "reason": "The speech mainly explains liquidity insurance facilities, collateral and market operations for financial stability, rather than expressing a lean on the monetary policy outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 11817,
+ "prompt_tokens": 2952,
+ "completion_tokens": 55,
+ "cost_usd": 0.000396425,
+ "attempts": 1
+}

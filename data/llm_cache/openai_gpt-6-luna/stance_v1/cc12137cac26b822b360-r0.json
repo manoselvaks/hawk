@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.94,
+ "reason": "The Committee judged the risks to growth and inflation to be broadly balanced, projected inflation near target in two years, and unanimously maintained the repo rate at 4.5%.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21240,
+ "prompt_tokens": 4728,
+ "completion_tokens": 61,
+ "cost_usd": 0.000621425,
+ "attempts": 1
+}

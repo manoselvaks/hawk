@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": -1.0,
+ "confidence": 0.94,
+ "reason": "The Governor says weaker external demand and low inflation call for stronger domestic demand, and that the Bank must be prepared to ease further if overall demand falls short of expectations.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 11069,
+ "prompt_tokens": 2758,
+ "completion_tokens": 62,
+ "cost_usd": 0.000375675,
+ "attempts": 1
+}

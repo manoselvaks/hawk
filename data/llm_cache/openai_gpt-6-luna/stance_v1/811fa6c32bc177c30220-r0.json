@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.84,
+ "reason": "The Committee held rates, judging that growth was weaker and the balance of risks to growth and inflation was somewhat to the downside, despite capacity and supply-chain pressures that could raise inflation.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24003,
+ "prompt_tokens": 5491,
+ "completion_tokens": 65,
+ "cost_usd": 0.0007188,
+ "attempts": 1
+}

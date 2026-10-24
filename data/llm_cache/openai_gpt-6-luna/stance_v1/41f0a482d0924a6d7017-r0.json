@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.89,
+ "reason": "The Committee held Bank Rate at 5.25% by a 6\u20133 majority and said policy must remain restrictive for an extended period, with further tightening required if inflation pressures prove more persistent, while also noting downside activity news and risks of overtightening.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23789,
+ "prompt_tokens": 5301,
+ "completion_tokens": 81,
+ "cost_usd": 0.00070305,
+ "attempts": 1
+}

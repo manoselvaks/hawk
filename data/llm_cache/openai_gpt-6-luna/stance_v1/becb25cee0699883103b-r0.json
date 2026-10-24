@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": -0.5,
+ "confidence": 0.81,
+ "reason": "The speech describes recent rate cuts as appropriate to support domestic demand amid below-target inflation and external weakness, while emphasizing caution because domestic demand could become excessive and the cuts would eventually need to be reversed.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 13669,
+ "prompt_tokens": 3372,
+ "completion_tokens": 70,
+ "cost_usd": 0.000456425,
+ "attempts": 1
+}

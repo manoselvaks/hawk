@@ -1,0 +1,15 @@
+{
+ "relevance": 0.5,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speech explains how business surveys inform MPC assessments of demand, spare capacity, labour conditions and inflation, but gives no directional view on future Bank Rate or monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16957,
+ "prompt_tokens": 3866,
+ "completion_tokens": 158,
+ "cost_usd": 0.000562175,
+ "attempts": 1
+}

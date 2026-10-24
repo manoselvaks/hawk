@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.94,
+ "reason": "Although five members voted to hold and four to cut, the Committee said risks had become more balanced and that Bank Rate was likely to follow a gradual downward path if disinflation continued, giving the overall outlook a modest dovish lean.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21928,
+ "prompt_tokens": 4760,
+ "completion_tokens": 76,
+ "cost_usd": 0.000632925,
+ "attempts": 1
+}

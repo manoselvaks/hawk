@@ -1,0 +1,15 @@
+{
+ "relevance": 0.55,
+ "stance": 0.0,
+ "confidence": 0.8,
+ "reason": "The speech focuses mainly on financial stability and macroprudential frameworks, while arguing that monetary policy should generally prioritize growth and price stability and only rarely be adjusted to address financial risks, without expressing a clear near-term lean on Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23407,
+ "prompt_tokens": 4870,
+ "completion_tokens": 74,
+ "cost_usd": 0.000645675,
+ "attempts": 1
+}

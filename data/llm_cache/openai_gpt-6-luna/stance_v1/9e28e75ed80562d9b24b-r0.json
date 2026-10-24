@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.88,
+ "reason": "The speaker says weakening underlying growth and rising slack, intensified Brexit and global headwinds, and limited scope to respond symmetrically make rate tightening slower, while a no-deal Brexit would more likely require monetary stimulus than tightening.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24076,
+ "prompt_tokens": 5507,
+ "completion_tokens": 72,
+ "cost_usd": 0.0007243,
+ "attempts": 1
+}

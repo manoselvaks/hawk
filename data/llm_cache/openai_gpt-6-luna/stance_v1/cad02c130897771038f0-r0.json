@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The extract discusses equity-market development, high-frequency trading and market-maker risks; interest rates appear only as an example of a market fundamental, not as a monetary-policy topic.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 1282,
+ "prompt_tokens": 926,
+ "completion_tokens": 118,
+ "cost_usd": 0.0001516,
+ "attempts": 1
+}

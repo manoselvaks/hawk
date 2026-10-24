@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.87,
+ "reason": "The speech says the central outlook is for steady growth with inflation close to the 2% target, while describing risks on both sides and concluding that the MPC must assess whether rates need to move in either direction.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 13650,
+ "prompt_tokens": 3358,
+ "completion_tokens": 198,
+ "cost_usd": 0.000518675,
+ "attempts": 1
+}

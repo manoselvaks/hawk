@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech concerns operational resilience, supervision of financial market infrastructure, cyber risks and third-party oversight, not the UK inflation outlook or monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21184,
+ "prompt_tokens": 4670,
+ "completion_tokens": 56,
+ "cost_usd": 0.000611675,
+ "attempts": 1
+}

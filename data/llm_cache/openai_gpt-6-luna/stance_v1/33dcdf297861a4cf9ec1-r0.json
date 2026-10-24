@@ -1,0 +1,15 @@
+{
+ "relevance": 0,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech concerns Solvency II insurance supervision, including insurers\u2019 capital requirements and prudential implementation, rather than UK monetary policy or its outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12436,
+ "prompt_tokens": 3267,
+ "completion_tokens": 55,
+ "cost_usd": 0.0004358,
+ "attempts": 1
+}

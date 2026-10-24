@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.87,
+ "reason": "The speech explains that QE is intended to boost spending and activity after a sharp contraction, and says stimulus will eventually need to be withdrawn as recovery proceeds to avoid overshooting the inflation target, but gives no immediate signal to tighten.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18997,
+ "prompt_tokens": 4496,
+ "completion_tokens": 72,
+ "cost_usd": 0.000597925,
+ "attempts": 1
+}

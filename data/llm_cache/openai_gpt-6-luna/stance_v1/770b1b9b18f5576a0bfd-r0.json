@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.83,
+ "reason": "The Committee held Bank Rate at 5.75% by eight votes to one, with most members preferring to wait for more evidence on credit-market effects and warning against easing too quickly despite increased downside risks to growth.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21501,
+ "prompt_tokens": 4764,
+ "completion_tokens": 72,
+ "cost_usd": 0.000631425,
+ "attempts": 1
+}

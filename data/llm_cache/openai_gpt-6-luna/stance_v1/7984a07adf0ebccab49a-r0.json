@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 0.0,
+ "confidence": 0.84,
+ "reason": "The speech discusses inflation prospects and monetary policy, but presents risks as uncertain and balanced, noting that spillovers from energy prices have not yet appeared and that rates will change only if needed to keep inflation on track.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16362,
+ "prompt_tokens": 3972,
+ "completion_tokens": 70,
+ "cost_usd": 0.000531425,
+ "attempts": 1
+}

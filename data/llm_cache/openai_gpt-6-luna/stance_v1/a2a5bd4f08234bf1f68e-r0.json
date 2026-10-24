@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.83,
+ "reason": "The Committee kept the repo rate at 6.0% amid mixed evidence, but some members favoured an immediate 25-basis-point increase because demand and labour-market conditions were strong and inflation risks tilted upwards.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24077,
+ "prompt_tokens": 5568,
+ "completion_tokens": 71,
+ "cost_usd": 0.000731425,
+ "attempts": 1
+}

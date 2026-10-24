@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.88,
+ "reason": "The Committee held Bank Rate by 6\u20133 while judging inflation risks more tilted to the upside, with three members favouring an increase and several hold voters warning that persistent conflict could make tightening necessary.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24064,
+ "prompt_tokens": 5180,
+ "completion_tokens": 68,
+ "cost_usd": 0.000681425,
+ "attempts": 1
+}

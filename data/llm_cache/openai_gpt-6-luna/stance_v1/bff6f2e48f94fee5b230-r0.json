@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 0.99,
+ "reason": "The MPC unanimously cut Bank Rate by 50 basis points and introduced a targeted funding scheme, judging that stimulus was needed to help businesses and households bridge a sharp, temporary fall in activity.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19885,
+ "prompt_tokens": 4474,
+ "completion_tokens": 64,
+ "cost_usd": 0.000591175,
+ "attempts": 1
+}

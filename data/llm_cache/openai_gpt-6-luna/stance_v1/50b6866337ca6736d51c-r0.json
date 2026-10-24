@@ -1,0 +1,15 @@
+{
+ "relevance": 0.2,
+ "stance": null,
+ "confidence": 0.95,
+ "reason": "The speech is mainly about payments data and financial stability, with no substantive discussion of the UK inflation outlook or future Bank Rate policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17101,
+ "prompt_tokens": 3949,
+ "completion_tokens": 157,
+ "cost_usd": 0.00057205,
+ "attempts": 1
+}

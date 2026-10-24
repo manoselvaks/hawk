@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The Committee saw inflation pressures and a tight labour market as risks, but also noted subdued earnings, weaker activity indicators and a larger downside risk from the world economy, with one view finding no case for a rate rise absent clearer wage pressure.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23886,
+ "prompt_tokens": 5446,
+ "completion_tokens": 73,
+ "cost_usd": 0.000717175,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.79,
+ "reason": "The speaker says sterling\u2019s appreciation is still dampening inflation but that this effect will fade, so domestic wage and price pressures must be monitored to adjust policy appropriately, while noting current indicators show little evidence of imminent inflationary risks.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23984,
+ "prompt_tokens": 5161,
+ "completion_tokens": 73,
+ "cost_usd": 0.00068155,
+ "attempts": 1
+}

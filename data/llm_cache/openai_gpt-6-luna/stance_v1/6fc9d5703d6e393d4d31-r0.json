@@ -1,0 +1,15 @@
+{
+ "relevance": 0.75,
+ "stance": 0.0,
+ "confidence": 0.86,
+ "reason": "The speech argues for separating monetary and macroprudential policymaking, while describing interest rates as tools for stabilising inflation and demand and finding that tighter rates would have imposed output and inflation costs without materially containing financial risk; it gives no clear lean on the future path of Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23208,
+ "prompt_tokens": 5276,
+ "completion_tokens": 84,
+ "cost_usd": 0.000701425,
+ "attempts": 1
+}

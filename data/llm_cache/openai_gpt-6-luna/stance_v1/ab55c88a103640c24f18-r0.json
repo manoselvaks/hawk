@@ -1,0 +1,15 @@
+{
+ "relevance": 0.65,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speech focuses on implementing Bank Rate and QE-related reserve operations, while describing a possible return to reserves averaging after a future rate increase without expressing a lean on the policy path.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20887,
+ "prompt_tokens": 4784,
+ "completion_tokens": 211,
+ "cost_usd": 0.000703425,
+ "attempts": 1
+}

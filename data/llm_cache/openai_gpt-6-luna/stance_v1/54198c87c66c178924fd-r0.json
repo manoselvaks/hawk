@@ -1,0 +1,15 @@
+{
+ "relevance": 0,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The extracts discuss short-termism in capital markets, investment financing and long-term growth, not the UK monetary policy outlook or policy tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 1454,
+ "prompt_tokens": 968,
+ "completion_tokens": 55,
+ "cost_usd": 0.0001243,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.99,
+ "reason": "The speaker favours a \u201cskip\u201d in the ongoing rate-cutting process, arguing that quarterly cuts are too rapid given persistent inflation risks and that Bank Rate should stay \u201chigher-for-longer,\u201d while still expecting its path to be downward.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23529,
+ "prompt_tokens": 5114,
+ "completion_tokens": 74,
+ "cost_usd": 0.000676175,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.65,
+ "stance": 0.5,
+ "confidence": 0.72,
+ "reason": "Although most of the speech examines global spillovers, the author says they are not yet convinced further easing is needed and that conditions have recently shifted more favourably, implying a slight lean against additional easing.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23930,
+ "prompt_tokens": 5386,
+ "completion_tokens": 308,
+ "cost_usd": 0.000827175,
+ "attempts": 1
+}

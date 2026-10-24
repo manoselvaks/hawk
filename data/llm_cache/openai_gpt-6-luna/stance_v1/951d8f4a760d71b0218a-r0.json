@@ -1,0 +1,15 @@
+{
+ "relevance": 0.72,
+ "stance": -0.5,
+ "confidence": 0.72,
+ "reason": "The speech discusses persistently low equilibrium rates and argues that reduced room for conventional easing means downturns may require more tools to stimulate demand, but it does not advocate a near-term rate cut and focuses mainly on financial-stability implications.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16109,
+ "prompt_tokens": 3921,
+ "completion_tokens": 77,
+ "cost_usd": 0.00052855,
+ "attempts": 1
+}

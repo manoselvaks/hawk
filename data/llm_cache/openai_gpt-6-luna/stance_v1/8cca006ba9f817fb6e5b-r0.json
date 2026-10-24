@@ -1,0 +1,15 @@
+{
+ "relevance": 0.75,
+ "stance": 0.0,
+ "confidence": 0.82,
+ "reason": "The speech discusses UK monetary policy procedures and the MPC\u2019s inflation-targeting framework, but does not advocate a particular future change in Bank Rate, instead emphasizing forecasting, transparency and accountability.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24120,
+ "prompt_tokens": 5253,
+ "completion_tokens": 64,
+ "cost_usd": 0.00068855,
+ "attempts": 1
+}

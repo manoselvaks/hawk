@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "Bean says the MPC must balance the growth shock against inflation risks and has judged only a relatively modest easing warranted, with its assessment able to shift as evidence accrues.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22136,
+ "prompt_tokens": 4895,
+ "completion_tokens": 168,
+ "cost_usd": 0.0006958,
+ "attempts": 1
+}

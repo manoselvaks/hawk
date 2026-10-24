@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.87,
+ "reason": "The speaker says the recovery risks remain \u201con balance\u201d weighted to the downside, stresses that the MPC does not intend to tighten until spare capacity is clearly being eliminated and inflation sustainably reaches target, and supports continued low rates and QE.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 14229,
+ "prompt_tokens": 3441,
+ "completion_tokens": 73,
+ "cost_usd": 0.00046655,
+ "attempts": 1
+}

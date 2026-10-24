@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 0.97,
+ "reason": "The speech stresses downside risks to growth, rising unemployment and deflation, arguing that impaired monetary policy and near-zero rates make additional stimulus appropriate, alongside a substantial fiscal response focused on sustaining employment.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23940,
+ "prompt_tokens": 5587,
+ "completion_tokens": 65,
+ "cost_usd": 0.0007308,
+ "attempts": 1
+}

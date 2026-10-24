@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.93,
+ "reason": "The Committee unanimously maintained Bank Rate at 0.5% and asset purchases at \u00a3200 billion, judging the inflation outlook to warrant no change despite somewhat higher near-term inflation and increased downside risks to activity.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21857,
+ "prompt_tokens": 4621,
+ "completion_tokens": 67,
+ "cost_usd": 0.00061105,
+ "attempts": 1
+}

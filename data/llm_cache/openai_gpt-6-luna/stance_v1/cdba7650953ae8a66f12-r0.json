@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.85,
+ "reason": "Although the speaker says the risks are more finely balanced, they continue to worry more about inflation persistence and note that higher u* and r* imply wage pressure and less restrictive policy than previously thought.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 8706,
+ "prompt_tokens": 2512,
+ "completion_tokens": 137,
+ "cost_usd": 0.000382425,
+ "attempts": 1
+}

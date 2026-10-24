@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.99,
+ "reason": "The speaker says UK growth and inflation risks are \u201cskewed squarely and significantly to the downside,\u201d that the case for raising rates \u201cis\u2026some way from being made,\u201d and that the next step could be loosening.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24041,
+ "prompt_tokens": 5514,
+ "completion_tokens": 73,
+ "cost_usd": 0.000725675,
+ "attempts": 1
+}

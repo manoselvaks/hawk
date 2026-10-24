@@ -1,0 +1,15 @@
+{
+ "relevance": 0.1,
+ "stance": null,
+ "confidence": 0.96,
+ "reason": "The extract focuses on financial stability risks from stretched bond markets, corporate debt and open-ended funds, rather than the UK monetary policy outlook or policy tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 5237,
+ "prompt_tokens": 1721,
+ "completion_tokens": 58,
+ "cost_usd": 0.00024405,
+ "attempts": 1
+}

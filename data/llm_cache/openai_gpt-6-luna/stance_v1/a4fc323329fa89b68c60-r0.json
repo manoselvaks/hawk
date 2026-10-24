@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.75,
+ "reason": "The speech focuses on the monetary framework and inflation outlook, noting that inflation has undershot the symmetric target and is expected to remain below it for two years, and warning that a longer undershoot could damage credibility.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21386,
+ "prompt_tokens": 5211,
+ "completion_tokens": 71,
+ "cost_usd": 0.0006868,
+ "attempts": 1
+}

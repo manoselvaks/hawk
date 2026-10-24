@@ -1,0 +1,15 @@
+{
+ "relevance": 0.8,
+ "stance": 1.0,
+ "confidence": 0.91,
+ "reason": "The speaker says that \u201cfurther limited and gradual rises in Bank Rate will be appropriate\u201d if the economy evolves as forecast, and points to labour-market tightness and rising pay pressures, while acknowledging risks to wage growth.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18551,
+ "prompt_tokens": 4516,
+ "completion_tokens": 72,
+ "cost_usd": 0.000600425,
+ "attempts": 1
+}

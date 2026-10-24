@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.98,
+ "reason": "The speaker argues that structural inflation persistence and upside risks mean \u201cpolicy needs to remain restrictive for longer,\u201d favouring holding rates until right-tail risks dissipate before cutting more aggressively.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24081,
+ "prompt_tokens": 5331,
+ "completion_tokens": 61,
+ "cost_usd": 0.0006968,
+ "attempts": 1
+}

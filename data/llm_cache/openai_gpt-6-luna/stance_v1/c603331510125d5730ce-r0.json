@@ -1,0 +1,15 @@
+{
+ "relevance": 0.2,
+ "stance": null,
+ "confidence": 0.95,
+ "reason": "The extract focuses on cash demand, payment trends and the banking system\u2019s role in money creation, rather than the monetary policy outlook or policy settings.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 2399,
+ "prompt_tokens": 1186,
+ "completion_tokens": 57,
+ "cost_usd": 0.000176675,
+ "attempts": 1
+}

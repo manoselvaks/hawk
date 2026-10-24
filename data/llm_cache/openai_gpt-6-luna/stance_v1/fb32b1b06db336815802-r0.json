@@ -1,0 +1,15 @@
+{
+ "relevance": 0.5,
+ "stance": -1.0,
+ "confidence": 0.78,
+ "reason": "The speech is mainly about banking reform, but it leans toward easing monetary policy by stressing that weak money spending is pulling inflation down and that asset purchases aim to restore spending growth.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19628,
+ "prompt_tokens": 4415,
+ "completion_tokens": 65,
+ "cost_usd": 0.0005843,
+ "attempts": 1
+}

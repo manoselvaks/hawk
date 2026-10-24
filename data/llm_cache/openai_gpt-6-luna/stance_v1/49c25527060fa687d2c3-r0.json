@@ -1,0 +1,15 @@
+{
+ "relevance": 0.45,
+ "stance": 0.5,
+ "confidence": 0.64,
+ "reason": "The speech is mainly about financial-system resilience, but its monetary-policy discussion stresses that repeated supply shocks can make inflation persistent and that policy must remain firmly committed to returning inflation to target, noting rates may need to rise even as activity weakens.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 7910,
+ "prompt_tokens": 2051,
+ "completion_tokens": 246,
+ "cost_usd": 0.0003793,
+ "attempts": 1
+}

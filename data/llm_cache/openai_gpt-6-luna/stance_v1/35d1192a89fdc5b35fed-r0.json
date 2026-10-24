@@ -1,0 +1,15 @@
+{
+ "relevance": 0.35,
+ "stance": 0.0,
+ "confidence": 0.92,
+ "reason": "The speech focuses on how monetary policy interacts with financial stability and liquidity tools, but explicitly says it is \u201cnot in any way\u201d commenting on the stance of monetary policy and gives no lean on future Bank Rate decisions.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23906,
+ "prompt_tokens": 5181,
+ "completion_tokens": 71,
+ "cost_usd": 0.00068305,
+ "attempts": 1
+}

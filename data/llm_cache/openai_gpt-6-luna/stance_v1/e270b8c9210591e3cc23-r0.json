@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": 0.0,
+ "confidence": 0.83,
+ "reason": "The speech examines how tighter credit conditions may weaken consumption, but Besley says his policy decisions will weigh near-term above-target inflation against softer demand and output, without signalling a clear future policy lean.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18729,
+ "prompt_tokens": 4314,
+ "completion_tokens": 214,
+ "cost_usd": 0.000646175,
+ "attempts": 1
+}

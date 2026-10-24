@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 0.0,
+ "confidence": 0.79,
+ "reason": "The speech argues that monetary policy should take financial imbalances into account through their implications for future growth and inflation, but does not advocate a distinct tightening or easing bias.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24087,
+ "prompt_tokens": 5207,
+ "completion_tokens": 61,
+ "cost_usd": 0.0006813,
+ "attempts": 1
+}

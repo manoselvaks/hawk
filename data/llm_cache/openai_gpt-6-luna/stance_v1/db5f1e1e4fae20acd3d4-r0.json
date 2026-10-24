@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.72,
+ "reason": "Although the Committee noted limited spare capacity and elevated pricing pressures, it judged that the upside inflation risks had probably receded amid financial-market disruption and unanimously held Bank Rate at 5.75%.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21501,
+ "prompt_tokens": 4755,
+ "completion_tokens": 68,
+ "cost_usd": 0.0006283,
+ "attempts": 1
+}

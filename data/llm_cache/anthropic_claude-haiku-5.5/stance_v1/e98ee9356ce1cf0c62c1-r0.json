@@ -1,0 +1,15 @@
+{
+ "relevance": 0.8,
+ "stance": 0.5,
+ "confidence": 0.55,
+ "reason": "The speech discusses the November MPC vote, where Tucker voted for a small Bank Rate increase to keep inflation expectations anchored given headline inflation above target and robust demand, but balances this with a plausible Alternative story of migration-driven supply that could weaken inflation pressures, so the lean is only mildly hawkish.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23154,
+ "prompt_tokens": 8488,
+ "completion_tokens": 144,
+ "cost_usd": 0.0009208,
+ "attempts": 1
+}

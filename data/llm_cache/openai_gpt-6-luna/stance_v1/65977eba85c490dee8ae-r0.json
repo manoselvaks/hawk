@@ -1,0 +1,15 @@
+{
+ "relevance": 0.65,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speech discusses how digital currencies could affect monetary-policy transmission and control, but treats these effects as operational uncertainties and does not signal a preferred future path for Bank Rate or other monetary-policy settings.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16567,
+ "prompt_tokens": 3975,
+ "completion_tokens": 66,
+ "cost_usd": 0.0005298,
+ "attempts": 1
+}

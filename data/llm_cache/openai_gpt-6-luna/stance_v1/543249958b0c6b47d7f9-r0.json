@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.83,
+ "reason": "He supports continued monetary accommodation to sustain the recovery and says balance-sheet adjustments still need time, while cautioning against excess inflation and doubting that further rate cuts would stimulate demand.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20776,
+ "prompt_tokens": 4719,
+ "completion_tokens": 64,
+ "cost_usd": 0.0006218,
+ "attempts": 1
+}

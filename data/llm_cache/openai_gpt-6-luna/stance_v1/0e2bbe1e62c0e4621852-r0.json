@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech is about banknotes, scientific achievement and changing payment methods, with no discussion of the inflation outlook, demand, labour market or monetary policy path.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 15027,
+ "prompt_tokens": 3670,
+ "completion_tokens": 59,
+ "cost_usd": 0.000488175,
+ "attempts": 1
+}

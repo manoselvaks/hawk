@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The extract discusses PRA prudential regulation of small firms, resilience requirements, compliance costs and barriers to growth, not UK monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 3224,
+ "prompt_tokens": 1315,
+ "completion_tokens": 54,
+ "cost_usd": 0.0001913,
+ "attempts": 1
+}

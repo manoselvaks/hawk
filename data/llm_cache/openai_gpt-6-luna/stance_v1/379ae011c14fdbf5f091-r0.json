@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.87,
+ "reason": "The speech says the MPC must balance weaker activity against sterling\u2019s fall and other cost pressures, leaving the implications for interest rates dependent on incoming data.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 11481,
+ "prompt_tokens": 2927,
+ "completion_tokens": 217,
+ "cost_usd": 0.0004743,
+ "attempts": 1
+}

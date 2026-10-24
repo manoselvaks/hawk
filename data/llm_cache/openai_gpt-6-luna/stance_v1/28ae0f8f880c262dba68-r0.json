@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.91,
+ "reason": "The Committee judged the decision finely balanced, with two members favouring a 25-basis-point increase on inflation and demand risks while seven voted to hold, and others cited lower energy prices, sterling strength and possible labour-market slack.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23711,
+ "prompt_tokens": 5149,
+ "completion_tokens": 72,
+ "cost_usd": 0.00067955,
+ "attempts": 1
+}

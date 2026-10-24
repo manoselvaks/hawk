@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech concerns systemic insurers, insurance capital standards, supervision and financial stability, with no discussion of the UK inflation outlook, demand, labour market or monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12074,
+ "prompt_tokens": 2969,
+ "completion_tokens": 60,
+ "cost_usd": 0.00040105,
+ "attempts": 1
+}

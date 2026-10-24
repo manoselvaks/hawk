@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.9,
+ "reason": "The speech supports maintaining substantial stimulus to address slack and downside demand risks, but stresses that inflation risks must be monitored and stimulus withdrawn if recovery or inflation expectations warrant it, leaving the policy lean broadly balanced.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23819,
+ "prompt_tokens": 5338,
+ "completion_tokens": 66,
+ "cost_usd": 0.000700175,
+ "attempts": 1
+}

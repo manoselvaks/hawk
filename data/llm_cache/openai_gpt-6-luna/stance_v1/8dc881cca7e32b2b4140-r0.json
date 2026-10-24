@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech is about bank capital, prudential supervision and resolution regimes, not the UK monetary policy outlook or policy tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 14790,
+ "prompt_tokens": 3647,
+ "completion_tokens": 92,
+ "cost_usd": 0.0005018,
+ "attempts": 1
+}

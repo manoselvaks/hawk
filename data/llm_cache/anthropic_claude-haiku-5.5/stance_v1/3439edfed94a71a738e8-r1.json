@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.5,
+ "confidence": 0.8,
+ "reason": "The minutes are entirely about the policy decision and outlook; the majority voted for a 25bp cut and a minority for 50bp, citing downside risks from the global slowdown, falling equities, and foot and mouth, with the 50bp view saying further cuts may be needed even absent further downside news, so the Committee as a whole leans dovish.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 24030,
+ "prompt_tokens": 8773,
+ "completion_tokens": 147,
+ "cost_usd": 0.0009508,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": 0.0,
+ "confidence": 0.82,
+ "reason": "The presentation examines inflation forecasts and persistence, noting inflation is expected to fall while household and business expectations remain elevated and pay growth supports services inflation, but gives no policy-path recommendation.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 5263,
+ "prompt_tokens": 1796,
+ "completion_tokens": 145,
+ "cost_usd": 0.000296925,
+ "attempts": 1
+}

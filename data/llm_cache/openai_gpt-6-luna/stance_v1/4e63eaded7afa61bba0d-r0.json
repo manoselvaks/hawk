@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.91,
+ "reason": "The Committee voted 8\u20131 for a 0.5 percentage point increase, with the majority citing persistent and broadening inflation pressures and saying faster tightening would reduce the risk of prolonged above-target inflation.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23880,
+ "prompt_tokens": 5283,
+ "completion_tokens": 67,
+ "cost_usd": 0.0006938,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.1,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech focuses on redesigning the Bank\u2019s Real Time Gross Settlement and UK payment infrastructure, with monetary policy mentioned only as one function supported by RTGS.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23792,
+ "prompt_tokens": 5341,
+ "completion_tokens": 59,
+ "cost_usd": 0.00069705,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 1,
+ "reason": "The speech argues that weak demand and fading oil-price effects would leave inflation below target, and explicitly says that a rate cut was required and that the upside risks were not important enough to postpone it.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23978,
+ "prompt_tokens": 5496,
+ "completion_tokens": 64,
+ "cost_usd": 0.000718925,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.7,
+ "stance": 0.0,
+ "confidence": 0.9,
+ "reason": "The speech states that 'Monetary policy will be set to achieve the inflation target in a way that helps smooth real adjustment in the economy and supports jobs in the wake of very large external forces.'",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 10992,
+ "prompt_tokens": 2877,
+ "completion_tokens": 1078,
+ "cost_usd": 0.00074039,
+ "attempts": 1
+}

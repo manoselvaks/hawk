@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.5,
+ "confidence": 0.98,
+ "reason": "The speaker argues that higher inflation expectations and second-round effects may require Bank Rate hikes, says the case for hiking grows as the conflict wears on, and considers tightening over the next few weeks or months necessary, while acknowledging uncertainty about the shock.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24079,
+ "prompt_tokens": 5427,
+ "completion_tokens": 76,
+ "cost_usd": 0.0007163,
+ "attempts": 1
+}

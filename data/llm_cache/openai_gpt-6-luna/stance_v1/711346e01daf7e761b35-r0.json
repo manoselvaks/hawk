@@ -1,0 +1,15 @@
+{
+ "relevance": 0.55,
+ "stance": -1.0,
+ "confidence": 0.75,
+ "reason": "The speech is mainly about global imbalances, but its UK outlook stresses spare capacity and undesirably low monetary growth, treating the inflation rise as temporary and expecting inflation to return to target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18150,
+ "prompt_tokens": 4197,
+ "completion_tokens": 254,
+ "cost_usd": 0.00065155,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.82,
+ "reason": "Fisher says the MPC should allow temporary relative-price shocks to pass through and \u201cgently steer inflation back to target,\u201d while acknowledging risks of both entrenched inflation and deflation without favouring either policy direction.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18554,
+ "prompt_tokens": 4301,
+ "completion_tokens": 68,
+ "cost_usd": 0.00057155,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.9,
+ "reason": "Besley stresses that weakening demand and diminished upside inflation risks warrant reassessment, noting that \u201cthe substantial weakening in demand\u201d has reduced inflation risks, while emphasizing that Bank Rate should remain focused on the medium-term inflation target rather than explicitly calling for further cuts.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21912,
+ "prompt_tokens": 5000,
+ "completion_tokens": 78,
+ "cost_usd": 0.000663925,
+ "attempts": 1
+}

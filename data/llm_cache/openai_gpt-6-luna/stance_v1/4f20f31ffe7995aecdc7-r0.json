@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.86,
+ "reason": "The Committee saw downside risks to growth and slightly to inflation and debated easing, but held 5.25% because consumption remained strong and a cut could worsen imbalances, while noting that a rate reduction was likely later in the year.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24083,
+ "prompt_tokens": 5457,
+ "completion_tokens": 78,
+ "cost_usd": 0.00072105,
+ "attempts": 1
+}

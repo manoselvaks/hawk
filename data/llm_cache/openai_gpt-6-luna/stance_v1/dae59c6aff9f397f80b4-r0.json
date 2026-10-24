@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.94,
+ "reason": "The Committee\u2019s balance was between holding the repo rate at 6% because demand and earnings might moderate and inflation remained below target, and a 25-basis-point increase because of tight labour markets and upside inflation risks.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24012,
+ "prompt_tokens": 5809,
+ "completion_tokens": 70,
+ "cost_usd": 0.00076105,
+ "attempts": 1
+}

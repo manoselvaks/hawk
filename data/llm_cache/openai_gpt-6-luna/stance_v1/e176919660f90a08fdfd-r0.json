@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.84,
+ "reason": "Although the speaker acknowledges a risk of not doing enough to curb above-target inflation, he stresses weak underlying pressures and the danger of removing stimulus too soon, arguing that policy should balance the risks rather than tighten prematurely.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19758,
+ "prompt_tokens": 4707,
+ "completion_tokens": 71,
+ "cost_usd": 0.0006238,
+ "attempts": 1
+}

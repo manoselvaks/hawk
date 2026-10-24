@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.5,
+ "confidence": 0.98,
+ "reason": "The Committee concluded that rates needed to rise to return inflation to target and six members voted for an immediate 25-basis-point increase, citing firm growth, limited spare capacity and above-target inflation, while one member dissented in favour of holding.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20184,
+ "prompt_tokens": 4594,
+ "completion_tokens": 77,
+ "cost_usd": 0.000612675,
+ "attempts": 1
+}

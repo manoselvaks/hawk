@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.99,
+ "reason": "The Committee held Bank Rate and asset purchases unchanged with a 7\u20132 vote, while most members judged risks balanced and said they were ready to adjust policy in either direction; one member favored more asset purchases and another a rate rise.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21079,
+ "prompt_tokens": 4598,
+ "completion_tokens": 73,
+ "cost_usd": 0.000611175,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": -1.0,
+ "confidence": 0.78,
+ "reason": "The speech argues that the NAIRU has probably fallen further and endorses a \u201ctesting the water\u201d approach that allows unemployment to fall while policymakers watch direct inflation indicators, implying scope to delay tightening.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23999,
+ "prompt_tokens": 5721,
+ "completion_tokens": 206,
+ "cost_usd": 0.00081805,
+ "attempts": 1
+}

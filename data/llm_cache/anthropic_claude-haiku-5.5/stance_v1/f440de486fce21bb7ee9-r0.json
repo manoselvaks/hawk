@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.7,
+ "reason": "The minutes are wholly about the monetary policy outlook and decision, and the majority held Bank Rate and asset purchases unchanged while stressing that inflation is set to stay well above target and that the balance of risks to medium-term inflation has moved upwards, so the Committee leans mildly hawkish, tempered by a six-to-three vote and downside growth risks.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22682,
+ "prompt_tokens": 7921,
+ "completion_tokens": 155,
+ "cost_usd": 0.0008696,
+ "attempts": 1
+}

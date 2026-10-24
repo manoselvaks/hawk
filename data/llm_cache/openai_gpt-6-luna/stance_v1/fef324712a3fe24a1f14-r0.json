@@ -1,0 +1,15 @@
+{
+ "relevance": 0.25,
+ "stance": null,
+ "confidence": 0.92,
+ "reason": "The speech mainly examines the UK\u2019s overseas balance sheet and current-account deficit, with only brief references to the MPC\u2019s growth outlook and the credibility of the macroeconomic policy framework.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 15147,
+ "prompt_tokens": 3802,
+ "completion_tokens": 329,
+ "cost_usd": 0.000639675,
+ "attempts": 1
+}

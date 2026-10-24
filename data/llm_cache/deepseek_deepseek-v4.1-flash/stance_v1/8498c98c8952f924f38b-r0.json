@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.9,
+ "reason": "The speaker states that 'At present the risks remain clearly to the down side. Therefore, in setting policy, the authorities both here and overseas need to consider whether further action on interest rates (or other monetary measures) or fiscal action is required.'",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18094,
+ "prompt_tokens": 4395,
+ "completion_tokens": 969,
+ "cost_usd": 0.00079215,
+ "attempts": 1
+}

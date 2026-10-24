@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 2.0,
+ "confidence": 0.98,
+ "reason": "The speaker argues that it may be appropriate fairly soon to withdraw monetary stimulus, says the guidance conditions for tightening have been met, and warns that maintaining asset purchases risks persistent above-target inflation.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24035,
+ "prompt_tokens": 5451,
+ "completion_tokens": 184,
+ "cost_usd": 0.0007733,
+ "attempts": 1
+}

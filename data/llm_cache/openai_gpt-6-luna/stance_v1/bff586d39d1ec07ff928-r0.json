@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.89,
+ "reason": "The majority judged that a 25 basis point cut was warranted to avert excessive spare capacity and medium-term undershooting, with one member favouring a larger cut, although three members opposed the reduction over inflation risks.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22164,
+ "prompt_tokens": 4874,
+ "completion_tokens": 69,
+ "cost_usd": 0.000643675,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.3,
+ "stance": 0.0,
+ "confidence": 0.68,
+ "reason": "The speech focuses mainly on structural changes in the housing and mortgage markets, noting only that the MPC must recalibrate how Bank Rate affects mortgage costs, without signalling a direction for policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12113,
+ "prompt_tokens": 3131,
+ "completion_tokens": 275,
+ "cost_usd": 0.0005288,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.89,
+ "reason": "The Committee unanimously maintained the existing policy stance, balancing above-target inflation against economic slack and noting that policy could be loosened if spending weakened more than expected or tightened if pay growth picked up more than anticipated.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24027,
+ "prompt_tokens": 5204,
+ "completion_tokens": 67,
+ "cost_usd": 0.000683925,
+ "attempts": 1
+}

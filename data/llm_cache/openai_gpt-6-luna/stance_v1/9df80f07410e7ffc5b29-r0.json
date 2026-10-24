@@ -1,0 +1,15 @@
+{
+ "relevance": 0.1,
+ "stance": null,
+ "confidence": 0.97,
+ "reason": "The remarks focus on UK-US productivity, enterprise, trade and international economic cooperation, with no discussion of the monetary policy outlook or policy tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 4064,
+ "prompt_tokens": 1523,
+ "completion_tokens": 56,
+ "cost_usd": 0.0002183,
+ "attempts": 1
+}

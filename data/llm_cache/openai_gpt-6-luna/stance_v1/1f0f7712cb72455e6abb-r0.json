@@ -1,0 +1,15 @@
+{
+ "relevance": 0.75,
+ "stance": -0.5,
+ "confidence": 0.74,
+ "reason": "The speech discusses how persistent euro-area headwinds lowered the UK equilibrium interest rate and called for Bank Rate to be held lower for longer, while otherwise describing the MPC\u2019s balancing of inflation and output.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 7035,
+ "prompt_tokens": 2034,
+ "completion_tokens": 70,
+ "cost_usd": 0.000289175,
+ "attempts": 1
+}

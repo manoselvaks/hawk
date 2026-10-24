@@ -1,0 +1,15 @@
+{
+ "relevance": 0.35,
+ "stance": 0.0,
+ "confidence": 0.75,
+ "reason": "The speech mainly addresses reform of the international monetary and financial system, while noting that central banks should use the full flexibility of inflation targeting without signalling a particular UK policy direction.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 5290,
+ "prompt_tokens": 1744,
+ "completion_tokens": 202,
+ "cost_usd": 0.000318925,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.84,
+ "reason": "The majority supported holding rates, noting inflation would remain below target and that premature tightening risked weakening the economy, while two members favoured an immediate 25-basis-point rise because labour-market slack might be absorbed rapidly.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23515,
+ "prompt_tokens": 5235,
+ "completion_tokens": 73,
+ "cost_usd": 0.0006908,
+ "attempts": 1
+}

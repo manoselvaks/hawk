@@ -1,0 +1,15 @@
+{
+ "relevance": 0.35,
+ "stance": null,
+ "confidence": 0.85,
+ "reason": "The speech focuses mainly on global capital flows, financial-market volatility and crisis prevention, mentioning UK capacity pressures and monetary policy only briefly as part of that discussion.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 14873,
+ "prompt_tokens": 3453,
+ "completion_tokens": 59,
+ "cost_usd": 0.00046105,
+ "attempts": 1
+}

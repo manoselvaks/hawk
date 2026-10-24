@@ -1,0 +1,15 @@
+{
+ "relevance": 0.25,
+ "stance": null,
+ "confidence": 0.91,
+ "reason": "The speech is primarily about designing the Financial Policy Committee and strengthening financial stability, with monetary policy appearing mainly in discussion of its interaction with macroprudential policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 14709,
+ "prompt_tokens": 3526,
+ "completion_tokens": 239,
+ "cost_usd": 0.000560175,
+ "attempts": 1
+}

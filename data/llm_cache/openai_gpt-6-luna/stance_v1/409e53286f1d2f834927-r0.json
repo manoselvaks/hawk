@@ -1,0 +1,15 @@
+{
+ "relevance": 0.75,
+ "stance": 0.0,
+ "confidence": 0.78,
+ "reason": "The speech focuses on QT and its relationship to monetary policy, but argues that Bank Rate remains the active instrument and explains a dissent over QT pace without signalling a preferred future direction for Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 8308,
+ "prompt_tokens": 2295,
+ "completion_tokens": 66,
+ "cost_usd": 0.0003198,
+ "attempts": 1
+}

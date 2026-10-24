@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": 1.0,
+ "confidence": 0.9,
+ "reason": "The speech concludes that inflation is not dead and highlights growing skill shortages, wage pressure and rising services-price indicators, supporting the MPC\u2019s pre-emptive rate rises and continued vigilance to keep inflation on target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22743,
+ "prompt_tokens": 5619,
+ "completion_tokens": 69,
+ "cost_usd": 0.0007368,
+ "attempts": 1
+}

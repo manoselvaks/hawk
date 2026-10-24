@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.64,
+ "reason": "The Committee weighed strong inflation and labour-market arguments for an immediate rate rise against a slowing economy and unusually large, mainly downside near-term uncertainties, with a strong case made for waiting for clearer evidence.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23980,
+ "prompt_tokens": 5276,
+ "completion_tokens": 314,
+ "cost_usd": 0.000816425,
+ "attempts": 1
+}

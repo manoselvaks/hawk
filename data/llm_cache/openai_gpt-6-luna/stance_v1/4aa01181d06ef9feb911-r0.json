@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.86,
+ "reason": "The Committee held Bank Rate at 4% and judged a cut premature, but discussed downside risks to world activity and UK consumption and remained ready to reduce rates if further stimulus became necessary.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24020,
+ "prompt_tokens": 5823,
+ "completion_tokens": 173,
+ "cost_usd": 0.0008143,
+ "attempts": 1
+}

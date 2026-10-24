@@ -1,0 +1,15 @@
+{
+ "relevance": 0.75,
+ "stance": -0.5,
+ "confidence": 0.58,
+ "reason": "The speech is largely about the monetary policy framework and its objectives, and says the MPC can return inflation to target from above more gradually in exceptional circumstances to limit volatility in jobs and activity, indicating a modestly dovish flexibility rather than a call for tightening.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 10992,
+ "prompt_tokens": 2776,
+ "completion_tokens": 82,
+ "cost_usd": 6.903e-05,
+ "attempts": 1
+}

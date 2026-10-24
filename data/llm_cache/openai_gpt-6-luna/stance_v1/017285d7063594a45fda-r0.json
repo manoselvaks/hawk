@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.9,
+ "reason": "The Committee held Bank Rate by a 6\u20133 majority, judging existing restrictiveness sufficient for now despite upside-skewed inflation risks, while noting that policy could tighten if second-round effects emerge and cuts could resume if risks subside.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23587,
+ "prompt_tokens": 5036,
+ "completion_tokens": 74,
+ "cost_usd": 0.000666425,
+ "attempts": 1
+}

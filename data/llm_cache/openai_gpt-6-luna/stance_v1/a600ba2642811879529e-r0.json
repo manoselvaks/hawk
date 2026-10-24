@@ -1,0 +1,15 @@
+{
+ "relevance": 0.55,
+ "stance": 0.0,
+ "confidence": 0.86,
+ "reason": "The speech discusses the inflation target and monetary stability as a central-bank objective, but offers no view on the UK inflation outlook or future Bank Rate, focusing mainly on financial stability and money.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17166,
+ "prompt_tokens": 4124,
+ "completion_tokens": 65,
+ "cost_usd": 0.000547925,
+ "attempts": 1
+}

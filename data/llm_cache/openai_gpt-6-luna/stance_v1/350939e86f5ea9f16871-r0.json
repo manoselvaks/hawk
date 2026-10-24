@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.96,
+ "reason": "Miles argues that without further stimulus inflation would likely undershoot target and supports more expansionary asset purchases, even while noting that a looser policy now could permit Bank Rate to rise sooner later.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22731,
+ "prompt_tokens": 5240,
+ "completion_tokens": 65,
+ "cost_usd": 0.000687425,
+ "attempts": 1
+}

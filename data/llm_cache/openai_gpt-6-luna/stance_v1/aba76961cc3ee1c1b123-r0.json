@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.84,
+ "reason": "Although the Committee judged inflation risks broadly balanced and unanimously held Bank Rate at 4.75%, most members considered the data supportive of the August reduction in monetary accommodation while inflation was projected to remain above target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22463,
+ "prompt_tokens": 4982,
+ "completion_tokens": 69,
+ "cost_usd": 0.000657175,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 1.0,
+ "confidence": 0.8,
+ "reason": "The speech says the MPC faces \u201cequally pressing concerns\u201d in dealing with elevated inflation and that Bank Rate is the active tool for tightening, while supporting the MPC\u2019s QE unwind; it offers no signal to ease and emphasizes staying focused on monetary policy tightening.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20162,
+ "prompt_tokens": 4749,
+ "completion_tokens": 79,
+ "cost_usd": 0.00063305,
+ "attempts": 1
+}

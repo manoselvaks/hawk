@@ -1,0 +1,15 @@
+{
+ "relevance": 0.98,
+ "stance": -1.0,
+ "confidence": 0.72,
+ "reason": "The speech is substantially about UK inflation, labour-market conditions and monetary policy, and the author highlights easing labour demand, expected wage growth falling to around 3\u00be%, and her earlier view that disinflation could be stronger than the MPC forecast, suggesting a dovish lean despite acknowledging persistent inflation uncertainty.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22504,
+ "prompt_tokens": 5204,
+ "completion_tokens": 241,
+ "cost_usd": 0.000770925,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.8,
+ "reason": "The speech highlights significant upside risks from persistent domestic inflation, tight labour markets and stronger-than-expected pay growth, while noting that inflation is projected to fall below target and that some wage indicators have eased, so it signals vigilance rather than a clear call for further tightening.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 8464,
+ "prompt_tokens": 2430,
+ "completion_tokens": 81,
+ "cost_usd": 0.000344175,
+ "attempts": 1
+}

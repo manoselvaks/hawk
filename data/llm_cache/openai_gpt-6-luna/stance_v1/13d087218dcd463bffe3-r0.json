@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.91,
+ "reason": "The speech is centrally about the monetary policy framework and its outlook, and George says UK domestic demand is growing at a rate that cannot be sustained for long without inflationary pressures, while emphasizing the commitment to price stability.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23389,
+ "prompt_tokens": 5046,
+ "completion_tokens": 69,
+ "cost_usd": 0.000665175,
+ "attempts": 1
+}

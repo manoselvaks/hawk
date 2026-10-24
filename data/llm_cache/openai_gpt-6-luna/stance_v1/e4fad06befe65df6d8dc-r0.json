@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.86,
+ "reason": "The speech focuses on how measurement uncertainty should inform interest-rate setting and assessment of inflationary pressure, but it presents a balanced analysis of indicators and does not signal a preferred direction for policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19739,
+ "prompt_tokens": 4460,
+ "completion_tokens": 63,
+ "cost_usd": 0.000588925,
+ "attempts": 1
+}

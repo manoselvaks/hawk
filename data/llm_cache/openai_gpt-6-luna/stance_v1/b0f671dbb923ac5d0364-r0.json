@@ -1,0 +1,15 @@
+{
+ "relevance": 0,
+ "stance": null,
+ "confidence": 1,
+ "reason": "The speech is about financial-services culture, firm governance and the Senior Managers Regime, not the UK monetary policy outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 11239,
+ "prompt_tokens": 2881,
+ "completion_tokens": 82,
+ "cost_usd": 0.00040105,
+ "attempts": 1
+}

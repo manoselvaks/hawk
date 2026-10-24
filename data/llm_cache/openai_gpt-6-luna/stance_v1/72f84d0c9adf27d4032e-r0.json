@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.98,
+ "reason": "The speaker says further Bank Rate action is likely needed to contain persistent inflation and return inflation sustainably to target, although recession and emerging slack temper the outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21389,
+ "prompt_tokens": 4642,
+ "completion_tokens": 56,
+ "cost_usd": 0.000608175,
+ "attempts": 1
+}

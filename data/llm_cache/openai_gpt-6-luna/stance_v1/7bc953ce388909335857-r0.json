@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 0.99,
+ "reason": "The speaker argues that policy remains restrictive and should be loosened sooner rather than later, endorsing more aggressive rate cuts to avert recession and stressing that medium-term downside risks to inflation outweigh the upside.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24070,
+ "prompt_tokens": 5857,
+ "completion_tokens": 66,
+ "cost_usd": 0.00076505,
+ "attempts": 1
+}

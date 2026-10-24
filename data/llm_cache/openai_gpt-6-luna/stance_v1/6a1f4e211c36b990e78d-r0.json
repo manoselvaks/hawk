@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.93,
+ "reason": "Carney says forward guidance should reassure that policy will not be tightened prematurely and that monetary policy should remain stimulative as long as necessary, while noting rates are unlikely to return to normal soon.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23126,
+ "prompt_tokens": 5262,
+ "completion_tokens": 187,
+ "cost_usd": 0.000751175,
+ "attempts": 1
+}

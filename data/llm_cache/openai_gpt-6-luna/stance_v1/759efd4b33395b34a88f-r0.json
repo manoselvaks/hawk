@@ -1,0 +1,15 @@
+{
+ "relevance": 0.75,
+ "stance": -1.5,
+ "confidence": 0.9,
+ "reason": "The speech calls for a joint macroeconomic stimulus to reverse the steep downturn and describes Bank Rate cuts and asset purchases to boost demand, with their eventual withdrawal dependent on the inflation outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 10139,
+ "prompt_tokens": 2599,
+ "completion_tokens": 175,
+ "cost_usd": 0.0004123,
+ "attempts": 1
+}

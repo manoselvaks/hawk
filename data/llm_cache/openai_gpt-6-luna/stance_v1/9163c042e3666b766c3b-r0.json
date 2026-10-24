@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.92,
+ "reason": "The Governor says interest rates have been moved down to reflect new downside risks and that the MPC is prepared to move further if those risks increase, while stressing this is not a promise of further cuts.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12862,
+ "prompt_tokens": 3093,
+ "completion_tokens": 66,
+ "cost_usd": 0.00041955,
+ "attempts": 1
+}

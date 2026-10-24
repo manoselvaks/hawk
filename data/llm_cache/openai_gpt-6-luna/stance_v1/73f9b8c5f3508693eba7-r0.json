@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.77,
+ "reason": "The speech is directly about inflation and monetary policy, and while it stresses uncertainty and continued wage disinflation, it highlights that persistent high energy prices could drive pass-through and second-round effects, warranting tighter policy if inflation becomes persistent.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18818,
+ "prompt_tokens": 4299,
+ "completion_tokens": 214,
+ "cost_usd": 0.0006443,
+ "attempts": 1
+}

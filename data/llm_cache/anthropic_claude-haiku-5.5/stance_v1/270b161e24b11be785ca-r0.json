@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 0.0,
+ "confidence": 0.6,
+ "reason": "The speech is centrally about the MPC's inflation outlook and policy reaction, balancing upside inflation risks against downside growth risks and concluding that accumulating slack will likely head off upside risks, with no clear lean either way.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24118,
+ "prompt_tokens": 8495,
+ "completion_tokens": 109,
+ "cost_usd": 0.000904,
+ "attempts": 1
+}

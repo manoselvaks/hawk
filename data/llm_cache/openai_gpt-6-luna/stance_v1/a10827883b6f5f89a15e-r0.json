@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.94,
+ "reason": "The 7\u20132 majority raised Bank Rate to 4.5% to address upside risks from persistent domestic price and wage pressures, and said further tightening would be required if those pressures proved persistent.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21389,
+ "prompt_tokens": 4793,
+ "completion_tokens": 66,
+ "cost_usd": 0.00063205,
+ "attempts": 1
+}

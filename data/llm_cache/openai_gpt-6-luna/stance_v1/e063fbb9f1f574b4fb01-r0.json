@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.88,
+ "reason": "Although most members judged the existing stance appropriate and noted that modest tightening might be needed if the outlook recovered as projected, two members preferred an immediate 25-basis-point cut amid softer activity, spare capacity and downside risks.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23967,
+ "prompt_tokens": 5304,
+ "completion_tokens": 73,
+ "cost_usd": 0.000699425,
+ "attempts": 1
+}

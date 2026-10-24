@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.5,
+ "confidence": 0.98,
+ "reason": "Wadhwani argues that inflation is most likely to undershoot the target and that, given downside risks from weak demand and the global slowdown, a rate cut is preferable to a rise, while cautioning that the outlook is uncertain.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18981,
+ "prompt_tokens": 4395,
+ "completion_tokens": 75,
+ "cost_usd": 0.0005868,
+ "attempts": 1
+}

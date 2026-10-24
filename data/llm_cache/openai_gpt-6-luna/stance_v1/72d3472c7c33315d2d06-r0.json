@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.99,
+ "reason": "The speaker judges persistent Brexit uncertainty and weak growth more likely than the recovery scenario, saying the next Bank Rate move could plausibly be down and that policy may need to remain highly accommodative or loosen further.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18170,
+ "prompt_tokens": 4307,
+ "completion_tokens": 68,
+ "cost_usd": 0.0005723,
+ "attempts": 1
+}

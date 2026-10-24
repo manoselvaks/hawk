@@ -1,0 +1,15 @@
+{
+ "relevance": 0.1,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech focuses on financial-market conduct, infrastructure, regulation and financial stability reforms, rather than the UK inflation outlook, demand, employment or the future path of monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21711,
+ "prompt_tokens": 4808,
+ "completion_tokens": 62,
+ "cost_usd": 0.000631925,
+ "attempts": 1
+}

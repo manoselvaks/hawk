@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.68,
+ "reason": "The speech focuses on UK inflation persistence, pricing and wage-setting behaviour, monetary transmission and the inflation outlook under alternative Bank Rate paths, with its emphasis on persistent inflation pressures suggesting a modest hawkish lean but no explicit call for further tightening.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 9104,
+ "prompt_tokens": 2556,
+ "completion_tokens": 75,
+ "cost_usd": 0.000356925,
+ "attempts": 1
+}

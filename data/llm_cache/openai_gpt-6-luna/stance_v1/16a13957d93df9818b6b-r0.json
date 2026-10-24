@@ -1,0 +1,15 @@
+{
+ "relevance": 0.5,
+ "stance": 0.0,
+ "confidence": 0.82,
+ "reason": "The speech discusses monetary policy and the commitment to return inflation to target, but gives no directional signal about future Bank Rate and is otherwise focused on institutions, growth and the book.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 6905,
+ "prompt_tokens": 2109,
+ "completion_tokens": 176,
+ "cost_usd": 0.00035155,
+ "attempts": 1
+}

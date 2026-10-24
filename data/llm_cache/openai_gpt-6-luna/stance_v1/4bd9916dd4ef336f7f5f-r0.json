@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The Committee judged inflation likely to remain above target but noted muted domestic pressures, weak wages and economic slack; members saw arguments both for further asset purchases and for holding them steady, and the majority maintained the \u00a3375 billion stock.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18417,
+ "prompt_tokens": 4133,
+ "completion_tokens": 75,
+ "cost_usd": 0.00055405,
+ "attempts": 1
+}

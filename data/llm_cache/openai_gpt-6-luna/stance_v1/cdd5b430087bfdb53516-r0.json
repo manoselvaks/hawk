@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.9,
+ "reason": "The speech emphasises downside risks to demand and jobs, says policy will not tighten until unemployment falls and inflation returns sustainably to target, and keeps negative rates available if further stimulus is needed, while noting no near-term signal for their introduction.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 10439,
+ "prompt_tokens": 2724,
+ "completion_tokens": 74,
+ "cost_usd": 0.000377425,
+ "attempts": 1
+}

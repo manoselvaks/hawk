@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.94,
+ "reason": "The speaker says inflation risks remain skewed to the upside, that restrictive policy is likely to be needed for an extended period, and that further Bank Rate rises cannot be ruled out if persistent pressures continue.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24041,
+ "prompt_tokens": 5496,
+ "completion_tokens": 66,
+ "cost_usd": 0.000719925,
+ "attempts": 1
+}

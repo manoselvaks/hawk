@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.5,
+ "confidence": 0.98,
+ "reason": "Most members expected monetary policy to be loosened in August, and one member argued that weakening demand already justified immediate easing despite the inflationary pressure from sterling\u2019s fall.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23682,
+ "prompt_tokens": 5163,
+ "completion_tokens": 62,
+ "cost_usd": 0.0006763,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.91,
+ "reason": "The Committee saw a strong recovery and a risk that slack could be absorbed faster than expected, making the low market-implied probability of a rate rise this year \u201csomewhat surprising,\u201d but unanimously judged that more evidence of slack being absorbed was needed before raising Bank Rate and expected any rises to be gradual.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20936,
+ "prompt_tokens": 4782,
+ "completion_tokens": 88,
+ "cost_usd": 0.000641675,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.1,
+ "stance": null,
+ "confidence": 0.95,
+ "reason": "The speech focuses on volunteering and wellbeing; it mentions GDP only as an ingredient in assessing the economy and setting monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 1722,
+ "prompt_tokens": 1063,
+ "completion_tokens": 52,
+ "cost_usd": 0.0001588,
+ "attempts": 1
+}

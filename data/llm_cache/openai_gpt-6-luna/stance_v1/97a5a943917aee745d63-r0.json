@@ -1,0 +1,15 @@
+{
+ "relevance": 0.25,
+ "stance": null,
+ "confidence": 0.93,
+ "reason": "The extract discusses the UK current account, trade deficit, external assets and investment returns, rather than the monetary policy outlook or policy tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 2797,
+ "prompt_tokens": 1254,
+ "completion_tokens": 55,
+ "cost_usd": 0.000184175,
+ "attempts": 1
+}

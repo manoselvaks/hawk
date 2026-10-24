@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": 0.0,
+ "confidence": 0.91,
+ "reason": "The speech discusses the inflation target, MPC process and interest-rate choices, while stressing the target\u2019s symmetry and that different rate paths can achieve it without signalling a preferred near-term direction.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 14398,
+ "prompt_tokens": 3543,
+ "completion_tokens": 64,
+ "cost_usd": 0.0004748,
+ "attempts": 1
+}

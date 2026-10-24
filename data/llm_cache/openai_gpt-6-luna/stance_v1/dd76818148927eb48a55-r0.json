@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.92,
+ "reason": "The Committee described marked spare capacity, weak wage and price pressures, and said it did not intend to tighten until significant progress was made in eliminating spare capacity and sustainably achieving the inflation target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23911,
+ "prompt_tokens": 5246,
+ "completion_tokens": 64,
+ "cost_usd": 0.000687675,
+ "attempts": 1
+}

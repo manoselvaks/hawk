@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.9,
+ "reason": "The speaker notes that while monetary policy is still restrictive, 'the tightening in Bank Rate since 2021 won\u2019t do much more to activity in growth or levels terms as we look ahead.'",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20785,
+ "prompt_tokens": 5034,
+ "completion_tokens": 1044,
+ "cost_usd": 0.00087438,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.9,
+ "reason": "The Committee judged that modest tightening was likely to be needed over the forecast period and that recent developments had strengthened the case, while two members wanted tightening immediately and the majority preferred to wait for more labour-market evidence.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23885,
+ "prompt_tokens": 5173,
+ "completion_tokens": 172,
+ "cost_usd": 0.00073255,
+ "attempts": 1
+}

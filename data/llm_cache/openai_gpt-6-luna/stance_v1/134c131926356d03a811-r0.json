@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": -1.0,
+ "confidence": 0.9,
+ "reason": "She says that if weaker world growth pushes prospective inflation below target the MPC is duty-bound to lower interest rates, and notes UK inflation is below target with ample scope for policy to respond.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 6438,
+ "prompt_tokens": 2048,
+ "completion_tokens": 66,
+ "cost_usd": 0.000288925,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.85,
+ "reason": "The majority judged there was no need to raise rates and that waiting was less costly than acting immediately, with some seeing no presumption of a further rise, although a minority argued for a 25-basis-point increase.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24090,
+ "prompt_tokens": 5340,
+ "completion_tokens": 231,
+ "cost_usd": 0.000782925,
+ "attempts": 1
+}

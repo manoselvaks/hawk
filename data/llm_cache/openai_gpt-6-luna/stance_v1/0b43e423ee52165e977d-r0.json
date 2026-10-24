@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.73,
+ "reason": "The Committee saw the economy growing above trend with little spare capacity and considered a rate rise, but concluded that this did not by itself make an immediate increase necessary and weighed it against weaker demand prospects and sterling\u2019s strength.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24099,
+ "prompt_tokens": 5795,
+ "completion_tokens": 329,
+ "cost_usd": 0.0008888,
+ "attempts": 1
+}

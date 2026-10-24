@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": 0.0,
+ "confidence": 0.82,
+ "reason": "The speech is largely about the UK inflation-targeting framework and monetary policy, but its discussion of pre-emptive tightening against asset-price booms is balanced against uncertain benefits and near-term output and inflation costs.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24073,
+ "prompt_tokens": 5384,
+ "completion_tokens": 278,
+ "cost_usd": 0.000811925,
+ "attempts": 1
+}

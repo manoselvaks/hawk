@@ -1,0 +1,15 @@
+{
+ "relevance": 0.6,
+ "stance": -1.0,
+ "confidence": 0.6,
+ "reason": "Speech is largely about intangibles, transmission and the natural rate, but closes by saying that low conventional policy space means the author prefers to move now (cut) to ensure inflation returns sustainably to target, and notes below-target inflation despite tight labour markets, a dovish lean.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22607,
+ "prompt_tokens": 8090,
+ "completion_tokens": 126,
+ "cost_usd": 0.000872,
+ "attempts": 1
+}

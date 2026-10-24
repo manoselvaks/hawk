@@ -1,0 +1,15 @@
+{
+ "relevance": 0.15,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech focuses on prudential supervision of insurers, bulk annuity market growth, funded reinsurance and Solvency UK reforms, rather than the UK monetary policy outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22824,
+ "prompt_tokens": 4847,
+ "completion_tokens": 62,
+ "cost_usd": 0.0006368,
+ "attempts": 1
+}

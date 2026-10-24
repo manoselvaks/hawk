@@ -1,0 +1,15 @@
+{
+ "relevance": 0.25,
+ "stance": null,
+ "confidence": 0.9,
+ "reason": "The speech is mainly about financial regulation, market liquidity and financial stability, with only a brief reference to future Bank Rate increases being gradual and limited.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 6243,
+ "prompt_tokens": 1862,
+ "completion_tokens": 238,
+ "cost_usd": 0.000351675,
+ "attempts": 1
+}

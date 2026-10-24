@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.9,
+ "reason": "The Committee weighed arguments for and against a rate cut and, although some favored no change, the majority view described the balance of risks as having shifted toward a precautionary reduction.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24045,
+ "prompt_tokens": 5741,
+ "completion_tokens": 64,
+ "cost_usd": 0.00074955,
+ "attempts": 1
+}

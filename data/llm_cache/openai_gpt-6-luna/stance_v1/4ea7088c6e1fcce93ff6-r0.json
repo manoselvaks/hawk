@@ -1,0 +1,15 @@
+{
+ "relevance": 0.8,
+ "stance": -0.5,
+ "confidence": 0.88,
+ "reason": "Although he stresses inflationary pressures and explains the recent rate rise, he says there may now be an opportunity to wait and see, without harming the inflation target, and that this could support sustainable growth and employment.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17312,
+ "prompt_tokens": 3944,
+ "completion_tokens": 73,
+ "cost_usd": 0.000529425,
+ "attempts": 1
+}

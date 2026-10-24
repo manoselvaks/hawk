@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.88,
+ "reason": "The speaker says inflation remains unacceptably high and that the MPC must be ready to act if persistent inflationary pressure emerges, while acknowledging that further rapid tightening could go too far.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 15016,
+ "prompt_tokens": 3592,
+ "completion_tokens": 64,
+ "cost_usd": 0.000480925,
+ "attempts": 1
+}

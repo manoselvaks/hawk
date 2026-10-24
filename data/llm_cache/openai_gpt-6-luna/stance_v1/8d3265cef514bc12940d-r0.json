@@ -1,0 +1,15 @@
+{
+ "relevance": 0.35,
+ "stance": null,
+ "confidence": 0.96,
+ "reason": "The speech is primarily about the financial crisis, bank supervision, liquidity support and resolution frameworks; it mentions monetary policy only in passing, without a lean on the future path of Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20093,
+ "prompt_tokens": 4574,
+ "completion_tokens": 65,
+ "cost_usd": 0.000604175,
+ "attempts": 1
+}

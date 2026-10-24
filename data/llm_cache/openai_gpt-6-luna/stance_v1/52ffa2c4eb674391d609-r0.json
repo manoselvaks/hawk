@@ -1,0 +1,15 @@
+{
+ "relevance": 0.15,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech is about banking competition, returns and financial stability, focusing on capital and liquidity requirements and the FPC; monetary policy is mentioned only in passing.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 3747,
+ "prompt_tokens": 1415,
+ "completion_tokens": 133,
+ "cost_usd": 0.0002433,
+ "attempts": 1
+}

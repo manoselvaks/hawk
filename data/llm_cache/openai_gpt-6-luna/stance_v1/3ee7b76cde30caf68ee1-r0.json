@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.88,
+ "reason": "The speaker says the persistent element of inflation is smaller than expected and gives more weight to self-correction, but stresses that policy must remain restrictive for sufficiently long until risks to sustained 2% inflation dissipate further.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23953,
+ "prompt_tokens": 5233,
+ "completion_tokens": 71,
+ "cost_usd": 0.00068955,
+ "attempts": 1
+}

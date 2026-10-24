@@ -1,0 +1,15 @@
+{
+ "relevance": 0.25,
+ "stance": null,
+ "confidence": 0.94,
+ "reason": "The speech focuses on economic models and lessons from the crisis, with a brief discussion of monetary policy\u2019s possible effects on risk-taking tied to financial-stability regulation rather than the policy outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 2793,
+ "prompt_tokens": 1226,
+ "completion_tokens": 159,
+ "cost_usd": 0.000232675,
+ "attempts": 1
+}

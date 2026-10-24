@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 0.99,
+ "reason": "The speaker voted to cut Bank Rate, argues inflation is on a sustainable downward path while demand is weak, and says waiting risks overtightening and harming living standards and supply capacity.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23938,
+ "prompt_tokens": 5394,
+ "completion_tokens": 63,
+ "cost_usd": 0.000705675,
+ "attempts": 1
+}

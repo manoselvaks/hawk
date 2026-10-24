@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": 0.0,
+ "confidence": 0.91,
+ "reason": "The speech discusses monetary policy framework, inflation and Bank Rate scenarios, but explicitly says the scenarios do not imply skewed inflation or Bank Rate risks and reaffirms an unwavering commitment to the 2% target without signalling a particular policy direction.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 15741,
+ "prompt_tokens": 3670,
+ "completion_tokens": 76,
+ "cost_usd": 0.000496675,
+ "attempts": 1
+}

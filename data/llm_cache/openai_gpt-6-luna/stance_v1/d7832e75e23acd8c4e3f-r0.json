@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.81,
+ "reason": "The Committee weighed arguments for and against an immediate rise, but judged that demand was strong and inflationary pressure would build gradually while current costs and prices showed little overshoot; one member supported a rise, and the majority held rates unchanged.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23836,
+ "prompt_tokens": 5618,
+ "completion_tokens": 75,
+ "cost_usd": 0.000739675,
+ "attempts": 1
+}

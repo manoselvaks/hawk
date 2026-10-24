@@ -29,27 +29,34 @@
     return g;
   }
 
+  // Era bands with their labels along the top. Labels are left-aligned (uPlot leaves
+  // textAlign set by its axes) and never overlap: a label that would run into the
+  // previous one, or past its own band, drops to a second row.
   function drawBands(u, bands, labels) {
-    var ctx = u.ctx, b = u.bbox;
+    var ctx = u.ctx, b = u.bbox, dpr = devicePixelRatio;
     ctx.save();
     ctx.fillStyle = css("era");
-    var lastEnd = -Infinity;
+    var rowEnd = [-Infinity, -Infinity];
     bands.forEach(function (e) {
       var x0 = Math.max(b.left, u.valToPos(e.from, "x", true));
       var x1 = Math.min(b.left + b.width, u.valToPos(e.to, "x", true));
       if (x1 <= x0) return;
       ctx.fillRect(x0, b.top, x1 - x0, b.height);
-      if (labels && x1 - x0 > 0) {
+      if (labels) {
         ctx.fillStyle = css("muted");
-        ctx.font = "600 " + Math.round(10.5 * devicePixelRatio) + "px " + css("font");
+        ctx.font = "600 " + Math.round(10.5 * dpr) + "px " + css("font");
         ctx.textBaseline = "top";
-        var short = u.width < 560;
-        var text = short ? e.label.split(" ")[0] : e.label;
-        var tx = Math.max(x0 + 4 * devicePixelRatio, lastEnd + 8 * devicePixelRatio);
+        ctx.textAlign = "left";
+        var text = u.width < 560 ? e.label.split(" ")[0] : e.label;
         var tw = ctx.measureText(text).width;
-        if (tx + tw <= b.left + b.width) {
-          ctx.fillText(text, tx, b.top + 4 * devicePixelRatio);
-          lastEnd = tx + tw;
+        for (var row = 0; row < rowEnd.length; row++) {
+          var tx = Math.max(x0 + 4 * dpr, rowEnd[row] + 8 * dpr);
+          var fits = tx + tw <= b.left + b.width;
+          if (fits && (tx <= x1 || row === rowEnd.length - 1)) {
+            ctx.fillText(text, tx, b.top + (4 + 15 * row) * dpr);
+            rowEnd[row] = tx + tw;
+            break;
+          }
         }
         ctx.fillStyle = css("era");
       }

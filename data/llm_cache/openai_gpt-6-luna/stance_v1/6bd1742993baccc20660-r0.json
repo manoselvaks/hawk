@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.89,
+ "reason": "Dale emphasizes the materially weaker growth outlook and risks that demand may be weaker and inflation fall below target, supporting asset purchases and noting scope to expand them, although he also flags persistent-inflation risks and remains committed to the 2% target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20054,
+ "prompt_tokens": 4686,
+ "completion_tokens": 77,
+ "cost_usd": 0.000624175,
+ "attempts": 1
+}

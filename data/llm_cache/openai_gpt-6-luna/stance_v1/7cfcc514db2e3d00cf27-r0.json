@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.9,
+ "reason": "The speaker stresses that UK inflation may prove more persistent because of high energy prices, tight labour markets and adverse supply developments, and says the MPC must constrain demand as necessary, while noting that further Bank Rate increases may be required if the data follow the forecast.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23952,
+ "prompt_tokens": 5166,
+ "completion_tokens": 81,
+ "cost_usd": 0.000686175,
+ "attempts": 1
+}

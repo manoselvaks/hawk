@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.5,
+ "confidence": 0.9,
+ "reason": "The speaker says recent fiscal easing will stimulate demand relative to supply and that it will prompt a \u201csignificant and necessary monetary policy response in November,\u201d a clear signal of tighter policy ahead.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 13255,
+ "prompt_tokens": 3178,
+ "completion_tokens": 196,
+ "cost_usd": 0.000495175,
+ "attempts": 1
+}

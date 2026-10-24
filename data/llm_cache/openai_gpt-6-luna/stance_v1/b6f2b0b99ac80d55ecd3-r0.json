@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.91,
+ "reason": "She voted for an activist 50-basis-point cut and argues that weak demand, a loosening labour market and fading pricing pressure warrant reducing monetary restrictiveness, while still saying Bank Rate should remain restrictive for some time.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 14095,
+ "prompt_tokens": 3463,
+ "completion_tokens": 203,
+ "cost_usd": 0.0005343,
+ "attempts": 1
+}

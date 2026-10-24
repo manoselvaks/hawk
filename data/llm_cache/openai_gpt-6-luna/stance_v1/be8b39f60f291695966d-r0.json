@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.84,
+ "reason": "He supports the existing accommodative policy and a gradual return of inflation to target, but warns against additional stimulus on the assumption that growth can rise with little inflation, stressing the need to preserve credibility and price stability.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23895,
+ "prompt_tokens": 5266,
+ "completion_tokens": 70,
+ "cost_usd": 0.000693175,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.2,
+ "stance": null,
+ "confidence": 0.96,
+ "reason": "The extracts focus on financial stability, bank capital and macroprudential policy, with monetary policy mentioned only as context for low rates and central-bank stimulus.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 11779,
+ "prompt_tokens": 2750,
+ "completion_tokens": 58,
+ "cost_usd": 0.000372675,
+ "attempts": 1
+}

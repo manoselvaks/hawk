@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.86,
+ "reason": "Tucker emphasizes substantial medium-term inflation risks in both directions, but says the most likely prospect is that slowing global activity and accumulating slack will head off upside risks, while reaffirming the 2% inflation target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 24118,
+ "prompt_tokens": 5394,
+ "completion_tokens": 68,
+ "cost_usd": 8.821e-05,
+ "attempts": 1
+}

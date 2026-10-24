@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speech says a smooth Brexit would strengthen growth and require \u201climited and gradual increases\u201d in rates, but stresses downside risks and that policy could adjust \u201cin either direction,\u201d leaving the overall lean balanced.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12728,
+ "prompt_tokens": 3164,
+ "completion_tokens": 66,
+ "cost_usd": 0.000428425,
+ "attempts": 1
+}

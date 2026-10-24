@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": 1.0,
+ "confidence": 0.9,
+ "reason": "The speaker says he has been a \u201chawk,\u201d has often voted for rate rises, and believes rates may need to be kept \u201ca little higher\u201d as insurance against risks such as rising household debt, while also acknowledging longer-term downside risks.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18932,
+ "prompt_tokens": 4384,
+ "completion_tokens": 188,
+ "cost_usd": 0.000641925,
+ "attempts": 1
+}

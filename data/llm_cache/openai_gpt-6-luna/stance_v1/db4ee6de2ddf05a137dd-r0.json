@@ -1,0 +1,15 @@
+{
+ "relevance": 0.8,
+ "stance": -0.5,
+ "confidence": 0.58,
+ "reason": "The speech focuses on credit-easing asset purchases and notes that these complemented \u201cthe very large monetary stimulus\u201d and low Bank Rate amid sharply falling output, but it evaluates market-support schemes rather than advocating a clear change in the future policy path.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 9714,
+ "prompt_tokens": 2583,
+ "completion_tokens": 79,
+ "cost_usd": 0.0003623,
+ "attempts": 1
+}

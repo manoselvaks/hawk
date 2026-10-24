@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.5,
+ "confidence": 0.94,
+ "reason": "The speaker expects a \u201csignificant monetary policy response\u201d and says fiscal measures will add to medium-term inflationary pressure, while warning that tight labour markets and second-round effects could make inflation persistent.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22227,
+ "prompt_tokens": 4761,
+ "completion_tokens": 67,
+ "cost_usd": 0.00062855,
+ "attempts": 1
+}

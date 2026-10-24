@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.83,
+ "reason": "Although he stresses the need to respond decisively to inflation risks, he highlights substantial downside risks from slack, fiscal consolidation and constrained lending, and argues that the current balance of risks does not justify a clear move to tighten.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20698,
+ "prompt_tokens": 4645,
+ "completion_tokens": 230,
+ "cost_usd": 0.00069555,
+ "attempts": 1
+}

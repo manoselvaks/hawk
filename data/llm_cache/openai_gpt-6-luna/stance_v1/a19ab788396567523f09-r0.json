@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 1.0,
+ "confidence": 0.82,
+ "reason": "The speech says UK demand growth must moderate sharply to meet the inflation target and discusses whether a marginal further tightening is necessary, while stressing uncertainty about the timing and pace of moderation.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 10212,
+ "prompt_tokens": 2562,
+ "completion_tokens": 185,
+ "cost_usd": 0.000412675,
+ "attempts": 1
+}

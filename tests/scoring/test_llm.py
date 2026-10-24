@@ -112,6 +112,17 @@ def test_retries_http_errors_and_bad_json(tmp_path: Path) -> None:
     assert result["attempts"] == 3 and len(session.calls) == 3
 
 
+def test_retries_in_flight_402_but_not_other_402s(tmp_path: Path) -> None:
+    busy = FakeResponse(402, {"error": {"metadata": {"reason": "in_flight_budget_exhausted"}}})
+    session = FakeSession([busy, reply(GOOD)])
+    scorer = make(tmp_path, session)
+    scorer.max_retry_after_seconds = 0
+    assert scorer.score("speech", TEXT)["attempts"] == 2
+    broke = FakeResponse(402, {"error": {"message": "Insufficient credits"}})
+    with pytest.raises(requests.HTTPError):
+        make(tmp_path, FakeSession([broke])).score("speech", TEXT + "x")
+
+
 def test_gives_up_after_max_retries(tmp_path: Path) -> None:
     session = FakeSession([FakeResponse(503)] * 3)
     with pytest.raises(RuntimeError, match="failed after 3 attempts"):

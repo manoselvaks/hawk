@@ -1,0 +1,15 @@
+{
+ "relevance": 0.75,
+ "stance": 0.0,
+ "confidence": 0.87,
+ "reason": "The speech explains how uncertainty about spare capacity affects inflation pressure and monetary policy, but offers no clear policy lean, emphasizing that indicators give conflicting signals about unused resources.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22458,
+ "prompt_tokens": 4955,
+ "completion_tokens": 60,
+ "cost_usd": 0.0006493,
+ "attempts": 1
+}

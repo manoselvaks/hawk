@@ -1,0 +1,15 @@
+{
+ "relevance": 0,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech examines how pandemic-driven home-working affects productivity, well-being, creativity and workplace relationships, without discussing the monetary policy outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23105,
+ "prompt_tokens": 5249,
+ "completion_tokens": 54,
+ "cost_usd": 0.00068305,
+ "attempts": 1
+}

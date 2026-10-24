@@ -1,0 +1,15 @@
+{
+ "relevance": 0.2,
+ "stance": null,
+ "confidence": 0.95,
+ "reason": "The speech focuses on financial-market vulnerabilities and resilience during the March 2020 dash-for-cash, rather than the current monetary policy outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 7046,
+ "prompt_tokens": 1966,
+ "completion_tokens": 137,
+ "cost_usd": 0.000314175,
+ "attempts": 1
+}

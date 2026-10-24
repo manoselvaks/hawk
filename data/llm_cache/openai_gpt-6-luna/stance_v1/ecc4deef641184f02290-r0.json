@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.5,
+ "confidence": 0.9,
+ "reason": "The speaker preferred a 25bp Bank Rate cut and says continued labour-market loosening makes her attach more weight to medium-term downside inflation risks, despite noting that risks remain two-sided and services inflation is high.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16709,
+ "prompt_tokens": 4152,
+ "completion_tokens": 252,
+ "cost_usd": 0.000644925,
+ "attempts": 1
+}

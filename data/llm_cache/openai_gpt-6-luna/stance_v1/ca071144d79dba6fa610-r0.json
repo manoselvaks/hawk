@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.76,
+ "reason": "Broadbent argues policy should respond more to employment than uncertain output, tightening if employment growth improves and easing if employment falls, while offering no clear near-term case for a rate change.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23075,
+ "prompt_tokens": 5461,
+ "completion_tokens": 65,
+ "cost_usd": 0.00071505,
+ "attempts": 1
+}

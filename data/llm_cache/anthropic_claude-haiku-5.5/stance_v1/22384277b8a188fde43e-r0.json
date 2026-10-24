@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": 1.0,
+ "confidence": 0.75,
+ "reason": "The speech is about UK inflation, labour market tightness and the turning point in policy, and the author says he voted for a 'more robust monetary policy path that stays the course because inflation dynamics have not yet been quelled', with stabilisation of headline inflation 'not yet the harbinger of a turning point' and wage growth risks as upside to inflation, leaning hawkish but not calling for an immediate hike.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20427,
+ "prompt_tokens": 7688,
+ "completion_tokens": 166,
+ "cost_usd": 0.0008518,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.98,
+ "reason": "Although Dale says policy should remain highly accommodative given the weak recovery, he voted to raise Bank Rate by 0.25 percentage points because medium-term inflation risks were tilted to the upside and some withdrawal of stimulus seemed sensible.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24010,
+ "prompt_tokens": 5364,
+ "completion_tokens": 71,
+ "cost_usd": 0.000705925,
+ "attempts": 1
+}

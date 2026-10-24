@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.79,
+ "reason": "The speech says stable inflation expectations let the MPC focus initially on oil\u2019s negative effects on demand, supporting the August 2005 rate cut, while warning that supply effects and renewed energy-price rises must be monitored.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23980,
+ "prompt_tokens": 5400,
+ "completion_tokens": 71,
+ "cost_usd": 0.000710425,
+ "attempts": 1
+}

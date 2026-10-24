@@ -1,0 +1,15 @@
+{
+ "relevance": 0.2,
+ "stance": null,
+ "confidence": 0.96,
+ "reason": "The speech focuses on global growth, international trade, and the resilience effects of diversification, without discussing the UK inflation outlook or monetary policy settings.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 3987,
+ "prompt_tokens": 1553,
+ "completion_tokens": 56,
+ "cost_usd": 0.00022205,
+ "attempts": 1
+}

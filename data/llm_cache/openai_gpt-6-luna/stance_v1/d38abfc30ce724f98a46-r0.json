@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech concerns insurance prudential regulation and Solvency II implementation, including capital models, matching adjustments and risk margins, rather than the UK monetary policy outlook or Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22811,
+ "prompt_tokens": 5177,
+ "completion_tokens": 63,
+ "cost_usd": 0.00067855,
+ "attempts": 1
+}

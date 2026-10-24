@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 1,
+ "reason": "He argues that inflation risks are firmly to the downside and that monetary policy needs to be loosened further and quickly, including through additional rate cuts or other stimulus.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23560,
+ "prompt_tokens": 5594,
+ "completion_tokens": 57,
+ "cost_usd": 0.000727675,
+ "attempts": 1
+}

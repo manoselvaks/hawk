@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.87,
+ "reason": "Most members judged that the repo rate should remain unchanged because the data did not justify a further reduction, while a minority saw weakening activity and one member thought another cut would soon be needed.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24027,
+ "prompt_tokens": 5604,
+ "completion_tokens": 295,
+ "cost_usd": 0.000847925,
+ "attempts": 1
+}

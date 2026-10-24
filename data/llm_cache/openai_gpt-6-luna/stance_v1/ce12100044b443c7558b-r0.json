@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.86,
+ "reason": "The speech warns that QT can tighten conditions in ways Bank Rate cuts cannot fully offset, and that additional cuts could conflict with maintaining restrictiveness long enough to address structural rigidities in labour and product markets.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24008,
+ "prompt_tokens": 5523,
+ "completion_tokens": 177,
+ "cost_usd": 0.0007788,
+ "attempts": 1
+}

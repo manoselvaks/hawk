@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 0.99,
+ "reason": "The Committee unanimously judged that medium-term downside risks to activity and inflation outweighed near-term cost pressures and voted for an immediate 25 basis point Bank Rate cut.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18359,
+ "prompt_tokens": 4180,
+ "completion_tokens": 59,
+ "cost_usd": 0.000551925,
+ "attempts": 1
+}

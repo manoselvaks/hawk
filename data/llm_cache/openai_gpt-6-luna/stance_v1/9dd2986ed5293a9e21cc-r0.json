@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech is about insurance regulation, bulk purchase annuities, Solvency UK reforms, and insurer risk management, not the UK monetary policy outlook or Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22969,
+ "prompt_tokens": 4979,
+ "completion_tokens": 62,
+ "cost_usd": 0.0006533,
+ "attempts": 1
+}

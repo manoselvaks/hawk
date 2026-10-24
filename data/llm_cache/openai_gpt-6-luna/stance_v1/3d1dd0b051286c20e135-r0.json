@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.78,
+ "reason": "Although members cited slowing demand and argued for waiting, they noted inflation had repeatedly exceeded expectations and that unemployment likely needed to rise to contain wage pressure; the minutes also say a further rate rise was more likely than not.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24031,
+ "prompt_tokens": 5472,
+ "completion_tokens": 71,
+ "cost_usd": 0.000719425,
+ "attempts": 1
+}

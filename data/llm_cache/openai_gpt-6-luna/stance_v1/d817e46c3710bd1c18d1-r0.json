@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.91,
+ "reason": "The Committee judged that no forward-guidance knockout had been breached, unanimously held Bank Rate at 0.5% and asset purchases at \u00a3375 billion, and said there was no case to tighten or increase stimulus.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23356,
+ "prompt_tokens": 5198,
+ "completion_tokens": 69,
+ "cost_usd": 0.000684175,
+ "attempts": 1
+}

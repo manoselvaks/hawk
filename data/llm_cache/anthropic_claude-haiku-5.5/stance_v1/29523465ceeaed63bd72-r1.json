@@ -1,0 +1,15 @@
+{
+ "relevance": 0.7,
+ "stance": 1.0,
+ "confidence": 0.6,
+ "reason": "Speech is largely about globalisation's effect on inflation and monetary policy, and its later section argues that 'some withdrawal of monetary stimulus is likely to be appropriate' and 'the case for a modest monetary tightening is reinforced', while the earlier sections are more balanced on globalisation and frameworks.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 24084,
+ "prompt_tokens": 8754,
+ "completion_tokens": 138,
+ "cost_usd": 0.0009444,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 0.98,
+ "reason": "The speaker argues that \u201cadditional expansionary monetary policy\u201d must be pursued and specifically calls for further asset purchases to counter weak investment, risk aversion and the faltering recovery.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23859,
+ "prompt_tokens": 5331,
+ "completion_tokens": 137,
+ "cost_usd": 0.0007348,
+ "attempts": 1
+}

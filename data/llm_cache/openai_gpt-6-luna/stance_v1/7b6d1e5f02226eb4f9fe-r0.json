@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.8,
+ "reason": "The speech discusses monetary policy instruments, inflation targeting and the policy response to financial shocks, but offers no clear near-term lean on Bank Rate and presents its arguments largely as analysis rather than a call to tighten or ease.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24034,
+ "prompt_tokens": 5235,
+ "completion_tokens": 231,
+ "cost_usd": 0.0007698,
+ "attempts": 1
+}

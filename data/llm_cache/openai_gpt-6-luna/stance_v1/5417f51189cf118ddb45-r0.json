@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": -1.0,
+ "confidence": 0.94,
+ "reason": "The speaker argues that immigration has raised potential supply more than demand and reduced inflationary pressures, alongside greater labour-market slack and muted wage growth, supporting a dovish lean.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18060,
+ "prompt_tokens": 4679,
+ "completion_tokens": 63,
+ "cost_usd": 0.0006163,
+ "attempts": 1
+}

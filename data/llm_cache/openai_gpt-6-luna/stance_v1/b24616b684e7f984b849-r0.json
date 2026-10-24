@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.77,
+ "reason": "Wadhwani expects internet-driven productivity and margin improvements to exert disinflationary pressure and argues that historical growth rules may be too restrictive, though his preferred inflation path is only slightly below the forecast and he supports pre-emptive rate rises if housing or wages threaten the target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24072,
+ "prompt_tokens": 5356,
+ "completion_tokens": 85,
+ "cost_usd": 0.000711925,
+ "attempts": 1
+}

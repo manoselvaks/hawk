@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.77,
+ "reason": "The Committee kept the repo rate unchanged, noting that output and demand data would probably have a downside impact in the near term and inflation was below target, while sterling\u2019s fall and other developments were supportive and left the outlook uncertain.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24014,
+ "prompt_tokens": 5711,
+ "completion_tokens": 74,
+ "cost_usd": 0.0007508,
+ "attempts": 1
+}

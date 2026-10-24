@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.76,
+ "reason": "The speaker stresses that energy-driven inflation is likely to fall below target, and argues the MPC should respond flexibly to temporary shocks rather than keep inflation within a whisker of target, while still anchoring medium-term expectations.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21990,
+ "prompt_tokens": 4985,
+ "completion_tokens": 73,
+ "cost_usd": 0.00065955,
+ "attempts": 1
+}

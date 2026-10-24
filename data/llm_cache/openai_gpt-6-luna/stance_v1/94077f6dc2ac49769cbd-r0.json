@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.86,
+ "reason": "Although stronger output and inflation risks pointed to a possible further rate rise, the Committee said it lacked enough information to choose between the competing outlooks and preferred to wait a month for more evidence.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24098,
+ "prompt_tokens": 5542,
+ "completion_tokens": 194,
+ "cost_usd": 0.000789675,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": -1.0,
+ "confidence": 0.9,
+ "reason": "He says below-target inflation and the dampening effects of the global slowdown and Foot and Mouth Disease led the MPC to cut rates by \u00be% to cushion demand, indicating a dovish lean.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 18843,
+ "prompt_tokens": 4192,
+ "completion_tokens": 161,
+ "cost_usd": 0.00012269,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 1.0,
+ "confidence": 0.78,
+ "reason": "The speech focuses on wage growth and its inflation implications, warning that unusually strong pay growth may reflect a tighter labour market and a higher U*, while stressing that inflation must return sustainably to target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17812,
+ "prompt_tokens": 4657,
+ "completion_tokens": 66,
+ "cost_usd": 0.00061505,
+ "attempts": 1
+}

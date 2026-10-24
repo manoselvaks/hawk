@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 0.0,
+ "confidence": 0.78,
+ "reason": "The speech focuses substantially on inflation and monetary policy, but describes the outlook and trade-offs without advocating a change in policy, noting both that inflation may rise to 2\u00bd% in the fourth quarter and that tighter policy has helped reduce inflation.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21556,
+ "prompt_tokens": 5071,
+ "completion_tokens": 223,
+ "cost_usd": 0.0007453,
+ "attempts": 1
+}

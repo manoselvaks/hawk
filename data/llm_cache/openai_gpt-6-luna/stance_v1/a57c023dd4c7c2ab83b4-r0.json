@@ -1,0 +1,15 @@
+{
+ "relevance": 0.1,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech focuses on LIBOR transition, SONIA markets, and the Bank\u2019s operational preparations, rather than the UK monetary policy outlook or policy tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24047,
+ "prompt_tokens": 5621,
+ "completion_tokens": 58,
+ "cost_usd": 0.00073155,
+ "attempts": 1
+}

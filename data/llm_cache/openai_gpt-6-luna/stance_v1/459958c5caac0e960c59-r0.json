@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.95,
+ "reason": "The majority judged Bank Rate at 5% \u201cbroadly appropriate\u201d and voted to hold, balancing the need for spare capacity to return inflation to target against worsening activity; one member preferred a rise and one a cut.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22902,
+ "prompt_tokens": 4974,
+ "completion_tokens": 71,
+ "cost_usd": 0.000657175,
+ "attempts": 1
+}

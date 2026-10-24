@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.79,
+ "reason": "Although growth indicators posed upside risks and no member supported immediate stimulus, the Committee unanimously kept policy unchanged under guidance, with members differing on further easing and noting that a faltering recovery would strengthen the case for asset purchases.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21591,
+ "prompt_tokens": 4814,
+ "completion_tokens": 72,
+ "cost_usd": 0.000637675,
+ "attempts": 1
+}

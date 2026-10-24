@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 0.97,
+ "reason": "Gieve describes a severe, global downturn, falling inflation and widening spare capacity, and says risks are clearly to the downside and authorities should consider further action on interest rates or other monetary measures.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18094,
+ "prompt_tokens": 4311,
+ "completion_tokens": 67,
+ "cost_usd": 0.0005723,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.1,
+ "stance": null,
+ "confidence": 0.97,
+ "reason": "The speech focuses on EU financial stability and macroprudential regulation, not the UK inflation outlook, demand, labour market or monetary policy path.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 13607,
+ "prompt_tokens": 3254,
+ "completion_tokens": 56,
+ "cost_usd": 0.000434675,
+ "attempts": 1
+}

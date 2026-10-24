@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.5,
+ "confidence": 0.96,
+ "reason": "He argues that labour-market and business slack is increasing, inflation will fall below target, and three previous rate rises have yet to take full effect, concluding that inflation will recede faster than the Committee projection.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24108,
+ "prompt_tokens": 5842,
+ "completion_tokens": 70,
+ "cost_usd": 0.000765175,
+ "attempts": 1
+}

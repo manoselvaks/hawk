@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.95,
+ "reason": "He voted against the Bank Rate increase and says low domestic inflation pressure and uncertainty make it possible to wait for clear evidence of wage growth before tightening.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 4404,
+ "prompt_tokens": 1510,
+ "completion_tokens": 126,
+ "cost_usd": 0.000251675,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.7,
+ "stance": 0.0,
+ "confidence": 0.82,
+ "reason": "The speech discusses the monetary-policy outlook, but describes a central view of steady growth and low inflation and says the MPC will focus on the medium-term outlook without signalling a change in rates.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 13150,
+ "prompt_tokens": 3284,
+ "completion_tokens": 236,
+ "cost_usd": 0.00015111,
+ "attempts": 1
+}

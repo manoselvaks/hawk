@@ -1,0 +1,15 @@
+{
+ "relevance": 0.65,
+ "stance": -0.5,
+ "confidence": 0.56,
+ "reason": "The speech is mainly about geopolitics and long-run economic comparisons, but its monetary-policy passages argue for anchored price stability while predicting that deflation will occur more frequently and that inflation will be rare, suggesting a slight dovish lean.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 11592,
+ "prompt_tokens": 3004,
+ "completion_tokens": 78,
+ "cost_usd": 0.000414425,
+ "attempts": 1
+}

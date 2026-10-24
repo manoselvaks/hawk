@@ -1,0 +1,15 @@
+{
+ "relevance": 0.5,
+ "stance": -0.5,
+ "confidence": 0.62,
+ "reason": "The speech mainly analyses international rebalancing and global imbalances, but notes that spare capacity remains significant and that uncoordinated policymaking can produce inefficiently low demand, suggesting a mild dovish lean without directly advocating a Bank Rate change.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19959,
+ "prompt_tokens": 4513,
+ "completion_tokens": 80,
+ "cost_usd": 0.00060405,
+ "attempts": 1
+}

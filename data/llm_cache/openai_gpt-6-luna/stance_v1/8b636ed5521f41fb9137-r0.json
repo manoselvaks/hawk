@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.98,
+ "reason": "The Committee judged the medium-term inflation risks broadly balanced and left policy unchanged: three members favoured raising Bank Rate, one favoured more asset purchases, while six supported no rate increase.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23783,
+ "prompt_tokens": 5000,
+ "completion_tokens": 63,
+ "cost_usd": 0.000656425,
+ "attempts": 1
+}

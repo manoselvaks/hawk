@@ -1,0 +1,15 @@
+{
+ "relevance": 0.15,
+ "stance": null,
+ "confidence": 0.95,
+ "reason": "The speech focuses on insurers\u2019 role in economic recovery, insurance regulation, capital requirements and long-term investment, rather than the UK monetary policy outlook or Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17225,
+ "prompt_tokens": 3882,
+ "completion_tokens": 60,
+ "cost_usd": 0.000515175,
+ "attempts": 1
+}

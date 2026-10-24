@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.98,
+ "reason": "The speaker argues that, given sterling\u2019s overvaluation and the current inflation undershoot, interest rates should be held modestly lower than required to hit the two-year inflation target, and opposes pre-emptive rate increases.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24096,
+ "prompt_tokens": 5494,
+ "completion_tokens": 72,
+ "cost_usd": 0.000722675,
+ "attempts": 1
+}

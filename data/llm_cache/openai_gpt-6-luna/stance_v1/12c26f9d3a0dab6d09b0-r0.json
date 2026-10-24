@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.98,
+ "reason": "The speech defends September\u2019s rate increase as pre-emptive, citing rapid domestic demand, falling unemployment and tight labour markets, and argues that early action will contain future inflationary pressures.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21430,
+ "prompt_tokens": 4956,
+ "completion_tokens": 64,
+ "cost_usd": 0.000651425,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.75,
+ "stance": 0.0,
+ "confidence": 0.83,
+ "reason": "The speech extensively discusses monetary policy frameworks, inflation expectations, interest-rate transmission and policy responses, but presents these as historical lessons and trade-offs without a clear lean toward tightening or easing.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20744,
+ "prompt_tokens": 4753,
+ "completion_tokens": 64,
+ "cost_usd": 0.00062605,
+ "attempts": 1
+}

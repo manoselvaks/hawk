@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.91,
+ "reason": "The speech discusses how the MPC balances inflation against output and why forecasts do not promise a particular rate path, while explicitly declining to signal when Bank Rate will change.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22220,
+ "prompt_tokens": 5114,
+ "completion_tokens": 58,
+ "cost_usd": 0.000668175,
+ "attempts": 1
+}

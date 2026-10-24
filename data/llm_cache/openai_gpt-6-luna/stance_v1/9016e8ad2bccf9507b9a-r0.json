@@ -1,0 +1,15 @@
+{
+ "relevance": 0.4,
+ "stance": null,
+ "confidence": 0.94,
+ "reason": "The speech focuses on sterling benchmark reform and collecting overnight-rate data, explaining that this supports the Bank\u2019s monitoring of money-market conditions for monetary policy, rather than discussing the policy outlook or future Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 8385,
+ "prompt_tokens": 2242,
+ "completion_tokens": 68,
+ "cost_usd": 0.000314175,
+ "attempts": 1
+}

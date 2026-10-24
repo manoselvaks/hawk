@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.91,
+ "reason": "The speech is centrally about the inflation-targeting framework and MPC policy, but it argues for a balanced, forward-looking response to shocks without signalling a near-term tightening or easing.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24119,
+ "prompt_tokens": 5358,
+ "completion_tokens": 61,
+ "cost_usd": 0.000700175,
+ "attempts": 1
+}

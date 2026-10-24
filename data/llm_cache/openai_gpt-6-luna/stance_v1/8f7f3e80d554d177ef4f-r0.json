@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.5,
+ "confidence": 0.98,
+ "reason": "The speaker argues that downside risks, spare capacity and below-target inflation call for prompt additional easing, saying it is better to err toward too much stimulus and that Bank Rate could be cut further in small steps, while noting easing is conditional on risks developing.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24122,
+ "prompt_tokens": 5656,
+ "completion_tokens": 79,
+ "cost_usd": 0.000746425,
+ "attempts": 1
+}

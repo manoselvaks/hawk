@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": -0.5,
+ "confidence": 0.72,
+ "reason": "The speech stresses that weaker demand and labour-market slack are containing pay pressures and that raising rates to offset a temporary energy-price shock could impose unnecessary costs, while reserving a stronger response for evidence of persistent second-round inflation.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23544,
+ "prompt_tokens": 5276,
+ "completion_tokens": 219,
+ "cost_usd": 0.000768925,
+ "attempts": 1
+}

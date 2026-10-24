@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.98,
+ "reason": "Bean argues that sluggish growth, persistent spare capacity and an inflation undershoot risk justified further QE, saying monetary policy needs to remain loose to sustain demand.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16315,
+ "prompt_tokens": 3824,
+ "completion_tokens": 57,
+ "cost_usd": 0.000506425,
+ "attempts": 1
+}

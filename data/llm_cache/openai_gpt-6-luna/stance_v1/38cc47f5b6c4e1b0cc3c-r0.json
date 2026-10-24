@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.5,
+ "confidence": 0.99,
+ "reason": "The speech argues that policy in 1981 was unnecessarily tight, that monetary policy could have been eased and fiscal tightening avoided while still bringing inflation down, and that the resulting downturn was overkill.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 9514,
+ "prompt_tokens": 2700,
+ "completion_tokens": 68,
+ "cost_usd": 0.000371425,
+ "attempts": 1
+}

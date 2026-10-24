@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.96,
+ "reason": "Cunliffe argues that weak pay and inflation, alongside a weaker external environment and downside risks to growth, mean the MPC can maintain monetary stimulus for longer and should wait for clearer signs of pay pressure before tightening.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19331,
+ "prompt_tokens": 4553,
+ "completion_tokens": 70,
+ "cost_usd": 0.00060405,
+ "attempts": 1
+}

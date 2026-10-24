@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.91,
+ "reason": "The speech says that, if the economy evolves broadly as forecast, ongoing tightening is appropriate, while noting that weaker demand or a disorderly Brexit could instead alter the response.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24040,
+ "prompt_tokens": 5249,
+ "completion_tokens": 60,
+ "cost_usd": 0.00068605,
+ "attempts": 1
+}

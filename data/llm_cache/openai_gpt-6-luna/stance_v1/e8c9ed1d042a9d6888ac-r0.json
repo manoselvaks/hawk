@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.5,
+ "confidence": 0.98,
+ "reason": "The speaker says strengthening demand and rising inflationary pressures require timely restraint, notes that he has been among those most anxious to raise rates earlier, and argues some slowdown in demand is needed to return inflation to target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23998,
+ "prompt_tokens": 5468,
+ "completion_tokens": 70,
+ "cost_usd": 0.000718425,
+ "attempts": 1
+}

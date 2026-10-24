@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speech mainly assesses QE and its eventual unwind, while presenting Bank Rate and asset purchases as adjustable substitutes used to meet the inflation target rather than signalling a one-way policy shift.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 23662,
+ "prompt_tokens": 5511,
+ "completion_tokens": 174,
+ "cost_usd": 0.00014238,
+ "attempts": 1
+}

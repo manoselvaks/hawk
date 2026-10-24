@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 2.0,
+ "confidence": 0.99,
+ "reason": "The speech explicitly concludes that \u201cmore tightening is needed,\u201d that \u201ca pivot is not imminent,\u201d and that policy must stay tighter for longer to return inflation sustainably to 2%.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24009,
+ "prompt_tokens": 5251,
+ "completion_tokens": 95,
+ "cost_usd": 0.0007038,
+ "attempts": 1
+}

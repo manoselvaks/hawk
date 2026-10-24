@@ -1,0 +1,15 @@
+{
+ "relevance": 0.8,
+ "stance": 1.0,
+ "confidence": 0.78,
+ "reason": "Weale says the shortening working week is likely to push unit costs up materially and that labour-market tightening is likely to bring the wage growth needed for inflation to recover, pointing to a hawkish lean.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 2477,
+ "prompt_tokens": 1170,
+ "completion_tokens": 208,
+ "cost_usd": 0.000250175,
+ "attempts": 1
+}

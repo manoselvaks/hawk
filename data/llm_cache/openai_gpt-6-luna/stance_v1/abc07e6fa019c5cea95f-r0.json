@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech is about financial stability, macroprudential regulation and the FPC\u2019s role, and distinguishes these from the MPC rather than discussing the monetary policy outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 6616,
+ "prompt_tokens": 1986,
+ "completion_tokens": 60,
+ "cost_usd": 0.000278175,
+ "attempts": 1
+}

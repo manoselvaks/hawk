@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.67,
+ "reason": "The speech is focused on the inflation outlook and policy, and while it notes slowing activity and expects past wage pressures to unwind, it highlights materially stronger excess demand estimates, persistent wage growth, and new demand and cost pressures as upside risks to medium-term inflation.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20785,
+ "prompt_tokens": 4856,
+ "completion_tokens": 248,
+ "cost_usd": 0.000730925,
+ "attempts": 1
+}

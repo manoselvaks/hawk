@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.91,
+ "reason": "The Committee judged that data and the balance of risks had changed little, with most members supporting no policy change; two members dissented in favour of a further \u00a325 billion of asset purchases.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23074,
+ "prompt_tokens": 5101,
+ "completion_tokens": 172,
+ "cost_usd": 0.00072355,
+ "attempts": 1
+}

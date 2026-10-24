@@ -1,0 +1,15 @@
+{
+ "relevance": 0.1,
+ "stance": null,
+ "confidence": 0.97,
+ "reason": "The extract concerns tokenisation, stablecoin safety and proposed backing arrangements, rather than the UK monetary policy outlook or Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 1488,
+ "prompt_tokens": 963,
+ "completion_tokens": 53,
+ "cost_usd": 0.0001228,
+ "attempts": 1
+}

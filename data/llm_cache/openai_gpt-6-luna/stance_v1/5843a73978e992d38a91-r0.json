@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.82,
+ "reason": "The Committee judged that rates would need to remain restrictive for an extended period and that further tightening could be required if inflation proved persistent, though the majority held Bank Rate and noted the risks of overtightening.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20400,
+ "prompt_tokens": 4631,
+ "completion_tokens": 207,
+ "cost_usd": 0.0006823,
+ "attempts": 1
+}

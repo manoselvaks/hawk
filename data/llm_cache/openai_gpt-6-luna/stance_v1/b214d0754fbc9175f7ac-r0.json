@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 2.0,
+ "confidence": 0.99,
+ "reason": "He argues that monetary stimulus is no longer appropriate and calls for gradual interest-rate increases, warning that inflation is well above target and rising expectations risk requiring a more abrupt tightening later.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23490,
+ "prompt_tokens": 5394,
+ "completion_tokens": 61,
+ "cost_usd": 0.000704675,
+ "attempts": 1
+}

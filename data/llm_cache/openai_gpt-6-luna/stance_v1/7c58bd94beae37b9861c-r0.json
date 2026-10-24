@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.86,
+ "reason": "The Governor describes the recent 2 percentage-point rate cuts as a response to the world-economy slowdown, but expects growth to recover and inflation to remain near target, presenting the outlook and policy approach as broadly balanced.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16353,
+ "prompt_tokens": 3902,
+ "completion_tokens": 208,
+ "cost_usd": 0.000591675,
+ "attempts": 1
+}

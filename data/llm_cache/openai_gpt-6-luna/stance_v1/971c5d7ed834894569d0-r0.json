@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.91,
+ "reason": "The Committee judged inflation more likely to be below target for most of the forecast period and most members supported extending asset purchases by \u00a325 billion to support spending and reduce spare capacity, though one member preferred no expansion.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20440,
+ "prompt_tokens": 4485,
+ "completion_tokens": 69,
+ "cost_usd": 0.00059505,
+ "attempts": 1
+}

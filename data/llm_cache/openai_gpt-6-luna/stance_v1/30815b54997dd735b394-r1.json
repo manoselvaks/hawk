@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech focuses on digital money, payment-system interoperability, and the regulation of stablecoins, not the UK monetary policy outlook or policy tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 15754,
+ "prompt_tokens": 3719,
+ "completion_tokens": 147,
+ "cost_usd": 0.00011096,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": 0.5,
+ "confidence": 0.7,
+ "reason": "The speech is substantially about labour-market conditions and their implications for monetary policy, and it leans mildly hawkish by calling unexplained wage strength \u201ca key concern for inflation persistence,\u201d while noting that hoarding has abated and wage growth is expected to fall.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17478,
+ "prompt_tokens": 4237,
+ "completion_tokens": 222,
+ "cost_usd": 0.00064055,
+ "attempts": 1
+}

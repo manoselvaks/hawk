@@ -1,0 +1,15 @@
+{
+ "relevance": 0.12,
+ "stance": null,
+ "confidence": 0.92,
+ "reason": "The extract focuses on global capital flows, savings and external imbalances, and their financial-stability implications, without discussing the UK inflation outlook or monetary policy choices.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 6756,
+ "prompt_tokens": 2044,
+ "completion_tokens": 60,
+ "cost_usd": 0.000285425,
+ "attempts": 1
+}

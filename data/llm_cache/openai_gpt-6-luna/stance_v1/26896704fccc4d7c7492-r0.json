@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.91,
+ "reason": "Although near-term downside inflation risks support patience, McCafferty says those risks are diminishing, sees upside risks as slack is absorbed and wages accelerate, and argues the time is approaching to begin gradual, limited tightening.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22369,
+ "prompt_tokens": 5121,
+ "completion_tokens": 69,
+ "cost_usd": 0.00067455,
+ "attempts": 1
+}

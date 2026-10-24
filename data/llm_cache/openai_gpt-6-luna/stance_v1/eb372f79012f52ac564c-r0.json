@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.86,
+ "reason": "Although the speech stresses that inflation pressures are likely temporary and that tightening could worsen the weakening recovery, it says all MPC members expect some modest tightening, notes recent evidence has strengthened that case, and one view supports a policy change now to anchor expectations.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18070,
+ "prompt_tokens": 4300,
+ "completion_tokens": 79,
+ "cost_usd": 0.000576925,
+ "attempts": 1
+}

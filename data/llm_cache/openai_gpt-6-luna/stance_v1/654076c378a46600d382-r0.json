@@ -1,0 +1,15 @@
+{
+ "relevance": 0.4,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speech mainly discusses bank credit conditions, profitability and reserve demand, noting that Bank Rate has risen and explaining QE\u2019s role in supplying reserves, but it gives no directional signal about future policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 8154,
+ "prompt_tokens": 2332,
+ "completion_tokens": 200,
+ "cost_usd": 0.000391425,
+ "attempts": 1
+}

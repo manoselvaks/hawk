@@ -1,0 +1,15 @@
+{
+ "relevance": 0.55,
+ "stance": 1.0,
+ "confidence": 0.83,
+ "reason": "The speech is mainly about emerging-market growth and UK export prospects, but the speaker says the UK expansion remains strong and that her expectation the next interest-rate move will be up, sooner rather than later, is unchanged.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23455,
+ "prompt_tokens": 5381,
+ "completion_tokens": 71,
+ "cost_usd": 0.00070805,
+ "attempts": 1
+}

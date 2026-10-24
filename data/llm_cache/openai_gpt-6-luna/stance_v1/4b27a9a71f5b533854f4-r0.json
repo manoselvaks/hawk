@@ -1,0 +1,15 @@
+{
+ "relevance": 0.1,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech focuses on modernising RTGS wholesale payments infrastructure, expanding access and operating hours, and settlement innovation, rather than the UK monetary policy outlook or policy settings.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17449,
+ "prompt_tokens": 3870,
+ "completion_tokens": 61,
+ "cost_usd": 0.000514175,
+ "attempts": 1
+}

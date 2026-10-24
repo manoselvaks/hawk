@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.5,
+ "confidence": 0.99,
+ "reason": "The speaker says further tightening is likely and the tightening cycle may still have some way to go, stressing that inflation persistence, tight labour markets and the risk of tightening too little too late warrant leaning strongly against inflation pressures.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23789,
+ "prompt_tokens": 5367,
+ "completion_tokens": 71,
+ "cost_usd": 0.0007063,
+ "attempts": 1
+}

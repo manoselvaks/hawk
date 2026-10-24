@@ -1,0 +1,15 @@
+{
+ "relevance": 0.6,
+ "stance": 0.0,
+ "confidence": 0.78,
+ "reason": "The speech discusses labour-market conditions and the relative welfare costs of unemployment and inflation, but presents no clear lean on the future path of Bank Rate and explicitly says it is not advocating a change to the Bank\u2019s goals.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24068,
+ "prompt_tokens": 5446,
+ "completion_tokens": 278,
+ "cost_usd": 0.000819675,
+ "attempts": 1
+}

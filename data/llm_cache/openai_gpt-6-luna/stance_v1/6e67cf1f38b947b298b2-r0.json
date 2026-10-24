@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.83,
+ "reason": "The speaker argues that most goods-price inflation is likely temporary and should be looked through, says it need not imply higher inflation 18\u201324 months ahead, and stresses close monitoring of wages and the labour market, while acknowledging uncertainty about domestic mismatches.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23755,
+ "prompt_tokens": 5517,
+ "completion_tokens": 79,
+ "cost_usd": 0.00072905,
+ "attempts": 1
+}

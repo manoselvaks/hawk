@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.5,
+ "confidence": 0.98,
+ "reason": "The speaker sees downside risks, a longer period of excess supply and persistent inflation undershoot, says it is quite likely additional monetary easing will be appropriate, and rules out tightening until clear progress is made.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23712,
+ "prompt_tokens": 5433,
+ "completion_tokens": 69,
+ "cost_usd": 0.00071355,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 1,
+ "reason": "The majority of the Committee voted to increase Bank Rate by 0.5 percentage points, citing a tight labour market and domestic inflation well above target-consistent rates.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24044,
+ "prompt_tokens": 5458,
+ "completion_tokens": 827,
+ "cost_usd": 0.00079556,
+ "attempts": 1
+}

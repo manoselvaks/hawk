@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 0.5,
+ "confidence": 0.85,
+ "reason": "King says that reducing the present degree of monetary stimulus will be necessary at some point, while stressing that the timing depends on the inflation outlook and acknowledging risks of a correction in consumer spending.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 11342,
+ "prompt_tokens": 2896,
+ "completion_tokens": 208,
+ "cost_usd": 0.000465925,
+ "attempts": 1
+}

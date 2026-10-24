@@ -8,8 +8,8 @@ site can be built separately. The site works before any of them exist (see
 | file | written by | required by the site |
 | --- | --- | --- |
 | `data/scores.parquet` | `python -m hawk.scoring.score_all --confirm` | no (preview mode without it) |
-| `data/analysis/evaluation.json` | `python -m hawk.scoring.evaluate --labels …` | no ("coming soon" without it) |
-| `data/analysis/findings.json` | the analysis step (not built yet) | no ("coming soon" without it) |
+| `data/analysis/evaluation.json` | `python -m hawk.scoring.compare --labels … --models …` | no ("coming soon" without it) |
+| `data/analysis/findings.json` | `python -m hawk.analysis.run` | no ("coming soon" without it) |
 
 It also reads `data/speeches.parquet`, `data/minutes.parquet` (preview mode only),
 `data/market/` (Bank Rate, decisions and votes, MPC members) and `docs/methodology.md`.
@@ -51,8 +51,11 @@ treats minutes plus speeches with `is_mpc_member` as MPC communication.
 
 ## `data/analysis/evaluation.json`
 
-Written by `evaluate.py` next to its markdown report (`--json-out`), by `build_json`.
-`NaN` is written as `null`.
+Written by `compare.py` (which reuses `evaluate.build_json` for the chosen model and
+appends the other scorers). `NaN` is written as `null`. Beyond the fields below it adds
+`*_ci` 95% intervals to each `stance`, per-model `consistency`, `cost_per_doc_usd`,
+`corpus_cost_usd` and `chosen`, and a top-level `selection` record of how the model was
+chosen; the site ignores what it does not use.
 
 ```json
 {
@@ -85,7 +88,8 @@ counts items the human labelled `labels[i]` and the scorer (rounded) gave `label
 
 ## `data/analysis/findings.json`
 
-Written by the analysis step. Every top-level section is optional: the site shows a
+Written by `python -m hawk.analysis.run` (every number behind it, including robustness
+checks, is in `findings_detail.json` next to it). Every top-level section is optional: the site shows a
 "coming soon" card for any that is missing, so the analysis can land one test at a time.
 Numbers are plain floats (`null` when undefined); `display` strings are shown as given.
 A full example, with every field, is

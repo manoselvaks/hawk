@@ -1,0 +1,15 @@
+{
+ "relevance": 0.4,
+ "stance": 0.0,
+ "confidence": 0.5,
+ "reason": "The speech is mainly about financial stability, the crisis, and macroprudential tools, with only a limited policy-relevant passage on inflation targeting and the Bank's framework; its lean on the Bank Rate path is not clearly stated and it argues for balanced 'lean against the wind' approaches while noting the economy was not clearly above capacity and the recession must be limited.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16634,
+ "prompt_tokens": 6309,
+ "completion_tokens": 155,
+ "cost_usd": 0.0007084,
+ "attempts": 1
+}

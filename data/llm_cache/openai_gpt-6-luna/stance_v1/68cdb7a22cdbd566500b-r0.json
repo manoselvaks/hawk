@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.5,
+ "confidence": 0.94,
+ "reason": "He says growth is above sustainable capacity and must moderate \u201cquite soon and quite sharply,\u201d warning that the policy choice is \u201cnot whether or not to tighten\u201d but whether to do so sooner or later.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12074,
+ "prompt_tokens": 2989,
+ "completion_tokens": 177,
+ "cost_usd": 0.00046205,
+ "attempts": 1
+}

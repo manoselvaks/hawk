@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.86,
+ "reason": "The speech discusses how monetary policy should respond to supply shocks and argues that persistent inflation may warrant a more restrictive stance, including \u201cskipping cuts,\u201d while emphasising trade-offs and uncertainty.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23852,
+ "prompt_tokens": 5434,
+ "completion_tokens": 63,
+ "cost_usd": 0.000710675,
+ "attempts": 1
+}

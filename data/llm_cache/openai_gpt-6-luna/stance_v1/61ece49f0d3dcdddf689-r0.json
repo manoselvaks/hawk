@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.84,
+ "reason": "The Committee held policy unchanged, judging medium-term inflation risks broadly balanced; although several members saw the decision on further asset purchases as finely balanced and one favored more QE, most saw insufficient reason to change policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23941,
+ "prompt_tokens": 5144,
+ "completion_tokens": 191,
+ "cost_usd": 0.000738425,
+ "attempts": 1
+}

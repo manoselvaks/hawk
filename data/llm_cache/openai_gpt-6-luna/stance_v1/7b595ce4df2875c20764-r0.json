@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speech explains how climate-related supply and demand shocks affect inflation and output and should enter MPC deliberations, but it gives no directional recommendation for Bank Rate, instead saying policy should respond to maintain the inflation target as with any other shock.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20923,
+ "prompt_tokens": 4881,
+ "completion_tokens": 75,
+ "cost_usd": 0.00064755,
+ "attempts": 1
+}

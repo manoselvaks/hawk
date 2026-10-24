@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": -1.0,
+ "confidence": 0.84,
+ "reason": "Wadhwani stresses that international slowdown risks are weighted firmly to the downside, UK inflation is already below target and likely to undershoot, and he was more gloomy than the MPC\u2019s central projection, though he also notes a tight labour market and some upward price pressures.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 14259,
+ "prompt_tokens": 3651,
+ "completion_tokens": 82,
+ "cost_usd": 0.0004973,
+ "attempts": 1
+}

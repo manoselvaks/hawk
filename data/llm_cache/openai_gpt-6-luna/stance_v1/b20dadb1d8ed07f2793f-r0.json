@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.94,
+ "reason": "Vlieghe judges the net economic news to be downside and says he can wait for growth to stabilise before the next hike; in a no-deal Brexit, easing or an extended pause is more likely than tightening.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23179,
+ "prompt_tokens": 5242,
+ "completion_tokens": 72,
+ "cost_usd": 0.000691175,
+ "attempts": 1
+}

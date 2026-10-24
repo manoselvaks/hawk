@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.84,
+ "reason": "The minutes emphasize above-trend growth, a tightening labour market and an inflation projection above target with risks clearly weighted to the upside, while substantial discussion favours raising rates now, though some members argue for waiting.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24016,
+ "prompt_tokens": 5362,
+ "completion_tokens": 193,
+ "cost_usd": 0.000766675,
+ "attempts": 1
+}

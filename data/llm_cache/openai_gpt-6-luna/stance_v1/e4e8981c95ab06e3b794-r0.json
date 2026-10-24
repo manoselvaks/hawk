@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.9,
+ "reason": "The majority raised Bank Rate by 0.5 percentage points and judged further increases might be required, citing tight labour markets and persistent wage and domestic price pressures, although two members opposed further tightening.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24019,
+ "prompt_tokens": 5424,
+ "completion_tokens": 65,
+ "cost_usd": 0.000710425,
+ "attempts": 1
+}

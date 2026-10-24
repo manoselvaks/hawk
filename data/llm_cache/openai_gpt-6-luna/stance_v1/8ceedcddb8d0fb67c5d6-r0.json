@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.83,
+ "reason": "Although most members judged the current setting appropriate and kept asset purchases at \u00a3375 billion, a minority favoured further stimulus to reduce labour-market slack more quickly, while the Committee agreed inflation could return to target more slowly.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21102,
+ "prompt_tokens": 4642,
+ "completion_tokens": 72,
+ "cost_usd": 0.000616175,
+ "attempts": 1
+}

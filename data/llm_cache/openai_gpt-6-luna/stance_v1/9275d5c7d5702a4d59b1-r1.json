@@ -1,0 +1,15 @@
+{
+ "relevance": 0.65,
+ "stance": -1.0,
+ "confidence": 0.89,
+ "reason": "The speaker says that \u201cnow is not yet the time\u201d to raise Bank Rate, citing mixed demand signals and subdued domestic inflation, while emphasizing monetary policy\u2019s role in supporting jobs and activity.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 12349,
+ "prompt_tokens": 3120,
+ "completion_tokens": 67,
+ "cost_usd": 6.497e-05,
+ "attempts": 1
+}

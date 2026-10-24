@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.85,
+ "reason": "The Committee\u2019s discussion leans dovish, citing global weakness and deteriorating confidence as reasons to reduce rates, while noting that further weakness could require additional cuts and a recovery might require rates to rise.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24022,
+ "prompt_tokens": 5749,
+ "completion_tokens": 298,
+ "cost_usd": 0.00086755,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": 1.5,
+ "confidence": 0.8,
+ "reason": "The speaker is a hawkish MPC member who says 'I expect that further increases in Bank rate are going to be required' and 'my bias is towards further tightening', while acknowledging uncertainty and a possible reversal if persistence fades.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 23968,
+ "prompt_tokens": 8736,
+ "completion_tokens": 114,
+ "cost_usd": 0.0009306,
+ "attempts": 1
+}

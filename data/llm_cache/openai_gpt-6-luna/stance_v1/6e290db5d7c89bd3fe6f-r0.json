@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.98,
+ "reason": "The Committee judged a 25 basis point repo-rate increase persuasive because stronger activity would erode spare capacity and domestic inflationary pressures were expected to rise, despite CPI inflation remaining below target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24091,
+ "prompt_tokens": 5603,
+ "completion_tokens": 63,
+ "cost_usd": 0.0007318,
+ "attempts": 1
+}

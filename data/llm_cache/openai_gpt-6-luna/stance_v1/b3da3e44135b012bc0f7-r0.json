@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.86,
+ "reason": "The speech is heavily focused on monetary policy, but George presents both disinflationary pressures and buoyant demand, describes the forecast risks as only modestly to the upside, and says the MPC will respond in either direction.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 15241,
+ "prompt_tokens": 3767,
+ "completion_tokens": 221,
+ "cost_usd": 0.0005813,
+ "attempts": 1
+}

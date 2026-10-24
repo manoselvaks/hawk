@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 0.98,
+ "reason": "The speaker says there is a strong case for additional stimulus to head off deflation, including quantitative easing as interest rates approach the zero lower bound.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23595,
+ "prompt_tokens": 5521,
+ "completion_tokens": 139,
+ "cost_usd": 0.00075955,
+ "attempts": 1
+}

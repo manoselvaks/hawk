@@ -1,0 +1,15 @@
+{
+ "relevance": 0.55,
+ "stance": 0.0,
+ "confidence": 0.84,
+ "reason": "The speech mainly discusses financial-market liquidity and stability, while noting that gradual tightening may be appropriate if recovery continues and that the MPC expects future Bank Rate increases to be gradual and limited, without advocating a direction beyond that conditional guidance.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 5014,
+ "prompt_tokens": 1644,
+ "completion_tokens": 73,
+ "cost_usd": 0.000241925,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.55,
+ "stance": 1.0,
+ "confidence": 0.78,
+ "reason": "Although the speech mainly addresses financial stability, it notes that strong inflationary pressures have led central banks into a tightening phase and warns that higher rates and the end or reversal of QE are driving financial adjustment.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 11401,
+ "prompt_tokens": 2850,
+ "completion_tokens": 68,
+ "cost_usd": 0.000390175,
+ "attempts": 1
+}

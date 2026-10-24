@@ -1,0 +1,15 @@
+{
+ "relevance": 0.55,
+ "stance": 0.0,
+ "confidence": 0.75,
+ "reason": "The speech discusses monetary policy\u2019s role in addressing financial-stability risks and how it should interact with macro-prudential tools, but offers no specific lean toward changing Bank Rate or the broader monetary-policy stance.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 15260,
+ "prompt_tokens": 3660,
+ "completion_tokens": 69,
+ "cost_usd": 0.000491925,
+ "attempts": 1
+}

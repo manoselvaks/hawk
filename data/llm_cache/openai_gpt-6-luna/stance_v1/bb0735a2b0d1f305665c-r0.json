@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": -1.0,
+ "confidence": 0.93,
+ "reason": "The speaker says UK inflation was below target and expected to remain so, while US weakness and Foot and Mouth Disease were damping demand, and explains that the Bank therefore cut interest rates by \u00bd% and would monitor downside risks closely.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 13078,
+ "prompt_tokens": 3083,
+ "completion_tokens": 75,
+ "cost_usd": 0.0004228,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.65,
+ "stance": 0.0,
+ "confidence": 0.87,
+ "reason": "The speech discusses coordination among the MPC, FPC and PRA, including monetary-policy spillovers, but takes a largely institutional and balanced view without signalling a preferred future path for Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12154,
+ "prompt_tokens": 2998,
+ "completion_tokens": 65,
+ "cost_usd": 0.000407175,
+ "attempts": 1
+}

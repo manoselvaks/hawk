@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.88,
+ "reason": "The MPC says gradual, limited ongoing tightening would be appropriate if the economy follows its projections, as excess demand and domestic inflationary pressures build, although near-term weakness and Brexit uncertainty make the outlook conditional.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24095,
+ "prompt_tokens": 5520,
+ "completion_tokens": 66,
+ "cost_usd": 0.000722925,
+ "attempts": 1
+}

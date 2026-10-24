@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.87,
+ "reason": "Tucker says that, given economic slack and uncertainty, \u201cthe Committee is not in a rush\u201d to withdraw stimulus and that recovery \u201cwill continue to be underpinned,\u201d while stressing the need to protect price stability.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16607,
+ "prompt_tokens": 3889,
+ "completion_tokens": 71,
+ "cost_usd": 0.00052155,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.5,
+ "stance": 0.0,
+ "confidence": 0.85,
+ "reason": "The speech mainly addresses financial-system resilience, but its monetary-policy section says the MPC will offset part but not all of the demand shock and that rates depend on the balance of risks, with inflation pushed up by commodity prices and sterling depreciation.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 15155,
+ "prompt_tokens": 3603,
+ "completion_tokens": 75,
+ "cost_usd": 0.0004878,
+ "attempts": 1
+}

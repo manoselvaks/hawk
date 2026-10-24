@@ -1,0 +1,15 @@
+{
+ "relevance": 0.75,
+ "stance": 0.0,
+ "confidence": 0.83,
+ "reason": "The speech focuses mainly on reserve supply, QT and liquidity infrastructure, and says the MPC should set QT solely to achieve the inflation target, without advocating a change in the future path of Bank Rate or a clear tightening or easing lean.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16638,
+ "prompt_tokens": 4071,
+ "completion_tokens": 74,
+ "cost_usd": 0.0005458,
+ "attempts": 1
+}

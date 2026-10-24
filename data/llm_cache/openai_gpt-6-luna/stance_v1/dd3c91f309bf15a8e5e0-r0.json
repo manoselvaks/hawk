@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.84,
+ "reason": "The Committee held asset purchases at \u00a3200 billion despite a case for more stimulus, noting the outlook suggested inflation would be below target for much of the forecast period and that further stimulus could be provided if warranted.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21347,
+ "prompt_tokens": 4611,
+ "completion_tokens": 70,
+ "cost_usd": 0.0006113,
+ "attempts": 1
+}

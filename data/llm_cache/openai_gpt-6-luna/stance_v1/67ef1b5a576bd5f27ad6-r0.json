@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.5,
+ "confidence": 0.97,
+ "reason": "King says falling inflation and subdued wage growth leave scope for interest rates to remain low and, if necessary, for further asset purchases to prevent inflation falling below the 2% target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 14826,
+ "prompt_tokens": 3606,
+ "completion_tokens": 65,
+ "cost_usd": 0.000483175,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech focuses on bank resolution regimes, bail-in tools, and financial stability rather than the UK monetary policy outlook or Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17924,
+ "prompt_tokens": 4198,
+ "completion_tokens": 54,
+ "cost_usd": 0.000551675,
+ "attempts": 1
+}

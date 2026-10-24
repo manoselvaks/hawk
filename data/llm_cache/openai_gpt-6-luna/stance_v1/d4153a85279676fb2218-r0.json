@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.88,
+ "reason": "Although she says the summer rate rise was prudent insurance against inflation risks, she notes that the inflation outlook has since improved, labour-market pressure remains absent, and unnecessary insurance could create volatility, implying a dovish lean on future policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19161,
+ "prompt_tokens": 4459,
+ "completion_tokens": 178,
+ "cost_usd": 0.0006463,
+ "attempts": 1
+}

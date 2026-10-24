@@ -1,0 +1,15 @@
+{
+ "relevance": 0.6,
+ "stance": 0.0,
+ "confidence": 0.9,
+ "reason": "The speech discusses how demographic change may affect natural interest rates, the monetary transmission mechanism and the Phillips curve, but describes the immediate monetary-policy implications as modest and offers no clear lean toward tightening or easing.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16431,
+ "prompt_tokens": 3666,
+ "completion_tokens": 68,
+ "cost_usd": 0.000492175,
+ "attempts": 1
+}

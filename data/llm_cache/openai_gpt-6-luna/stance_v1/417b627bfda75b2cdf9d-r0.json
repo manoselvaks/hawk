@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.97,
+ "reason": "The speech says inflation is likely to remain above target for some time and that the author would \u201crather hold rates until there is more certainty that underlying inflationary pressures have subsided sustainably,\u201d signalling a hawkish lean toward keeping policy tight.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24117,
+ "prompt_tokens": 5913,
+ "completion_tokens": 73,
+ "cost_usd": 0.00077555,
+ "attempts": 1
+}

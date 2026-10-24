@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.93,
+ "reason": "The Committee said the arguments for and against a rate rise remained finely balanced: most members judged it was not yet necessary to raise rates and saw greater downside risk, while one member favoured a modest increase now.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23938,
+ "prompt_tokens": 5623,
+ "completion_tokens": 68,
+ "cost_usd": 0.0007368,
+ "attempts": 1
+}

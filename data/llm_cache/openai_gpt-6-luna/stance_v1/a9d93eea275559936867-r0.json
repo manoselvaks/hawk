@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech is about insurance supervision, Solvency II, insurers\u2019 search for yield, and risks to insurer capital, rather than the UK monetary policy outlook or Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20243,
+ "prompt_tokens": 4605,
+ "completion_tokens": 63,
+ "cost_usd": 0.00060705,
+ "attempts": 1
+}

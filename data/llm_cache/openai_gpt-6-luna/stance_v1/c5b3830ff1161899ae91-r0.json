@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.96,
+ "reason": "The speaker says the current monetary policy stance is appropriate but that risks are \u201cto the downside,\u201d citing weak employment and economic adjustments and supporting QE to prevent an unwarranted tightening and aid recovery.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21712,
+ "prompt_tokens": 5149,
+ "completion_tokens": 66,
+ "cost_usd": 0.00067655,
+ "attempts": 1
+}

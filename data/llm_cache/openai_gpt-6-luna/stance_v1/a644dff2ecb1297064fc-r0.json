@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.78,
+ "reason": "The Committee voted to maintain asset purchases at \u00a3375 billion, with the majority emphasizing that policy was already highly stimulatory while inflation was above target, likely to rise further and medium-term expectations had drifted up, although some members favored more stimulus given weak growth and slack.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17952,
+ "prompt_tokens": 4074,
+ "completion_tokens": 249,
+ "cost_usd": 0.000633675,
+ "attempts": 1
+}

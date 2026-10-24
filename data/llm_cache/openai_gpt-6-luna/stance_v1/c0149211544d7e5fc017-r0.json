@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech concerns FMI regulation, operational and financial resilience, and safe technological innovation, not the UK inflation outlook, demand, labour market or monetary policy tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 15647,
+ "prompt_tokens": 3525,
+ "completion_tokens": 59,
+ "cost_usd": 0.00047005,
+ "attempts": 1
+}

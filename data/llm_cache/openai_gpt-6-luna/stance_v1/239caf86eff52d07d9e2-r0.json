@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.9,
+ "reason": "The speech directly discusses the inflation outlook, demand, employment and interest-rate trade-offs, but presents the outlook as uncertain and balanced, noting that benign productivity and competition effects could keep rates lower for longer while failure to materialise could require stronger action.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 11142,
+ "prompt_tokens": 2772,
+ "completion_tokens": 75,
+ "cost_usd": 0.000383925,
+ "attempts": 1
+}

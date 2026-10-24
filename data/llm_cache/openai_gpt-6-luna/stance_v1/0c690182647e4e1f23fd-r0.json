@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.86,
+ "reason": "The speech focuses on monetary policy and argues that its future tightening or reversal should be determined by the inflation outlook, without signalling a particular near-term lean: \u201cthe timing and the speed of reversing the unusually accommodative monetary policy stance will be determined by the outlook for inflation.\u201d",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24113,
+ "prompt_tokens": 5306,
+ "completion_tokens": 80,
+ "cost_usd": 0.000703175,
+ "attempts": 1
+}

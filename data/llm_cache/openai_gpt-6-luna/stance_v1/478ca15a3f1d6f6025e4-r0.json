@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.94,
+ "reason": "King supports the resumed asset-purchase programme because weaker demand, spare capacity and falling medium-term inflation risks threaten recovery, while describing stimulus as necessary to prevent growth stalling and inflation falling below target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17096,
+ "prompt_tokens": 3991,
+ "completion_tokens": 66,
+ "cost_usd": 0.0005318,
+ "attempts": 1
+}

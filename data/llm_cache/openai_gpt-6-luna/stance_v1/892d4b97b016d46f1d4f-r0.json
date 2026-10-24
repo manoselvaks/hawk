@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.83,
+ "reason": "The Committee\u2019s majority judged it appropriate to hold amid uncertainty, while one member favoured a 25-basis-point cut on the view that inflation could undershoot the target, giving the overall discussion a slight dovish tilt.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19783,
+ "prompt_tokens": 4504,
+ "completion_tokens": 222,
+ "cost_usd": 0.000673925,
+ "attempts": 1
+}

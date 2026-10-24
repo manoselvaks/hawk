@@ -1,0 +1,15 @@
+{
+ "relevance": 0.8,
+ "stance": 0.0,
+ "confidence": 0.6,
+ "reason": "The speech is largely about the case for price stability and the MPC's framework, with a balanced account that inflation has been well controlled near target, expectations are anchored, and the MPC responds symmetrically to overshoots and undershoots, so it leans neither hawkish nor dovish.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23857,
+ "prompt_tokens": 8611,
+ "completion_tokens": 124,
+ "cost_usd": 0.0009231,
+ "attempts": 1
+}

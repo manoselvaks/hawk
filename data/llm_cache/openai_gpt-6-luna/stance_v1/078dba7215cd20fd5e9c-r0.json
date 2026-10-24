@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech sets out the PRA\u2019s prudential supervision and financial-stability framework, including firm failure, capital, liquidity and regulatory coordination, rather than the UK monetary policy outlook or policy tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20595,
+ "prompt_tokens": 4550,
+ "completion_tokens": 66,
+ "cost_usd": 0.000601675,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": 0.5,
+ "confidence": 0.84,
+ "reason": "She says that under a smooth Brexit, growth would pick up and build domestic inflationary pressure, making further monetary tightening appropriate, while noting that her weaker growth outlook and the uncertain Brexit risks leave her overall policy view in line with the MPC\u2019s central view.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22560,
+ "prompt_tokens": 5180,
+ "completion_tokens": 292,
+ "cost_usd": 0.000793425,
+ "attempts": 1
+}

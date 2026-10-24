@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.95,
+ "reason": "The analysis suggests that the combination of the shock shape and policy lags 'suggests risks of overtightening (undershooting 2% target in medium term).'",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 3946,
+ "prompt_tokens": 1633,
+ "completion_tokens": 805,
+ "cost_usd": 0.00051681,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.45,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speech focuses on long-run productivity and potential output rather than the near-term policy outlook, and offers no clear lean on Bank Rate or other monetary policy tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23697,
+ "prompt_tokens": 5390,
+ "completion_tokens": 60,
+ "cost_usd": 0.000703675,
+ "attempts": 1
+}

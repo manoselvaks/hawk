@@ -1,0 +1,15 @@
+{
+ "relevance": 0.1,
+ "stance": null,
+ "confidence": 0.9,
+ "reason": "The speech is about financial stability, the financial cycle and the evolution of private credit and household debt, not the current UK monetary policy outlook or Bank Rate decision.",
+ "model": "deepseek/deepseek-v4.1-flash",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17116,
+ "prompt_tokens": 4304,
+ "completion_tokens": 330,
+ "cost_usd": 0.00044676,
+ "attempts": 1
+}

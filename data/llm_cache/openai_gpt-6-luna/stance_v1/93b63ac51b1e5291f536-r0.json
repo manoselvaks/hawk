@@ -1,0 +1,15 @@
+{
+ "relevance": 0.25,
+ "stance": null,
+ "confidence": 0.95,
+ "reason": "The speech is primarily about prudential supervision and insurance regulation, including Solvency II and financial resilience; it mentions low interest rates and QE only as supervisory risk considerations and explicitly offers no view on the likely course of monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20864,
+ "prompt_tokens": 4717,
+ "completion_tokens": 74,
+ "cost_usd": 0.00062655,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 1,
+ "reason": "The speech urges investors to support banking reform and stronger bank capital to protect financial stability, rather than discussing the UK monetary policy outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 7237,
+ "prompt_tokens": 2157,
+ "completion_tokens": 105,
+ "cost_usd": 0.00032205,
+ "attempts": 1
+}

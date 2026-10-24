@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 0.99,
+ "reason": "The speaker says the outlook has deteriorated and that \u201csome monetary policy easing will likely be required over the summer,\u201d with action to support growth subject to inflation returning to target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12219,
+ "prompt_tokens": 3051,
+ "completion_tokens": 64,
+ "cost_usd": 0.0004133,
+ "attempts": 1
+}

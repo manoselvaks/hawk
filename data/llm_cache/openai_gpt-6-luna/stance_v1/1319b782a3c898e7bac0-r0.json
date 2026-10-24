@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 0.98,
+ "reason": "The speech emphasizes clearly evident disinflation, sharply weakening labour-market conditions and rising unemployment, and argues for fiscal stimulus to sustain employment while describing the immediate policy challenge as stimulating lending.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18369,
+ "prompt_tokens": 4224,
+ "completion_tokens": 63,
+ "cost_usd": 0.000559425,
+ "attempts": 1
+}

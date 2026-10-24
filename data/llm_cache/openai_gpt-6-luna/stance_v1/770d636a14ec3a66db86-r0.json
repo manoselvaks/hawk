@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.91,
+ "reason": "The speaker voted for an additional \u00a325bn of QE and argues that, while inflation risks exist, \u201cas long as wage growth remains so weak\u201d the MPC \u201ccan and should continue to support the economy\u201d through monetary stimulus.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24119,
+ "prompt_tokens": 5409,
+ "completion_tokens": 73,
+ "cost_usd": 0.00071255,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": 0.0,
+ "confidence": 0.76,
+ "reason": "The speech focuses on economic measurement, forecasting uncertainty and the referendum\u2019s effects, and concludes that policy must deliver the inflation target while weighing output trade-offs; it raises a possible inflation overshoot but offers no clear lean toward tightening or easing.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23767,
+ "prompt_tokens": 5429,
+ "completion_tokens": 75,
+ "cost_usd": 0.00071605,
+ "attempts": 1
+}

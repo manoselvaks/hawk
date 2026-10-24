@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": 0.0,
+ "confidence": 0.78,
+ "reason": "The speech highlights an increasingly stark inflation-output trade-off from energy shocks, but says tighter policy could worsen gilt-market volatility and financial conditions, concluding that policy must remain alert rather than advocating a particular direction.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20796,
+ "prompt_tokens": 4571,
+ "completion_tokens": 68,
+ "cost_usd": 0.0006053,
+ "attempts": 1
+}

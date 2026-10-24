@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": -1.5,
+ "confidence": 0.75,
+ "reason": "The speech is about the UK monetary policy outlook and argues that policy tightened sharply already, with 'Suggests risks of overtightening (undershooting 2% target in medium term)' and that far tighter policy would worsen the medium-term inflation undershoot, leaning dovish.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 3946,
+ "prompt_tokens": 2739,
+ "completion_tokens": 129,
+ "cost_usd": 0.0003384,
+ "attempts": 1
+}

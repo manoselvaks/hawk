@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": -0.5,
+ "confidence": 0.82,
+ "reason": "Broadbent says the MPC expects weaker demand and spare capacity to rise, and will tolerate inflation above target to avoid a larger increase in unemployment and weaker wage growth, indicating a modestly dovish trade-off.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23953,
+ "prompt_tokens": 5416,
+ "completion_tokens": 73,
+ "cost_usd": 0.000713425,
+ "attempts": 1
+}

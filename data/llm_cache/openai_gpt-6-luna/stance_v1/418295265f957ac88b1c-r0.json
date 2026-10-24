@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.85,
+ "reason": "Although all members left Bank Rate unchanged and expected any future rises to be gradual, some saw medium-term inflation risks skewing upward and a small rate increase becoming a closer decision absent uncertainty from Greece.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24014,
+ "prompt_tokens": 5314,
+ "completion_tokens": 67,
+ "cost_usd": 0.000697675,
+ "attempts": 1
+}

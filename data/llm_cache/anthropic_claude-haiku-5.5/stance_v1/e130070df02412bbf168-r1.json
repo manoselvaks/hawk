@@ -1,0 +1,15 @@
+{
+ "relevance": 0.8,
+ "stance": -1.0,
+ "confidence": 0.7,
+ "reason": "The speech defends ultra-expansionary policy and QE, saying there is a margin of spare capacity and muted domestic inflation pressures, and that the monetary stance should stay exceptionally expansionary, though it is partly about government debt history.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 20077,
+ "prompt_tokens": 7594,
+ "completion_tokens": 113,
+ "cost_usd": 0.0008159,
+ "attempts": 1
+}

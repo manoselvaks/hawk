@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.9,
+ "reason": "Most members found maintaining the 4% repo rate more persuasive than a reduction, citing buoyant consumption, strong household borrowing and upside inflation risks, while the forecast remained consistent with the target and risks were mixed.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24059,
+ "prompt_tokens": 5665,
+ "completion_tokens": 68,
+ "cost_usd": 0.00074205,
+ "attempts": 1
+}

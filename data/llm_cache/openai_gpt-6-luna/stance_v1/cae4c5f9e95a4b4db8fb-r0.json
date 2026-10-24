@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The extracts discuss bank resolution, bail-in, creditor monitoring and financial resilience, mentioning monetary policy only as an analogy for constrained discretion.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 2317,
+ "prompt_tokens": 1153,
+ "completion_tokens": 93,
+ "cost_usd": 0.00019055,
+ "attempts": 1
+}

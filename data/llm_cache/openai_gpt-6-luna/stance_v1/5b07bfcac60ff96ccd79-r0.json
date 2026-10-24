@@ -1,0 +1,15 @@
+{
+ "relevance": 0.65,
+ "stance": 0.0,
+ "confidence": 0.82,
+ "reason": "The speech discusses how reduced cross-border banking may make the lending channel of monetary policy more effective, but it offers no directional recommendation on Bank Rate and is chiefly an analysis of financial deglobalization.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20507,
+ "prompt_tokens": 4593,
+ "completion_tokens": 67,
+ "cost_usd": 0.00060755,
+ "attempts": 1
+}

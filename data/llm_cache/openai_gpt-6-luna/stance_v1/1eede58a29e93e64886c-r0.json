@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech is about contingency planning and disaster recovery for the financial sector, rather than the UK monetary policy outlook or policy settings.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17879,
+ "prompt_tokens": 4033,
+ "completion_tokens": 53,
+ "cost_usd": 0.00053055,
+ "attempts": 1
+}

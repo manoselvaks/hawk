@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.9,
+ "reason": "The speaker says that \u201cthe onus remains on ensuring enough monetary tightening is delivered\u201d to return inflation sustainably to target, while stressing that further tightening depends on evidence of persistent inflationary pressures.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24102,
+ "prompt_tokens": 5257,
+ "completion_tokens": 64,
+ "cost_usd": 0.00068905,
+ "attempts": 1
+}

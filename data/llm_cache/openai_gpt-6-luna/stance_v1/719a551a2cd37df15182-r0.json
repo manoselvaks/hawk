@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.96,
+ "reason": "The Committee agreed that a 25 basis-point increase was appropriate, citing tight labour markets, uncomfortably high earnings growth and risks of future inflation, although some members saw a more benign outlook and one favoured a 50-point rise.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24053,
+ "prompt_tokens": 5606,
+ "completion_tokens": 74,
+ "cost_usd": 0.000737675,
+ "attempts": 1
+}

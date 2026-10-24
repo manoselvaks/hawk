@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.84,
+ "reason": "The Committee kept rates unchanged but noted that resilient consumption and household debt could mean current stimulus was more than needed, with some members saying a rate increase might soon become necessary, although it judged a change unnecessary this month.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23973,
+ "prompt_tokens": 5762,
+ "completion_tokens": 71,
+ "cost_usd": 0.000755675,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.9,
+ "reason": "He says the oil-price shock should generally be \u201clooked through\u201d but stresses that diminished spare capacity and possible wage acceleration cannot be ignored, while his concern about persistent disinflation led him not to vote for a Bank Rate increase in January and February.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23379,
+ "prompt_tokens": 5424,
+ "completion_tokens": 77,
+ "cost_usd": 0.000716425,
+ "attempts": 1
+}

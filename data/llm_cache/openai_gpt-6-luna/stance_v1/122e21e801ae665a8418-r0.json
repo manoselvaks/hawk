@@ -1,0 +1,15 @@
+{
+ "relevance": 0.2,
+ "stance": null,
+ "confidence": 0.95,
+ "reason": "The speech focuses on financial stability risks in non-bank finance and private credit markets, rather than the UK monetary-policy outlook or policy tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 11762,
+ "prompt_tokens": 2802,
+ "completion_tokens": 55,
+ "cost_usd": 0.000377675,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.95,
+ "reason": "The Committee saw arguments both for an earlier gradual increase as slack was absorbed and against premature tightening amid weak wages and global risks, and agreed that no increase was warranted at this meeting, with timing driven by data.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24053,
+ "prompt_tokens": 5257,
+ "completion_tokens": 68,
+ "cost_usd": 0.00069105,
+ "attempts": 1
+}

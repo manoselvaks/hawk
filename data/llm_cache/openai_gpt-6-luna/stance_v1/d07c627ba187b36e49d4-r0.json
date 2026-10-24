@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": 0.0,
+ "confidence": 0.83,
+ "reason": "The speech focuses extensively on monetary policy and the exchange rate, but offers no clear lean on future rates, stressing that policy is guided by the inflation target and that exchange-rate effects must be assessed alongside other economic conditions.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19016,
+ "prompt_tokens": 4431,
+ "completion_tokens": 194,
+ "cost_usd": 0.0006508,
+ "attempts": 1
+}

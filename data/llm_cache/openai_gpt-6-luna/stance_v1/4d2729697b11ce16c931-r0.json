@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": -1.5,
+ "confidence": 0.95,
+ "reason": "The speaker expects UK inflation to remain below target for two years assuming unchanged rates, judges the collective projection to overstate inflationary pressure, and says subdued inflation makes proactive monetary action to counter weaker confidence easier to contemplate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23850,
+ "prompt_tokens": 5485,
+ "completion_tokens": 74,
+ "cost_usd": 0.00072255,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.84,
+ "reason": "The speech stresses weak recovery and deflation risks, argues against premature tightening, and says temporary inflation overshooting is preferable to facing deflation, though it adds that persistent overshooting should prompt action.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24071,
+ "prompt_tokens": 5630,
+ "completion_tokens": 225,
+ "cost_usd": 0.000816175,
+ "attempts": 1
+}

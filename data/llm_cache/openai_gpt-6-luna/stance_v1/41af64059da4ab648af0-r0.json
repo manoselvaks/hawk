@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": -0.5,
+ "confidence": 0.74,
+ "reason": "The speech explains why weak productivity makes labour-market and wage data important for judging inflation pressure, noting that unemployment reached 7% sooner than expected while pay growth was far weaker than forecast, without making a direct case for a rate change.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23977,
+ "prompt_tokens": 5555,
+ "completion_tokens": 204,
+ "cost_usd": 0.0007963,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.95,
+ "reason": "The Committee judged that activity prospects had strengthened and inflation might follow a higher path, but inflation was still expected to be marginally below target for some time, so it held rates unchanged while waiting for further evidence and remained ready to adjust in either direction.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24059,
+ "prompt_tokens": 5733,
+ "completion_tokens": 76,
+ "cost_usd": 0.00075455,
+ "attempts": 1
+}

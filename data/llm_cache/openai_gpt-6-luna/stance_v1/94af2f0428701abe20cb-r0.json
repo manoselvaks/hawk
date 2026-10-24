@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.88,
+ "reason": "Broadbent argues policy should put less weight on output growth and that the MPC should consider withdrawing stimulus only after a significant fall in unemployment, with slower unemployment declines warranting unchanged policy for longer.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21846,
+ "prompt_tokens": 5121,
+ "completion_tokens": 183,
+ "cost_usd": 0.00073155,
+ "attempts": 1
+}

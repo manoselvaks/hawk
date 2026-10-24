@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.96,
+ "reason": "The speaker voted to leave Bank Rate unchanged, judged that tightening already in the pipeline was sufficient to bring inflation back to and likely below target, and expected energy-cost reversals to weigh on inflation.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23999,
+ "prompt_tokens": 5279,
+ "completion_tokens": 66,
+ "cost_usd": 0.0006928,
+ "attempts": 1
+}

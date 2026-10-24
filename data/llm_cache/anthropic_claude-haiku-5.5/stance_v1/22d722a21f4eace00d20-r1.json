@@ -1,0 +1,15 @@
+{
+ "relevance": 0.4,
+ "stance": 0.0,
+ "confidence": 0.5,
+ "reason": "The speech is mainly a conference welcome on the history and governance of monetary policy independence, with only brief references to Brexit and the flexible inflation target, and it gives no clear lean on the future path of Bank Rate.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 10992,
+ "prompt_tokens": 4599,
+ "completion_tokens": 105,
+ "cost_usd": 0.0005124,
+ "attempts": 1
+}

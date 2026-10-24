@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.79,
+ "reason": "The majority judged that recent weakness in activity had reduced the likelihood of near-term tightening, while two members favoured a rate increase and one favoured more asset purchases.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23000,
+ "prompt_tokens": 4948,
+ "completion_tokens": 62,
+ "cost_usd": 0.000649425,
+ "attempts": 1
+}

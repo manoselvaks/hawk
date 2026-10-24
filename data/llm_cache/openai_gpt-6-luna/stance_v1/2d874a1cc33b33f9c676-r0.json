@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.87,
+ "reason": "The speech describes a deep recession and downside-weighted risks, supports Bank Rate at 0.5% and \u00a375 billion of asset purchases to stimulate nominal spending, and says policy will return to normal as the inflation outlook recovers.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21910,
+ "prompt_tokens": 4765,
+ "completion_tokens": 74,
+ "cost_usd": 0.00063255,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.2,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech is primarily about financial regulation, prudential supervision and financial stability reforms, with no substantive discussion of the current UK monetary policy outlook or Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12284,
+ "prompt_tokens": 3038,
+ "completion_tokens": 59,
+ "cost_usd": 0.000409175,
+ "attempts": 1
+}

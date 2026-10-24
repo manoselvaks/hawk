@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": -0.5,
+ "confidence": 0.86,
+ "reason": "Although the speaker argues that monetary accommodation may eventually be withdrawn, he says the domestic economy is still fragile and that he supported further asset purchases, explicitly adding that he is not advocating withdrawal any time soon.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21999,
+ "prompt_tokens": 5183,
+ "completion_tokens": 71,
+ "cost_usd": 0.0006833,
+ "attempts": 1
+}

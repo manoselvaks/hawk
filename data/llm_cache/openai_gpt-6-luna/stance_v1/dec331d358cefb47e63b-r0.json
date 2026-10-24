@@ -1,0 +1,15 @@
+{
+ "relevance": 0.7,
+ "stance": -0.5,
+ "confidence": 0.76,
+ "reason": "The speech is substantially about monetary policy, and its overall lean is mildly dovish: it stresses weaker growth and limited policy space, says policy in a No Deal scenario would be more likely to ease than not, while noting that an agreement could eventually require gradual rate increases.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23959,
+ "prompt_tokens": 5180,
+ "completion_tokens": 239,
+ "cost_usd": 0.000766925,
+ "attempts": 1
+}

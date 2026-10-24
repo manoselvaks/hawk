@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 0.93,
+ "reason": "The minutes are about the policy decision and outlook, stating that 'further monetary easing was likely to be needed', a majority voted for a 50bp Bank Rate cut to 1.0%, one member wanted 100bp, and the Committee agreed to seek authority for asset purchases, with downside risks to growth 'heavily weighted to the downside'.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23779,
+ "prompt_tokens": 8568,
+ "completion_tokens": 149,
+ "cost_usd": 0.0009313,
+ "attempts": 1
+}

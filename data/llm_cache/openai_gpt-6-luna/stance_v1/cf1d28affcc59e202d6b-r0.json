@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.78,
+ "reason": "The majority kept policy unchanged because spare capacity was expected to bring inflation back towards target, but most members judged that recent news had shifted medium-term inflation risks upwards.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21083,
+ "prompt_tokens": 4611,
+ "completion_tokens": 191,
+ "cost_usd": 0.0006718,
+ "attempts": 1
+}

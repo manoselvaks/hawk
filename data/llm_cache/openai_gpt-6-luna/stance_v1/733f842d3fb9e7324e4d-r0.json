@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.86,
+ "reason": "The Committee unanimously kept Bank Rate at 0.5% and asset purchases at \u00a3175 billion, noting differing views on medium-term inflation risks but judging the evidence insufficient to change policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19216,
+ "prompt_tokens": 4258,
+ "completion_tokens": 63,
+ "cost_usd": 0.000563675,
+ "attempts": 1
+}

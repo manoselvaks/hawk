@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.86,
+ "reason": "Bean supports accommodative policy and says guidance should prevent premature tightening, signalling the MPC would not tighten until unemployment had fallen to at least 7% while describing recovery as still fledgling.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 15744,
+ "prompt_tokens": 3590,
+ "completion_tokens": 64,
+ "cost_usd": 0.000480675,
+ "attempts": 1
+}

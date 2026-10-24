@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.5,
+ "confidence": 0.98,
+ "reason": "The Committee judged that spare capacity and a slow recovery made medium-term inflation likely to undershoot target without further stimulus, and it expanded asset purchases by \u00a350 billion while keeping Bank Rate at 0.5%.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18900,
+ "prompt_tokens": 4288,
+ "completion_tokens": 72,
+ "cost_usd": 0.000571925,
+ "attempts": 1
+}

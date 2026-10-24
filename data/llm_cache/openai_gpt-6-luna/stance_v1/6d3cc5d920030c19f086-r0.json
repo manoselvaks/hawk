@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": 0.0,
+ "confidence": 0.78,
+ "reason": "The speech focuses on how forecasts inform UK monetary policy, but makes no clear recommendation on rates; it notes that the latest projection showed inflation rising above target while the balance of risks was to the downside.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24091,
+ "prompt_tokens": 5371,
+ "completion_tokens": 258,
+ "cost_usd": 0.0008003,
+ "attempts": 1
+}

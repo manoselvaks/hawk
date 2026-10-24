@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": 0.0,
+ "confidence": 0.76,
+ "reason": "The speech discusses monetary policy and the recession, but offers no clear call for a near-term Bank Rate change, instead supporting the current effort to restore growth while arguing that future credit booms should be addressed with dedicated tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 16634,
+ "prompt_tokens": 4003,
+ "completion_tokens": 327,
+ "cost_usd": 0.0002038,
+ "attempts": 1
+}

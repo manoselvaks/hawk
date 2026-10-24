@@ -1,0 +1,15 @@
+{
+ "relevance": 0.15,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech is primarily about financial stability, bank capital requirements and credit allocation, and mentions price stability only to describe the Bank\u2019s mandate rather than the monetary policy outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 10092,
+ "prompt_tokens": 2526,
+ "completion_tokens": 141,
+ "cost_usd": 0.000386175,
+ "attempts": 1
+}

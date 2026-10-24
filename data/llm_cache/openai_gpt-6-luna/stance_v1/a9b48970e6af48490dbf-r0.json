@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 1,
+ "reason": "The speaker argues that downside risks, low inflation and scarring make prompt, aggressive easing preferable, saying it is safer to err on the side of too much stimulus and that further asset purchases were required.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23646,
+ "prompt_tokens": 5383,
+ "completion_tokens": 65,
+ "cost_usd": 0.0007053,
+ "attempts": 1
+}

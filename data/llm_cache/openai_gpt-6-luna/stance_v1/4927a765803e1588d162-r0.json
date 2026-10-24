@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.94,
+ "reason": "Most members judged that Bank Rate at 0.5% and asset purchases at \u00a3200 billion remained appropriate, with risks substantial and responsive in either direction, while one member favoured a gradual rate increase.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23842,
+ "prompt_tokens": 5201,
+ "completion_tokens": 67,
+ "cost_usd": 0.00068355,
+ "attempts": 1
+}

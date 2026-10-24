@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.95,
+ "reason": "She stresses both the risk that inflation expectations become embedded and the increased downside risks from financial turmoil, concluding that the path of Bank Rate is highly uncertain as risks in both directions are reassessed.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23140,
+ "prompt_tokens": 5137,
+ "completion_tokens": 64,
+ "cost_usd": 0.00067405,
+ "attempts": 1
+}

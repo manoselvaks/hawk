@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.9,
+ "reason": "The Committee judged growth likely to remain near its historic average and inflation broadly in line with target, while eight members voted to hold at 4.5% and one preferred a 25-basis-point cut.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22618,
+ "prompt_tokens": 4887,
+ "completion_tokens": 68,
+ "cost_usd": 0.0006448,
+ "attempts": 1
+}

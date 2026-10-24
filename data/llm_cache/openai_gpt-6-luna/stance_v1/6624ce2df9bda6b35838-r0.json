@@ -1,0 +1,15 @@
+{
+ "relevance": 0.7,
+ "stance": -1.0,
+ "confidence": 0.76,
+ "reason": "The speaker says there is a strong case for looking through inflation from further depreciation when medium-term domestic pressures remain consistent with target, rather than tightening to restore external balance.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 10622,
+ "prompt_tokens": 2782,
+ "completion_tokens": 265,
+ "cost_usd": 0.000480175,
+ "attempts": 1
+}

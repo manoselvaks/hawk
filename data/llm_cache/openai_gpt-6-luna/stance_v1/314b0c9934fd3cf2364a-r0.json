@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.83,
+ "reason": "The Committee was divided, but some members judged that stronger activity, tighter labour-market risks and an upward-sloping inflation projection warranted a 25-basis-point rise, while others preferred to wait because near-term price pressures appeared weak.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23937,
+ "prompt_tokens": 5373,
+ "completion_tokens": 74,
+ "cost_usd": 0.00070855,
+ "attempts": 1
+}

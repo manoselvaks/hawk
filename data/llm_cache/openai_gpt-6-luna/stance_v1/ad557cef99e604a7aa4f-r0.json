@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.5,
+ "confidence": 0.94,
+ "reason": "The speaker says they will \u201cnot hesitate to raise interest rates\u201d and that inflationary pressures will likely require \u201ca stronger response than we perhaps thought in August,\u201d while noting uncertainty about persistence and the energy price cap.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 10545,
+ "prompt_tokens": 2799,
+ "completion_tokens": 71,
+ "cost_usd": 0.0003853,
+ "attempts": 1
+}

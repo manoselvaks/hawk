@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.84,
+ "reason": "Weale balances likely weaker demand against exchange-rate-driven inflation and rising earnings, arguing to wait for firmer evidence and that easing is justified only if output weakness more than offsets the inflation overshoot.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24082,
+ "prompt_tokens": 5611,
+ "completion_tokens": 264,
+ "cost_usd": 0.0008333,
+ "attempts": 1
+}

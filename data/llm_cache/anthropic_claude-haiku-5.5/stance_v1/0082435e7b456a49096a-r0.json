@@ -1,0 +1,15 @@
+{
+ "relevance": 0.8,
+ "stance": -0.5,
+ "confidence": 0.6,
+ "reason": "The speech is mainly about QE's effects and unwinding, with the author arguing QE 'provided significant support to aggregate demand' and that Bank Rate would be cut if inflation weakens after QE unwind, a mildly dovish lean without an explicit call for immediate easing.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23662,
+ "prompt_tokens": 8464,
+ "completion_tokens": 128,
+ "cost_usd": 0.0009104,
+ "attempts": 1
+}

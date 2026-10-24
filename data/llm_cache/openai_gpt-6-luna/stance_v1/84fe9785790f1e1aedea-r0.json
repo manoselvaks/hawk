@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.91,
+ "reason": "The speech is primarily about inflation targeting and monetary policy design, and it advocates flexible inflation targeting that balances returning inflation to target with avoiding unnecessary output volatility, without signalling a particular near-term change in Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24021,
+ "prompt_tokens": 5528,
+ "completion_tokens": 67,
+ "cost_usd": 0.000724425,
+ "attempts": 1
+}

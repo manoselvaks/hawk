@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": -1.0,
+ "confidence": 0.84,
+ "reason": "The speech discusses monetary policy responses to the contraction and supports aggressive stimulus at the lower bound, including commitments to keep rates low and asset purchases, while arguing that policy rates were near zero and more stimulus was needed.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23230,
+ "prompt_tokens": 5152,
+ "completion_tokens": 71,
+ "cost_usd": 0.000679425,
+ "attempts": 1
+}

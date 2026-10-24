@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.5,
+ "confidence": 0.9,
+ "reason": "Gieve stresses that output is likely to fall sharply, spare capacity and falling prices will push inflation well below target, and the risks remain clearly to the downside, saying policymakers should consider further action on interest rates or other monetary measures.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 1,
+ "input_chars": 18094,
+ "prompt_tokens": 4311,
+ "completion_tokens": 75,
+ "cost_usd": 8.088e-05,
+ "attempts": 1
+}

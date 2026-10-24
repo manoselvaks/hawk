@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.93,
+ "reason": "The Committee raised Bank Rate by 0.25 percentage points, with the majority citing unexpectedly high inflation, a tight labour market and stronger demand, and warning that further tightening would be required if persistent pressures emerged, although two members preferred no increase.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23750,
+ "prompt_tokens": 5315,
+ "completion_tokens": 75,
+ "cost_usd": 0.0007018,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.91,
+ "reason": "The Committee judged domestic risks to be weighted to the downside and expected inflation to fall below target in the second half of the year, while holding Bank Rate at 0.5% and continuing the \u00a375 billion asset-purchase programme without further easing that month.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21358,
+ "prompt_tokens": 4762,
+ "completion_tokens": 79,
+ "cost_usd": 0.000634675,
+ "attempts": 1
+}

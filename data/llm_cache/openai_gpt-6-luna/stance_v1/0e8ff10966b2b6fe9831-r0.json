@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.94,
+ "reason": "The Committee narrowly cut Bank Rate and judged that further reductions may follow if disinflation continues, although the close 5\u20134 vote, higher inflation risks and emphasis on a gradual, careful approach make the overall lean only mildly dovish.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16694,
+ "prompt_tokens": 3920,
+ "completion_tokens": 77,
+ "cost_usd": 0.000528425,
+ "attempts": 1
+}

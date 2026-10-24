@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.9,
+ "reason": "Despite noting that financial turmoil may soften growth, the speaker stresses that growth is strong, spare capacity is limited, firms are finding price rises easier to sustain, and the MPC \u201ccannot afford to relax on the inflation front,\u201d reaffirming its commitment to the 2% target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 14230,
+ "prompt_tokens": 3389,
+ "completion_tokens": 81,
+ "cost_usd": 0.00046405,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.15,
+ "stance": null,
+ "confidence": 0.95,
+ "reason": "The speech focuses on fixed-income market innovation, trading infrastructure, market conduct and financial-system resilience, mentioning the MPC only as a group informed by market monitoring rather than discussing the monetary policy outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19635,
+ "prompt_tokens": 4619,
+ "completion_tokens": 66,
+ "cost_usd": 0.0006103,
+ "attempts": 1
+}

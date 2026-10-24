@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.91,
+ "reason": "The Committee held the repo rate at 6%, with some members citing upside inflation risks and possible future tightening, others seeing balanced risks, and one view favouring a 25-basis-point cut amid weaker growth and inflation prospects.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24085,
+ "prompt_tokens": 5591,
+ "completion_tokens": 72,
+ "cost_usd": 0.0007348,
+ "attempts": 1
+}

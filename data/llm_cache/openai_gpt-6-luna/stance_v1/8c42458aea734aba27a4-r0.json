@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech concerns the Financial Policy Committee\u2019s financial stability mandate, financial regulation, and public backstops rather than the inflation outlook, Bank Rate, or other monetary policy tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 8579,
+ "prompt_tokens": 2355,
+ "completion_tokens": 63,
+ "cost_usd": 0.0003258,
+ "attempts": 1
+}

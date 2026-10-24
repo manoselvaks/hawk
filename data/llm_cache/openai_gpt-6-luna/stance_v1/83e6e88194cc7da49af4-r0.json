@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.5,
+ "confidence": 0.92,
+ "reason": "The speaker says a \u201crobust policy move\u201d is needed to prevent imported inflation and voted for a 50-basis-point Bank Rate increase, arguing that matching US tightening can counter near-term inflation even though it risks larger output losses.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23106,
+ "prompt_tokens": 5152,
+ "completion_tokens": 75,
+ "cost_usd": 0.000681425,
+ "attempts": 1
+}

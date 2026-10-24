@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speaker stresses that persistent services inflation and wage growth require sufficient restriction, but also says pressures may be easing and that Bank Rate cuts are a \u201cwhen-rather-than-if\u201d prospect, leaving the overall lean balanced.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18889,
+ "prompt_tokens": 4183,
+ "completion_tokens": 69,
+ "cost_usd": 0.0005573,
+ "attempts": 1
+}

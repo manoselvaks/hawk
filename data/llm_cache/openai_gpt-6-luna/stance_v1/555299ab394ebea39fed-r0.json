@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 1,
+ "reason": "The speaker argues that interest rates should be reduced significantly and quickly, warning that recession, rising unemployment and falling inflation dominate the risks.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23761,
+ "prompt_tokens": 5545,
+ "completion_tokens": 51,
+ "cost_usd": 0.00071855,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.93,
+ "reason": "The speech stresses the commitment to return inflation to 2%, says further Bank Rate increases are more likely than decreases, and the author is willing to tighten faster or act forcefully if persistent inflationary pressures emerge, while acknowledging two-sided risks and conditionality.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21937,
+ "prompt_tokens": 4846,
+ "completion_tokens": 77,
+ "cost_usd": 0.000644175,
+ "attempts": 1
+}

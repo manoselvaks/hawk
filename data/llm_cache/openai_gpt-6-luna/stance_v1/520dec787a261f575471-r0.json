@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.98,
+ "reason": "Pill says persistent inflation still threatens a sustainable return to target, that policy must remain restrictive, and that the time for cutting Bank Rate remains some way off, with greater risks from easing too early.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21374,
+ "prompt_tokens": 4651,
+ "completion_tokens": 66,
+ "cost_usd": 0.0006143,
+ "attempts": 1
+}

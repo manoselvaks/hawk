@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech is about governance, risks and adoption of artificial intelligence in financial services, not the UK monetary policy outlook or policy tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19412,
+ "prompt_tokens": 4441,
+ "completion_tokens": 54,
+ "cost_usd": 0.00058205,
+ "attempts": 1
+}

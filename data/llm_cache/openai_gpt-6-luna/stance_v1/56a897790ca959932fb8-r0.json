@@ -1,0 +1,15 @@
+{
+ "relevance": 0.15,
+ "stance": null,
+ "confidence": 0.95,
+ "reason": "The speech is about fintech, financial regulation, payments innovation and the possible design of a central bank digital currency, not the UK inflation, demand, labour-market or Bank Rate outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16119,
+ "prompt_tokens": 3836,
+ "completion_tokens": 64,
+ "cost_usd": 0.000511425,
+ "attempts": 1
+}

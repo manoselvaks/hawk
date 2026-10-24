@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech focuses on financial stability policy and developing market-based finance, rather than the inflation outlook, demand, labour market or the future path of Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22876,
+ "prompt_tokens": 5067,
+ "completion_tokens": 59,
+ "cost_usd": 0.0006628,
+ "attempts": 1
+}

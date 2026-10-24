@@ -1,0 +1,15 @@
+{
+ "relevance": 0.2,
+ "stance": null,
+ "confidence": 0.95,
+ "reason": "The speech is mainly about prudential and financial-regulation reforms, with only brief references to credit conditions and the Funding for Lending Scheme rather than the monetary policy outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18021,
+ "prompt_tokens": 4097,
+ "completion_tokens": 196,
+ "cost_usd": 0.00061005,
+ "attempts": 1
+}

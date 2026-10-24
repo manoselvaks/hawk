@@ -1,0 +1,15 @@
+{
+ "relevance": 0.65,
+ "stance": 0.0,
+ "confidence": 0.82,
+ "reason": "The speech argues that exceptionally loose monetary policy is appropriate amid sluggish growth, while macroprudential tightening should counter rising risk-taking, presenting this as a balanced policy mix rather than signalling a change in Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20440,
+ "prompt_tokens": 4971,
+ "completion_tokens": 69,
+ "cost_usd": 0.0006558,
+ "attempts": 1
+}

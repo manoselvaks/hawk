@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.98,
+ "reason": "Although the recovery was strengthening and unemployment falling rapidly, the Committee noted that inflation had returned to target with subdued cost pressures, saw no immediate need to raise Bank Rate even if the 7% threshold were reached, and said future increases should be gradual.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21189,
+ "prompt_tokens": 4697,
+ "completion_tokens": 77,
+ "cost_usd": 0.00062555,
+ "attempts": 1
+}

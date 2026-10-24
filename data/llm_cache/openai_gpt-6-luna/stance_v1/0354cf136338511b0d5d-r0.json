@@ -1,0 +1,15 @@
+{
+ "relevance": 0.78,
+ "stance": -1.0,
+ "confidence": 0.77,
+ "reason": "The speech focuses heavily on financial markets and the Funding for Lending Scheme, presenting it as support for a weak economy amid flat GDP growth and declining credit, with policy actions intended to revive lending and growth.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12546,
+ "prompt_tokens": 3166,
+ "completion_tokens": 69,
+ "cost_usd": 0.000430175,
+ "attempts": 1
+}

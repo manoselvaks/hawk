@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": 0.0,
+ "confidence": 0.88,
+ "reason": "The speech explains that policy easing was appropriate in response to weak demand and disinflation, but does not advocate a change in Bank Rate, concluding that the MPC will respond as events unfold to maintain inflation stability.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24059,
+ "prompt_tokens": 5521,
+ "completion_tokens": 70,
+ "cost_usd": 0.00072505,
+ "attempts": 1
+}

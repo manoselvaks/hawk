@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 2.0,
+ "confidence": 1,
+ "reason": "The speaker explicitly supports beginning a gradual withdrawal of monetary stimulus now, citing persistent above-target inflation and voting for interest-rate rises at recent MPC meetings.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23824,
+ "prompt_tokens": 5370,
+ "completion_tokens": 53,
+ "cost_usd": 0.000697675,
+ "attempts": 1
+}

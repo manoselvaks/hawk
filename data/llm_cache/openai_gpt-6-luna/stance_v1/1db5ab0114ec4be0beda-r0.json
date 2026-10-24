@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.84,
+ "reason": "Although one member urged a 25-basis-point increase, most judged the existing setting appropriate and some saw an increased probability that further stimulus would be needed as downside risks to activity grew.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18690,
+ "prompt_tokens": 4175,
+ "completion_tokens": 66,
+ "cost_usd": 0.0005548,
+ "attempts": 1
+}

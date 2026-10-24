@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.91,
+ "reason": "King says inflation expectations have risen and a slowdown creating spare capacity is necessary to return inflation to target, and stresses the MPC is prepared to take whatever action is needed, while acknowledging sharply slowing growth.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 10142,
+ "prompt_tokens": 2709,
+ "completion_tokens": 65,
+ "cost_usd": 0.00037105,
+ "attempts": 1
+}

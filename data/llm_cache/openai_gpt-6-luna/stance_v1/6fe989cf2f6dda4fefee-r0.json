@@ -1,0 +1,15 @@
+{
+ "relevance": 0.55,
+ "stance": 1.0,
+ "confidence": 0.9,
+ "reason": "The speech mainly celebrates Black Country regeneration but its policy section says inflation is above target and expected to rise further near term, and that the MPC judged a 0.25-point Bank Rate increase necessary amid firm growth and limited spare capacity.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 9447,
+ "prompt_tokens": 2611,
+ "completion_tokens": 75,
+ "cost_usd": 0.0003638,
+ "attempts": 1
+}

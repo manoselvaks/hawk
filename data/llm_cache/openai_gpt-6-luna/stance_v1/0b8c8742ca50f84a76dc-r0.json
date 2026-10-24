@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech focuses on climate change, financial-sector climate risk management, disclosure and stress testing, rather than the UK monetary policy outlook or policy tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 11218,
+ "prompt_tokens": 2869,
+ "completion_tokens": 57,
+ "cost_usd": 0.00038705,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.96,
+ "reason": "Tucker judges that excess demand and stronger import prices point to inflation rising back towards and through target, with demand pressures likely to feed through, and says he concluded that Bank Rate should be increased by 25 basis points.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21936,
+ "prompt_tokens": 4991,
+ "completion_tokens": 70,
+ "cost_usd": 0.0006588,
+ "attempts": 1
+}

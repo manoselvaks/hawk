@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.85,
+ "reason": "McCafferty supports maintaining stimulus to protect the recovery despite above-target inflation, but stresses that price stability remains primary and that the MPC must remain vigilant to prevent expectations becoming unanchored.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23940,
+ "prompt_tokens": 5465,
+ "completion_tokens": 66,
+ "cost_usd": 0.00071605,
+ "attempts": 1
+}

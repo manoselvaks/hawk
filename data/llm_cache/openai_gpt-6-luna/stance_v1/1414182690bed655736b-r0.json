@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.9,
+ "reason": "Although inflation has fallen and is expected to ease, Bailey says inflation remains too high, the labour market and wage growth remain elevated, and restrictive policy must be maintained for quite some time with further rate rises possible if persistence warrants them.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19490,
+ "prompt_tokens": 4759,
+ "completion_tokens": 74,
+ "cost_usd": 0.0006318,
+ "attempts": 1
+}

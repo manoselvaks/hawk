@@ -1,0 +1,15 @@
+{
+ "relevance": 0.1,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The extract focuses on regional growth, economic modelling and industrial strategy, noting only that central-bank interest rates are set nationally rather than locally.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 4145,
+ "prompt_tokens": 1513,
+ "completion_tokens": 55,
+ "cost_usd": 0.00021655,
+ "attempts": 1
+}

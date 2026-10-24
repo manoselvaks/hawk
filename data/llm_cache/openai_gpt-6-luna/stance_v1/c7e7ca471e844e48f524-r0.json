@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.94,
+ "reason": "The speech says risks to the outlook are predominantly on the downside and that a deeper or longer US slowdown could justify further monetary easing, while noting that strong UK demand could also build price pressures.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17958,
+ "prompt_tokens": 4111,
+ "completion_tokens": 65,
+ "cost_usd": 0.0005463,
+ "attempts": 1
+}

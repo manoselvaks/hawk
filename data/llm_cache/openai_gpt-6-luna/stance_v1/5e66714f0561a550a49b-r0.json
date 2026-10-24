@@ -1,0 +1,15 @@
+{
+ "relevance": 0.45,
+ "stance": 0.0,
+ "confidence": 0.82,
+ "reason": "The speech is mainly about financial stability and the FPC\u2019s tools, while describing monetary policy as a blunt instrument and offering no clear lean on the future path of Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21716,
+ "prompt_tokens": 5041,
+ "completion_tokens": 167,
+ "cost_usd": 0.00071355,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": 0.5,
+ "confidence": 0.78,
+ "reason": "Although he stresses uncertainty and says the speech is not a hint about November, he highlights above-target inflation, faster nominal demand and money growth, and firms\u2019 greater intention to raise prices as risks the MPC must monitor.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12745,
+ "prompt_tokens": 3246,
+ "completion_tokens": 236,
+ "cost_usd": 0.000523675,
+ "attempts": 1
+}

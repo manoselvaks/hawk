@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 0.98,
+ "reason": "The speech argues that, under its model, optimal policy would be to expand asset purchases by about 16% (around \u00a360bn) and concludes that policy should be more expansionary, despite differing objective weights.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22093,
+ "prompt_tokens": 5122,
+ "completion_tokens": 70,
+ "cost_usd": 0.000675175,
+ "attempts": 1
+}

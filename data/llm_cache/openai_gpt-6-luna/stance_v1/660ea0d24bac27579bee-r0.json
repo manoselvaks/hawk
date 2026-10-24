@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.93,
+ "reason": "The Committee judged the inflation outlook broadly unchanged, balanced upside risks against downside risks, and unanimously maintained Bank Rate at 5.0%.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16957,
+ "prompt_tokens": 3937,
+ "completion_tokens": 54,
+ "cost_usd": 0.00051905,
+ "attempts": 1
+}

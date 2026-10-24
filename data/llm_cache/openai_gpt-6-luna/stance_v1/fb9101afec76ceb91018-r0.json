@@ -1,0 +1,15 @@
+{
+ "relevance": 0.1,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech focuses on openness and fragmentation in the global economy and financial system, financial stability, and regulatory cooperation, without discussing the UK inflation outlook or the future path of monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 11634,
+ "prompt_tokens": 2970,
+ "completion_tokens": 64,
+ "cost_usd": 0.000403175,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.87,
+ "reason": "The speaker highlights weak activity, further labour-market softening and disinflationary demand risks, but also upside inflation risks and says \u201ca careful and gradual approach to removing monetary policy restrictiveness\u201d is warranted.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24061,
+ "prompt_tokens": 5388,
+ "completion_tokens": 73,
+ "cost_usd": 0.000709925,
+ "attempts": 1
+}

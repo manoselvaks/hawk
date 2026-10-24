@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.84,
+ "reason": "The speaker says modest tightening would be needed to bring inflation sustainably to target, but judges that recent upside inflation news and weaker growth are unlikely to materially change the amount of tightening required, while stressing that the path depends on incoming data.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23275,
+ "prompt_tokens": 5119,
+ "completion_tokens": 238,
+ "cost_usd": 0.0007588,
+ "attempts": 1
+}

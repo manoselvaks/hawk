@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech is about choosing a scientific figure for the \u00a350 note, fintech, payments and the Bank\u2019s Future Forum, with no discussion of the monetary policy outlook or Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 11941,
+ "prompt_tokens": 3001,
+ "completion_tokens": 64,
+ "cost_usd": 0.00040705,
+ "attempts": 1
+}

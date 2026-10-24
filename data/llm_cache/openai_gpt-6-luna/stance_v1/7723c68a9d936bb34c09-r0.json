@@ -1,0 +1,15 @@
+{
+ "relevance": 0.1,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech is about prudential supervision, financial stability and reforming financial regulation; monetary policy is mentioned only briefly by comparison.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 11663,
+ "prompt_tokens": 2992,
+ "completion_tokens": 53,
+ "cost_usd": 0.000400425,
+ "attempts": 1
+}

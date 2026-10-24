@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.93,
+ "reason": "The Committee judged that downside risks to inflation had clearly increased, with most members saying further asset purchases were increasingly likely to be warranted, although they held off at this meeting because of uncertainty and above-target inflation.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21448,
+ "prompt_tokens": 4563,
+ "completion_tokens": 68,
+ "cost_usd": 0.0006043,
+ "attempts": 1
+}

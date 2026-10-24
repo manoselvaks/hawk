@@ -1,0 +1,15 @@
+{
+ "relevance": 0.6,
+ "stance": 0.0,
+ "confidence": 0.83,
+ "reason": "The speech focuses mainly on MPC decision-making and communication, while its brief policy assessment weighs worsening inflation risks against weaker demand and leaves open whether current Bank Rate will return inflation to target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16200,
+ "prompt_tokens": 3890,
+ "completion_tokens": 246,
+ "cost_usd": 0.000609175,
+ "attempts": 1
+}

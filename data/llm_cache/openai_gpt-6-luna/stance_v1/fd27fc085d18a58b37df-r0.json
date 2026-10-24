@@ -1,0 +1,15 @@
+{
+ "relevance": 0.2,
+ "stance": null,
+ "confidence": 0.94,
+ "reason": "The speech focuses on sovereign wealth funds and global imbalances, with no substantive discussion of the UK monetary policy outlook or Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 8576,
+ "prompt_tokens": 2352,
+ "completion_tokens": 195,
+ "cost_usd": 0.000391425,
+ "attempts": 1
+}

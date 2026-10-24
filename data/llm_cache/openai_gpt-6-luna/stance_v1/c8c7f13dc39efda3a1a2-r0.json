@@ -1,0 +1,15 @@
+{
+ "relevance": 0.6,
+ "stance": 0.0,
+ "confidence": 0.82,
+ "reason": "The speech discusses monetary policy as a blunt tool for housing stability and says it should be a \u201clast line of defence,\u201d while focusing on targeted macroprudential measures and equity finance rather than arguing for a change in Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16569,
+ "prompt_tokens": 4011,
+ "completion_tokens": 73,
+ "cost_usd": 0.0005378,
+ "attempts": 1
+}

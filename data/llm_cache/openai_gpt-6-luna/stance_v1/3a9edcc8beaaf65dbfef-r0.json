@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.91,
+ "reason": "The speech focuses on the inflation and growth outlook and says the MPC must weigh financial-turmoil downside risks against commodity-price inflation risks, with the appropriate policy response uncertain.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21763,
+ "prompt_tokens": 5035,
+ "completion_tokens": 60,
+ "cost_usd": 0.0006593,
+ "attempts": 1
+}

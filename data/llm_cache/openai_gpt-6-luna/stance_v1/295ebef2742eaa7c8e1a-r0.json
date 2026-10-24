@@ -1,0 +1,15 @@
+{
+ "relevance": 0.1,
+ "stance": null,
+ "confidence": 0.95,
+ "reason": "The extracts discuss measuring financial stability and modelling systemic risks in banks, rather than the UK monetary policy outlook or policy setting.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 3490,
+ "prompt_tokens": 1374,
+ "completion_tokens": 52,
+ "cost_usd": 0.000197675,
+ "attempts": 1
+}

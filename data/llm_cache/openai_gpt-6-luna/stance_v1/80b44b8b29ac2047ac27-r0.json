@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.84,
+ "reason": "The Committee judged that stronger domestic demand and upside risks to consumption and household debt made the decision finely balanced, but held rates because inflationary pressures had not yet built sufficiently to warrant an increase.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24104,
+ "prompt_tokens": 5816,
+ "completion_tokens": 66,
+ "cost_usd": 0.000759925,
+ "attempts": 1
+}

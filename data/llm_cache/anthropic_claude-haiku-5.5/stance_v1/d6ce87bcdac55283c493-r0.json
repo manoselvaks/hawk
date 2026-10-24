@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": 0.5,
+ "confidence": 0.55,
+ "reason": "The speech is largely about the monetary policy outlook (output gap, energy shock, inflation persistence, Bank Rate restrictiveness), and while it stresses that the output gap was revised up and new shocks (Budget, NICs, wage growth) could keep inflation pressures alive, it also flags a recent slowing in activity and downside GDP surprises, so the lean is only mildly hawkish and balanced.",
+ "model": "anthropic/claude-haiku-5.5",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20785,
+ "prompt_tokens": 7521,
+ "completion_tokens": 171,
+ "cost_usd": 0.0008376,
+ "attempts": 1
+}

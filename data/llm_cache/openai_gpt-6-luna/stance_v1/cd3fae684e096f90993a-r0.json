@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.89,
+ "reason": "Dale endorses the MPC\u2019s \u201chighly stimulatory\u201d policy and says it intends to keep rates low until sustained strong growth, rising incomes and higher employment, with tightening dependent on recovery and productivity.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23878,
+ "prompt_tokens": 5121,
+ "completion_tokens": 68,
+ "cost_usd": 0.00067405,
+ "attempts": 1
+}

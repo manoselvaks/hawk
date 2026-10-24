@@ -1,0 +1,15 @@
+{
+ "relevance": 0.55,
+ "stance": -0.5,
+ "confidence": 0.66,
+ "reason": "The speech is mainly about the economic case for European monetary union, but notes that UK rates have been cut as domestic demand slows and that global weakness allows interest rates to be lower than otherwise, indicating a mild dovish lean.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 9343,
+ "prompt_tokens": 2421,
+ "completion_tokens": 225,
+ "cost_usd": 0.00041505,
+ "attempts": 1
+}

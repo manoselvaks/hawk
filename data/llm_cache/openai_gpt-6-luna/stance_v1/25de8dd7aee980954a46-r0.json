@@ -1,0 +1,15 @@
+{
+ "relevance": 0.05,
+ "stance": null,
+ "confidence": 0.98,
+ "reason": "The speech discusses the Solvency II insurance regulatory review, capital requirements and insurers\u2019 investment incentives, not the UK monetary policy outlook or policy tools.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 4989,
+ "prompt_tokens": 1607,
+ "completion_tokens": 58,
+ "cost_usd": 0.0002298,
+ "attempts": 1
+}

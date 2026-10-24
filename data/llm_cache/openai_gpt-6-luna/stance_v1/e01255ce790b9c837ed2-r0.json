@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.91,
+ "reason": "The Committee narrowly held rates at 4.75%, with four of nine members preferring a 25-basis-point cut because growth had slowed, household spending risks had risen and cost pressures had eased, indicating a slight dovish lean overall.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23321,
+ "prompt_tokens": 5124,
+ "completion_tokens": 78,
+ "cost_usd": 0.000679425,
+ "attempts": 1
+}

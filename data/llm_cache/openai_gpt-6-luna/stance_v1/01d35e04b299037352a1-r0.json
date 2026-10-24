@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.83,
+ "reason": "The Committee judged the decision finely balanced, with some members favouring an immediate rate cut because downside risks had increased and inflation might remain below target, while most preferred to wait for the November forecast.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24089,
+ "prompt_tokens": 5673,
+ "completion_tokens": 68,
+ "cost_usd": 0.00074305,
+ "attempts": 1
+}

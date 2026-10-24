@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.87,
+ "reason": "The speech discusses the inflation outlook and its implications for interest rates, but weighs softer growth and muted inflation against limited slack and cost pressures, concluding that the MPC should keep an open mind.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18900,
+ "prompt_tokens": 4443,
+ "completion_tokens": 192,
+ "cost_usd": 0.0006513,
+ "attempts": 1
+}

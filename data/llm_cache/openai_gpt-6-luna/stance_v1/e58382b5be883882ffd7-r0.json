@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.93,
+ "reason": "She judged that the outlook had shifted toward earlier tightening, voted to raise Bank Rate to 0.5%, and said more persistent goods-price inflation warranted a front-loaded response, while stressing that only modest tightening was needed and the shock also weakened demand.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24021,
+ "prompt_tokens": 5283,
+ "completion_tokens": 78,
+ "cost_usd": 0.0006993,
+ "attempts": 1
+}

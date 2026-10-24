@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.86,
+ "reason": "The speech argues that current labour-market tightness is inconsistent with the 2% inflation target and that inflation is stickier than the MPC forecast, stressing persistent risks and close monitoring before policy can return inflation sustainably to target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24078,
+ "prompt_tokens": 5630,
+ "completion_tokens": 70,
+ "cost_usd": 0.000738675,
+ "attempts": 1
+}

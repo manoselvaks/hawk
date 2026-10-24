@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.79,
+ "reason": "Posen argues that high inflation from QE is not a serious concern and that monetary policy should keep the economy out of deflation, while warning that weak credit provision could constrain recovery and put persistent deflationary pressure on the UK.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23969,
+ "prompt_tokens": 5318,
+ "completion_tokens": 73,
+ "cost_usd": 0.000701175,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.5,
+ "confidence": 0.96,
+ "reason": "Miles argues that the model\u2019s preferred policy is more expansionary, recommending about \u00a360bn in additional asset purchases in the base case and noting that weak growth would warrant substantially more stimulus, though the recommendation is conditional on uncertain assumptions.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24011,
+ "prompt_tokens": 5797,
+ "completion_tokens": 76,
+ "cost_usd": 0.00076255,
+ "attempts": 1
+}

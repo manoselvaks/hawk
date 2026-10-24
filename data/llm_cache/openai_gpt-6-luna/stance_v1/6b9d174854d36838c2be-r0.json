@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.89,
+ "reason": "Although tight labour markets and stronger pay suggested ongoing gradual tightening would be appropriate if the November outlook held, weaker growth and below-target near-term inflation were balanced against those pressures, and the MPC unanimously judged the current stance appropriate with Brexit policy responses possible in either direction.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23877,
+ "prompt_tokens": 5253,
+ "completion_tokens": 78,
+ "cost_usd": 0.00069555,
+ "attempts": 1
+}

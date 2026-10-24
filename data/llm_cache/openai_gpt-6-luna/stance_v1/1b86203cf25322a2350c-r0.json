@@ -1,0 +1,15 @@
+{
+ "relevance": 0.98,
+ "stance": -1.0,
+ "confidence": 0.98,
+ "reason": "The speaker says low real rates and policy asymmetry make him more patient before raising Bank Rate, and that current slowing growth and muted inflation do not warrant a rise until growth stabilises and inflation indicators turn upward.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23915,
+ "prompt_tokens": 5296,
+ "completion_tokens": 122,
+ "cost_usd": 0.000722925,
+ "attempts": 1
+}

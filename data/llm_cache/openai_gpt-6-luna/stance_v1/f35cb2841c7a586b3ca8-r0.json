@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 0.98,
+ "reason": "The speaker supports the new \u00a375bn asset-purchase programme because weakening demand and lower future inflation pressures make it more likely inflation would fall below target without further monetary stimulus.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23763,
+ "prompt_tokens": 5512,
+ "completion_tokens": 61,
+ "cost_usd": 0.000719425,
+ "attempts": 1
+}

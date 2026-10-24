@@ -1,0 +1,15 @@
+{
+ "relevance": 0.85,
+ "stance": -0.5,
+ "confidence": 0.66,
+ "reason": "The speech argues that alternatives to UIP may imply sterling stays stronger, with a lower inflation projection and, other things equal, lower interest rates, but presents this mainly as an exchange-rate forecasting question rather than an explicit call to ease policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24097,
+ "prompt_tokens": 5630,
+ "completion_tokens": 273,
+ "cost_usd": 0.000840175,
+ "attempts": 1
+}

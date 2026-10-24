@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.88,
+ "reason": "He advocates offsetting only some of the demand shock and allowing slack to develop to guard against inflation risks, while stressing that any Bank Rate path is data-dependent.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17561,
+ "prompt_tokens": 3995,
+ "completion_tokens": 176,
+ "cost_usd": 0.0005873,
+ "attempts": 1
+}

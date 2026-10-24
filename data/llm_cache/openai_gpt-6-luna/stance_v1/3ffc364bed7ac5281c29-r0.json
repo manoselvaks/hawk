@@ -1,0 +1,15 @@
+{
+ "relevance": 0.98,
+ "stance": 0.0,
+ "confidence": 0.83,
+ "reason": "The speech weighs inflationary pressures from strong global demand and rising commodity prices against the risk that financial turbulence will weaken demand, and says policy judgements should await evidence on the real-economy effects.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23746,
+ "prompt_tokens": 5360,
+ "completion_tokens": 239,
+ "cost_usd": 0.000789425,
+ "attempts": 1
+}

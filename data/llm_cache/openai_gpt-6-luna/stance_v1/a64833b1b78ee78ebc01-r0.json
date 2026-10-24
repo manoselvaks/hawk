@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.84,
+ "reason": "The Committee judged that a 25 basis point increase was consistent with returning inflation to target, and that demand was likely to grow faster than supply, although risks around the outlook were broadly balanced.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24096,
+ "prompt_tokens": 5593,
+ "completion_tokens": 289,
+ "cost_usd": 0.00084355,
+ "attempts": 1
+}

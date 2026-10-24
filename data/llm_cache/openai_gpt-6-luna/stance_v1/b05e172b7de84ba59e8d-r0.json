@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.83,
+ "reason": "Most members held rates unchanged but said a further increase would be warranted if the economy followed the central projection, while one member favoured an immediate rise amid upside news and higher inflation expectations.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24065,
+ "prompt_tokens": 5643,
+ "completion_tokens": 65,
+ "cost_usd": 0.0007378,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.94,
+ "reason": "The speech balances credit-driven weakness that could point to further rate cuts against rising inflation and expectation risks, and says the MPC will bring inflation back to target over around two years while judging Bank Rate month by month.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20248,
+ "prompt_tokens": 4773,
+ "completion_tokens": 68,
+ "cost_usd": 0.00063055,
+ "attempts": 1
+}

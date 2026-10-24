@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.87,
+ "reason": "Although the majority voted to hold rates while noting downside risks from Asia and slowing demand, a minority preferred an immediate increase, and concerns about above-projection inflation, pay settlements and labour-market tightness give the Committee\u2019s overall discussion a modest hawkish lean.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24017,
+ "prompt_tokens": 5235,
+ "completion_tokens": 79,
+ "cost_usd": 0.0006938,
+ "attempts": 1
+}

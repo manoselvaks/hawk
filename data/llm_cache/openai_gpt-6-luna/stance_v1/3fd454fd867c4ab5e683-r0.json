@@ -1,0 +1,15 @@
+{
+ "relevance": 0.15,
+ "stance": null,
+ "confidence": 0.95,
+ "reason": "The speech is about financial stability and derivatives margining, focusing on lessons from the 2020 dash for cash and market liquidity rather than the current UK monetary policy outlook.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22546,
+ "prompt_tokens": 5055,
+ "completion_tokens": 62,
+ "cost_usd": 0.0006628,
+ "attempts": 1
+}

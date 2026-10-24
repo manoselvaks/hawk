@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.86,
+ "reason": "The Committee left policy unchanged, but noted that easing headwinds would raise the rate needed to keep inflation at target, and two members viewed holding versus raising Bank Rate as finely balanced.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23995,
+ "prompt_tokens": 5383,
+ "completion_tokens": 64,
+ "cost_usd": 0.0007048,
+ "attempts": 1
+}

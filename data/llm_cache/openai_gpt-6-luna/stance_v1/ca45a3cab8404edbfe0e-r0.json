@@ -1,0 +1,15 @@
+{
+ "relevance": 0.65,
+ "stance": 0.0,
+ "confidence": 0.89,
+ "reason": "The speech explains the inflation target and monetary policy\u2019s role in balancing demand with supply, and says the outlook is for continued strong growth with low inflation while external weakness has been offset through domestic demand stimulus, without signalling a further policy change.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22522,
+ "prompt_tokens": 5023,
+ "completion_tokens": 75,
+ "cost_usd": 0.0006653,
+ "attempts": 1
+}

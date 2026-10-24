@@ -1,0 +1,15 @@
+{
+ "relevance": 0.35,
+ "stance": 0.0,
+ "confidence": 0.92,
+ "reason": "The speech focuses on reserve supply, repo markets and the operating framework\u2019s role in keeping short-term rates anchored to Bank Rate, without signalling a preferred future path for monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17927,
+ "prompt_tokens": 4212,
+ "completion_tokens": 175,
+ "cost_usd": 0.000613925,
+ "attempts": 1
+}

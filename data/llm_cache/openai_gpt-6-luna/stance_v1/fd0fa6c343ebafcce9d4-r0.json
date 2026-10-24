@@ -1,0 +1,15 @@
+{
+ "relevance": 0.6,
+ "stance": 0.0,
+ "confidence": 0.87,
+ "reason": "The speech discusses potential supply and growth as important inputs to assessing inflationary pressure, but focuses on structural issues and offers no lean on the future path of Bank Rate or other monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12726,
+ "prompt_tokens": 3323,
+ "completion_tokens": 140,
+ "cost_usd": 0.0004853,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": -1.0,
+ "confidence": 0.88,
+ "reason": "Dale stresses that monetary policy must provide sufficient stimulus for a sustained recovery, highlights the risk of demand failing to recover enough to meet the inflation target, and supports expanded asset purchases, while balancing the risks of doing too much.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23086,
+ "prompt_tokens": 5125,
+ "completion_tokens": 240,
+ "cost_usd": 0.00076055,
+ "attempts": 1
+}

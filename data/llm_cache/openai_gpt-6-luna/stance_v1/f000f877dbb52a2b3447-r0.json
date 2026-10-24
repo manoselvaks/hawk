@@ -1,0 +1,15 @@
+{
+ "relevance": 0.45,
+ "stance": 0.0,
+ "confidence": 0.85,
+ "reason": "The speech is mainly about the Bank\u2019s research agenda across monetary, financial-stability and other policy areas, and it sets out no lean on the future path of Bank Rate or monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 15641,
+ "prompt_tokens": 3581,
+ "completion_tokens": 66,
+ "cost_usd": 0.00048055,
+ "attempts": 1
+}

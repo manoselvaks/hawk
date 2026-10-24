@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 0.98,
+ "reason": "The Committee unanimously judged that stimulus was needed to reduce spare capacity, cut Bank Rate and introduced a broad easing package, with a majority expecting to support a further cut if the forecast held.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23979,
+ "prompt_tokens": 5275,
+ "completion_tokens": 64,
+ "cost_usd": 0.0006913,
+ "attempts": 1
+}

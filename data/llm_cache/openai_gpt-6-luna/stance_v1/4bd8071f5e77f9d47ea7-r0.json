@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.95,
+ "reason": "The Committee held Bank Rate at 5.25% and judged policy should remain restrictive for sufficiently long, but balanced inflation risks and a 6\u20133 split\u2014with two preferring a rise and one a cut\u2014do not indicate a clear overall lean toward tightening or easing.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18566,
+ "prompt_tokens": 4267,
+ "completion_tokens": 81,
+ "cost_usd": 0.0005738,
+ "attempts": 1
+}

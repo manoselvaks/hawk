@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 1.0,
+ "confidence": 0.91,
+ "reason": "The speaker says a prudent policymaker should begin removing monetary stimulus before the output gap is fully closed, while stressing that the timing remains data-dependent and rate rises should be gradual.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 15221,
+ "prompt_tokens": 3589,
+ "completion_tokens": 179,
+ "cost_usd": 0.00053805,
+ "attempts": 1
+}

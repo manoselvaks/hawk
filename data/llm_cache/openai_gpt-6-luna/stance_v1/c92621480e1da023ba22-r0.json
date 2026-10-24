@@ -1,0 +1,15 @@
+{
+ "relevance": 0.22,
+ "stance": null,
+ "confidence": 0.96,
+ "reason": "The speech focuses on macroprudential regulation, bank resilience, Brexit-related financial continuity, credit risks and changes to banking rather than the inflation outlook, demand, labour market or Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20720,
+ "prompt_tokens": 4998,
+ "completion_tokens": 65,
+ "cost_usd": 0.000657175,
+ "attempts": 1
+}

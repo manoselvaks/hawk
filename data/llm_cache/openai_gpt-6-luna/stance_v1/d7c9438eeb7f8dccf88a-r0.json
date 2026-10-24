@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -2.0,
+ "confidence": 0.99,
+ "reason": "The speaker says downside risks are materialising and the policy outlook is skewed towards adding further stimulus, including considering negative rates and additional asset purchases.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 14716,
+ "prompt_tokens": 3602,
+ "completion_tokens": 56,
+ "cost_usd": 0.000478175,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.84,
+ "reason": "Although he defends the earlier tightening to contain excess demand, he says weaker international conditions have reduced the likelihood of further tightening and promises equally rigorous rate cuts if inflation is projected to undershoot the target.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 13885,
+ "prompt_tokens": 3443,
+ "completion_tokens": 69,
+ "cost_usd": 0.0004648,
+ "attempts": 1
+}

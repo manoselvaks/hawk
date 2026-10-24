@@ -1,0 +1,15 @@
+{
+ "relevance": 0.8,
+ "stance": 0.0,
+ "confidence": 0.74,
+ "reason": "The speech focuses substantially on monetary policy frameworks, but offers no clear immediate lean on Bank Rate, balancing the need to limit the recession and restore growth with the case for leaning against future credit and asset-price booms.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 16634,
+ "prompt_tokens": 4003,
+ "completion_tokens": 351,
+ "cost_usd": 0.0006758,
+ "attempts": 1
+}

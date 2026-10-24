@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.88,
+ "reason": "Carney says subdued wages and unit labour costs justified leaving policy unchanged, but that \u201csome removal of monetary stimulus is likely to become necessary\u201d as spare capacity erodes and the Committee\u2019s tolerance for above-target inflation falls.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22993,
+ "prompt_tokens": 5402,
+ "completion_tokens": 72,
+ "cost_usd": 0.000711175,
+ "attempts": 1
+}

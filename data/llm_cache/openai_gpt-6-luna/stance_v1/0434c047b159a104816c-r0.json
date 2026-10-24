@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.96,
+ "reason": "The Committee weighed upside domestic inflation pressures from rising earnings and tight labour-market conditions against weaker external demand, and although one member favoured an immediate rate rise and another a cut, no member pressed for a rise and the overall evidence did not establish a clear policy lean.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24102,
+ "prompt_tokens": 5338,
+ "completion_tokens": 79,
+ "cost_usd": 0.000706675,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 0.65,
+ "stance": 0.5,
+ "confidence": 0.74,
+ "reason": "The speech discusses monetary policy alongside credit conditions and financial stability, and its modest hawkish lean comes from the warning that inflation is likely to remain above 3% longer than expected and that firms may rebuild margins faster, despite the stated aim of supporting recovery.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22177,
+ "prompt_tokens": 4992,
+ "completion_tokens": 276,
+ "cost_usd": 0.000761925,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -0.5,
+ "confidence": 0.94,
+ "reason": "Although seven members voted to hold Bank Rate at 7.50% and two favoured an immediate cut, the Committee said the balance of inflation risks had shifted towards the downside and acknowledged it might move quickly if growth weakened further.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 23967,
+ "prompt_tokens": 5480,
+ "completion_tokens": 75,
+ "cost_usd": 0.000722425,
+ "attempts": 1
+}

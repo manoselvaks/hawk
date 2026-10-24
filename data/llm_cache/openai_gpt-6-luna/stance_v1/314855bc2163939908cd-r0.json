@@ -1,0 +1,15 @@
+{
+ "relevance": 0,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The extract is about the UK insurance sector\u2019s role in the economy and society, not monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 356,
+ "prompt_tokens": 761,
+ "completion_tokens": 46,
+ "cost_usd": 9.91e-05,
+ "attempts": 1
+}

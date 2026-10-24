@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.91,
+ "reason": "The speech says rising unemployment as furlough ends makes significant policy easing appropriate and that firm evidence of narrowing spare capacity and sustainably returning inflation is needed before withdrawing stimulus.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 17221,
+ "prompt_tokens": 4212,
+ "completion_tokens": 59,
+ "cost_usd": 0.000555925,
+ "attempts": 1
+}

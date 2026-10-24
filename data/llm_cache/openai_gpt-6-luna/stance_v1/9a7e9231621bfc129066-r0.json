@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.78,
+ "reason": "The speech balances downside demand risks against persistent inflation risks, but stresses that the MPC must remain firmly focused on the inflation target and should not offset real-economy shocks unless they affect medium-term inflation.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19094,
+ "prompt_tokens": 4420,
+ "completion_tokens": 201,
+ "cost_usd": 0.000652925,
+ "attempts": 1
+}

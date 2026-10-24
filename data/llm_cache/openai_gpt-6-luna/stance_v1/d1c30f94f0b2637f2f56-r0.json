@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.94,
+ "reason": "The speech says that despite low global inflation and sterling headwinds, solid domestic demand should return inflation to target and \u201ca gently rising path for Bank Rate\u201d is likely, with limited and gradual increases expected over the next three years.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 21165,
+ "prompt_tokens": 4924,
+ "completion_tokens": 72,
+ "cost_usd": 0.000651425,
+ "attempts": 1
+}

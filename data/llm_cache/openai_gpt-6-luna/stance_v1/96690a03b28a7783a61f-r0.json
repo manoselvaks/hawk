@@ -1,0 +1,15 @@
+{
+ "relevance": 0.6,
+ "stance": 0.0,
+ "confidence": 0.78,
+ "reason": "The speech explains that rates may need to be higher in the short run if investment or consumption becomes inflationary, but that productivity gains could mean lower rates on average, leaving the policy outlook conditional and balanced.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 14709,
+ "prompt_tokens": 3568,
+ "completion_tokens": 280,
+ "cost_usd": 0.000585925,
+ "attempts": 1
+}

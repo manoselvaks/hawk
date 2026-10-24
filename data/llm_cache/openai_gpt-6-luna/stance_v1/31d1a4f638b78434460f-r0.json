@@ -1,0 +1,15 @@
+{
+ "relevance": 0.9,
+ "stance": 1.0,
+ "confidence": 0.92,
+ "reason": "King says robust growth, little spare capacity, tightening labour conditions and rising costs are likely to push inflation above target, explaining four rate rises and signalling that further increases may be needed to keep inflation on track.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 12475,
+ "prompt_tokens": 3098,
+ "completion_tokens": 69,
+ "cost_usd": 0.000421675,
+ "attempts": 1
+}

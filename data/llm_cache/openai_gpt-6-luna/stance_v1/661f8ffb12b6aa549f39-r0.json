@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 1.0,
+ "confidence": 0.96,
+ "reason": "The Committee raised Bank Rate by 0.25 percentage points and judged that, if the economy followed its central projections, some further modest tightening was likely appropriate, while noting two-sided inflation risks and a four-member preference for a larger increase.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24038,
+ "prompt_tokens": 5279,
+ "completion_tokens": 74,
+ "cost_usd": 0.0006968,
+ "attempts": 1
+}

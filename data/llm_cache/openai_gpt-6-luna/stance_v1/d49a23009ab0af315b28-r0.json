@@ -1,0 +1,15 @@
+{
+ "relevance": 0.45,
+ "stance": 0.0,
+ "confidence": 0.82,
+ "reason": "The speech is mainly about shadow banking, market liquidity and financial stability, and describes QE and low rates as having intended effects without advocating a change in monetary policy.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 8577,
+ "prompt_tokens": 2284,
+ "completion_tokens": 60,
+ "cost_usd": 0.000315425,
+ "attempts": 1
+}

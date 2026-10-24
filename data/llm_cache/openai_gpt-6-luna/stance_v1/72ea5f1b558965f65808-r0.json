@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.5,
+ "confidence": 0.98,
+ "reason": "The speaker expects demand to remain weaker than supply and disinflationary pressures to persist, and supports continued monetary stimulus, saying she voted for \u00a3100 billion more asset purchases and remains ready for further action.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 18606,
+ "prompt_tokens": 4318,
+ "completion_tokens": 70,
+ "cost_usd": 0.000574675,
+ "attempts": 1
+}

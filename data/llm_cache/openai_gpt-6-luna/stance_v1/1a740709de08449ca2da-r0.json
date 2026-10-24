@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": -1.0,
+ "confidence": 0.89,
+ "reason": "She emphasizes weak recovery, rising unemployment, spare capacity and below-target inflation risks, and says premature tightening could trigger excessive balance-sheet adjustment, so policy should remain supportive.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20191,
+ "prompt_tokens": 4469,
+ "completion_tokens": 60,
+ "cost_usd": 0.00058855,
+ "attempts": 1
+}

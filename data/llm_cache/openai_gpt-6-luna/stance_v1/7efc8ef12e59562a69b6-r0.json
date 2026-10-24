@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.5,
+ "confidence": 0.75,
+ "reason": "The speech is primarily about monetary policy implementation and suggests a mildly tighter direction by saying there is potential to increase slightly the pace of gilt stock reduction, while stressing that QT remains in the background and Bank Rate is the active tool.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 20726,
+ "prompt_tokens": 4874,
+ "completion_tokens": 244,
+ "cost_usd": 0.000731175,
+ "attempts": 1
+}

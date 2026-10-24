@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.89,
+ "reason": "Bean describes substantial economic slack and says Bank Rate will rise only gradually and remain below its pre-crisis average, while also explaining that stronger activity and financial-stability risks could warrant earlier tightening, leaving the overall policy lean balanced.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 24027,
+ "prompt_tokens": 5305,
+ "completion_tokens": 71,
+ "cost_usd": 0.00069855,
+ "attempts": 1
+}

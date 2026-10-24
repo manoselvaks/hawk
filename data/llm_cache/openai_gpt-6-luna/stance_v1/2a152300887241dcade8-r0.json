@@ -1,0 +1,15 @@
+{
+ "relevance": 0.1,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The document discusses bank stress testing and the Financial Policy Committee\u2019s countercyclical capital buffer, rather than the UK monetary policy outlook or Bank Rate.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 3562,
+ "prompt_tokens": 1368,
+ "completion_tokens": 121,
+ "cost_usd": 0.000231425,
+ "attempts": 1
+}

@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.87,
+ "reason": "The speech discusses the UK demand and inflation outlook and says the MPC will set rates as needed to keep inflation on target, while weighing downside risks and the uncertain adjustment in demand, wages and exchange rates without signalling a particular direction for rates.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 10847,
+ "prompt_tokens": 2869,
+ "completion_tokens": 215,
+ "cost_usd": 0.00046605,
+ "attempts": 1
+}

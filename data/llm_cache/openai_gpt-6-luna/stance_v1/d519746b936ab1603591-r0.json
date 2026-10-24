@@ -1,0 +1,15 @@
+{
+ "relevance": 0.1,
+ "stance": null,
+ "confidence": 0.99,
+ "reason": "The speech focuses on prudential regulation, bank risk management, credit-risk transfer and liquidity, rather than the UK inflation outlook or monetary policy decisions.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 19193,
+ "prompt_tokens": 4198,
+ "completion_tokens": 57,
+ "cost_usd": 0.000553175,
+ "attempts": 1
+}

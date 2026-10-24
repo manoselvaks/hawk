@@ -1,0 +1,15 @@
+{
+ "relevance": 0.95,
+ "stance": 0.0,
+ "confidence": 0.87,
+ "reason": "The speech discusses the MPC\u2019s forecast, inflation returning to target, and the expectation that Bank Rate will rise gradually, while also noting that weak productivity could mean weaker demand or, if pay outpaces productivity, greater pressure to act; overall it presents these risks in a balanced way.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 22373,
+ "prompt_tokens": 5159,
+ "completion_tokens": 84,
+ "cost_usd": 0.0006868,
+ "attempts": 1
+}

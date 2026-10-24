@@ -1,0 +1,15 @@
+{
+ "relevance": 1,
+ "stance": 0.0,
+ "confidence": 0.78,
+ "reason": "The speech focuses on the monetary policy outlook and weighs persistent inflation and elevated expectations against weak activity and evidence that policy is restrictive, while saying tariff risks are two-sided but on balance disinflationary, without a clear call for tightening or easing.",
+ "model": "openai/gpt-6-luna",
+ "prompt_version": "stance_v1",
+ "input_mode": "full",
+ "replicate": 0,
+ "input_chars": 14792,
+ "prompt_tokens": 3795,
+ "completion_tokens": 75,
+ "cost_usd": 0.0005118,
+ "attempts": 1
+}
