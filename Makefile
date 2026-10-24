@@ -1,4 +1,4 @@
-.PHONY: install lint typecheck test check collect collect-sample pilot labelling-set site serve screenshots
+.PHONY: install lint typecheck test check collect collect-sample pilot labelling-set site serve screenshots findings-json social-preview
 
 install:
 	pip install -e ".[dev]"
@@ -42,3 +42,11 @@ serve:
 # Screenshots of the main pages into docs/screenshots/ (needs Playwright and Chromium).
 screenshots: site
 	NODE_PATH="$$(npm root -g)" node scripts/screenshots.cjs site/_build docs/screenshots
+
+# Rewrite findings.json (and the dissent chart) from findings_detail.json; re-runs no analysis.
+findings-json:
+	python -m hawk.analysis.run --rebuild-json
+
+# docs/social-preview.png (1280x640) for GitHub's social preview: the site's Open Graph card.
+social-preview: site
+	cp site/_build/og.png docs/social-preview.png

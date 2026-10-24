@@ -44,18 +44,24 @@
     });
   }
 
-  // Reveal on scroll. Elements already on screen appear straight away.
+  // Reveal on scroll, as progressive enhancement: everything is visible until this runs,
+  // and only elements that start below the fold are hidden and faded in. Skipped for
+  // reduced motion and automated browsers (screenshots, audits).
   var items = document.querySelectorAll(".reveal");
-  if (!("IntersectionObserver" in window) || window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-    items.forEach(function (el) { el.classList.add("in"); });
-  } else {
+  var skip = !("IntersectionObserver" in window) || navigator.webdriver ||
+    window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (!skip) {
     var io = new IntersectionObserver(function (entries) {
       entries.forEach(function (en) {
         if (en.isIntersecting) { en.target.classList.add("in"); io.unobserve(en.target); }
       });
     }, { rootMargin: "0px 0px -6% 0px" });
-    items.forEach(function (el, i) {
-      el.style.transitionDelay = Math.min(i % 6, 5) * 50 + "ms";
+    var fold = window.innerHeight;
+    var n = 0;
+    items.forEach(function (el) {
+      if (el.getBoundingClientRect().top < fold) return;
+      el.classList.add("reveal-pending");
+      el.style.transitionDelay = Math.min(n++ % 6, 5) * 50 + "ms";
       io.observe(el);
     });
   }

@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use Hawk or its scores, please cite it as below."
+title: "Hawk: scoring Bank of England communication from dovish to hawkish"
+abstract: >-
+  Hawk collects every Bank of England speech and set of MPC minutes since 1997, scores
+  each one from -2 (very dovish) to +2 (very hawkish) with a language model and a
+  word-list baseline, and tests whether tone moved before Bank Rate decisions, helped
+  predict them, moved 2-year gilt yields, or signalled members' own dissenting votes.
+type: software
+authors:
+  - given-names: Manoj
+    alias: manoselvaks
+repository-code: "https://github.com/manoselvaks/hawk"
+url: "https://manoselvaks.github.io/hawk/"
+license: MIT
+version: 0.1.0
+date-released: "2026-10-24"
+keywords:
+  - bank-of-england
+  - monetary-policy
+  - central-bank-communication
+  - nlp
+  - llm
+  - economics

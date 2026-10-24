@@ -1,11 +1,14 @@
 from __future__ import annotations
 
+import json
+from pathlib import Path
+
 import numpy as np
 import pandas as pd
 import pytest
 
 from hawk.analysis import dissent, event_study, market, prediction
-from hawk.analysis.run import clean
+from hawk.analysis.run import clean, findings_json
 from tests.analysis.conftest import doc, scores_frame
 
 
@@ -154,3 +157,17 @@ def test_member_meetings_window(decisions: pd.DataFrame) -> None:
 def test_clean_makes_json_safe() -> None:
     out = clean({"a": float("nan"), "b": np.float64(1.234567), "c": [np.int64(2)]})
     assert out == {"a": None, "b": 1.2346, "c": [2]}
+
+
+def test_findings_json_leads_with_the_three_primary_results() -> None:
+    root = Path(__file__).resolve().parents[2] / "data" / "analysis"
+    detail = json.loads((root / "findings_detail.json").read_text())
+    evaluation = json.loads((root / "evaluation.json").read_text())
+    f = clean(findings_json(detail, evaluation))
+    assert [h["id"] for h in f["headline"]] == ["event_study", "prediction", "dissent"]
+    assert f["headline"][0]["display"] == "+1.00"
+    assert f["accuracy"]["display"] == "\u03c1 = 0.37"
+    assert f["dissent"]["by_vote"][0]["n"] == detail["dissent"]["by_vote"][0]["n"]
+    assert len(f["dissent"]["cautions"]) == 2
+    # The rebuilt file is what is committed.
+    assert json.loads((root / "findings.json").read_text())["headline"] == f["headline"]
