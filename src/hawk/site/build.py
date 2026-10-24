@@ -117,34 +117,74 @@ def _json(obj: Any) -> str:
     return json.dumps(obj, separators=(",", ":"), ensure_ascii=False, allow_nan=False)
 
 
-def render_images(out: Path, tone: dict[str, Any]) -> None:
-    """Open Graph card (1200x630) and the Apple touch icon, drawn with matplotlib."""
+OG_SIZE = (1280, 640)  # also GitHub's social-preview size: docs/social-preview.png is a copy
+
+
+def render_images(out: Path, tone: dict[str, Any], rates: dict[str, Any] | None = None) -> None:
+    """Open Graph / social card (1280x640) and the Apple touch icon, drawn with matplotlib."""
     import matplotlib
 
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
 
-    hawk, dove, ink, muted = "#d9480f", "#2a78d6", "#1d1d1f", "#6e6e73"
-    fig = plt.figure(figsize=(12, 6.3), dpi=100, facecolor="#fbfbfd")
-    fig.text(0.06, 0.82, "Hawk", fontsize=60, fontweight="bold", color=ink)
-    fig.text(0.06, 0.72, config.TAGLINE, fontsize=22, color=muted)
-    ax = fig.add_axes((0.06, 0.12, 0.88, 0.5))
+    hawk, dove, ink, muted, grid = "#d9480f", "#2a78d6", "#1d1d1f", "#6e6e73", "#e6e6ea"
+    w, h = OG_SIZE
+    fig = plt.figure(figsize=(w / 100, h / 100), dpi=100, facecolor="#fbfbfd")
+    fig.text(0.055, 0.875, "Hawk", fontsize=54, fontweight="bold", color=ink, va="center")
+    fig.text(
+        0.055,
+        0.775,
+        "Scoring 28 years of Bank of England speeches, dovish to hawkish,",
+        fontsize=21,
+        color=ink,
+        va="center",
+    )
+    fig.text(
+        0.055,
+        0.715,
+        "and testing whether tone moved before Bank Rate did.",
+        fontsize=21,
+        color=muted,
+        va="center",
+    )
+    ax = fig.add_axes((0.055, 0.31, 0.89, 0.3))
     pts = [(x, y) for x, y in zip(tone["x"], tone["tone"], strict=True) if y is not None]
+    xlim = None
     if pts:
         xs = pd.to_datetime([x for x, _ in pts], unit="s").to_numpy()
         ys = [y for _, y in pts]
-        ax.fill_between(xs, ys, 0, where=[y >= 0 for y in ys], color=hawk, alpha=0.18, lw=0)
-        ax.fill_between(xs, ys, 0, where=[y < 0 for y in ys], color=dove, alpha=0.18, lw=0)
+        ax.fill_between(xs, ys, 0, where=[y >= 0 for y in ys], color=hawk, alpha=0.2, lw=0)
+        ax.fill_between(xs, ys, 0, where=[y < 0 for y in ys], color=dove, alpha=0.2, lw=0)
         ax.plot(xs, ys, color=ink, lw=2.2)
         ax.axhline(0, color=muted, lw=0.8, alpha=0.5)
+        xlim = (xs[0], xs[-1])
+        ax.set_xlim(*xlim)
     ax.set_axis_off()
-    fig.text(
-        0.06,
-        0.05,
-        "Dovish  ←  tone of Bank of England communication  →  Hawkish",
-        fontsize=15,
-        color=muted,
-    )
+    ax.text(0, 1.02, "MPC tone", transform=ax.transAxes, fontsize=13, color=muted)
+    if rates and rates.get("x"):
+        ax2 = fig.add_axes((0.055, 0.1, 0.89, 0.16))
+        rx = pd.to_datetime(rates["x"], unit="s").to_numpy()
+        ax2.step(rx, rates["rate"], where="post", color=ink, lw=1.8)
+        for kind, c in (("hike", hawk), ("cut", dove)):
+            mv = [m for m in rates["moves"] if m["decision"] == kind]
+            ax2.scatter(
+                pd.to_datetime([m["x"] for m in mv], unit="s").to_numpy(),
+                [m["rate"] for m in mv],
+                s=26,
+                color=c,
+                zorder=3,
+                edgecolor="white",
+                linewidth=0.6,
+            )
+        if xlim:
+            ax2.set_xlim(*xlim)
+        ax2.axhline(0, color=grid, lw=0.8)
+        ax2.set_axis_off()
+        ax2.text(0, 1.06, "Bank Rate", transform=ax2.transAxes, fontsize=13, color=muted)
+        years = pd.to_datetime(xlim or (rx[0], rx[-1]))
+        fig.text(0.055, 0.035, f"{years[0].year}", fontsize=14, color=muted)
+        fig.text(0.945, 0.035, f"{years[-1].year}", fontsize=14, color=muted, ha="right")
+    fig.text(0.5, 0.035, "manoselvaks.github.io/hawk", fontsize=14, color=muted, ha="center")
     fig.savefig(out / "og.png", facecolor=fig.get_facecolor())
     plt.close(fig)
 
@@ -304,7 +344,7 @@ def build(inputs: Inputs, out: Path = OUT_DIR, *, images: bool = True) -> dict[s
         f'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{urls}</urlset>\n',
     )
     if images:
-        render_images(out, tone)
+        render_images(out, tone, rates)
     _write(out / "data" / "site.json", json.dumps(manifest, indent=2) + "\n")
     log.info(
         "built %d pages into %s (%s)",

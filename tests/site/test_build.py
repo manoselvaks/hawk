@@ -76,10 +76,12 @@ def test_build_with_scores_findings_and_evaluation(repo: Path, tmp_path: Path) -
     for page in PAGES:
         assert "Preview: scores are not final" not in (out / page).read_text(), page
     home = (out / "index.html").read_text()
-    assert "\u03c1 = 0.71" in home and "Coming soon" not in home
+    assert "rank agreement with 36 hand labels" in home and "Coming soon" not in home
+    assert "predicted their own dissenting votes" in home and 'href="methodology/#accuracy"' in home
     findings = (out / "findings" / "index.html").read_text()
     assert 'id="es-chart"' in findings and "Previous decision + tone change" in findings
     assert "Change in tone (4 weeks)" in findings and "MPC speech day" in findings
+    assert 'id="dissent"' in findings and "Caution: partly persistence" in findings
     methodology = (out / "methodology" / "index.html").read_text()
     assert "Spearman" in methodology and "0.78" in methodology
     assert (out / "og.png").stat().st_size > 1000

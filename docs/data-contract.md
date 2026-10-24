@@ -101,8 +101,12 @@ generated_at     ISO 8601 timestamp
 model, prompt_version   strings, as in scores.parquet
 sample           {start, end (ISO dates), n_documents, n_decisions}
 
-headline[]       up to 3 tiles on the home page, in order
-  id, label, value (float), display (string, e.g. "+7 pts"), detail (one sentence)
+headline[]       up to 3 tiles on the home page, in order: the main findings
+  id, label (the finding, in plain English), value (float),
+  display (the number, e.g. "+1.00"), detail (one sentence: what the number is)
+
+accuracy         the line under the tiles: how well the AI agrees with the hand labels
+  label, value (float), display (e.g. "ρ = 0.37"), detail (one or two sentences)
 
 event_study      tone before hikes, cuts and holds
   takeaway       one plain-English sentence
@@ -122,6 +126,12 @@ market_reaction  2-year gilt moves on speech days
   groups[]       {label, n, value (bp), ci_low, ci_high}     magnitude bars
   by_stance[]    {label, n, value (signed bp)}               diverging bars
   regression[]   {term, label, estimate, std_error, p_value, ci_low, ci_high}
+
+dissent          does a member's own speech tone predict their dissent?
+  takeaway, method
+  by_vote[]      {label, n, value (mean stance)}             diverging bars
+  regression[]   {term, label, estimate, std_error, p_value, ci_low, ci_high}
+  cautions[]     {title, text}
 
 caveats[]        {title, text}   replaces the default caveats when present
 ```

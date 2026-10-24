@@ -194,6 +194,13 @@ GDP) on the same day are not controlled for, because Hawk has no release calenda
 
 ## 4. Does a member's tone predict their own dissent?
 
+**In plain English:** when an MPC member sounds noticeably more hawkish than their
+colleagues in public, they are more likely to vote for a higher rate than the majority at
+the next meeting, and the reverse for doves. This is the strongest result in the project,
+with two cautions below.
+
+![Mean tone of a member's own speeches, by how they went on to vote](img/dissent_tone.png)
+
 For each decision and each voting member with at least one relevant speech since the
 previous decision (677 member-meetings, 48 members, 83 dissents):
 
@@ -217,10 +224,15 @@ robustness check added after seeing the primary result) halves the tone slope, t
 some information about an upcoming dissent beyond the member's voting record, though a
 smaller amount than the raw slope suggests.
 
-Two cautions. The model saw the speeches without speaker names, but may still recognise a
-famous speech and know how its author voted. And this is about *individual* votes: the
-committee's decision is a different question, and there (section 2) tone does not
-reliably help.
+**Two cautions.**
+
+1. **Persistence.** About half of the slope is the same members dissenting again (see
+   above): the speech may restate a position the market already knew from the last vote.
+2. **The model may recognise famous speeches.** The model saw the speeches without speaker
+   names or dates, but may still recognise a well-known speech and know how its author voted.
+
+And this is about *individual* votes: the committee's decision is a different question,
+and there (section 2) tone does not reliably help.
 
 ## Robustness: AI vs word lists
 

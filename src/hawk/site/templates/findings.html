@@ -15,7 +15,7 @@
 {% macro coef_table(rows) %}
 <div class="table-wrap"><table class="data">
   <thead><tr><th scope="col">Term</th><th scope="col" class="num">Estimate</th><th scope="col" class="num">95% interval</th><th scope="col" class="num">p</th></tr></thead>
-  <tbody>{% for c in rows %}<tr><td>{{ c.get('label') or c.term }}</td><td class="num">{{ c.estimate|num(3) }}</td><td class="num">{% if c.get('ci_low') is not none %}{{ c.ci_low|num(3) }} to {{ c.ci_high|num(3) }}{% else %}–{% endif %}</td><td class="num">{{ c.get('p_value')|num(3) }}</td></tr>{% endfor %}</tbody>
+  <tbody>{% for c in rows %}<tr><td>{{ c.get('label') or c.term }}</td><td class="num">{{ c.estimate|num(3) }}</td><td class="num">{% if c.get('ci_low') is not none %}{{ c.ci_low|num(3) }} to {{ c.ci_high|num(3) }}{% else %}–{% endif %}</td><td class="num">{% if c.get('p_value') is not none and c.get('p_value') < 0.001 %}&lt;0.001{% else %}{{ c.get('p_value')|num(3) }}{% endif %}</td></tr>{% endfor %}</tbody>
 </table></div>
 {% endmacro %}
 {% block head %}<link rel="stylesheet" href="{{ root }}static/vendor/uPlot.min.css">{% endblock %}
@@ -24,8 +24,8 @@
 <section class="page-head wrap">
   <p class="eyebrow reveal">Findings</p>
   <h1 class="reveal">What the tone told us.</h1>
-  <p class="lede reveal">Three tests of one question: did the tone of Bank of England communication shift before rate decisions, and did 2-year gilt yields react to it beyond what the decision itself explains?{% if f.get('generated_at') %} <span class="muted">Results generated {{ f.get('generated_at')[:10] }}{% if f.get('sample') %}, {{ f.get('sample').start[:4] }}–{{ f.get('sample').end[:4] }}{% endif %}.</span>{% endif %}</p>
-  <nav class="toc reveal" aria-label="On this page"><a href="#event-study">Event study</a><a href="#prediction">Prediction test</a><a href="#market">Market reaction</a><a href="#caveats">Caveats</a></nav>
+  <p class="lede reveal">Four tests, fixed in advance: did the tone of Bank of England communication shift before rate decisions, did it help predict them, did 2-year gilt yields react to it, and did members’ own speeches signal their dissenting votes?{% if f.get('generated_at') %} <span class="muted">Results generated {{ f.get('generated_at')[:10] }}{% if f.get('sample') %}, {{ f.get('sample').start[:4] }}–{{ f.get('sample').end[:4] }}{% endif %}.</span>{% endif %}</p>
+  <nav class="toc reveal" aria-label="On this page"><a href="#event-study">Event study</a><a href="#prediction">Prediction test</a><a href="#market">Market reaction</a><a href="#dissent">Dissent</a><a href="#caveats">Caveats</a></nav>
 </section>
 
 <section class="wrap section" id="event-study" aria-labelledby="es-title">
@@ -95,6 +95,32 @@
   {% if mr.get('regression') %}<div class="card reveal pad mt"><h3 class="chart-title">Regression</h3>{{ coef_table(mr.get('regression')) }}</div>{% endif %}
   {% else %}
   {{ soon("Gilt yields on speech days", "How much 2-year gilt yields move on days with an MPC speech compared with normal days, and whether the direction follows the speech’s tone.") }}
+  {% endif %}
+</section>
+
+<section class="wrap section" id="dissent" aria-labelledby="ds-title">
+  <h2 class="section-title reveal" id="ds-title">4 · Dissent: do members’ speeches signal their own votes?</h2>
+  {% if f.get('dissent') %}{% set ds = f.get('dissent') %}
+  <p class="takeaway reveal">{{ ds.get('takeaway') }}</p>
+  <p class="plain reveal"><strong>In plain English:</strong> when an MPC member sounds noticeably more hawkish than their colleagues in public, they are more likely to vote for a higher rate than the majority at the next meeting, and the reverse for doves. This is about individual votes; for the committee’s decision as a whole, tone did not reliably help (section 2).</p>
+  <div class="grid-2">
+    <figure class="card reveal pad">
+      <h3 class="chart-title">Tone of a member’s own speeches, by how they then voted</h3>
+      {% if ds.get('method') %}<p class="chart-sub">{{ ds.get('method') }}</p>{% endif %}
+      <div role="img" aria-label="Mean speech tone: {% for v in ds.get('by_vote') %}{{ v.label }} {{ v.value|stance }}{% if not loop.last %}; {% endif %}{% endfor %}">
+      {{ signed_bars(ds.get('by_vote')) }}
+      </div>
+      <p class="chart-sub mt">Mean stance from −2 (very dovish) to +2 (very hawkish).</p>
+    </figure>
+    {% if ds.get('regression') %}<div class="card reveal pad"><h3 class="chart-title">Regression</h3><p class="chart-sub">Vote (+1 higher than the majority, 0 with it, −1 lower) per point of the member’s speech tone.</p>{{ coef_table(ds.get('regression')) }}</div>{% endif %}
+  </div>
+  {% if ds.get('cautions') %}
+  <div class="grid-2 mt">
+    {% for c in ds.get('cautions') %}<article class="card pad reveal caution"><h3>Caution: {{ c.title|lower }}</h3><p class="muted">{{ c.text }}</p></article>{% endfor %}
+  </div>
+  {% endif %}
+  {% else %}
+  {{ soon("Members’ tone and their own votes", "Whether a member’s speeches before a meeting predict a vote against the majority, and in which direction.") }}
   {% endif %}
 </section>
 

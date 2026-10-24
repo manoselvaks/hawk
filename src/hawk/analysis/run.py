@@ -133,59 +133,169 @@ def robustness_thresholds(
     return out
 
 
-def headline(
-    pred: dict[str, Any], mkt: dict[str, Any], evaluation: dict[str, Any] | None
-) -> list[dict[str, Any]]:
-    models = {m["name"]: m for m in pred["models"]}
-    base, tone = models["Previous decision"], models["Previous decision + tone"]
-    gain = pred["log_loss_gain_tone"]
+# Rank agreement between the two AI models (GPT-6 Luna and Claude Haiku 5.5) on the same
+# 33 labelled items, from the scorer comparison in docs/evaluation.md.
+MODEL_AGREEMENT_RHO = 0.96
+
+
+def _fmt(x: float, d: int = 2) -> str:
+    """Signed number with a real minus sign, for text shown on the site."""
+    return f"{x:+.{d}f}".replace("-", "\u2212")
+
+
+def headline(es: dict[str, Any], pred: dict[str, Any], dis: dict[str, Any]) -> list[dict[str, Any]]:
+    """The three home-page tiles: one per primary result, in plain English."""
+    diff = es["hike_minus_cut"]
+    tab = {r["decision"]: r for r in es["table"]}
     tiles = [
         {
-            "id": "prediction",
-            "label": "Did tone lead decisions?",
-            "value": gain["mean_gain"],
-            "display": "No reliable gain" if gain["ci_low"] <= 0 else "Yes, out of sample",
+            "id": "event_study",
+            "label": (
+                "Tone was clearly more hawkish before hikes than before cuts"
+                if diff["ci_low"] > 0
+                else "Tone before hikes and cuts was not clearly different"
+            ),
+            "value": diff["difference"],
+            "display": _fmt(diff["difference"]),
             "detail": (
-                f"Out of sample, adding tone to the previous decision changed log loss by "
-                f"{gain['mean_gain']:+.3f} per meeting (95% CI {gain['ci_low']:+.3f} to "
-                f"{gain['ci_high']:+.3f}; above zero = better) and called "
-                f"{round(tone['accuracy_changes'] * tone['n_changes'])} of "
-                f"{tone['n_changes']} rate changes, against "
-                f"{round(base['accuracy_changes'] * base['n_changes'])}."
+                f"Average tone in the 12 weeks before {tab['hike']['n_events']} hikes minus "
+                f"before {tab['cut']['n_events']} cuts, on a \u22122 to +2 scale (95% CI "
+                f"{_fmt(diff['ci_low'])} to {_fmt(diff['ci_high'])})."
             ),
         }
     ]
-    s = mkt["regressions"]["stance"]
+    gain = pred["log_loss_gain_tone"]
     tiles.append(
         {
-            "id": "market",
-            "label": "Did gilts listen?",
-            "value": s["estimate"],
-            "display": f"{s['estimate']:+.1f} bp",
+            "id": "prediction",
+            "label": (
+                "But it didn't beat the market at predicting decisions"
+                if gain["ci_low"] <= 0
+                else "Tone helped predict decisions out of sample"
+            ),
+            "value": gain["mean_gain"],
+            "display": _fmt(gain["mean_gain"], 3),
             "detail": (
-                f"2-year gilt move per point of speech stance on {s['n']} speech days "
-                f"(95% CI {s['ci_low']:+.2f} to {s['ci_high']:+.2f} bp)."
+                "Out-of-sample log-loss gain per meeting from adding tone to the previous "
+                f"decision (95% CI {_fmt(gain['ci_low'], 3)} to {_fmt(gain['ci_high'], 3)}, "
+                f"p = {gain['p_one_sided']:.2f}): not a reliable gain. The 2-year gilt yield, "
+                "the market's own forecast, does far better."
             ),
         }
     )
-    if evaluation:
-        llm = next(x for x in evaluation["scorers"] if x["kind"] == "llm")
-        rho = llm["stance"]["spearman"]
-        ci = llm["stance"].get("spearman_ci") or [None, None]
-        ci_txt = f" (95% CI {ci[0]:.2f} to {ci[1]:.2f})" if ci[0] is not None else ""
+    ds, dc = dis.get("slope"), dis.get("slope_controlling_prev_vote")
+    if ds:
         tiles.append(
             {
-                "id": "accuracy",
-                "label": "How good is the AI?",
-                "value": rho,
-                "display": f"\u03c1 = {rho:.2f}",
+                "id": "dissent",
+                "label": (
+                    "MPC members' speeches predicted their own dissenting votes"
+                    if _sig(ds["p_value"])
+                    else "Members' speeches did not clearly predict their dissents"
+                ),
+                "value": ds["estimate"],
+                "display": _fmt(ds["estimate"], 2),
                 "detail": (
-                    f"Rank agreement with {evaluation['n_relevant']} hand labels by one "
-                    f"student{ci_txt}; two different AI models agree with each other far more."
+                    "Change in a member's vote (+1 higher than the majority, \u22121 lower) per "
+                    f"point of their own speech tone (p {_p_text(ds['p_value'])})"
+                    + (
+                        f"; {_fmt(dc['estimate'], 2)} after allowing for their previous vote."
+                        if dc
+                        else "."
+                    )
                 ),
             }
         )
     return tiles
+
+
+def accuracy_line(evaluation: dict[str, Any] | None) -> dict[str, Any] | None:
+    """How well the AI scorer agrees with the hand labels: shown under the home tiles."""
+    if not evaluation:
+        return None
+    llm = next(x for x in evaluation["scorers"] if x["kind"] == "llm" and x.get("chosen", True))
+    rho = llm["stance"]["spearman"]
+    ci = llm["stance"].get("spearman_ci") or [None, None]
+    ci_txt = f" (95% CI {ci[0]:.2f} to {ci[1]:.2f})" if ci[0] is not None else ""
+    return {
+        "label": "How good is the AI?",
+        "value": rho,
+        "display": f"\u03c1 = {rho:.2f}",
+        "detail": (
+            f"Only modestly in line with one student's {evaluation['n_relevant']} hand labels: "
+            f"Spearman \u03c1 = {rho:.2f}{ci_txt}. Two different AI models agree with each "
+            f"other at {MODEL_AGREEMENT_RHO:.2f}, so the labels and the models read some "
+            "speeches differently."
+        ),
+    }
+
+
+def dissent_section(dis: dict[str, Any]) -> dict[str, Any] | None:
+    """Findings-page section for the dissent test (schema in docs/data-contract.md)."""
+    ds, dc = dis.get("slope"), dis.get("slope_controlling_prev_vote")
+    if not ds:
+        return None
+    dv = {v["label"]: v["mean_tone"] for v in dis["by_vote"]}
+    takeaway = (
+        "Members who went on to vote for a higher rate than the majority had given speeches "
+        f"averaging {dv['Voted for a higher rate']:+.2f}; those who voted with the majority "
+        f"{dv['Voted with the majority']:+.2f}; those who voted for a lower rate "
+        f"{dv['Voted for a lower rate']:+.2f}. Each point of hawkishness in a member's own "
+        f"speeches moved their vote by {ds['estimate']:+.3f} (95% CI {ds['ci_low']:+.3f} to "
+        f"{ds['ci_high']:+.3f}, p {_p_text(ds['p_value'])})"
+        + (
+            ", a primary result that passes the multiple-testing threshold."
+            if _sig(ds["p_value"])
+            else ", not significant at the multiple-testing threshold."
+        )
+    )
+    cautions = [
+        {
+            "title": "Partly persistence",
+            "text": "The same members tend to dissent again and again, and their speeches may "
+            "simply restate a position the market already knew from their last vote. "
+            + (
+                f"Allowing for each member's previous vote halves the slope, to "
+                f"{dc['estimate']:+.3f} (95% CI {dc['ci_low']:+.3f} to {dc['ci_high']:+.3f}, "
+                f"p {_p_text(dc['p_value'])}), but it stays positive."
+                if dc
+                else ""
+            ),
+        },
+        {
+            "title": "The model may recognise famous speeches",
+            "text": "Speeches were scored without the speaker's name or date, but the model may "
+            "still recognise a well-known speech and know how its author voted.",
+        },
+    ]
+    return {
+        "takeaway": takeaway,
+        "method": (
+            "Each voting member with at least one relevant speech since the previous decision "
+            f"({dis['n']} member-meetings, {dis['n_members']} members, {dis['n_dissents']} "
+            "dissents). Vote coded +1 higher than the majority, 0 with it, \u22121 lower; "
+            "linear regression on the member's mean speech tone, standard errors clustered by "
+            "member."
+        ),
+        "by_vote": [
+            {"label": v["label"], "n": v["n"], "value": v["mean_tone"]} for v in dis["by_vote"]
+        ],
+        "regression": [
+            {"term": "tone", "label": "Own speech tone (vote per point)", **_coef(ds)},
+            *(
+                [
+                    {
+                        "term": "tone_prev_vote",
+                        "label": "Own speech tone, controlling for previous vote",
+                        **_coef(dc),
+                    }
+                ]
+                if dc
+                else []
+            ),
+        ],
+        "cautions": cautions,
+    }
 
 
 def takeaways(detail: dict[str, Any]) -> dict[str, str]:
@@ -236,20 +346,6 @@ def takeaways(detail: dict[str, Any]) -> dict[str, str]:
         + ("still adds" if gm["ci_low"] > 0 else "adds nothing reliable")
         + f" (gain {gm['mean_gain']:+.3f}, CI {gm['ci_low']:+.3f} to {gm['ci_high']:+.3f})."
     )
-    ds = detail["dissent"].get("slope")
-    if ds:
-        dv = {v["label"]: v["mean_tone"] for v in detail["dissent"]["by_vote"]}
-        pt_txt += (
-            " Individual members are different: those who went on to vote for a higher rate "
-            f"than the majority had spoken at {dv['Voted for a higher rate']:+.2f} on average, "
-            f"those who voted with it at {dv['Voted with the majority']:+.2f} and those who "
-            f"voted lower at {dv['Voted for a lower rate']:+.2f} "
-            + (
-                f"(slope p {_p_text(ds['p_value'])})."
-                if _sig(ds["p_value"])
-                else f"(slope p = {ds['p_value']:.2f}, not significant)."
-            )
-        )
     s = detail["market_reaction"]["regressions"]["stance"]
     pl = detail["market_reaction"]["placebo_stance"]
     mr_txt = (
@@ -297,11 +393,10 @@ def findings_json(detail: dict[str, Any], evaluation: dict[str, Any] | None) -> 
         "prompt_version": detail["prompt_version"],
         "sample": detail["sample"],
         "headline": [
-            {**h, "detail": "Word-list scores: " + h["detail"]}
-            if wordlist and h["id"] != "accuracy"
-            else h
-            for h in headline(pred, mkt, evaluation)
+            {**h, "detail": "Word-list scores: " + h["detail"]} if wordlist else h
+            for h in headline(es, pred, detail["dissent"])
         ],
+        "accuracy": accuracy_line(evaluation),
         "event_study": {
             "takeaway": tk["event_study"],
             "method": (
@@ -383,6 +478,11 @@ def findings_json(detail: dict[str, Any], evaluation: dict[str, Any] | None) -> 
                 },
             ],
         },
+        "dissent": (
+            {**dis_sec, "takeaway": "Word-list scores. " + dis_sec["takeaway"]}
+            if wordlist and (dis_sec := dissent_section(detail["dissent"]))
+            else dissent_section(detail["dissent"])
+        ),
         "caveats": ([WORDLIST_CAVEAT] if wordlist else []) + CAVEATS,
     }
 
@@ -423,12 +523,28 @@ CAVEATS = [
 ]
 
 
+def write_findings(
+    detail: dict[str, Any], evaluation: dict[str, Any] | None, out_dir: Path
+) -> None:
+    findings = clean(findings_json(detail, evaluation))
+    out_dir.mkdir(parents=True, exist_ok=True)
+    (out_dir / "findings.json").write_text(
+        json.dumps(findings, indent=2, ensure_ascii=False, allow_nan=False) + "\n"
+    )
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--scores", type=Path, default=dataset.SCORES_PATH)
     parser.add_argument("--out-dir", type=Path, default=OUT_DIR)
     parser.add_argument("--img-dir", type=Path, default=IMG_DIR)
     parser.add_argument("--evaluation", type=Path, default=EVALUATION_PATH)
+    parser.add_argument(
+        "--rebuild-json",
+        action="store_true",
+        help="only rewrite findings.json (and the dissent chart) from the existing "
+        "findings_detail.json and evaluation.json; re-runs no analysis",
+    )
     parser.add_argument(
         "--scorer",
         choices=["llm", "baseline"],
@@ -438,6 +554,15 @@ def main(argv: list[str] | None = None) -> int:
     )
     args = parser.parse_args(argv)
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
+    evaluation = json.loads(args.evaluation.read_text()) if args.evaluation.exists() else None
+
+    if args.rebuild_json:
+        saved: dict[str, Any] = json.loads((args.out_dir / "findings_detail.json").read_text())
+        write_findings(saved, evaluation, args.out_dir)
+        args.img_dir.mkdir(parents=True, exist_ok=True)
+        charts.dissent_chart(saved["dissent"], args.img_dir / "dissent_tone.png")
+        log.info("rewrote %s from findings_detail.json", args.out_dir / "findings.json")
+        return 0
 
     if args.scorer == "llm":
         inp = dataset.load(args.scores)
@@ -448,7 +573,6 @@ def main(argv: list[str] | None = None) -> int:
         inp = dataset.load(scores=dataset.baseline_scores())
     scores, decisions, yields = inp.scores, inp.decisions, inp.yields
     members = pd.read_csv(MEMBERS_PATH)
-    evaluation = json.loads(args.evaluation.read_text()) if args.evaluation.exists() else None
 
     log.info("meeting features")
     meetings = dataset.add_market_features(dataset.meeting_features(scores, decisions), yields)
@@ -491,19 +615,17 @@ def main(argv: list[str] | None = None) -> int:
         "robustness_thresholds": rob,
     }
     detail = clean(detail)
-    findings = clean(findings_json(detail, evaluation))
 
     args.out_dir.mkdir(parents=True, exist_ok=True)
     (args.out_dir / "findings_detail.json").write_text(
         json.dumps(detail, indent=1, allow_nan=False) + "\n"
     )
-    (args.out_dir / "findings.json").write_text(
-        json.dumps(findings, indent=2, ensure_ascii=False, allow_nan=False) + "\n"
-    )
+    write_findings(detail, evaluation, args.out_dir)
     args.img_dir.mkdir(parents=True, exist_ok=True)
     charts.event_study_chart(detail["event_study"], args.img_dir / "event_study.png")
     charts.tone_rate_chart(scores, decisions, args.img_dir / "tone_and_bank_rate.png")
     charts.market_chart(detail["market_reaction"], args.img_dir / "gilts_by_stance.png")
+    charts.dissent_chart(detail["dissent"], args.img_dir / "dissent_tone.png")
     log.info("wrote %s and charts in %s", args.out_dir / "findings.json", args.img_dir)
     return 0
 

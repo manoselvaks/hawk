@@ -160,3 +160,40 @@ def market_chart(mr: dict[str, Any], path: Path) -> None:
     fig.tight_layout()
     fig.savefig(path)
     plt.close(fig)
+
+
+def dissent_chart(dis: dict[str, Any], path: Path) -> None:
+    """Mean tone of a member's own speeches, by how they went on to vote."""
+    rows = dis["by_vote"]
+    fig, ax = plt.subplots(figsize=(7, 2.8), dpi=150)
+    _style(ax)
+    ax.grid(axis="y", visible=False)
+    ax.grid(axis="x", color=GRID, linewidth=0.8)
+    y = np.arange(len(rows))[::-1]
+    for yi, r in zip(y, rows, strict=True):
+        v = r["mean_tone"]
+        ax.barh(yi, v, color=HAWK if v > 0.05 else DOVE if v < -0.05 else NEUTRAL, height=0.5)
+        ax.annotate(
+            f"{v:+.2f}",
+            (v, yi),
+            xytext=(6 if v >= 0 else -6, 0),
+            textcoords="offset points",
+            ha="left" if v >= 0 else "right",
+            va="center",
+            color=INK,
+            fontsize=9,
+        )
+    ax.axvline(0, color="#c7c7cc", linewidth=1)
+    hi = max(abs(r["mean_tone"]) for r in rows) + 0.4
+    ax.set_xlim(-hi, hi)
+    ax.set_yticks(y)
+    ax.set_yticklabels([f"{r['label']}  n={r['n']}" for r in rows], color=INK, fontsize=9)
+    ax.set_xlabel(
+        "Mean stance of their speeches since the last decision (\u22122 dovish, +2 hawkish)",
+        color=MUTED,
+        fontsize=9,
+    )
+    ax.set_title("Members' own speech tone before they voted", loc="left", color=INK, fontsize=11)
+    fig.tight_layout()
+    fig.savefig(path)
+    plt.close(fig)

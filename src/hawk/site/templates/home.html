@@ -11,6 +11,30 @@
   </div>
 </section>
 
+<section class="wrap headline" aria-labelledby="headline-title">
+  <h2 id="headline-title" class="section-title reveal">What we found</h2>
+  <div class="tiles">
+    {% set headline = ((findings or {}).get('headline') or []) %}
+    {% for h in headline[:3] %}
+    <article class="tile tile-{{ h.id }} reveal">
+      <p class="tile-value">{{ h.display }}</p>
+      <h3 class="tile-label">{{ h.label }}</h3>
+      <p class="tile-detail">{{ h.detail }}</p>
+    </article>
+    {% endfor %}
+    {% for p in [("Tone before hikes and cuts", "Whether tone in the weeks before a meeting differs before hikes, holds and cuts."), ("Did tone predict decisions?", "Whether tone predicts the decision out of sample, beyond the previous one and the market."), ("Did members signal dissent?", "Whether a member's own speeches predict how they vote against the majority.")][headline|length:3] %}
+    {{ tile_placeholder(p[0], p[1]) }}
+    {% endfor %}
+  </div>
+  {% set acc = (findings or {}).get('accuracy') %}
+  <p class="accuracy-line reveal">
+    <strong>{{ acc.label if acc else "How good is the AI?" }}</strong>
+    {% if acc %}{{ acc.detail }}{% else %}Agreement between the AI scorer and 36 hand-labelled documents appears once labelling is finished.{% endif %}
+    <a href="{{ root }}methodology/#accuracy">How accurate is the AI <span aria-hidden="true">→</span></a>
+  </p>
+  <p class="headline-more reveal"><a href="{{ root }}findings/">All findings, with charts and caveats <span aria-hidden="true">→</span></a></p>
+</section>
+
 <section class="wrap" aria-labelledby="hero-chart-title">
   <figure class="card chart-card reveal">
     <div class="chart-head">
@@ -36,23 +60,6 @@
     </figcaption>
     <noscript><p class="muted small">The chart needs JavaScript. The underlying series is in <a href="{{ root }}data/tone_index.json">tone_index.json</a>.</p></noscript>
   </figure>
-</section>
-
-<section class="wrap section" aria-labelledby="headline-title">
-  <h2 id="headline-title" class="section-title reveal">Headline results</h2>
-  <div class="tiles">
-    {% set headline = ((findings or {}).get('headline') or []) %}
-    {% for h in headline[:3] %}
-    <article class="tile reveal">
-      <p class="tile-label">{{ h.label }}</p>
-      <p class="tile-value">{{ h.display }}</p>
-      <p class="tile-detail">{{ h.detail }}</p>
-    </article>
-    {% endfor %}
-    {% for p in [("Did tone lead decisions?", "Whether tone before a meeting predicts the decision, beyond the previous one."), ("Did gilts listen?", "How 2-year gilt yields move on days with hawkish or dovish speeches."), ("How good is the AI?", "Agreement between the AI scorer and 36 hand-labelled documents.")][headline|length:3] %}
-    {{ tile_placeholder(p[0], p[1]) }}
-    {% endfor %}
-  </div>
 </section>
 
 <section class="wrap section">

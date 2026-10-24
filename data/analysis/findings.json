@@ -12,27 +12,33 @@
   },
   "headline": [
     {
+      "id": "event_study",
+      "label": "Tone was clearly more hawkish before hikes than before cuts",
+      "value": 1.003,
+      "display": "+1.00",
+      "detail": "Average tone in the 12 weeks before 35 hikes minus before 35 cuts, on a −2 to +2 scale (95% CI +0.81 to +1.21)."
+    },
+    {
       "id": "prediction",
-      "label": "Did tone lead decisions?",
+      "label": "But it didn't beat the market at predicting decisions",
       "value": 0.0243,
-      "display": "No reliable gain",
-      "detail": "Out of sample, adding tone to the previous decision changed log loss by +0.024 per meeting (95% CI -0.011 to +0.060; above zero = better) and called 9 of 44 rate changes, against 0."
+      "display": "+0.024",
+      "detail": "Out-of-sample log-loss gain per meeting from adding tone to the previous decision (95% CI −0.011 to +0.060, p = 0.09): not a reliable gain. The 2-year gilt yield, the market's own forecast, does far better."
     },
     {
-      "id": "market",
-      "label": "Did gilts listen?",
-      "value": 0.2077,
-      "display": "+0.2 bp",
-      "detail": "2-year gilt move per point of speech stance on 709 speech days (95% CI -0.23 to +0.65 bp)."
-    },
-    {
-      "id": "accuracy",
-      "label": "How good is the AI?",
-      "value": 0.3736,
-      "display": "ρ = 0.37",
-      "detail": "Rank agreement with 33 hand labels by one student (95% CI 0.01 to 0.68); two different AI models agree with each other far more."
+      "id": "dissent",
+      "label": "MPC members' speeches predicted their own dissenting votes",
+      "value": 0.1524,
+      "display": "+0.15",
+      "detail": "Change in a member's vote (+1 higher than the majority, −1 lower) per point of their own speech tone (p < 0.001); +0.08 after allowing for their previous vote."
     }
   ],
+  "accuracy": {
+    "label": "How good is the AI?",
+    "value": 0.3736,
+    "display": "ρ = 0.37",
+    "detail": "Only modestly in line with one student's 33 hand labels: Spearman ρ = 0.37 (95% CI 0.01 to 0.68). Two different AI models agree with each other at 0.96, so the labels and the models read some speeches differently."
+  },
   "event_study": {
     "takeaway": "Tone in the 12 weeks before hikes averaged +0.53, against -0.48 before cuts and -0.12 before holds (hike minus cut +1.00, 95% CI +0.81 to +1.21). Tone before hikes stood out; tone fell a further 0.20 in the last four weeks before cuts (95% CI -0.40 to -0.00), with no such build-up before hikes (+0.02).",
     "method": "Mean stance of MPC-relevant speeches and minutes published in each week before the announcement (week 0 = the 7 days before it; the decision's own minutes never count); 95% bands by bootstrap over decisions.",
@@ -228,7 +234,7 @@
     ]
   },
   "prediction_test": {
-    "takeaway": "Adding tone to the previous decision did not reliably improve out-of-sample forecasts (log-loss gain +0.024, 95% CI -0.011 to +0.060). Once the 2-year gilt yield is in the model, which on its own forecasts far better, tone adds nothing reliable (gain +0.036, CI -0.017 to +0.091). Individual members are different: those who went on to vote for a higher rate than the majority had spoken at +1.08 on average, those who voted with it at -0.15 and those who voted lower at -0.86 (slope p < 0.001).",
+    "takeaway": "Adding tone to the previous decision did not reliably improve out-of-sample forecasts (log-loss gain +0.024, 95% CI -0.011 to +0.060). Once the 2-year gilt yield is in the model, which on its own forecasts far better, tone adds nothing reliable (gain +0.036, CI -0.017 to +0.091).",
     "method": "Ordered logit, expanding window: before each scheduled decision from 2003 the model is re-fitted on earlier decisions only, with tone from documents published before each announcement. Accuracy is out of sample; pseudo R² is in sample.",
     "outcome": "cut / hold / hike",
     "models": [
@@ -417,6 +423,57 @@
         "p_value": 0.0552,
         "ci_low": -0.0138,
         "ci_high": 1.259
+      }
+    ]
+  },
+  "dissent": {
+    "takeaway": "Members who went on to vote for a higher rate than the majority had given speeches averaging +1.08; those who voted with the majority -0.15; those who voted for a lower rate -0.86. Each point of hawkishness in a member's own speeches moved their vote by +0.152 (95% CI +0.096 to +0.209, p < 0.001), a primary result that passes the multiple-testing threshold.",
+    "method": "Each voting member with at least one relevant speech since the previous decision (677 member-meetings, 48 members, 83 dissents). Vote coded +1 higher than the majority, 0 with it, −1 lower; linear regression on the member's mean speech tone, standard errors clustered by member.",
+    "by_vote": [
+      {
+        "label": "Voted for a higher rate",
+        "n": 43,
+        "value": 1.0814
+      },
+      {
+        "label": "Voted with the majority",
+        "n": 594,
+        "value": -0.149
+      },
+      {
+        "label": "Voted for a lower rate",
+        "n": 40,
+        "value": -0.8625
+      }
+    ],
+    "regression": [
+      {
+        "term": "tone",
+        "label": "Own speech tone (vote per point)",
+        "estimate": 0.1524,
+        "std_error": 0.0287,
+        "p_value": 0.0,
+        "ci_low": 0.0961,
+        "ci_high": 0.2087
+      },
+      {
+        "term": "tone_prev_vote",
+        "label": "Own speech tone, controlling for previous vote",
+        "estimate": 0.078,
+        "std_error": 0.0208,
+        "p_value": 0.0002,
+        "ci_low": 0.0372,
+        "ci_high": 0.1188
+      }
+    ],
+    "cautions": [
+      {
+        "title": "Partly persistence",
+        "text": "The same members tend to dissent again and again, and their speeches may simply restate a position the market already knew from their last vote. Allowing for each member's previous vote halves the slope, to +0.078 (95% CI +0.037 to +0.119, p < 0.001), but it stays positive."
+      },
+      {
+        "title": "The model may recognise famous speeches",
+        "text": "Speeches were scored without the speaker's name or date, but the model may still recognise a well-known speech and know how its author voted."
       }
     ]
   },
